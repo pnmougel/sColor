@@ -1,0 +1,40 @@
+@helper.form(routes.Search.search, 'class -> "form-inline") {
+<div class="input-append">
+    <input type="text" id="query" name="query" value="" class="span3 typeAhead" placeholder="Search a conference...">
+    <button class="btn" type="submit"> <i class="icon-search"></i> </button>
+    <br/>
+    <a href="#" style="color:#333;" id="displayAdvancedSearch"> Advanced search </a>
+    <div id="advancedSearch" style="display:none;">
+        <fieldset class="well">
+            <div class="control-group">
+                <label class="control-label" for="shortName"> Short Name </label>
+                <div class="controls">
+                    <input type="text" class="input" id="shortName" name="shortName" placeholder="Short name">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="type"> Type </label>
+                <div class="controls">
+                    <select id="type" name="type" class="" style="background-color:white;">
+                        <option value="-1"> Any </option>
+                        @CType.all().map { ctype =>
+                            <option value="@ctype.id"> @ctype.name </option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="field"> Field </label>
+                <div class="controls">
+                    <select id="field" name="field" class="" style="background-color:white;">
+                        <option value="-1"> Any </option>
+                        @models.Field.all().map { field =>
+                            <option value="@field.id"> @field.name </option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+}

@@ -1,0 +1,91 @@
+@(conferences: List[(Conference, Int)], startIdx: Int, pageNum: Int, pageMax: Double, nameFilter: String)(implicit request: RequestHeader)
+<input type="hidden" id="pageNum" value="@pageNum">
+
+<div style="height:540px;">
+@conferences.map {
+    case (conference: Conference, idx: Int) =>
+    <div class="row confRank" style="margin-bottom:10px;">
+    <div class="span1 offset1 rankOrder" style="font-size:12pt;font-weight:bold;text-align:right;"> <span style="font-size:12pt;">
+            @{
+                if(nameFilter.trim().isEmpty) idx + startIdx else idx + 1
+            } </span> </div>
+        <!-- <div class="span5" style="border-left:4px solid #088BCD;margin-left: 21px;padding-left: 5px;"> -->
+    <div class="span5" style="margin-left: 0px;margin-left: 26px;padding-left: 5px;height:45px;">
+    <h4 style="font-size:10pt;">
+    <a href="/conference/ @conference.id">
+        @conference.name
+        @if(conference.shortName != "") {
+                (
+                @conference.shortName
+                )
+        }
+    </a>
+    </h4>
+    <h6> @conference.ctype.name on @conference.field.name </h6>
+    </div>
+    <div class="span1" style="text-align:right;">
+    <h5 style="font-size:12pt;">
+        @if(conference.userScore.isDefined) {
+            @snippets.doubleDisplay(conference.userScore.get)
+        } else {
+                -&nbsp;
+        }
+        <h5>
+    </div>
+    <div class="span1" style="text-align:right;">
+    <h5 style="font-size:12pt;">
+        @if(conference.externalScore.isDefined) {
+            @snippets.doubleDisplay(conference.externalScore.get)
+        } else {
+                -&nbsp;
+        }
+        <h5>
+    </div>
+        <div class="span1" style="text-align:right;">
+            <h5 style="font-size:12pt;">
+	   	@ if(conference.avgScore.isDefined) {
+                @snippets.doubleDisplay(conference.avgScore.get)
+            } else {
+                    -&nbsp;
+            }
+    <h5>
+</div>
+</div>
+}
+</div>
+<div class="pagination offset2 span8" style="margin-left: 200px;">
+<ul id="pagination">
+    <li class="@if(pageNum == 1) {
+        disabled
+    }"> <a href="#" onclick="getPage(1);"> &
+        laquo </a> </li>
+    <li class="@if(pageNum == 1) {
+        disabled
+    }"> <a href="#" onclick="getPage( @{
+        scala.math.max(1, pageNum - 1).toInt
+    } );"> Prev </a> </li>
+
+    @scala.math.max( 1, pageNum -  3).until(math.min(scala.math.max(1, pageNum -  3) + 7, pageMax.toInt + 1)).map { p =>
+    <li class="@if(pageNum == p) {
+        disabled
+    }"> <a href="#" onclick="getPage( @p );"> @p </a> </li>
+        }
+
+    <li class="@if(pageNum == pageMax) {
+        disabled
+    }"> <a href="#" onclick="getPage( @{
+        scala.math.min(pageMax, pageNum + 1).toInt
+    }) ;"> Next </a> </li>
+    <li class="@if(pageNum == pageMax) {
+        disabled
+    }"> <a href="#" onclick="getPage( @pageMax );"> &
+        raquo </a> </li>
+</ul>
+
+<div class="input-append" style="float:right;">
+    <input class="span2" placeholder="Filter" id="nameFilter" value="@nameFilter" size="16" type="text">
+    <button class="btn" type="button" onclick="getPage( @pageNum );"> <i class="icon-refresh"></i> </button>
+</div>
+</div>
+
+

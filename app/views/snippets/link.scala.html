@@ -1,0 +1,33 @@
+@(link: Link, removable: Boolean = false)
+
+<li id="link_ @link.id" class="mlink">
+<div class="row" id="links">
+    <div class="span1">
+        @if(removable) {
+            <a class="btn btn-mini delete_link" href="#" onclick="deleteUrl( @link.id );"> <i class="icon-remove-sign"></i> </a>
+        }
+        <span class="label label-info">
+            @if(link.name.isDefined) {
+                @if(link.name.get.trim().size == 0) {
+                    @if(link.url.matches("(?i).*informatik.uni-trier.de.*") || link.url.matches("(?i).*dblp.*")) {
+                            DBLP
+                        } else {
+                        @if(link.url.matches("(?i).*google.*")) {
+                            Wikipedia
+                        } else {
+                            Misc.
+                        }
+                    }
+                } else {
+                    @link.name.get
+                }
+            }
+        </span> </div>
+    <div class="span @if(removable) {
+        3
+    } else {
+        6
+    }"> <a href="@link.url" target="_blank"> @link.url </a> </div>
+</div>
+</li>
+

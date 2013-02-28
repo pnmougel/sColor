@@ -1,0 +1,99 @@
+@(conference: Conference, user: Option[User])
+
+<div class="row">
+<div id="conference_name" class="span7">
+    <h2 id="test">
+            @if(conference.shortName.trim.size > 0) {
+                @conference.shortName
+                <h4> @conference.name </h4>
+            } else {
+                @conference.name
+            }
+        </h2>
+</div>
+
+@if(user.isDefined) {
+    <div class="span1">
+        <a href="/conference/edit/ @conference.id" style="float:right;" class="btn" type="submit"> <i class="icon-pencil"></i> Edit </a>
+    </div>
+}
+</div>
+<hr/>
+<div class="row">
+<div class="span2">
+    <div id="information_show">
+        <h5> @conference.ctype.name on @conference.field.name </h5>
+        @if(!conference.subfields.isEmpty) {
+            <ul class="unstyled">
+                @conference.subfields.map { subField =>
+                    <li> <i class="icon-play"></i> @subField.name </li>
+                }
+            </ul>
+        }
+
+        @if(!conference.relatedConferences.isEmpty) {
+            <h5> Related to: <h5>
+                <ul>
+                    @conference.relatedConferences.map { relatedConference =>
+                        <li> <a href="/conference/ @relatedConference.id"> @relatedConference.name </a> </li>
+                    }
+                </ul>
+                }
+
+        @if(conference.yearSince.isDefined && conference.yearSince.get != 0) {
+            <h5> First edition in @conference.yearSince </h5>
+        }
+        @if(conference.publisher.isDefined && conference.publisher.get.name != "") {
+            <h5> Published by @conference.publisher.get.name </h5>
+        }
+
+    </div>
+</div>
+<div class="span4">
+    <p style="padding-right:20px;margin-left:0px;"> @conference.description </p>
+</div>
+
+
+
+
+<div class="span2 well" style="padding:12px;margin:0px;">
+    <h5> Scores </h5>
+    <div class="row">
+        <div class="span1"> Avg. Rank </div>
+        <div class="span1"> @snippets.badge(conference.avgScore) </div>
+    </div>
+    <div class="row">
+        @if(conference.avgScore.isDefined) {
+            <div class="span1"> Avg. Score </div>
+            <div class="span1"> <h4> @snippets.doubleDisplay(conference.avgScore.get) / 5 </h4> </div>
+        }
+    </div>
+    <div class="vertical-spacing-10"></div>
+    @if(!conference.bibliometrics.isEmpty) {
+        <h5> Bibliometrics </h5>
+        @conference.bibliometrics.map { bibliometric =>
+            <div class="row">
+                <div class="span1"> @bibliometric.name </div>
+                <div class="span1"> <h4> @snippets.doubleDisplay(bibliometric.value) </h4> </div>
+            </div>
+        }
+    }
+    <div class="vertical-spacing-10"></div>
+    <a href="#myModal" id="getTheBadge" class="btn"> Get the Badge </a>
+</div>
+</div>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> × </button>
+    <h3 id="myModalLabel"> Badge URL </h3>
+</div>
+<div class="modal-body">
+    <p> Copy and paste this url to your webpage </p>
+    <a id="widgetUrl" href="http://colour.org/wid/ @conference.id /"> http://colour.org/wid/ @conference.id </a>
+</div>
+<div class="modal-footer">
+    <button class="btn" id="selectUrl"> Select URL </button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true"> Close </button>
+</div>
+</div>

@@ -1,0 +1,19 @@
+@(score: Option[Double], size: Int = 10)
+
+@{
+    if(score.isDefined) {
+        if(score.get >= 4.5) {
+            <span class="badge badge-success" style="font-size:@{size}pt"> A </span>
+        } else if(score.get >= 3.5) {
+            <span class="badge badge-warning" style="font-size:@{size}pt"> B </span>
+        } else if(score.get >= 2) {
+            <span class="badge badge-info" style="font-size:@{size}pt"> C </span>
+        } else if(score.get < 0) {
+            <span class="badge" style="font-size:@{size}pt"> ? </span>
+        } else {
+            <span class="badge badge-important" style="font-size:@{size}pt"> D </span>
+        }
+    } else {
+        <span class="badge" style="font-size:@{size}pt"> ? </span>
+    }
+}

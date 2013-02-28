@@ -1,0 +1,12 @@
+@(update: UpdatePublisher)
+<div>
+    @if(update.before == None) {
+            Publisher added <br/> <i class="icon-chevron-right"></i> @update.publisherAfter.get.name
+    }
+    @if(update.after == None) {
+            Publisher removed <br/> <i class="icon-chevron-left"></i> @update.publisherBefore.get.name
+    }
+    @if(update.after != None && update.before != None) {
+            Publisher updated <br/> <i class="icon-chevron-left"></i> @update.publisherBefore.get.name <br/> <i class="icon-chevron-right"></i> @update.publisherAfter.get.name
+    }
+</div>

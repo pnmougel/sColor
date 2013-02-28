@@ -1,0 +1,12 @@
+@(update: UpdateDescription)
+<div>
+    @if(update.before == None) {
+            Description added <br/> <i class="icon-chevron-right"></i> @update.after.get
+    }
+    @if(update.after == None) {
+            Description removed <br/> <i class="icon-chevron-left"></i> @update.before.get
+    }
+    @if(update.after != None && update.before != None) {
+            Description updated <br/> <i class="icon-chevron-left"></i> @update.before.get <br/> <i class="icon-chevron-right"></i> @update.after.get
+    }
+</div>

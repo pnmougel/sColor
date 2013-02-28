@@ -1,0 +1,64 @@
+@(conference: Conference, user: Option[User], vote: Option[UserVote])
+
+@@
+<div class="vertical-spacing-20"></div>
+
+<div class="row">
+    <div class="span7"> <h3> Scores </h3> </div>
+    @if(user.isDefined) {
+        <div class="span1"> <a href="#" class="btn" id="show_vote_form"> <i class="icon-thumbs-up"></i> Vote </a> </div>
+    }
+</div>
+
+<div class="row">
+    <div class="alert alert-info span6 offset1" id="vote_remove" style="display:none;padding-right:0px;padding-left:0px;margin-top:10px;margin-bottom:10px;">
+        <h4 style="text-align:center;">
+                You have already voted
+                @{
+                    if(vote.isDefined) snippets.badge(Option(vote.get.score))
+                }
+                . Do you want to
+            <a href="#" id="remove_vote"> remove </a>
+                your vote ?
+        </h4>
+    </div>
+</div>
+
+<div id="vote_form" style="display:none;margin-top:10px;">
+    <div class="score span2 vote_rankA" id="vote_rankA">
+        <div class="vertical-spacing-15 vote_rankA"></div>
+        <span class="vote_rankA" style="font-size:18pt;"> Rank </span>
+        <span class="badge badge-success vote_rankA" style="font-size:18pt;"> A </span>
+        <div class="vertical-spacing-20 vote_rankA"></div>
+        <span class="vote_rankA"> Top venue in the domain. The accepted articles are both original and.<br/> Highly selective.</span>
+    </div>
+    <div class="score span2" id="vote_rankB">
+        <div class="vertical-spacing-15"></div>
+        <span style="font-size:18pt;"> Rank </span> <span class="badge badge-warning" style="font-size:18pt;"> B </span>
+        <div class="vertical-spacing-20"></div>
+            Good conference. The accepted articles are usually good.<br/> Selective conference.
+    </div>
+    <div class="score span2" id="vote_rankC">
+        <div class="vertical-spacing-15"></div>
+        <span style="font-size:18pt;"> Rank </span> <span class="badge badge-info" style="font-size:18pt;"> C </span>
+        <div class="vertical-spacing-20"></div>
+            The scientific content might not be very good, however it allows to meet the community.
+    </div>
+    <div class="score span2" id="vote_rankD">
+        <div class="vertical-spacing-15"></div>
+        <span style="font-size:18pt;"> Rank </span> <span class="badge badge-important" style="font-size:18pt;"> X </span>
+        <div class="vertical-spacing-20"></div>
+            Poor scientific content. The organizers are know for scientific bad practice. Must be avoid.
+    </div>
+</div>
+
+<div class="row">
+    <div id="external_scores">
+        @conferences.scoresExternal(conference)
+    </div>
+
+    <div id="user_scores">
+        @conferences.userScores(conference.userVotes)
+    </div>
+
+</div>

@@ -1,0 +1,22 @@
+@(userVotes: UserVotes)
+
+<div class="span4">
+<div class="row">
+    <div class="span1"> <h5> Users: </h5> </div>
+    <div class="span2"> <h5>
+            @if(userVotes.avgUserScore == -1) {
+                    No votes yet
+                } else {
+                @snippets.doubleDisplay(userVotes.avgUserScore)
+                / 5
+            } </h5> </div>
+</div>
+
+<div class="vertical-spacing-10"></div>
+<ul class="unstyled">
+    <li> @snippets.scoreUser("A", userVotes.voteA._2, userVotes.voteA._1) </li>
+    <li> @snippets.scoreUser("B", userVotes.voteB._2, userVotes.voteB._1) </li>
+    <li> @snippets.scoreUser("C", userVotes.voteC._2, userVotes.voteC._1) </li>
+    <li> @snippets.scoreUser("X", userVotes.voteD._2, userVotes.voteD._1) </li>
+</ul>
+</div>

@@ -1,0 +1,22 @@
+@(comment: Comment, user: Option[User])
+
+<li id="comment_ @comment.id">
+<div class="row">
+    <div class="span7" style="margin-bottom: 5px;padding-left:10px;">
+        <h6> <time class="timeago" datetime="@comment.isoDate"></time>
+            @if(comment.user.isPublic) {
+                    by
+                    @comment.user.pseudo.get
+                }
+        :</h6>
+    </div>
+    <div class="well span8" style="padding:5px;padding-left:10px;margin-bottom: 15px;">
+        @if(user.getOrElse(None) == comment.user) {
+            <a class="close" href="#" onclick="deleteComment( @comment.id
+            );return false;"> &times; </a>
+        }
+        <span> @comment.content </span>
+    </div>
+</div>
+</li>
+

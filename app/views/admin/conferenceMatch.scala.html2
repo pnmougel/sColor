@@ -1,0 +1,43 @@
+@(confMatch: List[controllers.admin.ConferenceMatch])(implicit request: RequestHeader)
+
+@mainAdmin(request) {
+
+<div class="container">
+	<form action="/admin/core/update" method="POST">
+		<table class="table table-bordered table-condensed">
+			<thead>
+				<tr>
+      				<th>Short Name</th>
+					<th>Long Name</th>
+					<th>Match</th>
+					<th>Score</th>
+    			</tr>
+			</thead>
+  			<tbody>
+				@confMatch.zipWithIndex.map { case (conference, idx) =>
+				<tr @if(conference.possibleMatch.size == 1) { style="display:none" } 
+					@if(conference.possibleMatch.size == 0) { style="background-color:red" }>
+				    <td>@conference.shortName<input type="hidden" id="shortName[@idx]" name="shortName[@idx]" value="@conference.shortName"></td>
+				    <td>@conference.longName<input type="hidden" id="longName[@idx]" name="longName[@idx]" value="@conference.longName"></td>
+				    <td>
+						<select id="matchingId[@idx]" name="matchingId[@idx]">
+							@if(conference.possibleMatch.size == 1) {
+							    <option value="@conference.possibleMatch(0)._1">@conference.possibleMatch(0)._2</option>
+							} else {
+							<option value="-1">Create new</option>
+								@conference.possibleMatch.map { cMatch =>
+							<option value="@cMatch._1">@cMatch._2</option>
+								}
+							}
+						</select>
+					</td>
+				    <td>@conference.score<input type="hidden" id="score[@idx]" name="score[@idx]" value="@conference.score"></td>
+				</tr>
+				}
+			</tbody>
+		</table>
+	<input type="submit" value="Update">
+	</form>
+</div>
+
+}

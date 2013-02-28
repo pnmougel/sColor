@@ -1,0 +1,9 @@
+@(value: Double)
+
+@if(value == value.toInt) {
+    @value.toInt
+} else {
+    @{
+        "%1.1f" format value
+    }
+}

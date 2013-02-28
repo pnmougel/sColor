@@ -1,0 +1,14 @@
+@(text: String, size: Int = 256, key: Int = (math.random * 4096).toInt)
+
+@if(text.indexOf(" ", size) == -1) {
+    <span> @text </span>
+}
+@if(text.indexOf(" ", size) != -1) {
+    <span> @{
+        text.substring(0, text.indexOf(" ", size))
+    } <span id="longTextDots_ @key">...</span> </span>
+    <span id="longText_ @key" style="display:none;"> @{
+        text.substring(text.indexOf(" ", size), text.size)
+    } </span>
+    <a style="float:right;" href="#" id="longTextShow_ @key" onclick="window.toggleLongText( @key );"> More </a>
+}

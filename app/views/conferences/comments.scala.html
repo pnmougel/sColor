@@ -1,0 +1,30 @@
+@(comments: List[Comment], user: Option[User])
+
+@@
+<!-- Comments -->
+<div class="vertical-spacing-20"></div>
+<div class="row">
+    <div class="span8"> <h3> Comments ( <span id="nb_comments"> @comments.size </span> ) </h3> </div>
+    <div>
+        @if(user.isDefined) {
+            <div class="vertical-spacing-30"></div>
+            <form class="well span8" id="add_comment_form" style="padding:1px;">
+                <textarea class="input span8" id="comment_field" rows="1" placeholder="Add a comment..." style="margin-bottom:0px;"></textarea>
+                <button class="btn btn-mini" id="submit_add_comment" style="display:none;margin-top:5px;"> <i class="icon-pencil"></i> Post </button>
+            </form>
+        }
+    </div>
+</div>
+
+<!-- List of comments -->
+<ul class="unstyled" id="confComments">
+    <p id="noComments" @if(!comments.isEmpty) {
+            style="display:none;"
+        }
+>No comments to display
+</p>
+    <div class="vertical-spacing-10"></div>
+    @comments.map { comment =>
+        @snippets.comment(comment, user)
+    }
+</ul>

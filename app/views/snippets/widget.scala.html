@@ -1,0 +1,27 @@
+@(score: Option[Double], size: Int = 8)
+
+@if(score.isDefined) {
+    @if(score.get >= 4.5) {
+        <span style="padding: 1px 9px 2px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;font-size: @size
+        pt;font-weight: bold;color: white;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color: #468847;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;"> A </span>
+    }
+    @if(score.get >= 3.5 && score.get < 4.5) {
+        <span style="padding: 1px 9px 2px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;font-size: @size
+        pt;font-weight: bold;color: white;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color: #F89406;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;"> B </span>
+    }
+    @if(score.get >= 2 && score.get < 3.5) {
+        <span style="padding: 1px 9px 2px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;font-size: @size
+        pt;font-weight: bold;color: white;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color: #3A87AD;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;"> C </span>
+    }
+    @if(score.get >= 0 && score.get < 2) {
+        <span style="padding: 1px 9px 2px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;font-size: @size
+        pt;font-weight: bold;color: white;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color: #B94A48;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;"> D </span>
+    }
+    @if(score.get < 0) {
+        <span style="padding: 1px 9px 2px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;font-size: @size
+        pt;font-weight: bold;color: white;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color: #999;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;"> ? </span>
+    }
+} else {
+    <span style="padding: 1px 9px 2px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;border-top-left-radius: 9px;border-top-right-radius: 9px;border-bottom-right-radius: 9px;border-bottom-left-radius: 9px;font-size: @size
+    pt;font-weight: bold;color: white;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color: #999;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;"> ? </span>
+}

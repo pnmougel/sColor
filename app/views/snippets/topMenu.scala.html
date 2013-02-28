@@ -1,0 +1,64 @@
+@(request: RequestHeader)
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+    <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </a>
+        <div class="nav-collapse">
+            <ul class="nav">
+                <a class="brand" href="/"> @Application.name </a>
+                <div class="pull-left">
+                    <a id="btn_show_login" class="btn"
+                    @if(!request.session.get("userKey").getOrElse("").isEmpty) {
+                            style="display:none;"
+                        }
+                href="#">
+                    <i class="icon-user"></i>
+                        Login
+                </a>
+                </div>
+                <div class="btn-group pull-left">
+                    <a id="btn_show_logout" class="btn dropdown-toggle logged" data-toggle="dropdown"
+                    @if(request.session.get("userKey").getOrElse("").isEmpty) {
+                            style="display:none;"
+                        }
+
+                href="#">
+                    <i class="icon-user"></i>
+                        Logged
+                    <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu logged">
+                        <li> <a href="/user/profile"> Profile </a> </li>
+                        <li class="divider"></li>
+                        <li> <a href="#" id="logout"> Sign Out </a> </li>
+                    </ul>
+                </div>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown"> Rankings by Field <b class="caret"></b> </a>
+                    <ul class="dropdown-menu">
+                        @models.Field.all().map { field =>
+                            <li> <a href="/ranking/field/ @field.id"> @field.name </a> </li>
+                        }
+                    </ul>
+                </li>
+                <li> <a href="/page/widget"> Widget </a> </li>
+                <li> <a href="/ideabox"> Idea Box </a> </li>
+                <li> <a href="/help/about"> Help </a> </li>
+            </ul>
+            <ul class="nav pull-right">
+                @helper.form(routes.Search.search, 'class -> "navbar-form pull-left") {
+                    <input type="hidden" name="shortName" id="shortName" value="" />
+                    <input type="hidden" name="type" id="type" value="-1" />
+                    <input type="hidden" name="field" id="field" value="-1" />
+                    <input type="text" id="query" name="query" value="" class="span2 typeAhead" placeholder="Search">
+                }
+                <li class="divider-vertical"></li>
+                <li style="padding: 5px;"> <img src="@routes.Assets.at("images/icon3.svg")" /> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,13 @@
+@(updates: List[UpdateAddSubfield])
+@if(!updates.isEmpty) {
+    <div>
+            Subfield
+            @if(updates.size > 1) {
+                s
+            }
+            added <br/>
+        @updates.map { update =>
+            <i class="icon-chevron-right"></i> @update.subfield.name <br/>
+        }
+    </div>
+}

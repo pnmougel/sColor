@@ -1,0 +1,17 @@
+@(conference: Conference)
+
+<li>
+<div style="height: 60px;">
+    <h4> <a href="/conference/ @conference.id">
+        @conference.name
+        @if(conference.shortName != "") {
+                (
+                @conference.shortName
+                )
+        }
+    </a>
+    </h4>
+    <h6> @conference.ctype.name on @conference.field.name </h6>
+</div>
+</li>
+

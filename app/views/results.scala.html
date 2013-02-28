@@ -1,0 +1,91 @@
+@(query: String, conferences: List[(Conference, Double)], nbResults: Long)(implicit request: RequestHeader)
+
+@main(request) {
+    <div class="container">
+        @if(conferences.size == 0) {
+            <div class="vertical-spacing-150"></div>
+        } else {
+            <div class="vertical-spacing-30"></div>
+        }
+
+        <div class="row">
+            @if(conferences.size == 0) {
+                <div class="span6 offset4">
+                    <h1 style="font-size: 45pt"> Sorry, </h1>
+                    <div class="vertical-spacing-30"></div>
+                    <p> No conference or journal matched your query </p>
+                    } else {
+                <div class="span6 offset3">
+                    <h4> Your query " <span style="font-size:14pt"> @query </span> " matched <span style="font-size:14pt"> @nbResults </span> results </h4>
+                    @if(nbResults > 200) {
+                            For performance reasons, only the first 200 results are available
+                    }
+                    <div class="vertical-spacing-30"></div>
+                    <div id="page_container">
+                        <ul class="content unstyled">
+                            @conferences.map {
+                                case (conference, matchingScore) =>
+                                    @snippets.conferenceResult(conference)
+                            }
+                        </ul>
+                        <span class="page_navigation pagination "></span>
+                    </div>
+                    <div class="vertical-spacing-30"></div>
+                    <p> You tried to find a conference or a journal and its not here ? </p>
+                    }
+            <button class="btn btn-primary btn-large" type="submit" id="btn_show_new_conf"> Add a new one </button>
+            <div class="vertical-spacing-20"></div>
+            @helper.form(routes.Publication.addPublication,
+                'class -> "well form-horizontal",
+                'id -> "form_new_conf",
+                'style -> "display:none;") {
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label" for="fullName"> Full Name </label>
+                        <div class="controls">
+                            <input type="text" class="input" id="fullName" name="fullName" value="@query">
+                            <p class="help-block"> e.g., Very Large Data Bases </p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="shortName"> Short Name </label>
+                        <div class="controls">
+                            <input type="text" class="input" id="shortName" name="shortName" placeholder="Short name">
+                            <p class="help-block"> e.g., VLDB </p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="type"> Type </label>
+                        <div class="controls">
+                            <select id="type" name="type">
+                                @CType.all().map { ctype =>
+                                    <option value="@ctype.id"> @ctype.name </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="field"> Field </label>
+                        <div class="controls">
+                            <select id="field" name="field">
+                                @models.Field.all().map { field =>
+                                    <option value="@field.id"> @field.name </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <button type="submit" class="btn"> Create </button>
+                        </div>
+                    </div>
+                </fieldset>
+            }
+            <p> Or try a new search </p>
+            @snippets.search()
+        </div>
+        </div>
+        </div>
+        <script src="@routes.Assets.at("javascripts/jquery.pajinate.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/search.min.js")" type="text/javascript"></script>
+}

@@ -1,0 +1,42 @@
+@(mergeId: Int, conferenceInformation: controllers.admin.scores.ConferenceInformation, matchingConferences: List[(Conference, Double)])
+
+<div id="merge_ @mergeId" style="-moz-border-radius: 6px;border-radius: 6px;border:1px solid #9BA5AD;background-color:#F8F8F8;background-clip: padding-box;-moz-background-clip: padding;-webkit-background-clip: padding-box;overflow: hidden;margin-top:10px;">
+<div style="font-weight:bold;color:#4794C4;border-bottom:1px solid #9BA5AD;padding:5px;background-color:#E5E8EB;background-clip: padding-box;-moz-background-clip: padding;-webkit-background-clip: padding-box;text-shadow: 1px 1px white;font-size:11pt;padding-left:10px;">
+    <i class="icon-screenshot"></i> Select matching conference
+</div>
+<div style="padding:0px;">
+    <table class="table table-condensed table-bordered" style="margin-bottom:0px;">
+        <thead>
+            <tr>
+                <th class="span1"></th>
+                <th> Conference Name </th>
+                <th> Short Name </th>
+                <th> Type </th>
+                <th> Field </th>
+                <th> Score </th>
+            </tr>
+        </thead>
+        <tbody>
+    <tr>
+        <td><button class="btn btn-mini btn-success span1 createNewPublication" mergeId="@mergeId">Add</button></td>
+        <td>@conferenceInformation.name</td>
+        <td>@if(conferenceInformation.shortName.isDefined) { @conferenceInformation.shortName.get }</td>
+        <td>@if(conferenceInformation.ctype.isDefined) { @conferenceInformation.ctype.get.name }</td>
+        <td>@if(conferenceInformation.field.isDefined) { @conferenceInformation.field.get.name }</td>
+        <td></td>
+    </tr>
+    @ matchingConferences.map {
+            case (conference, score) =>
+            <tr>
+            <td> <button class="btn btn-mini btn-primary span1 sameAsPublication" for="@conference.id" mergeId="@mergeId"> Same </button> </td>
+            <td> @conference.name </td>
+            <td> @conference.shortName </td>
+            <td> @conference.ctype.name </td>
+            <td> @conference.field.name </td>
+                <td>@ score </td>
+        </tr>
+        </tbody>
+    }
+    </table>
+</div>
+</div>

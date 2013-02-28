@@ -1,0 +1,30 @@
+@(conference: Conference, vote: Option[UserVote], user: Option[User])(implicit request: RequestHeader)
+
+@@
+@main(request) {
+    <div class="container">
+        <div class="row">
+            <div class="span8 offset2">
+                <input type="hidden" id="conference_id" value="@conference.id">
+                <input type="hidden" id="hasVoted" value="@vote.isDefined">
+
+                    <!-- Conference information -->
+                    @conferences.information(conference, user)
+
+                    <!-- Scores -->
+                <div id="scores_container">
+                    @conferences.scores(conference, user, vote)
+                </div>
+
+                    <!-- Links -->
+                <div id="links_container">
+                    @conferences.links(conference.links, user)
+                </div>
+
+                    <!-- Comments -->
+                @conferences.comments(conference.comments, user)
+            </div>
+        </div>
+    </div>
+    <script src="@routes.Assets.at("javascripts/conference.min.js")" type="text/javascript"></script>
+}

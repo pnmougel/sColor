@@ -1,0 +1,132 @@
+@(user: User)(implicit request: RequestHeader) @main(request) {
+    <div class="container">
+        <div class="vertical-spacing-20"></div>
+        <div class="row">
+            <div class="span8 offset2">
+                <span style="font-size: 40pt;"> <img
+                src="/assets/images/icon2.svg" > Profile </span> <br /> <br />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span6 offset2">
+                <p style="font-size: 12pt; font-weight: bold;"> Identification </p>
+                <hr
+                style="border-top: 1px dotted #CCCCCC; padding: 0px; margin-top: 0px;" />
+            </div>
+        </div>
+        <div class="row offset2">
+            <form class="form-horizontal">
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail"> Email </label>
+
+                    <div class="controls">
+                        <span class="input-large uneditable-input"> @user.email </span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="pseudo"> Pseudo </label>
+                    <div class="controls">
+                        <input type="text" id="pseudo" name="pseudo" value="@user.pseudo"> <label
+                        class="checkbox"> <input type="checkbox" /> Display my
+                                pseudo in comments
+                        </label >
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <a href="#" id="updatePseudo" class="btn btn-primary"> Update pseudo </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="span6 offset2">
+                <p style="font-size: 12pt; font-weight: bold;"> Update password </p>
+                <hr
+                style="border-top: 1px dotted #CCCCCC; padding: 0px; margin-top: 0px;" />
+            </div>
+        </div>
+        <div class="row offset2">
+            <form class="form-horizontal">
+                <div class="control-group">
+                    <label class="control-label" for="curPassword"> Password </label>
+                    <div class="controls">
+                        <input type="password" id="curPassword" placeholder="">
+                    </div>
+                </div>
+                <div id="newPasswordGroup" class="control-group">
+                    <label class="control-label" for="newPassword"> New
+                        password </label>
+                    <div class="controls">
+                        <input type="password" id="newPassword" placeholder="">
+                        <span id="newPasswordHelp" class="help-block"> The new password must be at least 6 characters long </span>
+                    </div>
+                </div>
+                <div id="rePasswordGroup" class="control-group">
+                    <label class="control-label" for="rePassword"> Retype
+                        password </label>
+                    <div class="controls">
+                        <input type="password" id="rePassword" placeholder="">
+                        <span id="rePasswordHelp" class="help-block"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="controls">
+                        </div>
+                        <a href="#" class="btn btn-primary disabled" id="updatePassword"> Update
+                            password </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="span6 offset2">
+                <p style="font-size: 12pt; font-weight: bold;"> Privacy </p>
+                <hr
+                style="border-top: 1px dotted #CCCCCC; padding: 0px; margin-top: 0px;" />
+            </div>
+        </div>
+        <div class="row offset2">
+            <form class="form-horizontal">
+                <div class="controls">
+                    <label class="checkbox"> <input type="checkbox" id="isPublicProfile" @if(user.isPublic) {
+                            checked="checked"
+                        }
+                    /> Allows
+                    third parties to access my activity
+                    </label>
+                </div>
+                <div class="controls">
+                    <a href="#" class="btn btn-primary" id="updatePrivacy"> Update
+                        privacy </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="span6 offset2">
+                <p style="font-size: 12pt; font-weight: bold;"> Delete your
+                    account </p>
+                <hr
+                style="border-top: 1px dotted #CCCCCC; padding: 0px; margin-top: 0px;" />
+                <p>
+                        All your personal information will be deleted along with the
+                        comments you posted.<br /> Publication updates will be kept, but not
+                        linked to your account.
+                </p>
+            </div>
+        </div>
+        <div class="row offset2">
+            <form class="form-horizontal">
+                <div class="controls">
+                    <a href="#" class="btn btn-info" id="deleteAccount"> Delete account </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="@routes.Assets.at("javascripts/profile.min.js")" type="text/javascript"></script>
+}

@@ -1,0 +1,68 @@
+@(implicit request: RequestHeader, sectionName: String)
+
+@@@@
+main(request) {
+<div class="container">
+    <div class="vertical-spacing-15"></div>
+    <div class="row" id="helpContent">
+        <div class="span6 offset4">
+            <h3> @Help.linktoName(sectionName) </h3>
+            <hr/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span3 offset1">
+            <ul class="unstyled helpMenu">
+                @Help.menuSections.map {
+                    case (section, subSections) =>
+                    <li @if(sectionName == Help.nametoLink(section)) {
+                            class="selected"
+                        }
+                    >
+                    <a href="@Help.nametoLink(section)"> @section </a> </li>
+                        @if(!subSections.isEmpty) {
+                            <ul class="unstyled">
+                                @subSections.map { subSection =>
+                                    <li @if(sectionName == Help.nametoLink(subSection)) {
+                                        class="selected"
+                                    }
+                                >
+                                <a href="@Help.nametoLink(subSection)">@ subSection </a> </li>
+                                }
+                            </ul>
+                        }
+                }
+            </ul>
+        </div>
+        <div class="span6">
+            @{
+                sectionName match {
+                    case "about" => help.about()
+                    case "create_an_account" => help.account.createAnAccount()
+                    case "update_your_profile" => help.account.updateYourProfile()
+                    case "contribute" => help.contribute.contribute()
+
+                    case "vote" => help.contribute.vote()
+                    case "edit_publication" => help.contribute.editPublication()
+                    case "idea_box" => help.contribute.ideaBox()
+
+                    case "user_scores" => help.scores.userScores()
+                    case "external_scores" => help.scores.externalScores()
+                    case "core" => help.scores.core()
+                    case "google_scholar" => help.scores.googleScholar()
+                    case "microsoft_academic_research" => help.scores.microsoftAcademicResearch()
+
+                    case "api" => help.api.api()
+                    case "access" => help.api.access()
+                    case "basic_usage" => help.api.basicUsages()
+                    case "examples" => help.api.examples()
+
+                    case "contact_us" => help.contactUs()
+                    case "privacy" => help.privacy()
+                    case _ => help.about()
+                }
+            }
+        </div>
+    </div>
+</div>
+}

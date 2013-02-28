@@ -1,0 +1,13 @@
+@(updates: List[UpdateRemoveSubfield])
+@if(!updates.isEmpty) {
+    <div>
+            Subfield
+            @if(updates.size > 1) {
+                s
+            }
+            removed <br/>
+        @updates.map { update =>
+            <i class="icon-chevron-left"></i> @update.subfield.name <br/>
+        }
+    </div>
+}

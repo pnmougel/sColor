@@ -1,0 +1,11 @@
+@(title: String, icon: String = "", bgColor: String = "#DBE1E5")(content: Html)
+
+<div style="-moz-border-radius: 6px;border-radius: 6px;border:1px solid #9BA5AD;background-color: @bgColor
+    ;background-clip: padding-box;-moz-background-clip: padding;-webkit-background-clip: padding-box;overflow: hidden;margin-top:10px;">
+<div style="font-weight:bold;color:#4794C4;border-bottom:1px solid #9BA5AD;padding:5px;background-color:#E5E8EB;background-clip: padding-box;-moz-background-clip: padding;-webkit-background-clip: padding-box;text-shadow: 1px 1px white;font-size:11pt;padding-left:10px;">
+    <i class="@icon"></i> @title
+</div>
+<div style="padding:5px;padding-left:10px;">
+    @content
+</div>
+</div>

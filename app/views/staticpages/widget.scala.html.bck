@@ -1,0 +1,45 @@
+@(implicit request: RequestHeader)
+
+@import helper._
+@import helper.twitterBootstrap._
+    
+@main(request) {
+    <div class="container">
+        <div class="vertical-spacing-20"></div>
+        <div class="row">
+            <div class="span8 offset2">
+				<span style="font-size:40pt;"><img src="/assets/images/icon2.svg"> Get the widget !</span>
+				<br/><br/>
+				<div class="row">
+				<div class="well span3">
+					<h3>Why for ?</h3>
+					<p>The widget allows you to display in your website the rank of a conference or a journal. </p>
+					<p>You can also use it to display other information, such as the score, the h-index or the number of published articles, when available.</p>
+				</div>
+				<div class="well span4">
+					<h3>How can I use it ?</h3>
+					<p>To display the rank badge, go the page corresponding to the journal / conference and click the <button class="btn btn-inverse">Get Badge</button> button. The following url will be copied in your clipboard.</p>
+					<code class="prettyprint lang-html">&lt;script src="http://colour.org/wid/<span class="nocode">ID</span>"&gt;&lt;script&gt;</code>
+					<p style="margin-top:8px;">where <code><span class="nocode">ID</span></code> is a unique identifier for the conference or journal. Then just past the link to your webpage.</p>
+				</div>
+				<div class="well span6" style="width:710px;">
+					<h3>Examples</h3>
+					<h6>Identifying the journal or the conference</h6>
+					<p>Since some journals or conferences share the same name, it might be preferable to use the numeric identifier instead of the name. Just replace <code><span class="nocode">NAME</span></code> with the identifier found in the url. The two following examples will produce the same output.</p>
+					<code class="prettyprint lang-html">&lt;script src="http://colour.org/wid/<span class="nocode">KDD</span>"&gt;&lt;script&gt;</code><br/>
+					
+					<h6 style="margin-top:10px;">Customize the size of the badge</h6>
+					<p>To change the size of the badge, you just need to add a size parameter in the url.</p>
+					<code class="prettyprint lang-html">&lt;script src="http://colour.org/wid/KDD<span class="nocode">?size=18</span>"&gt;&lt;script&gt;</code>
+					
+					<h6 style="margin-top:10px;">Get the score and other information</h6>
+					<p>To get other information, such as the score, the h-index or the number of published articles, simply add a field to your url. If the information is not available, an empty string will be returned.</p>
+					<p><code class="prettyprint lang-html">Score: &lt;script src="http://colour.org/wid/KDD/<span class="nocode">score</span>"&gt;&lt;script&gt;</code></p>
+					<p><code class="prettyprint lang-html">h-index: &lt;script src="http://colour.org/wid/KDD/<span class="nocode">hindex</span>"&gt;&lt;script&gt;</code></p>
+					<p><code class="prettyprint lang-html"># Articles: &lt;script src="http://colour.org/wid/KDD/<span class="nocode">nbarticles</span>"&gt;&lt;script&gt;</code></p>
+				</div>
+				</div>
+            </div>
+        </div>
+    </div>
+}

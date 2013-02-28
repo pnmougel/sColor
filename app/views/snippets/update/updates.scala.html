@@ -1,0 +1,31 @@
+@(updates: Seq[Update])
+
+@@
+@updates.map { update =>
+    <div>
+        <h5> @update.dateFormated </h5>
+        @if(update.nameUpdate.isDefined) {
+            @snippets.update.updateName(update.nameUpdate.get)
+        }
+        @if(update.shortnameUpdate.isDefined) {
+            @snippets.update.updateShortName(update.shortnameUpdate.get)
+        }
+        @if(update.creationDateUpdate.isDefined) {
+            @snippets.update.updateCreationYear(update.creationDateUpdate.get)
+        }
+        @if(update.ctypeUpdate.isDefined) {
+            @snippets.update.updateCtype(update.ctypeUpdate.get)
+        }
+        @if(update.publisherUpdate.isDefined) {
+            @snippets.update.updatePublisher(update.publisherUpdate.get)
+        }
+        @if(update.regionUpdate.isDefined) {
+            @snippets.update.updateRegion(update.regionUpdate.get)
+        }
+        @if(update.descriptionUpdate.isDefined) {
+            @snippets.update.updateDescription(update.descriptionUpdate.get)
+        }
+        @snippets.update.updateAddSubfields(update.addSubfieldUpdates)
+        @snippets.update.updateRemoveSubfields(update.removeSubfieldUpdates)
+    </div>
+}

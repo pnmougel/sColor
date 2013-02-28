@@ -1,0 +1,199 @@
+@(conference: Conference)(implicit request: RequestHeader)
+
+@@
+@main(request) {
+    <div class="container">
+        <div class="row">
+            <div class="span5 offset2">
+                <div class="row">
+                    <div class="span5">
+                        <form class="form-horizontal" method="POST" action="/conference/update">
+                            <input type="hidden" name="id" id="id" value="@conference.id" />
+
+                                <!-- Short name Edition-->
+                            <div>
+                                <input type="text" id="shortName" name="shortName" placeholder="Short name" class="span2" value="@conference.shortName" prev="@conference.shortName" style="font-size: 24px;line-height: 36px;height:28px;font-weight:bold;margin-bottom:7px;"></input>
+                                <span id="label_name_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
+                            </div>
+
+                                <!-- Full name Edition-->
+                            <div>
+                                    <!-- <textarea class="input span6" type="text" id="name" name="name" placeholder="Full name" class="span6" prev=" @conference.description
+                                    " rows="2" prev="
+                                    @conference.name
+                                    " style="font-size: 14px;font-weight:bold;" placeholder="Full name"> @conference.name </textarea> -->
+                                <input type="text" id="name" name="name" placeholder="Full name" class="span5" value="@conference.name" prev="@conference.name" style="font-size: 14px;height:20px;font-weight:bold;"></input>
+                            </div>
+
+                                <!-- General information -->
+                            <div class="accordion" id="accordion2" style="margin-top:15px;">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle grayGradient" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                                General information
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="accordion-body collapse in">
+                                        <div class="accordion-inner">
+
+                                                <!-- Type Edition-->
+                                            <label class="control-label" for="type" style="text-align:left;"> <h5> Type </h5> </label>
+                                            <div class="controls">
+                                                <select id="type" name="type" prev="@conference.ctypeId">
+                                                    @models.CType.all().map { ctype =>
+                                                        <option value="@ctype.id" @if(ctype.id == conference.ctypeId) {
+                                                                selected="selected" }
+                                                    >
+                                                        @ctype.name </option>
+                                                    }
+                                                </select>
+                                                <span id="type_label_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
+                                            </div>
+                                            <div class="vertical-spacing-10"></div>
+
+                                                <!-- Region Edition -->
+                                            <label class="control-label" for="region" style="text-align:left;"> <h5> Region </h5> </label>
+                                            <div class="controls">
+                                                <select id="region" name="region" prev="@conference.regionId">
+                                                    <optgroup label="International">
+                                                        @models.Region.getInternationalRegions.map { region =>
+                                                            <option value="@region.id" @if(region.id == conference.regionId) {
+                                                                    selected="selected" }
+                                                        >
+                                                            @region.name </option>
+                                                        }
+                                                    </optgroup>
+                                                    <optgroup label="Freq. Countries">
+                                                        @models.Region.getFrequentCountries.map { region =>
+                                                            <option value="@region.id"> @region.name </option>
+                                                        }
+                                                    </optgroup>
+                                                    <optgroup label="All Countries">
+                                                        @models.Region.getCountries().map { region =>
+                                                            <option value="@region.id" @if(region.id == conference.regionId) {
+                                                                    selected="selected" }
+                                                        >
+                                                            @region.name </option>
+                                                        }
+                                                    </optgroup>
+                                                </select>
+                                                <span id="region_label_updated" class="label label-info pull-right" style="display:none;"> Updated </span>
+                                            </div>
+                                            <div class="vertical-spacing-10"></div>
+
+
+                                                <!-- Subfields Edition-->
+                                            <label class="control-label" for="subFields" style="text-align:left;"> <h5> Subfields </h5> </label>
+                                            <div class="controls">
+                                                <input type="hidden" id="subFields" name="subFields" value="@conference.subfields.map(_.id).mkString(",")"
+                                                prev="@conference.subfields.map(_.id).mkString(",")" />
+                                                <span id="subFields_label_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
+                                                <div id="subFieldList" style="width:220px;">
+                                                    @conference.subfields.map { subField =>
+                                                        <div class="subfield" id="subfield_ @subField.id">
+                                                            @subField.name
+                                                            <button type="button" class="close" data-dismiss="alert" onclick="removeSubfield( @subField.id );"> × </button>
+                                                        </div>
+                                                    }
+                                                </div>
+
+                                                <select id="subfield_field">
+                                                    <option disabled selected="selected" style="display:none;" value="-1"> Select a subfield </option>
+                                                    @SubField.getByField(conference.fieldId).map { subfield =>
+                                                        <option value="@subfield.id"> @subfield.name </option>
+                                                    }
+                                                </select>
+                                                    <!-- <span><a id="addSubbFieldButton" class="btn" href="#"><i class="icon-plus"></i> Add</a></span> -->
+                                            </div>
+                                            <div class="vertical-spacing-10"></div>
+
+                                                <!-- Year starting Edition-->
+                                            <label class="control-label" for="startedOn" style="text-align:left;"> <h5> Started in </h5> </label>
+                                            <div class="controls">
+                                                <select id="startedOn" name="startedOn" class="span1" prev="@conference.yearSince">
+                                                    <option value="0" style="display:none;"> Year </option>
+                                                    @Range(java.util.Calendar.getInstance().get(java.util.Calendar.YEAR), 1800, -1).map { year =>
+                                                    <option value="@year" @if(conference.yearSince.isDefined && conference.yearSince.get == year) {
+                                                            selected="selected" }
+                                                >
+                                                    @year </option>
+                                                        }
+                                                </select>
+                                                    <!--
+                <input type="number" maxlength="4" minlength="4" value=" @conference.yearSince" min="0" max="2100" step="1" class="input-mini" id="startedOn" name="startedOn" placeholder="Year" prev="@conference.yearSince"> </input>
+                                                    -->
+                                                <a class="btn" id="resetYear"> <i class="icon-remove-circle"></i> Remove </a>
+                                                <span id="startedOn_label_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
+                                            </div>
+                                            <div class="vertical-spacing-10"></div>
+
+                                                <!-- Publisher Edition-->
+                                            <label class="control-label" for="publisher" style="text-align:left;"> <h5> Published by </h5> </label>
+                                            <div class="controls">
+                                                <input id="publisher" name="publisher" type="text" value="@if(conference.publisher.isDefined) {
+                                                    @conference.publisher.get.name
+                                                }" prev="@if(conference.publisher.isDefined) {
+                                                    @conference.publisher.get.name
+                                                }" data-provide="typeahead" data-items="4" data-source="@models.Publisher.all().map(_.name).mkString("[\"", "\",\"", "\"]")"></input>
+                                                <span id="publisher_label_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
+                                            </div>
+                                            <div class="vertical-spacing-10"></div>
+
+
+                                                <!-- Description Edition-->
+                                            <label class="control-label" for="description" style="text-align:left;"> <h5> Description </h5> </label>
+                                            <span id="description_label_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
+                                            <textarea class="input" style="width:430px;" id="description" name="description" prev="@conference.description" rows="5" placeholder="Description of the conference or journal"> @conference.description </textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <!-- Links -->
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle grayGradient" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                                Links
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <h5> Add a new link </h5>
+                                            <div class="vertical-spacing-10"></div>
+                                            <input type="text" id="formAddUrlLabel" name="formAddUrlLabel" placeholder="Label" style="width:50pt;"></input>
+                                            <input type="text" id="input_form_add_url" name="input_form_add_url" placeholder="Url" style="width:230pt;"></input>
+                                            <button class="btn" id="submit_add_url"> <i class="icon-plus-sign"></i> </button>
+                                            <p> If not set, the label will be generated from the url.</p>
+                                            @if(!conference.links.isEmpty) {
+                                                <h5> Remove links </h5>
+                                                <div class="vertical-spacing-10"></div>
+                                            }
+
+                                            <ul class="unstyled">
+                                                @conference.links.map { link =>
+                                                    @snippets.link(link, true)
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- Button -->
+                            <button class="btn btn-primary" type="submit"> Save </button>
+                            <a href="/conference/ @conference.id" class="btn btn-info"> Cancel </a>
+                        </form>
+                    </div>
+
+                </div> </div> <div class="span3">
+                <h2> Change History </h2>
+                <div id="history">
+                    @snippets.update.updates(conference.updates)
+                </div>
+                @if(conference.updates.size >= Update.defaultHistorySize) {
+                        s <a href="#" id="showHistory"> View all </a>
+                }
+
+            </div> </div>
+    </div>
+
+    <script src="@routes.Assets.at("javascripts/edit.min.js")" type="text/javascript"></script>
+}

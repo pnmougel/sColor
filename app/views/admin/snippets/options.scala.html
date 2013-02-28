@@ -1,0 +1,9 @@
+@(form: controllers.admin.form.AdminForm)(implicit request: RequestHeader)
+
+@frame("Configuration", "icon-wrench") {
+    @if(form.size == 0) {
+        Nothing to configure
+    } else {
+        @Html(form.toHtml())
+    }
+}

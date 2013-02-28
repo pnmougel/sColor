@@ -1,0 +1,12 @@
+@(update: UpdateCreationDate)
+<div>
+    @if(update.before == 0) {
+            Creation year added <br/> <i class="icon-chevron-right"></i> @update.after
+    }
+    @if(update.after == 0) {
+            Creation year removed <br/> <i class="icon-chevron-left"></i> @update.before
+    }
+    @if(update.after != 0 && update.before != 0) {
+            Creation year updated <br/> <i class="icon-chevron-left"></i> @update.before <br/> <i class="icon-chevron-right"></i> @update.after
+    }
+</div>
