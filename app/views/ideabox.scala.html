@@ -47,8 +47,7 @@
 
             <div id="page_container" style="display:none;" class="firstXX">
                 <ul class="content unstyled">
-                    @ideas.zipWithIndex.map {
-                        case (idea, idx) =>
+                    @ideas.zipWithIndex.map { case (idea, idx) =>
                         <li class="defaultIdea" data-nbVotes="@idea.nbVotes" data-name="@idea.name.toLowerCase()" data-description="@idea.description.toLowerCase()" data-date="@idea.isoDate" data-like="@if(user.isDefined) {
                             @if(!user.get.ideaLiked.contains(idea.id)) {
                                 0

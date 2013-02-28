@@ -10,7 +10,7 @@ case class RequestWithUser(user: Option[models.User], request: Request[AnyConten
 object AuthenticationActions {
     var userCache = new HashMap[String, Cancellable]()
 
-    val sessionDuration = Duration.create(1, TimeUnit.HOURS)
+    // val sessionDuration = Duration.create(1, TimeUnit.HOURS)
 
     def Authentication(f: RequestWithUser => Result) = {
         Action {

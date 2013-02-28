@@ -41,8 +41,7 @@ main(request) {
             <br/>
 
             <div id="subFields" style="display:none;">
-                @subFields.zipWithIndex.map {
-                    case (subField, idx) =>
+                @subFields.zipWithIndex.map { case (subField, idx) =>
                             @if(idx % 6 == 0) {
                                 <span class="btn-group" data-toggle="buttons-checkbox">
                                     }

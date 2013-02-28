@@ -2,8 +2,7 @@
 <input type="hidden" id="pageNum" value="@pageNum">
 
 <div style="height:540px;">
-@conferences.map {
-    case (conference: Conference, idx: Int) =>
+@conferences.map { case (conference: Conference, idx: Int) =>
     <div class="row confRank" style="margin-bottom:10px;">
     <div class="span1 offset1 rankOrder" style="font-size:12pt;font-weight:bold;text-align:right;"> <span style="font-size:12pt;">
             @{
@@ -43,7 +42,7 @@
     </div>
         <div class="span1" style="text-align:right;">
             <h5 style="font-size:12pt;">
-	   	@ if(conference.avgScore.isDefined) {
+	   	@if(conference.avgScore.isDefined) {
                 @snippets.doubleDisplay(conference.avgScore.get)
             } else {
                     -&nbsp;
@@ -57,8 +56,7 @@
 <ul id="pagination">
     <li class="@if(pageNum == 1) {
         disabled
-    }"> <a href="#" onclick="getPage(1);"> &
-        laquo </a> </li>
+    }"> <a href="#" onclick="getPage(1);"> &laquo </a> </li>
     <li class="@if(pageNum == 1) {
         disabled
     }"> <a href="#" onclick="getPage( @{
@@ -78,8 +76,7 @@
     }) ;"> Next </a> </li>
     <li class="@if(pageNum == pageMax) {
         disabled
-    }"> <a href="#" onclick="getPage( @pageMax );"> &
-        raquo </a> </li>
+    }"> <a href="#" onclick="getPage( @pageMax );"> &raquo </a> </li>
 </ul>
 
 <div class="input-append" style="float:right;">

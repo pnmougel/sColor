@@ -1,6 +1,5 @@
 @(nbConference: Long)(implicit request: RequestHeader)
 
-@@@@
 @main(request) {
     <div class="container">
         <div class="vertical-spacing-200"></div>
@@ -18,7 +17,7 @@
 
                 @snippets.search()
 
-                @NumberFormat.getIntegerInstance(Locale.US).format(nbConference)
+                @java.text.NumberFormat.getIntegerInstance(java.util.Locale.US).format(nbConference)
                     conference
                     @if(nbConference > 1) {
                         s

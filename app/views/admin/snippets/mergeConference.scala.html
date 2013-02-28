@@ -25,15 +25,14 @@
         <td>@if(conferenceInformation.field.isDefined) { @conferenceInformation.field.get.name }</td>
         <td></td>
     </tr>
-    @ matchingConferences.map {
-            case (conference, score) =>
+    @matchingConferences.map { case (conference, score) =>
             <tr>
             <td> <button class="btn btn-mini btn-primary span1 sameAsPublication" for="@conference.id" mergeId="@mergeId"> Same </button> </td>
             <td> @conference.name </td>
             <td> @conference.shortName </td>
             <td> @conference.ctype.name </td>
             <td> @conference.field.name </td>
-                <td>@ score </td>
+                <td>@score </td>
         </tr>
         </tbody>
     }

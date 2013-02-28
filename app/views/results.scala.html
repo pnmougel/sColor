@@ -23,8 +23,7 @@
                     <div class="vertical-spacing-30"></div>
                     <div id="page_container">
                         <ul class="content unstyled">
-                            @conferences.map {
-                                case (conference, matchingScore) =>
+                            @conferences.map { case (conference, matchingScore) =>
                                     @snippets.conferenceResult(conference)
                             }
                         </ul>

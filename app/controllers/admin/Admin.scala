@@ -6,6 +6,7 @@ import controllers.admin.scores._
 import scala.collection.mutable._
 import play.api.Play.current
 import play.api.libs.concurrent.Akka
+import play.api.libs.concurrent.Execution.Implicits._
 
 object Admin extends Controller {
 
