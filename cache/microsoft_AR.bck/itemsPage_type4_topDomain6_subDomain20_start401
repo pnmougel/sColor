@@ -1,0 +1,1972 @@
+<body onpageshow="document.forms['aspnetForm'].reset();"> 
+ <form name="aspnetForm" method="post" action="RankList?entitytype=4&amp;topdomainid=6&amp;subdomainid=20&amp;last=0&amp;start=401&amp;end=500" id="aspnetForm"> 
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0MzI1MDM2Mw9kFgJmD2QWAgIBD2QWAgIHD2QWAgIBD2QWBgIBD2QWBAIBDxYCHgdWaXNpYmxlZxYKAgEPZBYEAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIeBXdpZHRoBQUxMDBweGQCAw9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQQ2NXB4ZAIDD2QWBAIBD2QWAmYPD2QWAh4Hb25jbGljawVudHJ5e3JldHVybiBzaSgyMSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nQ29tcGFyZScpO31jYXRjaChleCl7O31kAgMPD2QWAh8CBW50cnl7cmV0dXJuIHNpKDIxLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9oeXBDb21wYXJlJyk7fWNhdGNoKGV4KXs7fWQCBQ9kFgQCAQ8PFgIeB1Rvb2xUaXAFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseWQWAmYPD2QWAh8CBWx0cnl7cmV0dXJuIHNpKDE2LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9pbWdFbWJlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseRYCHwIFb3RyeXtyZXR1cm4gc2koMTgsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnknLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5X2xpYnJhSW5MaW5rJyk7fWNhdGNoKGV4KXs7fWQCBw8WAh8AaBYEAgEPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3RkFgJmDw9kFgIfAgVrdHJ5e3JldHVybiBzaSgxNSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nRmVlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3QWAh8CBWt0cnl7cmV0dXJuIHNpKDE3LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9Sc3NMaW5rJyk7fWNhdGNoKGV4KXs7fWQCCQ8WAh8AZxYCAgEPDxYCHgRUZXh0BRg0MDEgLSA0Nzggb2YgNDc4IHJlc3VsdHNkZAIDD2QWAgIDDxYCHwQFSDxkaXYgY2xhc3M9InJpZ2h0LWFycm93Ij48L2Rpdj48c3Bhbj5Ub3Agam91cm5hbHMgaW4gUGhhcm1hY29sb2d5PC9zcGFuPmQCAw9kFghmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUxNTBweGQCAQ8PFgIfAGdkFgICAQ9kFgJmD2QWAmYPFgIfAQUFMjUwcHhkAgIPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTEwMHB4ZAIDD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUxMDBweGQCBQ9kFgYCAQ8WAh8EBQhKb3VybmFsc2QCBQ8WAh4FdGl0bGUFF0gtSW5kZXggaW4gUGhhcm1hY29sb2d5FgICAw9kFgJmD2QWAgIBDxYCHwEFBDg1cHgWAmYPZBYCZg8WAh8BBQQ3MHB4ZAIJD2QWBGYPZBYEAgEPZBYEAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgMPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgMPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUENjVweGQCCA8PFgIfAGdkFgQCAQ8PFgQeC05hdmlnYXRlVXJsBUwvUmFua0xpc3Q/ZW50aXR5dHlwZT00JnRvcGRvbWFpbmlkPTYmc3ViZG9tYWluaWQ9MjAmbGFzdD0wJnN0YXJ0PTMwMSZlbmQ9NDAwHwBnZGQCAw8WAh8EBeEEIDxhIGhyZWY9IiYjNDc7UmFua0xpc3QmIzYzO2VudGl0eXR5cGUmIzYxOzQmIzM4O3RvcGRvbWFpbmlkJiM2MTs2JiMzODtzdWJkb21haW5pZCYjNjE7MjAmIzM4O2xhc3QmIzYxOzAmIzM4O3N0YXJ0JiM2MTsxJiMzODtlbmQmIzYxOzEwMCI+MTwvYT4gPGEgaHJlZj0iJiM0NztSYW5rTGlzdCYjNjM7ZW50aXR5dHlwZSYjNjE7NCYjMzg7dG9wZG9tYWluaWQmIzYxOzYmIzM4O3N1YmRvbWFpbmlkJiM2MTsyMCYjMzg7bGFzdCYjNjE7MCYjMzg7c3RhcnQmIzYxOzEwMSYjMzg7ZW5kJiM2MTsyMDAiPjI8L2E+IDxhIGhyZWY9IiYjNDc7UmFua0xpc3QmIzYzO2VudGl0eXR5cGUmIzYxOzQmIzM4O3RvcGRvbWFpbmlkJiM2MTs2JiMzODtzdWJkb21haW5pZCYjNjE7MjAmIzM4O2xhc3QmIzYxOzAmIzM4O3N0YXJ0JiM2MTsyMDEmIzM4O2VuZCYjNjE7MzAwIj4zPC9hPiA8YSBocmVmPSImIzQ3O1JhbmtMaXN0JiM2MztlbnRpdHl0eXBlJiM2MTs0JiMzODt0b3Bkb21haW5pZCYjNjE7NiYjMzg7c3ViZG9tYWluaWQmIzYxOzIwJiMzODtsYXN0JiM2MTswJiMzODtzdGFydCYjNjE7MzAxJiMzODtlbmQmIzYxOzQwMCI+NDwvYT4gPHNwYW4gY2xhc3M9ImN1cnJlbnQiPjU8L3NwYW4+ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUqY3RsMDAkU2VhcmNoSGVhZGVyJFNlYXJjaEZvcm0kU2VhcmNoQnV0dG9uBSNjdGwwMCRGb290ZXJTZWFyY2hGb3JtJFNlYXJjaEJ1dHRvbgaX8yKDRh7vTpxIPCOut7b1m7C1" /> 
+  <script type="text/javascript">
+//<![CDATA[
+function si(t, i, u){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 't=' + t + '&i=' + i + '&tm=' + new Date() + '&u=' + u + '&url=' + document.location;if(document.images)(new Image).src=l;return true;}//]]>
+</script> 
+  <script type="text/javascript">var SiteRoot = 'http://academic.research.microsoft.com';</script> 
+  <script type="text/javascript">
+//<![CDATA[
+function siUrl(url, ctl){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 'url=' + document.location + '&tm=' + new Date() + '&ctl=' + ctl;if(document.images)(new Image).src=l;return true;}function CheckAdvInput(objName,len){var obj=document.getElementById(objName); if(obj.value.length>len){obj.value=obj.value.substring(0,len);}};function hideAdvancedSearch(){document.getElementById('advancedsearchDiv').style.display='none';delCookie('advanceTabIndex');if(document.getElementById('divYearFilter'))document.getElementById('divYearFilter').style.display = '';}//]]>
+</script> 
+  <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWGQKko4HNCwKV79r2BwL08PyfCAKYtPr1CwKBqYHDDgLt/orqDgLhiK3CDQLkrruNCQLlrueOCQLirruNCQKkrueOCQLQrbfdBgKKh5zkDwKJh5zkDwK8z7GbCgLQ+sXxBQKPiNScAwLCjMLvCQLUlaz2CwLk8+92Aua5ydYJApC727EMAriB1YsNAqzlpPINAsHk4YYIcJEa1V9yXLQd8/MDMm59X1G79gc=" /> 
+  <div class="container"> 
+   <div id="ctl00_SearchHeader_divHeaderWrapper" class="header-wrapper"> 
+    <div class="share-link"> 
+    </div> 
+    <div class="header-wrapper-inner"> 
+     <div class="user-identity-bar"> 
+     </div> 
+     <div class="search-bar-wrapper" id="searchBarLeft"> 
+      <a class="logo" href="http://academic.research.microsoft.com"> <img id="ctl00_SearchHeader_imgLogo" navigateurl="~/" src="http://academic.research.microsoft.com/Images/logo.png" border="0" /> </a> 
+      <div id="ctl00_SearchHeader_SearchForm_searchBar" class="search-bar"> 
+       <div id="ctl00_SearchHeader_SearchForm_divSearchBox" class="search-box" style="position:relative"> 
+        <input name="ctl00$SearchHeader$SearchForm$txtQuery" type="text" id="ctl00_SearchHeader_SearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeyup="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_SearchHeader_SearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+        <div id="ctl00_SearchHeader_SearchForm_divDomainButton" class="domain-panel-button" style="z-index:100; position:relative;" onclick="try{return si(20,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_divDomainButton');}catch(ex){;}"> 
+         <div class="left"> 
+          <span></span> 
+          <div class="dropdown-arrow"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <input type="image" name="ctl00$SearchHeader$SearchForm$SearchButton" id="ctl00_SearchHeader_SearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+       <div class="type-suggestion"> 
+        <div id="autoSuggest" class="typesuggest"> 
+        </div> 
+       </div> 
+       <div id="ctl00_SearchHeader_SearchForm_SpAdvancedSearch" class="advancedsearch"> 
+       </div> 
+       <div class="searching-div"> 
+        <div class="loadImg" id="divLoadingIcon"> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="advancedsearchDiv" class="modalpopup"> 
+       <div class="advanced-search"> 
+        <div class="closelink"> 
+        </div> 
+        <div class="small-btn"></div> 
+        <table cellspacing="0" cellpadding="0" border="0" class="content-table"> 
+         <tbody>
+          <tr> 
+           <td id="tdCriteriaTab" style="color:#d7d7d7" colspan="2"> <span onclick="showAdvanceTab(0)" class="advanced-search-tab" style="padding-left: 0px"> Author</span> | <span onclick="showAdvanceTab(1)" class="advanced-search-tab-unfocus">Conference</span> | <span onclick="showAdvanceTab(2)" class="advanced-search-tab-unfocus">Journal</span> | <span onclick="showAdvanceTab(3)" class="advanced-search-tab-unfocus">Organization</span> | <span onclick="showAdvanceTab(4)" class="advanced-search-tab-unfocus">Year</span> | <span onclick="showAdvanceTab(5)" class="advanced-search-tab-unfocus">DOI</span> </td> 
+          </tr> 
+          <tr> 
+           <td class="hint" colspan="2" id="tdAdvancedSearchHint"> Look for results that meet for the following criteria: </td> 
+          </tr> 
+          <tr> 
+           <td id="tdCriteria" class="advancesearch-criteria"> 
+            <div style="display: block"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$authorQuery" type="text" value="Bill Gates" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Bill Gates') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Bill Gates'; this.style.color = '#999';}" style="color:#999" />
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$confQuery" type="text" value="SIGGRAPH" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'SIGGRAPH') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'SIGGRAPH'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$JournQuery" type="text" value="Journal of The ACM" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Journal of The ACM') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Journal of The ACM'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$orgQuery" type="text" value="Microsoft" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Microsoft') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Microsoft'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <select name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$compareQuery" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery" class="advance-search-dropdownlist" onchange="showTimeSpanTextbox(this.value,event)"> <option selected="selected" value="&gt;=">since</option> <option value="=">equal to</option> <option value="&lt;=">before</option> <option value="~">between</option> </select> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearQuery" type="text" value="2000" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2000') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2000'; this.style.color = '#999';}" style="color:#999" /> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanA" type="text" value="2006" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2006') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2006'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+             <span id="yearSpanText" style="width:20px;display:none;margin-left:20px;">and</span> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanB" type="text" value="2011" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2011') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2011'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$doiQuery" type="text" value="10.1093/nar/25.17.3389" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '10.1093/nar/25.17.3389') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '10.1093/nar/25.17.3389'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$fulltextQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$titleQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> </td> 
+           <td align="left"> <input type="button" id="btnAddToSearch" value="Add to search" onclick="addToSearch('ctl00_SearchHeader_SearchForm_txtQuery', 'ctl00_SearchHeader_SearchForm_SearchButton');" style="width: 100px" /> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+        <script type="text/javascript">
+// <![CDATA[
+   if(typeof(window.domYearQuery) == 'undefined'){
+        window.domYearQuery = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery');
+   }
+   if(typeof(window.domYearSpanA) == 'undefined'){
+        window.domYearSpanA = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA');
+   }
+   if(typeof(window.domYearSpanB) == 'undefined'){
+        window.domYearSpanB = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB');
+   }
+   if(typeof(window.domYearSpanText) == 'undefined'){
+        window.domYearSpanText = $('#yearSpanText');
+   }
+
+   if( $.browser.mozilla){
+      $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery').change(function(event){
+	    showTimeSpanTextbox($(this).val(), event);
+	  });
+   }
+//]]>
+    </script> 
+       </div> 
+      </div> 
+      <div class="modalpopup" style="display: block"> 
+       <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+        <div class="domain-closelink"> 
+        </div> 
+        <div class="small-btn"> 
+        </div> 
+        <div class="domain-panel"> 
+         <div> 
+          <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+          <span>Search in all domains</span> 
+         </div> 
+         <div> 
+          <input type="radio" value="0" name="AllDomainRadio" /> 
+          <span>Limit my searches in the following domains</span> 
+         </div> 
+         <div style="padding-left: 10px;"> 
+          <div class="option">
+           <input type="checkbox" value="16" /> 
+           <span>Agriculture Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="3" /> 
+           <span>Arts &amp; Humanities</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="4" /> 
+           <span>Biology</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="5" /> 
+           <span>Chemistry</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="2" /> 
+           <span>Computer Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="7" /> 
+           <span>Economics &amp; Business</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="8" /> 
+           <span>Engineering</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="9" /> 
+           <span>Environmental Sciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="10" /> 
+           <span>Geosciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="12" /> 
+           <span>Material Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="15" /> 
+           <span>Mathematics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="6" /> 
+           <span>Medicine</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="19" /> 
+           <span>Physics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="22" /> 
+           <span>Social Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="1" /> 
+           <span>Multidisciplinary</span>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_srptBindEventDomainButton"> 
+       <script type="text/javascript" language="javascript">
+        BindEventForDomainPanelButton("ctl00_SearchHeader_SearchForm_txtQuery", "ctl00_SearchHeader_SearchForm_divDomainButton");
+    </script> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_scrpAutoComplete"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+        $(function () {
+            //author
+            var data = { 'inputId': '#ctl00_SearchHeader_SearchForm_txtQuery',
+                'tsId': '#autoSuggest',
+                'searchboxId': '#ctl00_SearchHeader_SearchForm_divSearchBox',
+                'suggestType': 1,
+                'maxNumber': -1,
+                'root': 'http://academic.research.microsoft.com',
+                'postAction': function () {
+                    $("#ctl00_SearchHeader_SearchForm_SearchButton").click();
+                }
+            };
+            TypeSuggest.Init(data);
+
+        })
+    //]]>
+    </script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_SearchHeader_SearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_SearchHeader_SearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_SearchHeader_SearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_advancedsearch');
+            });
+            $("#ctl00_SearchHeader_SearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+      <input name="ctl00$SearchHeader$SearchForm$hdnSelectedDomain" type="hidden" id="ctl00_SearchHeader_SearchForm_hdnSelectedDomain" /> 
+     </div> 
+     <div class="propupwidth"> 
+      <div class="search-bar-right" id="searchBarRight"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="content-wrapper" id="divContentWrapper"> 
+    <div id="ctl00_divContentHeader" class="content-header-wrapper"> 
+     <script type="text/javascript" language="javascript"> 
+                        var isSilverlightInstalled = false;
+                        function CheckSilverlightInstalled() {
+                            try {
+                                try {
+                                    var slControl = new ActiveXObject('AgControl.AgControl'); //IE
+                                    isSilverlightInstalled = true;
+                                }
+                                catch (e) {
+                                    if (navigator.plugins["Silverlight Plug-In"]) //non-IE
+                                    {
+                                        isSilverlightInstalled = true;
+                                    }
+                                }
+                            }
+                            catch (e) { }
+                        }
+                        CheckSilverlightInstalled();
+
+                        $(function () {
+                            $(".ranklist-summary").css("position", "static");
+                            $(".ranklist-summary").css("position", "relative");
+                        })
+                    </script> 
+    </div> 
+    <div id="ctl00_divLeftWrapper" class="left-wrapper"> 
+     <div class="section-navigator"> 
+      <div id="ctl00_LeftPanel_pnlAuthor" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypAuthor" href="RankList?entitytype=2&amp;topDomainID=6&amp;subDomainID=20&amp;last=0&amp;start=1&amp;end=100">Authors &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlPublication" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypPublication" href="RankList?entitytype=1&amp;topDomainID=6&amp;subDomainID=20&amp;last=0&amp;start=1&amp;end=100">Publications &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlConference" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypConference" href="RankList?entitytype=3&amp;topDomainID=6&amp;subDomainID=20&amp;last=0&amp;start=1&amp;end=100">Conferences &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlJournal" class="highlight"> 
+       <h2><a id="ctl00_LeftPanel_hypJournal">Journals &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlOrganization" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypOrganization" href="RankList?entitytype=7&amp;topDomainID=6&amp;subDomainID=20&amp;last=0&amp;start=1&amp;end=100">Organizations &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlKeyword" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypKeyword" href="RankList?entitytype=8&amp;topDomainID=6&amp;subDomainID=20&amp;last=0&amp;start=1&amp;end=100">Keywords &raquo;</a></h2> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="ctl00_divCenter" class="center-wrapper"> 
+     <div class="bing-summary"> 
+      <div id="ctl00_MainContent_SearchSummary_divAction" class="action"> 
+       <span id="ctl00_MainContent_SearchSummary_spResultCount"> <span id="ctl00_MainContent_SearchSummary_lblResultMessage" class="result">401 - 478 of 478 results</span> </span> 
+      </div> 
+      <div id="ctl00_MainContent_SearchSummary_divSummary" class="declare"> 
+       <a class="text" href="./"> Academic</a> 
+       <div class="right-arrow"></div>
+       <span>Top journals in Pharmacology</span> 
+      </div> 
+     </div> 
+     <div class="clear"> 
+     </div> 
+     <div class="ranklist-summary" id="domainpanel"> 
+      <script type="text/javascript" language="javascript" src="http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpTopDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpTopDomain_tdDrpList" class="dropdownlist-left" width="150px"> <input name="ctl00$MainContent$RankListSummary$drpTopDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpSubDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpSubDomain_tdDrpList" class="dropdownlist-left" width="250px"> <input name="ctl00$MainContent$RankListSummary$drpSubDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpListYear_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpListYear_tdDrpList" class="dropdownlist-left" width="100px"> <input name="ctl00$MainContent$RankListSummary$drpListYear$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpListYear_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpListYear_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    var request_paras = {};    
+    var pageurl_ranklist = window.location.toString();
+    var question_mark_ranklist = pageurl_ranklist.lastIndexOf('?');
+    (function () { request_paras = queryToJson(pageurl_ranklist); })();
+    if (question_mark_ranklist > -1) {
+        pageurl_ranklist = pageurl_ranklist.substr(0, question_mark_ranklist);
+    }
+    var s = [""];
+    s.push(pageurl_ranklist);
+    s.push("?");    
+            
+    function GetDomainID(para) {
+        var domainID;
+        try {
+            domainID = decodeURI(request(para));
+        }
+        catch (ex) {
+            domainID = "";
+        }
+        return domainID;
+    }
+
+    var ChangingWindowLocation = false;
+    function CheckChangingWindowLocation() {
+        if (ChangingWindowLocation == false) {
+            ChangingWindowLocation = true;
+            return true;
+        }
+        return false;
+    }
+</script> 
+      <div id="ctl00_MainContent_RankListSummary_sriptSubDomain"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+
+    function BindSubDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);                    
+                    if( typeof value != "undefined"){
+                        request_paras.subdomainid = value;
+                        s.push(jsonToQuery(request_paras));
+                        window.location = s.join('');
+
+                    }
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Anatomy", "Value": "1"};options[1] = { "Text": "Andrology", "Value": "2"};options[2] = { "Text": "Cardiology", "Value": "3"};options[3] = { "Text": "Dentistry", "Value": "4"};options[4] = { "Text": "Dermatology", "Value": "5"};options[5] = { "Text": "Diabetes", "Value": "6"};options[6] = { "Text": "Diseases", "Value": "7"};options[7] = { "Text": "Emergency & Critical Care", "Value": "8"};options[8] = { "Text": "Endocrinology", "Value": "9"};options[9] = { "Text": "Family Medicine", "Value": "10"};options[10] = { "Text": "Gynecology & Obstetrics", "Value": "11"};options[11] = { "Text": "Immunology", "Value": "12"};options[12] = { "Text": "Medical Education & Training", "Value": "13"};options[13] = { "Text": "Neuroscience", "Value": "14"};options[14] = { "Text": "Nursing", "Value": "15"};options[15] = { "Text": "Nutrition", "Value": "16"};options[16] = { "Text": "Oncology", "Value": "17"};options[17] = { "Text": "Ophthalmology", "Value": "18"};options[18] = { "Text": "Pathology", "Value": "19"};options[19] = { "Text": "Pharmacology", "Value": "20"};options[20] = { "Text": "Physiology", "Value": "21"};options[21] = { "Text": "Psychiatry & Psychology", "Value": "22"};options[22] = { "Text": "Urology", "Value": "23"};options[23] = { "Text": "Overall for Medicine", "Value": "0", "Selected": "true"};
+       
+        DropDown.SetOptions(options);
+        //var domainID = GetDomainID("subDomainID");
+        var domainID = "";
+        if(typeof (request_paras.subdomainid) != "undefined"){
+            domainID = request_paras.subdomainid;
+        }
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }
+    }
+    BindSubDomainFilter();
+       //]]>
+</script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+    function BindYearFilter() {
+        //year
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpListYear_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpListYear_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpListYear_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);
+
+                    if( /\/detail[\.\?]/g.test(query.toLowerCase())){                        
+                        // if this control is used by organization detail page                        
+
+                        if(typeof value == "undefined") return;
+                        if(typeof (request_paras.last) != "null" && typeof (request_paras.last) != "undefined" && value == 0 ){
+                            delete request_paras.last;
+                        }
+                        if(value > 0){
+                            request_paras.last = value;
+                        }
+                        s.push(jsonToQuery(request_paras));
+                        pageurl_ranklist = s.join('');     
+                        consolelog(pageurl_ranklist);
+                        window.location = pageurl_ranklist;
+                        return;
+                    }                    
+                    request_paras.last = value;
+                    s.push(jsonToQuery(request_paras));
+                    pageurl_ranklist = s.join('');     
+                    consolelog(pageurl_ranklist);                      
+                    window.location = pageurl_ranklist;                    
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        options[0] = { "Text": "Last 5 Years", "Value": "5" };
+        options[1] = { "Text": "Last 10 Years", "Value": "10" };
+        options[2] = { "Text": "All Years", "Value": "0", "Selected": "true" };
+
+
+        DropDown.SetOptions(options);
+        if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+            DropDown.SetDefaultValue(request_paras.last);
+        }
+    }
+    BindYearFilter();
+
+    function removeStartEndIndex(query) {        
+        if(typeof (request_paras.start) != "null" && typeof (request_paras.start) != "undefined"){        
+            delete request_paras.start;
+        }
+        if(typeof (request_paras.end) != "null" && typeof (request_paras.end) != "undefined"){
+            delete request_paras.end;
+        }
+        return true;      
+    }
+    function removeContinent(query) {        
+        if(typeof (request_paras.continentid) != "null" && typeof (request_paras.continentid) != "undefined"){        
+            delete request_paras.continentid;
+        }
+        return query;        
+    }
+    function GetLastYear() {
+        var lastYear;
+        try {
+            lastYear = decodeURI(request("last"));
+        }
+        catch (ex) {
+            lastYear = "";
+        }
+
+        return lastYear;
+    }
+    //]]>
+
+    //<![CDATA[
+    function BindTopDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                
+                //set subDomain to 0
+                if (query) {
+                    if(typeof (request_paras.subdomainid) != "null" && typeof (request_paras.subdomainid) != "undefined"){
+                        request_paras.subdomainid = 0;
+                    }
+                    removeStartEndIndex(query);
+                    if(typeof value != "undefined"){
+                        request_paras.topdomainid = value;
+                        s.push(jsonToQuery(request_paras));                        
+                        window.location = s.join('');
+                    }
+                    
+
+
+                    /*var regExp = new RegExp("&subDomainID=\\d+", "g");
+                    var match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "&subDomainID=0");
+                    }
+
+                    query = removeStartEndIndex(query);
+                    regExp = new RegExp("topDomainID=\\d+", "g");
+                    match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "topDomainID=" + value);
+                        window.location = query;
+                    }*/
+                }                
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Agriculture Science", "Value": "16"};options[1] = { "Text": "Arts & Humanities", "Value": "3"};options[2] = { "Text": "Biology", "Value": "4"};options[3] = { "Text": "Chemistry", "Value": "5"};options[4] = { "Text": "Computer Science", "Value": "2"};options[5] = { "Text": "Economics & Business", "Value": "7"};options[6] = { "Text": "Engineering", "Value": "8"};options[7] = { "Text": "Environmental Sciences", "Value": "9"};options[8] = { "Text": "Geosciences", "Value": "10"};options[9] = { "Text": "Material Science", "Value": "12"};options[10] = { "Text": "Mathematics", "Value": "15"};options[11] = { "Text": "Medicine", "Value": "6"};options[12] = { "Text": "Physics", "Value": "19"};options[13] = { "Text": "Social Science", "Value": "22"};options[14] = { "Text": "Multidisciplinary", "Value": "1"};
+       
+        DropDown.SetOptions(options);
+        var domainID = GetDomainID("topDomainID");
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }else{
+            if( options.length > 0  && options[options.length-1].Value == "0"){      
+                var t = options[options.length-1].Value;                
+                DropDown.SetDefaultValue(t);
+            }else{
+                DropDown.SetDefaultValue();
+            }
+        }
+    }
+    BindTopDomainFilter();
+    //]]>
+</script> 
+      <div class="clear"></div> 
+     </div> 
+     <div id="ctl00_MainContent_divRankList"> 
+      <div> 
+       <table class="staticTable" cellpadding="0" cellspacing="0"> 
+        <thead> 
+         <tr> 
+          <th width="1px" style="border:0"></th> 
+          <th> Journals </th> 
+          <th id="ctl00_MainContent_thPublication" class="staticOrderHeader" width="90px"> Publications </th> 
+          <th id="ctl00_MainContent_thCitation" class="staticOrderHeader" width="110px" title="H-Index in Pharmacology"> 
+           <div id="ctl00_MainContent_divRankType" style="position: relative; min-width: 100px; height: 1px;"> 
+            <div style="position: absolute; right: -5px; top: 0px; z-index:0;"> 
+             <div class="dropdownlist"> 
+              <div> 
+               <table id="ctl00_MainContent_drpRankType_drpList" cellpadding="0" cellspacing="0" width="85px"> 
+                <tbody>
+                 <tr> 
+                  <td id="ctl00_MainContent_drpRankType_tdDrpList" class="dropdownlist-left" width="70px"> <input name="ctl00$MainContent$drpRankType$drp_hidden_focus" type="text" id="ctl00_MainContent_drpRankType_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_drpRankType_spSelectedText"></span> </td> 
+                  <td class="dropdownlist-right"> </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </div> 
+              <div id="ctl00_MainContent_drpRankType_drpListContent" class="dropdownlist-content"> 
+              </div> 
+             </div> 
+             <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+                            function BindRankTypeFilter() {
+                                //year
+                                var data = { 'inputId': '#ctl00_MainContent_drpRankType_drpList',
+                                    "hiddenId": '#ctl00_MainContent_drpRankType_drp_hidden_focus',
+                                    'textId': '#ctl00_MainContent_drpRankType_spSelectedText',
+                                    'tsId': '#ctl00_MainContent_drpRankType_drpListContent',
+                                    'postAction': function () {
+                                        if(CheckChangingWindowLocation() == false)
+                                        {
+                                            return;
+                                        }
+
+                                        var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                                        var query = window.location.href;
+                                        if (query) {
+                                            removeStartEndIndex(query);
+                                            $('#ctl00_MainContent_thCitation').attr('title', '');
+                                            request_paras.orderby = value;
+                                            s.push(jsonToQuery(request_paras));
+                                            pageurl_ranklist = s.join('');     
+                                            window.location = pageurl_ranklist;                    
+                                        }
+                                    }
+                                };
+                                DropDown.Init(data);
+                                $('#ctl00_MainContent_drpRankType_drpListContent').width(80);
+                                var options = new Array();
+                                options[0] = { "Text": "H-Index", "Value": "6", "Selected": "true"};options[1] = { "Text": "Citation", "Value": "1"};
+
+
+                                DropDown.SetOptions(options);
+                                if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+                                    DropDown.SetDefaultValue(request_paras.orderby);
+                                }
+                            }
+                            BindRankTypeFilter();
+
+                           
+                        //]]>
+                        </script> 
+            </div> 
+           </div> &nbsp;  </th>
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               401 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl00_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl00_hypName" href="/Journal/21904/pharmacy-practice-granada">Pharmacy Practice (granada)</a> </td> 
+          <td id="ctl00_MainContent_ctl00_tdPulicationCount" class="staticOrderCol"> 32 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               402 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl01_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl01_hypName" href="/Journal/15892/pharmacology-reviews-and-communications">Pharmacology Reviews and Communications</a> </td> 
+          <td id="ctl00_MainContent_ctl01_tdPulicationCount" class="staticOrderCol"> 24 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               403 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl02_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl02_hypName" href="/Journal/19820/journal-of-epithelial-biology-&amp;-pharmacology">Journal of Epithelial Biology &amp; Pharmacology</a> </td> 
+          <td id="ctl00_MainContent_ctl02_tdPulicationCount" class="staticOrderCol"> 20 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               404 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl03_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl03_hypName" href="/Journal/15894/drug-design-and-discovery">Drug Design and Discovery</a> </td> 
+          <td id="ctl00_MainContent_ctl03_tdPulicationCount" class="staticOrderCol"> 17 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               405 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl04_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl04_hypName" href="/Journal/19650/frontiers-in-drug-design-&amp;-discovery">Frontiers in Drug Design &amp; Discovery</a> </td> 
+          <td id="ctl00_MainContent_ctl04_tdPulicationCount" class="staticOrderCol"> 15 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               406 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl05_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl05_hypName" href="/Journal/3206/feuill-radiol-feuillets-de-radiologie">FEUILL RADIOL - Feuillets De Radiologie</a> </td> 
+          <td id="ctl00_MainContent_ctl05_tdPulicationCount" class="staticOrderCol"> 574 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               407 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl06_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl06_hypName" href="/Journal/21046/canadian-pharmacists-journal">Canadian Pharmacists Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl06_tdPulicationCount" class="staticOrderCol"> 457 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               408 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl07_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl07_hypName" href="/Journal/8263/j-tradit-chin-med-journal-of-traditional-chinese-medicine">J TRADIT CHIN MED - Journal of Traditional Chinese Medicine</a> </td> 
+          <td id="ctl00_MainContent_ctl07_tdPulicationCount" class="staticOrderCol"> 338 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               409 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl08_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl08_hypName" href="/Journal/20324/inflammation-and-regeneration">Inflammation and Regeneration</a> </td> 
+          <td id="ctl00_MainContent_ctl08_tdPulicationCount" class="staticOrderCol"> 146 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               410 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl09_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl09_hypName" href="/Journal/21679/journal-of-young-pharmacists">Journal of Young Pharmacists</a> </td> 
+          <td id="ctl00_MainContent_ctl09_tdPulicationCount" class="staticOrderCol"> 135 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               411 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl10_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl10_hypName" href="/Journal/20369/drug-delivery-system">Drug Delivery System</a> </td> 
+          <td id="ctl00_MainContent_ctl10_tdPulicationCount" class="staticOrderCol"> 133 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               412 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl11_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl11_hypName" href="/Journal/20678/dhaka-university-journal-of-pharmaceutical-sciences">Dhaka University Journal of Pharmaceutical Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl11_tdPulicationCount" class="staticOrderCol"> 132 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               413 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl12_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl12_hypName" href="/Journal/21636/asian-journal-of-pharmaceutics">Asian Journal of Pharmaceutics</a> </td> 
+          <td id="ctl00_MainContent_ctl12_tdPulicationCount" class="staticOrderCol"> 128 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               414 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl13_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl13_hypName" href="/Journal/3059/diagn-interv-radiol-diagnostic-and-interventional-radiology">DIAGN INTERV RADIOL - Diagnostic and Interventional Radiology</a> </td> 
+          <td id="ctl00_MainContent_ctl13_tdPulicationCount" class="staticOrderCol"> 108 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               415 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl14_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl14_hypName" href="/Journal/14963/journal-of-the-saudi-pharmaceutical-society">Journal of The Saudi Pharmaceutical Society</a> </td> 
+          <td id="ctl00_MainContent_ctl14_tdPulicationCount" class="staticOrderCol"> 108 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               416 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl15_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl15_hypName" href="/Journal/14961/currents-in-pharmacy-teaching-and-learning">Currents in Pharmacy Teaching and Learning</a> </td> 
+          <td id="ctl00_MainContent_ctl15_tdPulicationCount" class="staticOrderCol"> 104 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               417 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl16_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl16_hypName" href="/Journal/15785/journal-of-herbs-spices-&amp;-medicinal-plants">Journal of Herbs, Spices &amp; Medicinal Plants</a> </td> 
+          <td id="ctl00_MainContent_ctl16_tdPulicationCount" class="staticOrderCol"> 95 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               418 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl17_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl17_hypName" href="/Journal/8294/pharmacogn-mag-pharmacognosy-magazine">PHARMACOGN MAG - Pharmacognosy Magazine</a> </td> 
+          <td id="ctl00_MainContent_ctl17_tdPulicationCount" class="staticOrderCol"> 66 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               419 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl18_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl18_hypName" href="/Journal/19818/open-vaccine-j-the-open-vaccine-journal">OPEN VACCINE J - The Open Vaccine Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl18_tdPulicationCount" class="staticOrderCol"> 38 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               420 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl19_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl19_hypName" href="/Journal/17500/archives-of-drug-information">Archives of Drug Information</a> </td> 
+          <td id="ctl00_MainContent_ctl19_tdPulicationCount" class="staticOrderCol"> 29 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               421 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl20_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl20_hypName" href="/Journal/19699/the-open-drug-delivery-journal">The Open Drug Delivery Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl20_tdPulicationCount" class="staticOrderCol"> 27 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               422 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl21_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl21_hypName" href="/Journal/19663/the-open-pharmacology-journal">The Open Pharmacology Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl21_tdPulicationCount" class="staticOrderCol"> 25 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               423 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl22_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl22_hypName" href="/Journal/7437/antivir-chem-chemother-antiviral-chemistry-&amp;-chemotherapy">ANTIVIR CHEM CHEMOTHER - Antiviral Chemistry &amp; Chemotherapy</a> </td> 
+          <td id="ctl00_MainContent_ctl22_tdPulicationCount" class="staticOrderCol"> 20 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               424 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl23_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl23_hypName" href="/Journal/19847/the-open-neuropsychopharmacology-journal">The Open Neuropsychopharmacology Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl23_tdPulicationCount" class="staticOrderCol"> 16 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               425 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl24_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl24_hypName" href="/Journal/14724/advances-in-antiviral-drug-design">Advances in Antiviral Drug Design</a> </td> 
+          <td id="ctl00_MainContent_ctl24_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               426 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl25_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl25_hypName" href="/Journal/17803/advances-in-pharmacological-sciences">Advances in Pharmacological Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl25_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               427 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl26_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl26_hypName" href="/Journal/19865/the-open-pain-journal">The Open Pain Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl26_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               428 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl27_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl27_hypName" href="/Journal/20050/journal-of-drug-policy-analysis">Journal of Drug Policy Analysis</a> </td> 
+          <td id="ctl00_MainContent_ctl27_tdPulicationCount" class="staticOrderCol"> 9 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               429 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl28_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl28_hypName" href="/Journal/19813/current-pharmacogenomics-and-personalized-medicine-formerly-current-pharmacogenomics">Current Pharmacogenomics and Personalized Medicine (formerly Current Pharmacogenomics)</a> </td> 
+          <td id="ctl00_MainContent_ctl28_tdPulicationCount" class="staticOrderCol"> 7 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               430 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl29_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl29_hypName" href="/Journal/19603/pharmacoeconomics-&amp;-outcomes-news">Pharmacoeconomics &amp; Outcomes News</a> </td> 
+          <td id="ctl00_MainContent_ctl29_tdPulicationCount" class="staticOrderCol"> 5500 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               431 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl30_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl30_hypName" href="/Journal/19598/drugs-&amp;-therapy-perspectives">Drugs &amp; Therapy Perspectives</a> </td> 
+          <td id="ctl00_MainContent_ctl30_tdPulicationCount" class="staticOrderCol"> 2089 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               432 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl31_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl31_hypName" href="/Journal/21062/pharmadeals-review">Pharmadeals Review</a> </td> 
+          <td id="ctl00_MainContent_ctl31_tdPulicationCount" class="staticOrderCol"> 1115 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               433 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl32_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl32_hypName" href="/Journal/20853/revue-d-histoire-de-la-pharmacie">Revue D'histoire De La Pharmacie</a> </td> 
+          <td id="ctl00_MainContent_ctl32_tdPulicationCount" class="staticOrderCol"> 720 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               434 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl33_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl33_hypName" href="/Journal/8152/braz-j-pharm-sci-brazilian-journal-of-pharmaceutical-sciences">BRAZ J PHARM SCI - Brazilian Journal of Pharmaceutical Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl33_tdPulicationCount" class="staticOrderCol"> 126 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               435 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl34_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl34_hypName" href="/Journal/21806/the-canadian-journal-of-hospital-pharmacy">The Canadian Journal of Hospital Pharmacy</a> </td> 
+          <td id="ctl00_MainContent_ctl34_tdPulicationCount" class="staticOrderCol"> 93 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               436 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl35_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl35_hypName" href="/Journal/21917/journal-of-korean-pharmaceutical-sciences">Journal of Korean Pharmaceutical Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl35_tdPulicationCount" class="staticOrderCol"> 90 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               437 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl36_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl36_hypName" href="/Journal/21362/rinsho-yakuri-japanese-journal-of-clinical-pharmacology-and-therapeutics">Rinsho Yakuri/japanese Journal of Clinical Pharmacology and Therapeutics</a> </td> 
+          <td id="ctl00_MainContent_ctl36_tdPulicationCount" class="staticOrderCol"> 77 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               438 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl37_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl37_hypName" href="/Journal/20840/international-journal-of-infection-control">International Journal of Infection Control</a> </td> 
+          <td id="ctl00_MainContent_ctl37_tdPulicationCount" class="staticOrderCol"> 72 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               439 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl38_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl38_hypName" href="/Journal/21695/pharmacognosy-research">Pharmacognosy Research</a> </td> 
+          <td id="ctl00_MainContent_ctl38_tdPulicationCount" class="staticOrderCol"> 39 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               440 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl39_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl39_hypName" href="/Journal/18569/journal-of-managed-pharmaceutical-care">Journal of Managed Pharmaceutical Care</a> </td> 
+          <td id="ctl00_MainContent_ctl39_tdPulicationCount" class="staticOrderCol"> 34 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               441 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl40_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl40_hypName" href="/Journal/21766/journal-of-bioequivalence-&amp;-bioavailability">Journal of Bioequivalence &amp; Bioavailability</a> </td> 
+          <td id="ctl00_MainContent_ctl40_tdPulicationCount" class="staticOrderCol"> 34 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               442 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl41_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl41_hypName" href="/Journal/21769/journal-of-bioanalysis-&amp;-biomedicine">Journal of Bioanalysis &amp; Biomedicine</a> </td> 
+          <td id="ctl00_MainContent_ctl41_tdPulicationCount" class="staticOrderCol"> 28 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               443 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl42_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl42_hypName" href="/Journal/18291/pharmaceutical-programming">Pharmaceutical Programming</a> </td> 
+          <td id="ctl00_MainContent_ctl42_tdPulicationCount" class="staticOrderCol"> 24 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               444 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl43_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl43_hypName" href="/Journal/19798/the-open-natural-products-journal">The Open Natural Products Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl43_tdPulicationCount" class="staticOrderCol"> 24 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               445 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl44_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl44_hypName" href="/Journal/8239/j-appl-biomed-journal-of-applied-biomedicine">J APPL BIOMED - Journal of Applied Biomedicine</a> </td> 
+          <td id="ctl00_MainContent_ctl44_tdPulicationCount" class="staticOrderCol"> 22 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               446 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl45_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl45_hypName" href="/Journal/19738/open-transplant-j-the-open-transplantation-journal">OPEN TRANSPLANT J - The Open Transplantation Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl45_tdPulicationCount" class="staticOrderCol"> 21 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               447 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl46_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl46_hypName" href="/Journal/21858/molecular-and-cellular-pharmacology">Molecular and Cellular Pharmacology</a> </td> 
+          <td id="ctl00_MainContent_ctl46_tdPulicationCount" class="staticOrderCol"> 20 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               448 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl47_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl47_hypName" href="/Journal/20830/pharmaceutics">Pharmaceutics</a> </td> 
+          <td id="ctl00_MainContent_ctl47_tdPulicationCount" class="staticOrderCol"> 19 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               449 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl48_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl48_hypName" href="/Journal/21964/drugs-and-alcohol-today">Drugs and Alcohol Today</a> </td> 
+          <td id="ctl00_MainContent_ctl48_tdPulicationCount" class="staticOrderCol"> 19 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               450 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl49_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl49_hypName" href="/Journal/22041/international-journal-of-drug-delivery">International Journal of Drug Delivery</a> </td> 
+          <td id="ctl00_MainContent_ctl49_tdPulicationCount" class="staticOrderCol"> 17 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               451 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl50_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl50_hypName" href="/Journal/21542/stroke-research-and-treatment">Stroke Research and Treatment</a> </td> 
+          <td id="ctl00_MainContent_ctl50_tdPulicationCount" class="staticOrderCol"> 15 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               452 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl51_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl51_hypName" href="/Journal/21627/pharmacognosy-reviews">Pharmacognosy Reviews</a> </td> 
+          <td id="ctl00_MainContent_ctl51_tdPulicationCount" class="staticOrderCol"> 14 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               453 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl52_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl52_hypName" href="/Journal/21692/systematic-reviews-in-pharmacy">Systematic Reviews in Pharmacy</a> </td> 
+          <td id="ctl00_MainContent_ctl52_tdPulicationCount" class="staticOrderCol"> 14 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               454 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl53_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl53_hypName" href="/Journal/15921/pharmaceutical-news">Pharmaceutical News</a> </td> 
+          <td id="ctl00_MainContent_ctl53_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               455 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl54_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl54_hypName" href="/Journal/19829/the-open-bioactive-compounds-journal">The Open Bioactive Compounds Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl54_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               456 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl55_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl55_hypName" href="/Journal/21625/journal-of-pharmacology-and-pharmacotherapeutics">Journal of Pharmacology and Pharmacotherapeutics</a> </td> 
+          <td id="ctl00_MainContent_ctl55_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               457 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl56_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl56_hypName" href="/Journal/16068/the-journal-of-drug-evaluation">The Journal of Drug Evaluation</a> </td> 
+          <td id="ctl00_MainContent_ctl56_tdPulicationCount" class="staticOrderCol"> 11 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               458 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl57_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl57_hypName" href="/Journal/19722/the-open-drug-metabolism-journal">The Open Drug Metabolism Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl57_tdPulicationCount" class="staticOrderCol"> 11 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               459 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl58_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl58_hypName" href="/Journal/20808/frontiers-in-pharmacology">Frontiers in Pharmacology</a> </td> 
+          <td id="ctl00_MainContent_ctl58_tdPulicationCount" class="staticOrderCol"> 11 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               460 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl59_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl59_hypName" href="/Journal/22043/international-journal-of-advances-in-pharmaceutical-sciences">International Journal of Advances in Pharmaceutical Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl59_tdPulicationCount" class="staticOrderCol"> 10 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               461 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl60_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl60_hypName" href="/Journal/8172/curr-opin-drug-discov-dev-current-opinion-in-drug-discovery-&amp;-development">CURR OPIN DRUG DISCOV DEV - Current Opinion in Drug Discovery &amp; Development</a> </td> 
+          <td id="ctl00_MainContent_ctl60_tdPulicationCount" class="staticOrderCol"> 4 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               462 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl61_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl61_hypName" href="/Journal/19838/open-inflamm-j-the-open-inflammation-journal">OPEN INFLAMM J - The Open Inflammation Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl61_tdPulicationCount" class="staticOrderCol"> 4 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               463 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl62_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl62_hypName" href="/Journal/20256/annales-umcs-pharmacia">Annales Umcs, Pharmacia</a> </td> 
+          <td id="ctl00_MainContent_ctl62_tdPulicationCount" class="staticOrderCol"> 196 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               464 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl63_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl63_hypName" href="/Journal/21699/journal-of-pharmacy-and-bioallied-sciences">Journal of Pharmacy and Bioallied Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl63_tdPulicationCount" class="staticOrderCol"> 42 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               465 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl64_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl64_hypName" href="/Journal/20694/stamford-journal-of-pharmaceutical-sciences">Stamford Journal of Pharmaceutical Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl64_tdPulicationCount" class="staticOrderCol"> 41 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               466 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl65_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl65_hypName" href="/Journal/20708/bangladesh-journal-of-physiology-and-pharmacology">Bangladesh Journal of Physiology and Pharmacology</a> </td> 
+          <td id="ctl00_MainContent_ctl65_tdPulicationCount" class="staticOrderCol"> 27 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               467 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl66_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl66_hypName" href="/Journal/19903/the-open-drug-discovery-journal">The Open Drug Discovery Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl66_tdPulicationCount" class="staticOrderCol"> 19 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               468 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl67_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl67_hypName" href="/Journal/21880/world-journal-of-gastrointestinal-pharmacology-and-therapeutics">World Journal of Gastrointestinal Pharmacology and Therapeutics</a> </td> 
+          <td id="ctl00_MainContent_ctl67_tdPulicationCount" class="staticOrderCol"> 15 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               469 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl68_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl68_hypName" href="/Journal/17567/journal-of-pharmaceutical-health-services-research">Journal of Pharmaceutical Health Services Research</a> </td> 
+          <td id="ctl00_MainContent_ctl68_tdPulicationCount" class="staticOrderCol"> 11 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               470 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl69_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl69_hypName" href="/Journal/21311/research-journal-of-pharmacology">Research Journal of Pharmacology</a> </td> 
+          <td id="ctl00_MainContent_ctl69_tdPulicationCount" class="staticOrderCol"> 10 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               471 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl70_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl70_hypName" href="/Journal/18580/journal-of-aging-&amp;-pharmacotherapy">Journal of Aging &amp; Pharmacotherapy</a> </td> 
+          <td id="ctl00_MainContent_ctl70_tdPulicationCount" class="staticOrderCol"> 9 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               472 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl71_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl71_hypName" href="/Journal/21045/japanese-journal-of-pharmacoepidemiology-yakuzai-ekigaku">Japanese Journal of Pharmacoepidemiology/yakuzai Ekigaku</a> </td> 
+          <td id="ctl00_MainContent_ctl71_tdPulicationCount" class="staticOrderCol"> 9 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               473 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl72_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl72_hypName" href="/Journal/20880/revista-productos-naturales">Revista Productos Naturales</a> </td> 
+          <td id="ctl00_MainContent_ctl72_tdPulicationCount" class="staticOrderCol"> 8 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               474 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl73_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl73_hypName" href="/Journal/21916/journal-of-pharmaceutical-investigation">Journal of Pharmaceutical Investigation</a> </td> 
+          <td id="ctl00_MainContent_ctl73_tdPulicationCount" class="staticOrderCol"> 8 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               475 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl74_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl74_hypName" href="/Journal/21034/srx-pharmacology">Srx Pharmacology</a> </td> 
+          <td id="ctl00_MainContent_ctl74_tdPulicationCount" class="staticOrderCol"> 6 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               476 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl75_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl75_hypName" href="/Journal/19812/open-nitric-oxide-j-the-open-nitric-oxide-journal">OPEN NITRIC OXIDE J - The Open Nitric Oxide Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl75_tdPulicationCount" class="staticOrderCol"> 4 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               477 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl76_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl76_hypName" href="/Journal/19596/diagnostic-innovation">Diagnostic Innovation</a> </td> 
+          <td id="ctl00_MainContent_ctl76_tdPulicationCount" class="staticOrderCol"> 3 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               478 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl77_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl77_hypName" href="/Journal/19899/the-open-antimicrobial-agents-journal">The Open Antimicrobial Agents Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl77_tdPulicationCount" class="staticOrderCol"> 1 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </div> 
+      <ul> 
+      </ul> 
+      <div class="clear"></div> 
+      <div id="ctl00_MainContent_ObjectList_PageNavigator" class="page-navigator"> 
+       <a id="ctl00_MainContent_ObjectList_Prev" title="Go to Previous Page" class="nextprev" href="/RankList?entitytype=4&amp;topdomainid=6&amp;subdomainid=20&amp;last=0&amp;start=301&amp;end=400">Previous</a> 
+       <a href="/RankList?entitytype=4&amp;topdomainid=6&amp;subdomainid=20&amp;last=0&amp;start=1&amp;end=100">1</a> 
+       <a href="/RankList?entitytype=4&amp;topdomainid=6&amp;subdomainid=20&amp;last=0&amp;start=101&amp;end=200">2</a> 
+       <a href="/RankList?entitytype=4&amp;topdomainid=6&amp;subdomainid=20&amp;last=0&amp;start=201&amp;end=300">3</a> 
+       <a href="/RankList?entitytype=4&amp;topdomainid=6&amp;subdomainid=20&amp;last=0&amp;start=301&amp;end=400">4</a> 
+       <span class="current">5</span> 
+      </div> 
+     </div> 
+     <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+        $(function () {
+            if (request("entitytype") != "7") {
+                $(".ranklist-summary").css("position", "static");
+            }
+        })
+                             //]]>
+    </script> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+   <div class="footer-searchbox"> 
+    <div id="ctl00_FooterSearchForm_searchBar" class="search-bar"> 
+     <div id="ctl00_FooterSearchForm_divSearchBox" class="search-box" style="position:relative"> 
+      <input name="ctl00$FooterSearchForm$txtQuery" type="text" id="ctl00_FooterSearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeypress="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_FooterSearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+     </div> 
+     <input type="image" name="ctl00$FooterSearchForm$SearchButton" id="ctl00_FooterSearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_FooterSearchForm','ctl00_FooterSearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+     <div class="type-suggestion"> 
+      <div id="autoSuggest" class="typesuggest"> 
+      </div> 
+     </div> 
+     <div class="searching-div"> 
+      <div class="loadImg" id="divLoadingIcon"> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="advancedsearchDiv" class="modalpopup"> 
+    </div> 
+    <div class="modalpopup" style="display: block"> 
+     <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+      <div class="domain-closelink"> 
+      </div> 
+      <div class="small-btn"> 
+      </div> 
+      <div class="domain-panel"> 
+       <div> 
+        <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+        <span>Search in all domains</span> 
+       </div> 
+       <div> 
+        <input type="radio" value="0" name="AllDomainRadio" /> 
+        <span>Limit my searches in the following domains</span> 
+       </div> 
+       <div style="padding-left: 10px;"> 
+        <div class="option">
+         <input type="checkbox" value="16" /> 
+         <span>Agriculture Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="3" /> 
+         <span>Arts &amp; Humanities</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="4" /> 
+         <span>Biology</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="5" /> 
+         <span>Chemistry</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="2" /> 
+         <span>Computer Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="7" /> 
+         <span>Economics &amp; Business</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="8" /> 
+         <span>Engineering</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="9" /> 
+         <span>Environmental Sciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="10" /> 
+         <span>Geosciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="12" /> 
+         <span>Material Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="15" /> 
+         <span>Mathematics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="6" /> 
+         <span>Medicine</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="19" /> 
+         <span>Physics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="22" /> 
+         <span>Social Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="1" /> 
+         <span>Multidisciplinary</span>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_FooterSearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_FooterSearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_FooterSearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_advancedsearch');
+            });
+            $("#ctl00_FooterSearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+    <input name="ctl00$FooterSearchForm$hdnSelectedDomain" type="hidden" id="ctl00_FooterSearchForm_hdnSelectedDomain" /> 
+   </div> 
+  </div> 
+  <div class="footer"> 
+   <div id="ctl00_Footer_divFooterWrapper" class="footer-wrapper"> 
+    <div class="footer-left"> 
+     <div class="footer-left-arrow"> 
+     </div> 
+     <a id="ctl00_Footer_hlHelp" href="About/Help.htm" target="_blank">Help</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFeedback" href="http://social.microsoft.com/Forums/en-US/mas/threads" target="_blank">Feedback</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFollowUs" href="http://twitter.com/MSFTAcademic" target="_blank">Follow Us</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTermofUse" href="http://explore.live.com/microsoft-service-agreement?ref=none" target="_blank">Terms of Use</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkSpecTerms" href="About/TermsofUseSpecEN.html" target="_blank">Specific Terms</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTrademarks" href="http://go.microsoft.com/?linkid=4412893" target="_blank">Trademarks</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkPrivacy" href="http://go.microsoft.com/?linkid=4412894" target="_blank">Privacy &amp; Cookies</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_HyperLink1" href="http://go.microsoft.com/fwlink/?LinkId=225021" target="_blank">Survey</a> 
+    </div> 
+    <div class="propupwidth"> 
+     <div class="footer-right"> 
+      <div class="footer-right-arrow"> 
+      </div> 
+      <span id="ctl00_Footer_labCopyright" class="footer-copyright">&copy;2012 Microsoft Corporation. All rights reserved.</span> 
+      <a href="http://research.microsoft.com" target="_blank" class="footer-logo"></a> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("[id^='logclick']").each(
+            function (index) {
+                var thisID = $(this).attr("id");
+                $(this).click(function () { siUrl(document.location, thisID.split("_")[1]); });
+            }
+            );
+    });
+</script> 
+   </div> 
+  </div> 
+  <div class="footer-fixed"> 
+  </div> 
+ </form>   
+</body>

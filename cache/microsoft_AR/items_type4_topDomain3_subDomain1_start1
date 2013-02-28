@@ -1,0 +1,1823 @@
+<body onpageshow="document.forms['aspnetForm'].reset();"> 
+ <form name="aspnetForm" method="post" action="RankList?last=0&amp;entitytype=4&amp;topdomainid=3&amp;subdomainid=1&amp;start=1&amp;end=100" id="aspnetForm"> 
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0MzI1MDM2Mw9kFgJmD2QWAgIBD2QWAgIHD2QWAgIBD2QWBgIBD2QWBAIBDxYCHgdWaXNpYmxlZxYKAgEPZBYEAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIeBXdpZHRoBQUxMDBweGQCAw9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQQ2NXB4ZAIDD2QWBAIBD2QWAmYPD2QWAh4Hb25jbGljawVudHJ5e3JldHVybiBzaSgyMSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nQ29tcGFyZScpO31jYXRjaChleCl7O31kAgMPD2QWAh8CBW50cnl7cmV0dXJuIHNpKDIxLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9oeXBDb21wYXJlJyk7fWNhdGNoKGV4KXs7fWQCBQ9kFgQCAQ8PFgIeB1Rvb2xUaXAFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseWQWAmYPD2QWAh8CBWx0cnl7cmV0dXJuIHNpKDE2LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9pbWdFbWJlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseRYCHwIFb3RyeXtyZXR1cm4gc2koMTgsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnknLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5X2xpYnJhSW5MaW5rJyk7fWNhdGNoKGV4KXs7fWQCBw8WAh8AaBYEAgEPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3RkFgJmDw9kFgIfAgVrdHJ5e3JldHVybiBzaSgxNSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nRmVlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3QWAh8CBWt0cnl7cmV0dXJuIHNpKDE3LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9Sc3NMaW5rJyk7fWNhdGNoKGV4KXs7fWQCCQ8WAh8AZxYCAgEPDxYCHgRUZXh0BRQxIC0gNjggb2YgNjggcmVzdWx0c2RkAgMPZBYCAgMPFgIfBAVHPGRpdiBjbGFzcz0icmlnaHQtYXJyb3ciPjwvZGl2PjxzcGFuPlRvcCBqb3VybmFscyBpbiBBcmNoYWVvbG9neTwvc3Bhbj5kAgMPZBYIZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTUwcHhkAgEPDxYCHwBnZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTI1MHB4ZAICD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUxMDBweGQCAw9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgUPZBYGAgEPFgIfBAUISm91cm5hbHNkAgUPFgIeBXRpdGxlBRZILUluZGV4IGluIEFyY2hhZW9sb2d5FgICAw9kFgJmD2QWAgIBDxYCHwEFBDg1cHgWAmYPZBYCZg8WAh8BBQQ3MHB4ZAIJD2QWAmYPZBYEAgEPZBYEAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgMPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgMPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUENjVweGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFKmN0bDAwJFNlYXJjaEhlYWRlciRTZWFyY2hGb3JtJFNlYXJjaEJ1dHRvbgUjY3RsMDAkRm9vdGVyU2VhcmNoRm9ybSRTZWFyY2hCdXR0b25zlLB+g/AS6TT/RAL759+Dd4UYeQ==" /> 
+  <script type="text/javascript">
+//<![CDATA[
+function si(t, i, u){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 't=' + t + '&i=' + i + '&tm=' + new Date() + '&u=' + u + '&url=' + document.location;if(document.images)(new Image).src=l;return true;}//]]>
+</script> 
+  <script type="text/javascript">var SiteRoot = 'http://academic.research.microsoft.com';</script> 
+  <script type="text/javascript">
+//<![CDATA[
+function siUrl(url, ctl){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 'url=' + document.location + '&tm=' + new Date() + '&ctl=' + ctl;if(document.images)(new Image).src=l;return true;}function CheckAdvInput(objName,len){var obj=document.getElementById(objName); if(obj.value.length>len){obj.value=obj.value.substring(0,len);}};function hideAdvancedSearch(){document.getElementById('advancedsearchDiv').style.display='none';delCookie('advanceTabIndex');if(document.getElementById('divYearFilter'))document.getElementById('divYearFilter').style.display = '';}//]]>
+</script> 
+  <div class="container"> 
+   <div id="ctl00_SearchHeader_divHeaderWrapper" class="header-wrapper"> 
+    <div class="share-link"> 
+    </div> 
+    <div class="header-wrapper-inner"> 
+     <div class="user-identity-bar"> 
+     </div> 
+     <div class="search-bar-wrapper" id="searchBarLeft"> 
+      <a class="logo" href="http://academic.research.microsoft.com"> <img id="ctl00_SearchHeader_imgLogo" navigateurl="~/" src="http://academic.research.microsoft.com/Images/logo.png" border="0" /> </a> 
+      <div id="ctl00_SearchHeader_SearchForm_searchBar" class="search-bar"> 
+       <div id="ctl00_SearchHeader_SearchForm_divSearchBox" class="search-box" style="position:relative"> 
+        <input name="ctl00$SearchHeader$SearchForm$txtQuery" type="text" id="ctl00_SearchHeader_SearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeyup="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_SearchHeader_SearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+        <div id="ctl00_SearchHeader_SearchForm_divDomainButton" class="domain-panel-button" style="z-index:100; position:relative;" onclick="try{return si(20,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_divDomainButton');}catch(ex){;}"> 
+         <div class="left"> 
+          <span></span> 
+          <div class="dropdown-arrow"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <input type="image" name="ctl00$SearchHeader$SearchForm$SearchButton" id="ctl00_SearchHeader_SearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+       <div class="type-suggestion"> 
+        <div id="autoSuggest" class="typesuggest"> 
+        </div> 
+       </div> 
+       <div id="ctl00_SearchHeader_SearchForm_SpAdvancedSearch" class="advancedsearch"> 
+       </div> 
+       <div class="searching-div"> 
+        <div class="loadImg" id="divLoadingIcon"> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="advancedsearchDiv" class="modalpopup"> 
+       <div class="advanced-search"> 
+        <div class="closelink"> 
+        </div> 
+        <div class="small-btn"></div> 
+        <table cellspacing="0" cellpadding="0" border="0" class="content-table"> 
+         <tbody>
+          <tr> 
+           <td id="tdCriteriaTab" style="color:#d7d7d7" colspan="2"> <span onclick="showAdvanceTab(0)" class="advanced-search-tab" style="padding-left: 0px"> Author</span> | <span onclick="showAdvanceTab(1)" class="advanced-search-tab-unfocus">Conference</span> | <span onclick="showAdvanceTab(2)" class="advanced-search-tab-unfocus">Journal</span> | <span onclick="showAdvanceTab(3)" class="advanced-search-tab-unfocus">Organization</span> | <span onclick="showAdvanceTab(4)" class="advanced-search-tab-unfocus">Year</span> | <span onclick="showAdvanceTab(5)" class="advanced-search-tab-unfocus">DOI</span> </td> 
+          </tr> 
+          <tr> 
+           <td class="hint" colspan="2" id="tdAdvancedSearchHint"> Look for results that meet for the following criteria: </td> 
+          </tr> 
+          <tr> 
+           <td id="tdCriteria" class="advancesearch-criteria"> 
+            <div style="display: block"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$authorQuery" type="text" value="Bill Gates" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Bill Gates') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Bill Gates'; this.style.color = '#999';}" style="color:#999" />
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$confQuery" type="text" value="SIGGRAPH" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'SIGGRAPH') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'SIGGRAPH'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$JournQuery" type="text" value="Journal of The ACM" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Journal of The ACM') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Journal of The ACM'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$orgQuery" type="text" value="Microsoft" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Microsoft') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Microsoft'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <select name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$compareQuery" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery" class="advance-search-dropdownlist" onchange="showTimeSpanTextbox(this.value,event)"> <option selected="selected" value="&gt;=">since</option> <option value="=">equal to</option> <option value="&lt;=">before</option> <option value="~">between</option> </select> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearQuery" type="text" value="2000" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2000') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2000'; this.style.color = '#999';}" style="color:#999" /> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanA" type="text" value="2006" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2006') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2006'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+             <span id="yearSpanText" style="width:20px;display:none;margin-left:20px;">and</span> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanB" type="text" value="2011" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2011') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2011'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$doiQuery" type="text" value="10.1093/nar/25.17.3389" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '10.1093/nar/25.17.3389') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '10.1093/nar/25.17.3389'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$fulltextQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$titleQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> </td> 
+           <td align="left"> <input type="button" id="btnAddToSearch" value="Add to search" onclick="addToSearch('ctl00_SearchHeader_SearchForm_txtQuery', 'ctl00_SearchHeader_SearchForm_SearchButton');" style="width: 100px" /> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+        <script type="text/javascript">
+// <![CDATA[
+   if(typeof(window.domYearQuery) == 'undefined'){
+        window.domYearQuery = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery');
+   }
+   if(typeof(window.domYearSpanA) == 'undefined'){
+        window.domYearSpanA = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA');
+   }
+   if(typeof(window.domYearSpanB) == 'undefined'){
+        window.domYearSpanB = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB');
+   }
+   if(typeof(window.domYearSpanText) == 'undefined'){
+        window.domYearSpanText = $('#yearSpanText');
+   }
+
+   if( $.browser.mozilla){
+      $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery').change(function(event){
+	    showTimeSpanTextbox($(this).val(), event);
+	  });
+   }
+//]]>
+    </script> 
+       </div> 
+      </div> 
+      <div class="modalpopup" style="display: block"> 
+       <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+        <div class="domain-closelink"> 
+        </div> 
+        <div class="small-btn"> 
+        </div> 
+        <div class="domain-panel"> 
+         <div> 
+          <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+          <span>Search in all domains</span> 
+         </div> 
+         <div> 
+          <input type="radio" value="0" name="AllDomainRadio" /> 
+          <span>Limit my searches in the following domains</span> 
+         </div> 
+         <div style="padding-left: 10px;"> 
+          <div class="option">
+           <input type="checkbox" value="16" /> 
+           <span>Agriculture Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="3" /> 
+           <span>Arts &amp; Humanities</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="4" /> 
+           <span>Biology</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="5" /> 
+           <span>Chemistry</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="2" /> 
+           <span>Computer Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="7" /> 
+           <span>Economics &amp; Business</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="8" /> 
+           <span>Engineering</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="9" /> 
+           <span>Environmental Sciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="10" /> 
+           <span>Geosciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="12" /> 
+           <span>Material Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="15" /> 
+           <span>Mathematics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="6" /> 
+           <span>Medicine</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="19" /> 
+           <span>Physics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="22" /> 
+           <span>Social Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="1" /> 
+           <span>Multidisciplinary</span>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_srptBindEventDomainButton"> 
+       <script type="text/javascript" language="javascript">
+        BindEventForDomainPanelButton("ctl00_SearchHeader_SearchForm_txtQuery", "ctl00_SearchHeader_SearchForm_divDomainButton");
+    </script> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_scrpAutoComplete"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+        $(function () {
+            //author
+            var data = { 'inputId': '#ctl00_SearchHeader_SearchForm_txtQuery',
+                'tsId': '#autoSuggest',
+                'searchboxId': '#ctl00_SearchHeader_SearchForm_divSearchBox',
+                'suggestType': 1,
+                'maxNumber': -1,
+                'root': 'http://academic.research.microsoft.com',
+                'postAction': function () {
+                    $("#ctl00_SearchHeader_SearchForm_SearchButton").click();
+                }
+            };
+            TypeSuggest.Init(data);
+
+        })
+    //]]>
+    </script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_SearchHeader_SearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_SearchHeader_SearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_SearchHeader_SearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_advancedsearch');
+            });
+            $("#ctl00_SearchHeader_SearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+      <input name="ctl00$SearchHeader$SearchForm$hdnSelectedDomain" type="hidden" id="ctl00_SearchHeader_SearchForm_hdnSelectedDomain" /> 
+     </div> 
+     <div class="propupwidth"> 
+      <div class="search-bar-right" id="searchBarRight"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="content-wrapper" id="divContentWrapper"> 
+    <div id="ctl00_divContentHeader" class="content-header-wrapper"> 
+     <script type="text/javascript" language="javascript"> 
+                        var isSilverlightInstalled = false;
+                        function CheckSilverlightInstalled() {
+                            try {
+                                try {
+                                    var slControl = new ActiveXObject('AgControl.AgControl'); //IE
+                                    isSilverlightInstalled = true;
+                                }
+                                catch (e) {
+                                    if (navigator.plugins["Silverlight Plug-In"]) //non-IE
+                                    {
+                                        isSilverlightInstalled = true;
+                                    }
+                                }
+                            }
+                            catch (e) { }
+                        }
+                        CheckSilverlightInstalled();
+
+                        $(function () {
+                            $(".ranklist-summary").css("position", "static");
+                            $(".ranklist-summary").css("position", "relative");
+                        })
+                    </script> 
+    </div> 
+    <div id="ctl00_divLeftWrapper" class="left-wrapper"> 
+     <div class="section-navigator"> 
+      <div id="ctl00_LeftPanel_pnlAuthor" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypAuthor" href="RankList?entitytype=2&amp;topDomainID=3&amp;subDomainID=1&amp;last=0&amp;start=1&amp;end=100">Authors &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlPublication" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypPublication" href="RankList?entitytype=1&amp;topDomainID=3&amp;subDomainID=1&amp;last=0&amp;start=1&amp;end=100">Publications &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlConference" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypConference" href="RankList?entitytype=3&amp;topDomainID=3&amp;subDomainID=1&amp;last=0&amp;start=1&amp;end=100">Conferences &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlJournal" class="highlight"> 
+       <h2><a id="ctl00_LeftPanel_hypJournal">Journals &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlOrganization" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypOrganization" href="RankList?entitytype=7&amp;topDomainID=3&amp;subDomainID=1&amp;last=0&amp;start=1&amp;end=100">Organizations &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlKeyword" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypKeyword" href="RankList?entitytype=8&amp;topDomainID=3&amp;subDomainID=1&amp;last=0&amp;start=1&amp;end=100">Keywords &raquo;</a></h2> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="ctl00_divCenter" class="center-wrapper"> 
+     <div class="bing-summary"> 
+      <div id="ctl00_MainContent_SearchSummary_divAction" class="action"> 
+       <span id="ctl00_MainContent_SearchSummary_spResultCount"> <span id="ctl00_MainContent_SearchSummary_lblResultMessage" class="result">1 - 68 of 68 results</span> </span> 
+      </div> 
+      <div id="ctl00_MainContent_SearchSummary_divSummary" class="declare"> 
+       <a class="text" href="./"> Academic</a> 
+       <div class="right-arrow"></div>
+       <span>Top journals in Archaeology</span> 
+      </div> 
+     </div> 
+     <div class="clear"> 
+     </div> 
+     <div class="ranklist-summary" id="domainpanel"> 
+      <script type="text/javascript" language="javascript" src="http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpTopDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpTopDomain_tdDrpList" class="dropdownlist-left" width="150px"> <input name="ctl00$MainContent$RankListSummary$drpTopDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpSubDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpSubDomain_tdDrpList" class="dropdownlist-left" width="250px"> <input name="ctl00$MainContent$RankListSummary$drpSubDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpListYear_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpListYear_tdDrpList" class="dropdownlist-left" width="100px"> <input name="ctl00$MainContent$RankListSummary$drpListYear$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpListYear_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpListYear_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    var request_paras = {};    
+    var pageurl_ranklist = window.location.toString();
+    var question_mark_ranklist = pageurl_ranklist.lastIndexOf('?');
+    (function () { request_paras = queryToJson(pageurl_ranklist); })();
+    if (question_mark_ranklist > -1) {
+        pageurl_ranklist = pageurl_ranklist.substr(0, question_mark_ranklist);
+    }
+    var s = [""];
+    s.push(pageurl_ranklist);
+    s.push("?");    
+            
+    function GetDomainID(para) {
+        var domainID;
+        try {
+            domainID = decodeURI(request(para));
+        }
+        catch (ex) {
+            domainID = "";
+        }
+        return domainID;
+    }
+
+    var ChangingWindowLocation = false;
+    function CheckChangingWindowLocation() {
+        if (ChangingWindowLocation == false) {
+            ChangingWindowLocation = true;
+            return true;
+        }
+        return false;
+    }
+</script> 
+      <div id="ctl00_MainContent_RankListSummary_sriptSubDomain"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+
+    function BindSubDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);                    
+                    if( typeof value != "undefined"){
+                        request_paras.subdomainid = value;
+                        s.push(jsonToQuery(request_paras));
+                        window.location = s.join('');
+
+                    }
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Archaeology", "Value": "1"};options[1] = { "Text": "Art History", "Value": "9"};options[2] = { "Text": "Classical Studies", "Value": "2"};options[3] = { "Text": "History", "Value": "3"};options[4] = { "Text": "Linguistics", "Value": "4"};options[5] = { "Text": "Literature", "Value": "5"};options[6] = { "Text": "Performance Art", "Value": "10"};options[7] = { "Text": "Philosophy", "Value": "7"};options[8] = { "Text": "Plastic Arts", "Value": "12"};options[9] = { "Text": "Regional Study", "Value": "8"};options[10] = { "Text": "Religion", "Value": "6"};options[11] = { "Text": "Sports & Recreation", "Value": "14"};options[12] = { "Text": "TV & Film", "Value": "11"};options[13] = { "Text": "Visual Arts", "Value": "13"};options[14] = { "Text": "Overall for Arts & Humanities", "Value": "0", "Selected": "true"};
+       
+        DropDown.SetOptions(options);
+        //var domainID = GetDomainID("subDomainID");
+        var domainID = "";
+        if(typeof (request_paras.subdomainid) != "undefined"){
+            domainID = request_paras.subdomainid;
+        }
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }
+    }
+    BindSubDomainFilter();
+       //]]>
+</script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+    function BindYearFilter() {
+        //year
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpListYear_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpListYear_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpListYear_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);
+
+                    if( /\/detail[\.\?]/g.test(query.toLowerCase())){                        
+                        // if this control is used by organization detail page                        
+
+                        if(typeof value == "undefined") return;
+                        if(typeof (request_paras.last) != "null" && typeof (request_paras.last) != "undefined" && value == 0 ){
+                            delete request_paras.last;
+                        }
+                        if(value > 0){
+                            request_paras.last = value;
+                        }
+                        s.push(jsonToQuery(request_paras));
+                        pageurl_ranklist = s.join('');     
+                        consolelog(pageurl_ranklist);
+                        window.location = pageurl_ranklist;
+                        return;
+                    }                    
+                    request_paras.last = value;
+                    s.push(jsonToQuery(request_paras));
+                    pageurl_ranklist = s.join('');     
+                    consolelog(pageurl_ranklist);                      
+                    window.location = pageurl_ranklist;                    
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        options[0] = { "Text": "Last 5 Years", "Value": "5" };
+        options[1] = { "Text": "Last 10 Years", "Value": "10" };
+        options[2] = { "Text": "All Years", "Value": "0", "Selected": "true" };
+
+
+        DropDown.SetOptions(options);
+        if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+            DropDown.SetDefaultValue(request_paras.last);
+        }
+    }
+    BindYearFilter();
+
+    function removeStartEndIndex(query) {        
+        if(typeof (request_paras.start) != "null" && typeof (request_paras.start) != "undefined"){        
+            delete request_paras.start;
+        }
+        if(typeof (request_paras.end) != "null" && typeof (request_paras.end) != "undefined"){
+            delete request_paras.end;
+        }
+        return true;      
+    }
+    function removeContinent(query) {        
+        if(typeof (request_paras.continentid) != "null" && typeof (request_paras.continentid) != "undefined"){        
+            delete request_paras.continentid;
+        }
+        return query;        
+    }
+    function GetLastYear() {
+        var lastYear;
+        try {
+            lastYear = decodeURI(request("last"));
+        }
+        catch (ex) {
+            lastYear = "";
+        }
+
+        return lastYear;
+    }
+    //]]>
+
+    //<![CDATA[
+    function BindTopDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                
+                //set subDomain to 0
+                if (query) {
+                    if(typeof (request_paras.subdomainid) != "null" && typeof (request_paras.subdomainid) != "undefined"){
+                        request_paras.subdomainid = 0;
+                    }
+                    removeStartEndIndex(query);
+                    if(typeof value != "undefined"){
+                        request_paras.topdomainid = value;
+                        s.push(jsonToQuery(request_paras));                        
+                        window.location = s.join('');
+                    }
+                    
+
+
+                    /*var regExp = new RegExp("&subDomainID=\\d+", "g");
+                    var match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "&subDomainID=0");
+                    }
+
+                    query = removeStartEndIndex(query);
+                    regExp = new RegExp("topDomainID=\\d+", "g");
+                    match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "topDomainID=" + value);
+                        window.location = query;
+                    }*/
+                }                
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Agriculture Science", "Value": "16"};options[1] = { "Text": "Arts & Humanities", "Value": "3"};options[2] = { "Text": "Biology", "Value": "4"};options[3] = { "Text": "Chemistry", "Value": "5"};options[4] = { "Text": "Computer Science", "Value": "2"};options[5] = { "Text": "Economics & Business", "Value": "7"};options[6] = { "Text": "Engineering", "Value": "8"};options[7] = { "Text": "Environmental Sciences", "Value": "9"};options[8] = { "Text": "Geosciences", "Value": "10"};options[9] = { "Text": "Material Science", "Value": "12"};options[10] = { "Text": "Mathematics", "Value": "15"};options[11] = { "Text": "Medicine", "Value": "6"};options[12] = { "Text": "Physics", "Value": "19"};options[13] = { "Text": "Social Science", "Value": "22"};options[14] = { "Text": "Multidisciplinary", "Value": "1"};
+       
+        DropDown.SetOptions(options);
+        var domainID = GetDomainID("topDomainID");
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }else{
+            if( options.length > 0  && options[options.length-1].Value == "0"){      
+                var t = options[options.length-1].Value;                
+                DropDown.SetDefaultValue(t);
+            }else{
+                DropDown.SetDefaultValue();
+            }
+        }
+    }
+    BindTopDomainFilter();
+    //]]>
+</script> 
+      <div class="clear"></div> 
+     </div> 
+     <div id="ctl00_MainContent_divRankList"> 
+      <div> 
+       <table class="staticTable" cellpadding="0" cellspacing="0"> 
+        <thead> 
+         <tr> 
+          <th width="1px" style="border:0"></th> 
+          <th> Journals </th> 
+          <th id="ctl00_MainContent_thPublication" class="staticOrderHeader" width="90px"> Publications </th> 
+          <th id="ctl00_MainContent_thCitation" class="staticOrderHeader" width="110px" title="H-Index in Archaeology"> 
+           <div id="ctl00_MainContent_divRankType" style="position: relative; min-width: 100px; height: 1px;"> 
+            <div style="position: absolute; right: -5px; top: 0px; z-index:0;"> 
+             <div class="dropdownlist"> 
+              <div> 
+               <table id="ctl00_MainContent_drpRankType_drpList" cellpadding="0" cellspacing="0" width="85px"> 
+                <tbody>
+                 <tr> 
+                  <td id="ctl00_MainContent_drpRankType_tdDrpList" class="dropdownlist-left" width="70px"> <input name="ctl00$MainContent$drpRankType$drp_hidden_focus" type="text" id="ctl00_MainContent_drpRankType_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_drpRankType_spSelectedText"></span> </td> 
+                  <td class="dropdownlist-right"> </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </div> 
+              <div id="ctl00_MainContent_drpRankType_drpListContent" class="dropdownlist-content"> 
+              </div> 
+             </div> 
+             <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+                            function BindRankTypeFilter() {
+                                //year
+                                var data = { 'inputId': '#ctl00_MainContent_drpRankType_drpList',
+                                    "hiddenId": '#ctl00_MainContent_drpRankType_drp_hidden_focus',
+                                    'textId': '#ctl00_MainContent_drpRankType_spSelectedText',
+                                    'tsId': '#ctl00_MainContent_drpRankType_drpListContent',
+                                    'postAction': function () {
+                                        if(CheckChangingWindowLocation() == false)
+                                        {
+                                            return;
+                                        }
+
+                                        var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                                        var query = window.location.href;
+                                        if (query) {
+                                            removeStartEndIndex(query);
+                                            $('#ctl00_MainContent_thCitation').attr('title', '');
+                                            request_paras.orderby = value;
+                                            s.push(jsonToQuery(request_paras));
+                                            pageurl_ranklist = s.join('');     
+                                            window.location = pageurl_ranklist;                    
+                                        }
+                                    }
+                                };
+                                DropDown.Init(data);
+                                $('#ctl00_MainContent_drpRankType_drpListContent').width(80);
+                                var options = new Array();
+                                options[0] = { "Text": "H-Index", "Value": "6", "Selected": "true"};options[1] = { "Text": "Citation", "Value": "1"};
+
+
+                                DropDown.SetOptions(options);
+                                if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+                                    DropDown.SetDefaultValue(request_paras.orderby);
+                                }
+                            }
+                            BindRankTypeFilter();
+
+                           
+                        //]]>
+                        </script> 
+            </div> 
+           </div> &nbsp;  </th>
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               1 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl00_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl00_hypName" href="/Journal/10782/j-archaeol-sci-journal-of-archaeological-science">J ARCHAEOL SCI - Journal of Archaeological Science</a> </td> 
+          <td id="ctl00_MainContent_ctl00_tdPulicationCount" class="staticOrderCol"> 4248 </td> 
+          <td class="staticOrderCol"> 53 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               2 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl01_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl01_hypName" href="/Journal/1894/archaeometry">Archaeometry</a> </td> 
+          <td id="ctl00_MainContent_ctl01_tdPulicationCount" class="staticOrderCol"> 1466 </td> 
+          <td class="staticOrderCol"> 31 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               3 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl02_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl02_hypName" href="/Journal/11824/journal-of-world-prehistory">Journal of World Prehistory</a> </td> 
+          <td id="ctl00_MainContent_ctl02_tdPulicationCount" class="staticOrderCol"> 214 </td> 
+          <td class="staticOrderCol"> 26 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               4 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl03_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl03_hypName" href="/Journal/11841/world-archaeology">World Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl03_tdPulicationCount" class="staticOrderCol"> 1359 </td> 
+          <td class="staticOrderCol"> 25 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               5 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl04_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl04_hypName" href="/Journal/11812/international-journal-of-osteoarchaeology">International Journal of Osteoarchaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl04_tdPulicationCount" class="staticOrderCol"> 1279 </td> 
+          <td class="staticOrderCol"> 24 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               6 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl05_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl05_hypName" href="/Journal/11785/african-archaeological-review">African Archaeological Review</a> </td> 
+          <td id="ctl00_MainContent_ctl05_tdPulicationCount" class="staticOrderCol"> 333 </td> 
+          <td class="staticOrderCol"> 20 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               7 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl06_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl06_hypName" href="/Journal/11804/cambridge-archaeological-journal">Cambridge Archaeological Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl06_tdPulicationCount" class="staticOrderCol"> 567 </td> 
+          <td class="staticOrderCol"> 19 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               8 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl07_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl07_hypName" href="/Journal/11816/journal-of-archaeological-method-and-theory">Journal of Archaeological Method and Theory</a> </td> 
+          <td id="ctl00_MainContent_ctl07_tdPulicationCount" class="staticOrderCol"> 230 </td> 
+          <td class="staticOrderCol"> 19 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               9 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl08_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl08_hypName" href="/Journal/11817/journal-of-archaeological-research">Journal of Archaeological Research</a> </td> 
+          <td id="ctl00_MainContent_ctl08_tdPulicationCount" class="staticOrderCol"> 174 </td> 
+          <td class="staticOrderCol"> 18 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               10 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl09_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl09_hypName" href="/Journal/11811/international-journal-of-nautical-archaeology">International Journal of Nautical Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl09_tdPulicationCount" class="staticOrderCol"> 2014 </td> 
+          <td class="staticOrderCol"> 14 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               11 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl10_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl10_hypName" href="/Journal/16573/azania-archaeological-research-in-africa">Azania:archaeological Research in Africa</a> </td> 
+          <td id="ctl00_MainContent_ctl10_tdPulicationCount" class="staticOrderCol"> 656 </td> 
+          <td class="staticOrderCol"> 14 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               12 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl11_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl11_hypName" href="/Journal/11788/ancient-mesoamerica">Ancient Mesoamerica</a> </td> 
+          <td id="ctl00_MainContent_ctl11_tdPulicationCount" class="staticOrderCol"> 385 </td> 
+          <td class="staticOrderCol"> 14 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               13 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl12_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl12_hypName" href="/Journal/11830/norwegian-archaeological-review">Norwegian Archaeological Review</a> </td> 
+          <td id="ctl00_MainContent_ctl12_tdPulicationCount" class="staticOrderCol"> 627 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               14 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl13_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl13_hypName" href="/Journal/11792/archaeological-prospection">Archaeological Prospection</a> </td> 
+          <td id="ctl00_MainContent_ctl13_tdPulicationCount" class="staticOrderCol"> 377 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               15 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl14_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl14_hypName" href="/Journal/17382/archeological-papers-of-the-american-anthropological-association">Archeological Papers of The American Anthropological Association</a> </td> 
+          <td id="ctl00_MainContent_ctl14_tdPulicationCount" class="staticOrderCol"> 284 </td> 
+          <td class="staticOrderCol"> 11 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               16 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl15_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl15_hypName" href="/Journal/11832/oxford-journal-of-archaeology">Oxford Journal of Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl15_tdPulicationCount" class="staticOrderCol"> 850 </td> 
+          <td class="staticOrderCol"> 10 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               17 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl16_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl16_hypName" href="/Journal/11807/european-journal-of-archaeology">European Journal of Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl16_tdPulicationCount" class="staticOrderCol"> 494 </td> 
+          <td class="staticOrderCol"> 9 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               18 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl17_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl17_hypName" href="/Journal/11791/archaeological-dialogues">Archaeological Dialogues</a> </td> 
+          <td id="ctl00_MainContent_ctl17_tdPulicationCount" class="staticOrderCol"> 305 </td> 
+          <td class="staticOrderCol"> 9 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               19 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl18_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl18_hypName" href="/Journal/10986/j-soc-archaeol-journal-of-social-archaeology">J SOC ARCHAEOL - Journal of Social Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl18_tdPulicationCount" class="staticOrderCol"> 161 </td> 
+          <td class="staticOrderCol"> 9 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               20 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl19_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl19_hypName" href="/Journal/11808/hesperia">Hesperia</a> </td> 
+          <td id="ctl00_MainContent_ctl19_tdPulicationCount" class="staticOrderCol"> 1504 </td> 
+          <td class="staticOrderCol"> 8 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               21 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl20_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl20_hypName" href="/Journal/16459/the-journal-of-island-and-coastal-archaeology">The Journal of Island and Coastal Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl20_tdPulicationCount" class="staticOrderCol"> 179 </td> 
+          <td class="staticOrderCol"> 8 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               22 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl21_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl21_hypName" href="/Journal/11829/north-american-archaeologist">North American Archaeologist</a> </td> 
+          <td id="ctl00_MainContent_ctl21_tdPulicationCount" class="staticOrderCol"> 479 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               23 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl22_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl22_hypName" href="/Journal/2486/arabian-archaeology-and-epigraphy">Arabian Archaeology and Epigraphy</a> </td> 
+          <td id="ctl00_MainContent_ctl22_tdPulicationCount" class="staticOrderCol"> 307 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               24 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl23_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl23_hypName" href="/Journal/11810/international-journal-of-historical-archaeology">International Journal of Historical Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl23_tdPulicationCount" class="staticOrderCol"> 287 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               25 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl24_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl24_hypName" href="/Journal/20875/syria">Syria</a> </td> 
+          <td id="ctl00_MainContent_ctl24_tdPulicationCount" class="staticOrderCol"> 1304 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               26 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl25_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl25_hypName" href="/Journal/5403/int-j-archit-herit-international-journal-of-architectural-heritage">INT J ARCHIT HERIT - International Journal of Architectural Heritage</a> </td> 
+          <td id="ctl00_MainContent_ctl25_tdPulicationCount" class="staticOrderCol"> 216 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               27 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl26_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl26_hypName" href="/Journal/11793/archaeologies-journal-of-the-world-archaeological-congress">Archaeologies-journal of The World Archaeological Congress</a> </td> 
+          <td id="ctl00_MainContent_ctl26_tdPulicationCount" class="staticOrderCol"> 209 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               28 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl27_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl27_hypName" href="/Journal/19269/journal-of-mediterranean-archaeology">Journal of Mediterranean Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl27_tdPulicationCount" class="staticOrderCol"> 147 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               29 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl28_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl28_hypName" href="/Journal/20879/gallia">Gallia</a> </td> 
+          <td id="ctl00_MainContent_ctl28_tdPulicationCount" class="staticOrderCol"> 757 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               30 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl29_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl29_hypName" href="/Journal/17620/archaeology-ethnology-and-anthropology-of-eurasia">Archaeology, Ethnology and Anthropology of Eurasia</a> </td> 
+          <td id="ctl00_MainContent_ctl29_tdPulicationCount" class="staticOrderCol"> 332 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               31 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl30_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl30_hypName" href="/Journal/20876/annales-d-ethiopie">Annales D'ethiopie</a> </td> 
+          <td id="ctl00_MainContent_ctl30_tdPulicationCount" class="staticOrderCol"> 300 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               32 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl31_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl31_hypName" href="/Journal/10049/acta-archaeol-acta-archaeologica">ACTA ARCHAEOL - Acta Archaeologica</a> </td> 
+          <td id="ctl00_MainContent_ctl31_tdPulicationCount" class="staticOrderCol"> 254 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               33 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl32_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl32_hypName" href="/Journal/18033/journal-of-east-asian-archaeology">Journal of East Asian Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl32_tdPulicationCount" class="staticOrderCol"> 75 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               34 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl33_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl33_hypName" href="/Journal/18279/public-archaeology">Public Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl33_tdPulicationCount" class="staticOrderCol"> 60 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               35 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl34_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl34_hypName" href="/Journal/11847/architectural-design">Architectural Design</a> </td> 
+          <td id="ctl00_MainContent_ctl34_tdPulicationCount" class="staticOrderCol"> 814 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               36 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl35_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl35_hypName" href="/Journal/11813/iranica-antiqua">Iranica Antiqua</a> </td> 
+          <td id="ctl00_MainContent_ctl35_tdPulicationCount" class="staticOrderCol"> 401 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               37 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl36_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl36_hypName" href="/Journal/10081/arabic-sciences-and-philosophy">Arabic Sciences and Philosophy</a> </td> 
+          <td id="ctl00_MainContent_ctl36_tdPulicationCount" class="staticOrderCol"> 193 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               38 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl37_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl37_hypName" href="/Journal/19572/anatolica">Anatolica</a> </td> 
+          <td id="ctl00_MainContent_ctl37_tdPulicationCount" class="staticOrderCol"> 112 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               39 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl38_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl38_hypName" href="/Journal/11835/post-medieval-archaeology">Post-medieval Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl38_tdPulicationCount" class="staticOrderCol"> 96 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               40 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl39_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl39_hypName" href="/Journal/11821/journal-of-maritime-archaeology">Journal of Maritime Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl39_tdPulicationCount" class="staticOrderCol"> 65 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               41 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl40_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl40_hypName" href="/Journal/18008/journal-of-conflict-archaeology">Journal of Conflict Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl40_tdPulicationCount" class="staticOrderCol"> 65 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               42 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl41_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl41_hypName" href="/Journal/18268/industrial-archaeology-review">Industrial Archaeology Review</a> </td> 
+          <td id="ctl00_MainContent_ctl41_tdPulicationCount" class="staticOrderCol"> 63 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               43 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl42_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl42_hypName" href="/Journal/11826/medieval-archaeology">Medieval Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl42_tdPulicationCount" class="staticOrderCol"> 52 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               44 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl43_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl43_hypName" href="/Journal/19565/babesch-bulletin-antieke-beschaving">Babesch - Bulletin Antieke Beschaving</a> </td> 
+          <td id="ctl00_MainContent_ctl43_tdPulicationCount" class="staticOrderCol"> 348 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               45 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl44_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl44_hypName" href="/Journal/15085/the-antiquaries-journal">The Antiquaries Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl44_tdPulicationCount" class="staticOrderCol"> 292 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               46 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl45_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl45_hypName" href="/Journal/11561/trabajos-prehist-trabajos-de-prehistoria">TRABAJOS PREHIST - Trabajos De Prehistoria</a> </td> 
+          <td id="ctl00_MainContent_ctl45_tdPulicationCount" class="staticOrderCol"> 147 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               47 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl46_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl46_hypName" href="/Journal/20750/scottish-archaeological-journal">Scottish Archaeological Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl46_tdPulicationCount" class="staticOrderCol"> 100 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               48 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl47_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl47_hypName" href="/Journal/11833/palestine-exploration-quarterly">Palestine Exploration Quarterly</a> </td> 
+          <td id="ctl00_MainContent_ctl47_tdPulicationCount" class="staticOrderCol"> 92 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               49 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl48_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl48_hypName" href="/Journal/18281/conservation-and-management-of-archaeological-sites">Conservation and Management of Archaeological Sites</a> </td> 
+          <td id="ctl00_MainContent_ctl48_tdPulicationCount" class="staticOrderCol"> 60 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               50 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl49_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl49_hypName" href="/Journal/11789/antiquity">Antiquity</a> </td> 
+          <td id="ctl00_MainContent_ctl49_tdPulicationCount" class="staticOrderCol"> 15 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               51 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl50_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl50_hypName" href="/Journal/18296/tel-aviv-journal-of-the-institute-of-archaeology-of-tel-aviv-university">Tel Aviv: Journal of The Institute of Archaeology of Tel Aviv University</a> </td> 
+          <td id="ctl00_MainContent_ctl50_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               52 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl51_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl51_hypName" href="/Journal/11797/archivo-espanol-de-arqueologia">Archivo Espanol De Arqueologia</a> </td> 
+          <td id="ctl00_MainContent_ctl51_tdPulicationCount" class="staticOrderCol"> 137 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               53 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl52_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl52_hypName" href="/Journal/20746/architectural-heritage">Architectural Heritage</a> </td> 
+          <td id="ctl00_MainContent_ctl52_tdPulicationCount" class="staticOrderCol"> 124 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               54 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl53_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl53_hypName" href="/Journal/20867/livraisons-d-histoire-de-l-architecture">Livraisons D'histoire De L'architecture</a> </td> 
+          <td id="ctl00_MainContent_ctl53_tdPulicationCount" class="staticOrderCol"> 104 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               55 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl54_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl54_hypName" href="/Journal/12392/proceedings-of-the-royal-irish-academy-section-c-archaeology-celtic-studies-history-linguistics">Proceedings of The Royal Irish Academy Section C-archaeology Celtic Studies History Linguistics Literature</a> </td> 
+          <td id="ctl00_MainContent_ctl54_tdPulicationCount" class="staticOrderCol"> 63 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               56 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl55_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl55_hypName" href="/Journal/11843/zeitschrift-fur-agyptische-sprache-und-altertumskunde">Zeitschrift Fur Agyptische Sprache Und Altertumskunde</a> </td> 
+          <td id="ctl00_MainContent_ctl55_tdPulicationCount" class="staticOrderCol"> 45 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               57 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl56_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl56_hypName" href="/Journal/11823/journal-of-the-british-archaeological-association">Journal of The British Archaeological Association</a> </td> 
+          <td id="ctl00_MainContent_ctl56_tdPulicationCount" class="staticOrderCol"> 27 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               58 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl57_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl57_hypName" href="/Journal/18284/levant">Levant</a> </td> 
+          <td id="ctl00_MainContent_ctl57_tdPulicationCount" class="staticOrderCol"> 24 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               59 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl58_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl58_hypName" href="/Journal/21896/documenta-praehistorica">Documenta Praehistorica</a> </td> 
+          <td id="ctl00_MainContent_ctl58_tdPulicationCount" class="staticOrderCol"> 21 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               60 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl59_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl59_hypName" href="/Journal/11787/american-journal-of-archaeology">American Journal of Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl59_tdPulicationCount" class="staticOrderCol"> 11 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               61 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl60_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl60_hypName" href="/Journal/15015/proceedings-of-the-society-of-antiquaries-of-london">Proceedings of The Society of Antiquaries of London</a> </td> 
+          <td id="ctl00_MainContent_ctl60_tdPulicationCount" class="staticOrderCol"> 3 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               62 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl61_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl61_hypName" href="/Journal/11819/journal-of-field-archaeology">Journal of Field Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl61_tdPulicationCount" class="staticOrderCol"> 1 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               63 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl62_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl62_hypName" href="/Journal/19541/karthago">Karthago</a> </td> 
+          <td id="ctl00_MainContent_ctl62_tdPulicationCount" class="staticOrderCol"> 40 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               64 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl63_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl63_hypName" href="/Journal/11805/estonian-journal-of-archaeology">Estonian Journal of Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl63_tdPulicationCount" class="staticOrderCol"> 21 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               65 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl64_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl64_hypName" href="/Journal/19570/caeculus">Caeculus</a> </td> 
+          <td id="ctl00_MainContent_ctl64_tdPulicationCount" class="staticOrderCol"> 8 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               66 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl65_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl65_hypName" href="/Journal/11828/near-eastern-archaeology">Near Eastern Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl65_tdPulicationCount" class="staticOrderCol"> 6 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               67 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl66_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl66_hypName" href="/Journal/11794/archaeology">Archaeology</a> </td> 
+          <td id="ctl00_MainContent_ctl66_tdPulicationCount" class="staticOrderCol"> 1 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               68 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl67_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl67_hypName" href="/Journal/12211/journal-of-mediterranean-studies">Journal of Mediterranean Studies</a> </td> 
+          <td id="ctl00_MainContent_ctl67_tdPulicationCount" class="staticOrderCol"> 1 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </div> 
+      <ul> 
+      </ul> 
+      <div class="clear"></div> 
+     </div> 
+     <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+        $(function () {
+            if (request("entitytype") != "7") {
+                $(".ranklist-summary").css("position", "static");
+            }
+        })
+                             //]]>
+    </script> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+   <div class="footer-searchbox"> 
+    <div id="ctl00_FooterSearchForm_searchBar" class="search-bar"> 
+     <div id="ctl00_FooterSearchForm_divSearchBox" class="search-box" style="position:relative"> 
+      <input name="ctl00$FooterSearchForm$txtQuery" type="text" id="ctl00_FooterSearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeypress="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_FooterSearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+     </div> 
+     <input type="image" name="ctl00$FooterSearchForm$SearchButton" id="ctl00_FooterSearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_FooterSearchForm','ctl00_FooterSearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+     <div class="type-suggestion"> 
+      <div id="autoSuggest" class="typesuggest"> 
+      </div> 
+     </div> 
+     <div class="searching-div"> 
+      <div class="loadImg" id="divLoadingIcon"> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="advancedsearchDiv" class="modalpopup"> 
+    </div> 
+    <div class="modalpopup" style="display: block"> 
+     <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+      <div class="domain-closelink"> 
+      </div> 
+      <div class="small-btn"> 
+      </div> 
+      <div class="domain-panel"> 
+       <div> 
+        <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+        <span>Search in all domains</span> 
+       </div> 
+       <div> 
+        <input type="radio" value="0" name="AllDomainRadio" /> 
+        <span>Limit my searches in the following domains</span> 
+       </div> 
+       <div style="padding-left: 10px;"> 
+        <div class="option">
+         <input type="checkbox" value="16" /> 
+         <span>Agriculture Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="3" /> 
+         <span>Arts &amp; Humanities</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="4" /> 
+         <span>Biology</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="5" /> 
+         <span>Chemistry</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="2" /> 
+         <span>Computer Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="7" /> 
+         <span>Economics &amp; Business</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="8" /> 
+         <span>Engineering</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="9" /> 
+         <span>Environmental Sciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="10" /> 
+         <span>Geosciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="12" /> 
+         <span>Material Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="15" /> 
+         <span>Mathematics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="6" /> 
+         <span>Medicine</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="19" /> 
+         <span>Physics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="22" /> 
+         <span>Social Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="1" /> 
+         <span>Multidisciplinary</span>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_FooterSearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_FooterSearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_FooterSearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_advancedsearch');
+            });
+            $("#ctl00_FooterSearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+    <input name="ctl00$FooterSearchForm$hdnSelectedDomain" type="hidden" id="ctl00_FooterSearchForm_hdnSelectedDomain" /> 
+   </div> 
+  </div> 
+  <div class="footer"> 
+   <div id="ctl00_Footer_divFooterWrapper" class="footer-wrapper"> 
+    <div class="footer-left"> 
+     <div class="footer-left-arrow"> 
+     </div> 
+     <a id="ctl00_Footer_hlHelp" href="About/Help.htm" target="_blank">Help</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFeedback" href="http://social.microsoft.com/Forums/en-US/mas/threads" target="_blank">Feedback</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFollowUs" href="http://twitter.com/MSFTAcademic" target="_blank">Follow Us</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTermofUse" href="http://explore.live.com/microsoft-service-agreement?ref=none" target="_blank">Terms of Use</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkSpecTerms" href="About/TermsofUseSpecEN.html" target="_blank">Specific Terms</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTrademarks" href="http://go.microsoft.com/?linkid=4412893" target="_blank">Trademarks</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkPrivacy" href="http://go.microsoft.com/?linkid=4412894" target="_blank">Privacy &amp; Cookies</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_HyperLink1" href="http://www.zoomerang.com/Survey/WEB22CRYAWQWBM/" target="_blank">Survey</a> 
+    </div> 
+    <div class="propupwidth"> 
+     <div class="footer-right"> 
+      <div class="footer-right-arrow"> 
+      </div> 
+      <span id="ctl00_Footer_labCopyright" class="footer-copyright">&copy;2012 Microsoft Corporation. All rights reserved.</span> 
+      <a href="http://research.microsoft.com" target="_blank" class="footer-logo"></a> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("[id^='logclick']").each(
+            function (index) {
+                var thisID = $(this).attr("id");
+                $(this).click(function () { siUrl(document.location, thisID.split("_")[1]); });
+            }
+            );
+    });
+</script> 
+   </div> 
+  </div> 
+  <div class="footer-fixed"> 
+  </div> 
+ </form>   
+</body>

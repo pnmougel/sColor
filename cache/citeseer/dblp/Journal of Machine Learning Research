@@ -1,0 +1,72 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>Journal of Machine Learning Research</h1> 
+ <a href="http://www.jmlr.org/">JMLR Home Page</a>
+ <br /> 
+ <a href="http://dl.acm.org/citation.cfm?id=J832">JMLR @ ACM DL</a> 
+ <ul> 
+  <li><a href="jmlr13.html">Volume 13: 2012</a></li> 
+  <li><a href="jmlr12.html">Volume 12: 2011</a></li> 
+  <li><a href="jmlr11.html">Volume 11: 2010</a></li> 
+  <li><a href="jmlr10.html">Volume 10: 2009</a></li> 
+  <li><a href="jmlr9.html">Volume 9: 2008</a></li> 
+  <li><a href="jmlr8.html">Volume 8: 2007</a></li> 
+  <li><a href="jmlr7.html">Volume 7: 2006</a></li> 
+  <li><a href="jmlr6.html">Volume 6: 2005</a></li> 
+  <li><a href="jmlr5.html">Volume 5: 2004</a></li> 
+  <li><a href="jmlr4.html">Volume 4: 2003</a></li> 
+  <li><a href="jmlr3.html">Volume 3: 2002/2003</a></li> 
+  <li><a href="jmlr2.html">Volume 2: 2001/2002</a></li> 
+  <li><a href="jmlr1.html">Volume 1: 2000/2001</a></li> 
+ </ul> 
+ <h2>Proceedings Track</h2> 
+ <ul> 
+  <li><a href="jmlrp26.html">Volume 26: Workshop on On-line Trading of Exploration and Exploitation 2011</a></li> 
+  <li>...</li> 
+  <li><a href="jmlrp23.html">Volume 23: Conference on Learning Theory - COLT 2012</a></li> 
+  <li><a href="jmlrp22.html">Volume 22: Fifteenth International Conference on Artificial Intelligence and Statistics (AISTATS 2012)</a></li> 
+  <li>...</li> 
+  <li><a href="jmlrp20.html">Volume 20: 3rd Asian Conference on Machine Learning (ACML 2011)</a></li> 
+  <li><a href="jmlrp19.html">Volume 19: Conference on Learning Theory - COLT 2011</a></li> 
+  <li>...</li> 
+  <li><a href="jmlrp17.html">Volume 17: Second Workshop on Applications of Pattern Analysis (WAPA 2011)</a></li> 
+  <li><a href="jmlrp16.html">Volume 16: Active Learning and Experimental Design workshop (in conjunction with AISTATS 2010)</a></li> 
+  <li><a href="jmlrp15.html">Volume 15: Fourteenth International Conference on Artificial Intelligence and Statistics (AISTATS 2011)</a></li> 
+  <li><a href="jmlrp14.html">Volume 14: Yahoo! Learning to Rank Challenge (2010)</a></li> 
+  <li><a href="jmlrp13.html">Volume 13: 2nd Asian Conference on Machine Learning (ACML 2010)</a></li> 
+  <li><a href="jmlrp12.html">Volume 12: Mini-Symposium on Causality in Time Series (NIPS 2009)</a></li> 
+  <li><a href="jmlrp11.html">Volume 11: Workshop on Applications of Pattern Analysis (2010)</a></li> 
+  <li><a href="jmlrp10.html">Volume 10: Workshop on Feature Selection in Data Mining (2010)</a></li> 
+  <li><a href="jmlrp9.html">Volume 9: Thirteenth International Conference on Artificial Intelligence and Statistics (2010)</a></li> 
+  <li><a href="jmlrp8.html">Volume 8: Workshop on Machine Learning in Systems Biology (2009)</a></li> 
+  <li><a href="jmlrp7.html">Volume 7: KDD-Cup 2009 competition</a></li> 
+  <li><a href="jmlrp6.html">Volume 6: Causality: Objectives and Assessment (NIPS 2008 Workshop)</a></li> 
+  <li><a href="jmlrp5.html">Volume 5: Twelfth International Conference on Artificial Intelligence and Statistics (2009)</a></li> 
+  <li><a href="jmlrp4.html">Volume 4: New challenges for feature selection in data mining and knowledge discovery</a></li> 
+  <li><a href="jmlrp3.html">Volume 3: Causation and Prediction Challenge at WCCI 2008</a></li> 
+  <li><a href="jmlrp2.html">Volume 2: Eleventh International Conference on Artificial Intelligence and Statistics (2007)</a></li> 
+  <li><a href="jmlrp1.html">Volume 1: Gaussian Processes in Practice</a></li> 
+ </ul> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../../conf/indexa.html">Conferences</a> | 
+  <a href="../index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 03:27:01 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

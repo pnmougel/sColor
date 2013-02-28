@@ -1,0 +1,2280 @@
+<body onpageshow="document.forms['aspnetForm'].reset();"> 
+ <form name="aspnetForm" method="post" action="RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0" id="aspnetForm"> 
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0MzI1MDM2Mw9kFgJmD2QWAgIBD2QWAgIHD2QWAgIBD2QWBgIBD2QWBAIBDxYCHgdWaXNpYmxlZxYKAgEPZBYEAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIeBXdpZHRoBQUxMDBweGQCAw9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQQ2NXB4ZAIDD2QWBAIBD2QWAmYPD2QWAh4Hb25jbGljawVudHJ5e3JldHVybiBzaSgyMSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nQ29tcGFyZScpO31jYXRjaChleCl7O31kAgMPD2QWAh8CBW50cnl7cmV0dXJuIHNpKDIxLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9oeXBDb21wYXJlJyk7fWNhdGNoKGV4KXs7fWQCBQ9kFgQCAQ8PFgIeB1Rvb2xUaXAFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseWQWAmYPD2QWAh8CBWx0cnl7cmV0dXJuIHNpKDE2LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9pbWdFbWJlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseRYCHwIFb3RyeXtyZXR1cm4gc2koMTgsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnknLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5X2xpYnJhSW5MaW5rJyk7fWNhdGNoKGV4KXs7fWQCBw8WAh8AaBYEAgEPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3RkFgJmDw9kFgIfAgVrdHJ5e3JldHVybiBzaSgxNSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nRmVlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3QWAh8CBWt0cnl7cmV0dXJuIHNpKDE3LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9Sc3NMaW5rJyk7fWNhdGNoKGV4KXs7fWQCCQ8WAh8AZxYCAgEPDxYCHgRUZXh0BRgxIC0gMTAwIG9mIDEsNDk2IHJlc3VsdHNkZAIDD2QWAgIDDxYCHwQFRzxkaXYgY2xhc3M9InJpZ2h0LWFycm93Ij48L2Rpdj48c3Bhbj5Ub3Agam91cm5hbHMgaW4gRW5naW5lZXJpbmc8L3NwYW4+ZAIDD2QWCGYPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTE1MHB4ZAIBDw8WAh8AZ2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUyNTBweGQCAg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgMPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTEwMHB4ZAIFD2QWBgIBDxYCHwQFCEpvdXJuYWxzZAIFDxYCHgV0aXRsZQUWSC1JbmRleCBpbiBFbmdpbmVlcmluZxYCAgMPZBYCZg9kFgICAQ8WAh8BBQQ4NXB4FgJmD2QWAmYPFgIfAQUENzBweGQCCQ9kFgRmD2QWBAIBD2QWBAIBD2QWAmYPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTEwMHB4ZAIDD2QWAmYPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTEwMHB4ZAIDD2QWAmYPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBDY1cHhkAggPDxYCHwBnZBYEAgMPFgIfBAXvBSA8c3BhbiBjbGFzcz0iY3VycmVudCI+MTwvc3Bhbj4gPGEgaHJlZj0iJiM0NztSYW5rTGlzdCYjNjM7bGFzdCYjNjE7MCYjMzg7ZW50aXR5dHlwZSYjNjE7NCYjMzg7dG9wZG9tYWluaWQmIzYxOzgmIzM4O3N1YmRvbWFpbmlkJiM2MTswJiMzODtzdGFydCYjNjE7MTAxJiMzODtlbmQmIzYxOzIwMCI+MjwvYT4gPGEgaHJlZj0iJiM0NztSYW5rTGlzdCYjNjM7bGFzdCYjNjE7MCYjMzg7ZW50aXR5dHlwZSYjNjE7NCYjMzg7dG9wZG9tYWluaWQmIzYxOzgmIzM4O3N1YmRvbWFpbmlkJiM2MTswJiMzODtzdGFydCYjNjE7MjAxJiMzODtlbmQmIzYxOzMwMCI+MzwvYT4gPGEgaHJlZj0iJiM0NztSYW5rTGlzdCYjNjM7bGFzdCYjNjE7MCYjMzg7ZW50aXR5dHlwZSYjNjE7NCYjMzg7dG9wZG9tYWluaWQmIzYxOzgmIzM4O3N1YmRvbWFpbmlkJiM2MTswJiMzODtzdGFydCYjNjE7MzAxJiMzODtlbmQmIzYxOzQwMCI+NDwvYT4gPGEgaHJlZj0iJiM0NztSYW5rTGlzdCYjNjM7bGFzdCYjNjE7MCYjMzg7ZW50aXR5dHlwZSYjNjE7NCYjMzg7dG9wZG9tYWluaWQmIzYxOzgmIzM4O3N1YmRvbWFpbmlkJiM2MTswJiMzODtzdGFydCYjNjE7NDAxJiMzODtlbmQmIzYxOzUwMCI+NTwvYT4gPGEgaHJlZj0iJiM0NztSYW5rTGlzdCYjNjM7bGFzdCYjNjE7MCYjMzg7ZW50aXR5dHlwZSYjNjE7NCYjMzg7dG9wZG9tYWluaWQmIzYxOzgmIzM4O3N1YmRvbWFpbmlkJiM2MTswJiMzODtzdGFydCYjNjE7NTAxJiMzODtlbmQmIzYxOzYwMCI+NjwvYT5kAgUPDxYEHgtOYXZpZ2F0ZVVybAVLL1JhbmtMaXN0P2xhc3Q9MCZlbnRpdHl0eXBlPTQmdG9wZG9tYWluaWQ9OCZzdWJkb21haW5pZD0wJnN0YXJ0PTEwMSZlbmQ9MjAwHwBnZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFKmN0bDAwJFNlYXJjaEhlYWRlciRTZWFyY2hGb3JtJFNlYXJjaEJ1dHRvbgUjY3RsMDAkRm9vdGVyU2VhcmNoRm9ybSRTZWFyY2hCdXR0b26IHFLpUUOpP84XEeN6xc8C1TmMHA==" /> 
+  <script type="text/javascript">
+//<![CDATA[
+function si(t, i, u){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 't=' + t + '&i=' + i + '&tm=' + new Date() + '&u=' + u + '&url=' + document.location;if(document.images)(new Image).src=l;return true;}//]]>
+</script> 
+  <script type="text/javascript">var SiteRoot = 'http://academic.research.microsoft.com';</script> 
+  <script type="text/javascript">
+//<![CDATA[
+function siUrl(url, ctl){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 'url=' + document.location + '&tm=' + new Date() + '&ctl=' + ctl;if(document.images)(new Image).src=l;return true;}function CheckAdvInput(objName,len){var obj=document.getElementById(objName); if(obj.value.length>len){obj.value=obj.value.substring(0,len);}};function hideAdvancedSearch(){document.getElementById('advancedsearchDiv').style.display='none';delCookie('advanceTabIndex');if(document.getElementById('divYearFilter'))document.getElementById('divYearFilter').style.display = '';}//]]>
+</script> 
+  <div class="container"> 
+   <div id="ctl00_SearchHeader_divHeaderWrapper" class="header-wrapper"> 
+    <div class="share-link"> 
+    </div> 
+    <div class="header-wrapper-inner"> 
+     <div class="user-identity-bar"> 
+     </div> 
+     <div class="search-bar-wrapper" id="searchBarLeft"> 
+      <a class="logo" href="http://academic.research.microsoft.com"> <img id="ctl00_SearchHeader_imgLogo" navigateurl="~/" src="http://academic.research.microsoft.com/Images/logo.png" border="0" /> </a> 
+      <div id="ctl00_SearchHeader_SearchForm_searchBar" class="search-bar"> 
+       <div id="ctl00_SearchHeader_SearchForm_divSearchBox" class="search-box" style="position:relative"> 
+        <input name="ctl00$SearchHeader$SearchForm$txtQuery" type="text" id="ctl00_SearchHeader_SearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeyup="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_SearchHeader_SearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+        <div id="ctl00_SearchHeader_SearchForm_divDomainButton" class="domain-panel-button" style="z-index:100; position:relative;" onclick="try{return si(20,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_divDomainButton');}catch(ex){;}"> 
+         <div class="left"> 
+          <span></span> 
+          <div class="dropdown-arrow"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <input type="image" name="ctl00$SearchHeader$SearchForm$SearchButton" id="ctl00_SearchHeader_SearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+       <div class="type-suggestion"> 
+        <div id="autoSuggest" class="typesuggest"> 
+        </div> 
+       </div> 
+       <div id="ctl00_SearchHeader_SearchForm_SpAdvancedSearch" class="advancedsearch"> 
+       </div> 
+       <div class="searching-div"> 
+        <div class="loadImg" id="divLoadingIcon"> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="advancedsearchDiv" class="modalpopup"> 
+       <div class="advanced-search"> 
+        <div class="closelink"> 
+        </div> 
+        <div class="small-btn"></div> 
+        <table cellspacing="0" cellpadding="0" border="0" class="content-table"> 
+         <tbody>
+          <tr> 
+           <td id="tdCriteriaTab" style="color:#d7d7d7" colspan="2"> <span onclick="showAdvanceTab(0)" class="advanced-search-tab" style="padding-left: 0px"> Author</span> | <span onclick="showAdvanceTab(1)" class="advanced-search-tab-unfocus">Conference</span> | <span onclick="showAdvanceTab(2)" class="advanced-search-tab-unfocus">Journal</span> | <span onclick="showAdvanceTab(3)" class="advanced-search-tab-unfocus">Organization</span> | <span onclick="showAdvanceTab(4)" class="advanced-search-tab-unfocus">Year</span> | <span onclick="showAdvanceTab(5)" class="advanced-search-tab-unfocus">DOI</span> </td> 
+          </tr> 
+          <tr> 
+           <td class="hint" colspan="2" id="tdAdvancedSearchHint"> Look for results that meet for the following criteria: </td> 
+          </tr> 
+          <tr> 
+           <td id="tdCriteria" class="advancesearch-criteria"> 
+            <div style="display: block"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$authorQuery" type="text" value="Bill Gates" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Bill Gates') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Bill Gates'; this.style.color = '#999';}" style="color:#999" />
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$confQuery" type="text" value="SIGGRAPH" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'SIGGRAPH') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'SIGGRAPH'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$JournQuery" type="text" value="Journal of The ACM" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Journal of The ACM') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Journal of The ACM'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$orgQuery" type="text" value="Microsoft" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Microsoft') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Microsoft'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <select name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$compareQuery" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery" class="advance-search-dropdownlist" onchange="showTimeSpanTextbox(this.value,event)"> <option selected="selected" value="&gt;=">since</option> <option value="=">equal to</option> <option value="&lt;=">before</option> <option value="~">between</option> </select> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearQuery" type="text" value="2000" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2000') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2000'; this.style.color = '#999';}" style="color:#999" /> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanA" type="text" value="2006" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2006') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2006'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+             <span id="yearSpanText" style="width:20px;display:none;margin-left:20px;">and</span> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanB" type="text" value="2011" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2011') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2011'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$doiQuery" type="text" value="10.1093/nar/25.17.3389" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '10.1093/nar/25.17.3389') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '10.1093/nar/25.17.3389'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$fulltextQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$titleQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> </td> 
+           <td align="left"> <input type="button" id="btnAddToSearch" value="Add to search" onclick="addToSearch('ctl00_SearchHeader_SearchForm_txtQuery', 'ctl00_SearchHeader_SearchForm_SearchButton');" style="width: 100px" /> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+        <script type="text/javascript">
+// <![CDATA[
+   if(typeof(window.domYearQuery) == 'undefined'){
+        window.domYearQuery = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery');
+   }
+   if(typeof(window.domYearSpanA) == 'undefined'){
+        window.domYearSpanA = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA');
+   }
+   if(typeof(window.domYearSpanB) == 'undefined'){
+        window.domYearSpanB = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB');
+   }
+   if(typeof(window.domYearSpanText) == 'undefined'){
+        window.domYearSpanText = $('#yearSpanText');
+   }
+
+   if( $.browser.mozilla){
+      $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery').change(function(event){
+	    showTimeSpanTextbox($(this).val(), event);
+	  });
+   }
+//]]>
+    </script> 
+       </div> 
+      </div> 
+      <div class="modalpopup" style="display: block"> 
+       <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+        <div class="domain-closelink"> 
+        </div> 
+        <div class="small-btn"> 
+        </div> 
+        <div class="domain-panel"> 
+         <div> 
+          <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+          <span>Search in all domains</span> 
+         </div> 
+         <div> 
+          <input type="radio" value="0" name="AllDomainRadio" /> 
+          <span>Limit my searches in the following domains</span> 
+         </div> 
+         <div style="padding-left: 10px;"> 
+          <div class="option">
+           <input type="checkbox" value="16" /> 
+           <span>Agriculture Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="3" /> 
+           <span>Arts &amp; Humanities</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="4" /> 
+           <span>Biology</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="5" /> 
+           <span>Chemistry</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="2" /> 
+           <span>Computer Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="7" /> 
+           <span>Economics &amp; Business</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="8" /> 
+           <span>Engineering</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="9" /> 
+           <span>Environmental Sciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="10" /> 
+           <span>Geosciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="12" /> 
+           <span>Material Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="15" /> 
+           <span>Mathematics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="6" /> 
+           <span>Medicine</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="19" /> 
+           <span>Physics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="22" /> 
+           <span>Social Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="1" /> 
+           <span>Multidisciplinary</span>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_srptBindEventDomainButton"> 
+       <script type="text/javascript" language="javascript">
+        BindEventForDomainPanelButton("ctl00_SearchHeader_SearchForm_txtQuery", "ctl00_SearchHeader_SearchForm_divDomainButton");
+    </script> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_scrpAutoComplete"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+        $(function () {
+            //author
+            var data = { 'inputId': '#ctl00_SearchHeader_SearchForm_txtQuery',
+                'tsId': '#autoSuggest',
+                'searchboxId': '#ctl00_SearchHeader_SearchForm_divSearchBox',
+                'suggestType': 1,
+                'maxNumber': -1,
+                'root': 'http://academic.research.microsoft.com',
+                'postAction': function () {
+                    $("#ctl00_SearchHeader_SearchForm_SearchButton").click();
+                }
+            };
+            TypeSuggest.Init(data);
+
+        })
+    //]]>
+    </script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_SearchHeader_SearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_SearchHeader_SearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_SearchHeader_SearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_advancedsearch');
+            });
+            $("#ctl00_SearchHeader_SearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+      <input name="ctl00$SearchHeader$SearchForm$hdnSelectedDomain" type="hidden" id="ctl00_SearchHeader_SearchForm_hdnSelectedDomain" /> 
+     </div> 
+     <div class="propupwidth"> 
+      <div class="search-bar-right" id="searchBarRight"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="content-wrapper" id="divContentWrapper"> 
+    <div id="ctl00_divContentHeader" class="content-header-wrapper"> 
+     <script type="text/javascript" language="javascript"> 
+                        var isSilverlightInstalled = false;
+                        function CheckSilverlightInstalled() {
+                            try {
+                                try {
+                                    var slControl = new ActiveXObject('AgControl.AgControl'); //IE
+                                    isSilverlightInstalled = true;
+                                }
+                                catch (e) {
+                                    if (navigator.plugins["Silverlight Plug-In"]) //non-IE
+                                    {
+                                        isSilverlightInstalled = true;
+                                    }
+                                }
+                            }
+                            catch (e) { }
+                        }
+                        CheckSilverlightInstalled();
+
+                        $(function () {
+                            $(".ranklist-summary").css("position", "static");
+                            $(".ranklist-summary").css("position", "relative");
+                        })
+                    </script> 
+    </div> 
+    <div id="ctl00_divLeftWrapper" class="left-wrapper"> 
+     <div class="section-navigator"> 
+      <div id="ctl00_LeftPanel_pnlAuthor" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypAuthor" href="RankList?entitytype=2&amp;topDomainID=8&amp;subDomainID=0&amp;last=0&amp;start=1&amp;end=100">Authors &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlPublication" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypPublication" href="RankList?entitytype=1&amp;topDomainID=8&amp;subDomainID=0&amp;last=0&amp;start=1&amp;end=100">Publications &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlConference" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypConference" href="RankList?entitytype=3&amp;topDomainID=8&amp;subDomainID=0&amp;last=0&amp;start=1&amp;end=100">Conferences &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlJournal" class="highlight"> 
+       <h2><a id="ctl00_LeftPanel_hypJournal">Journals &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlOrganization" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypOrganization" href="RankList?entitytype=7&amp;topDomainID=8&amp;subDomainID=0&amp;last=0&amp;start=1&amp;end=100">Organizations &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlKeyword" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypKeyword" href="RankList?entitytype=8&amp;topDomainID=8&amp;subDomainID=0&amp;last=0&amp;start=1&amp;end=100">Keywords &raquo;</a></h2> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="ctl00_divCenter" class="center-wrapper"> 
+     <div class="bing-summary"> 
+      <div id="ctl00_MainContent_SearchSummary_divAction" class="action"> 
+       <span id="ctl00_MainContent_SearchSummary_spResultCount"> <span id="ctl00_MainContent_SearchSummary_lblResultMessage" class="result">1 - 100 of 1,496 results</span> </span> 
+      </div> 
+      <div id="ctl00_MainContent_SearchSummary_divSummary" class="declare"> 
+       <a class="text" href="./"> Academic</a> 
+       <div class="right-arrow"></div>
+       <span>Top journals in Engineering</span> 
+      </div> 
+     </div> 
+     <div class="clear"> 
+     </div> 
+     <div class="ranklist-summary" id="domainpanel"> 
+      <script type="text/javascript" language="javascript" src="http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpTopDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpTopDomain_tdDrpList" class="dropdownlist-left" width="150px"> <input name="ctl00$MainContent$RankListSummary$drpTopDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpSubDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpSubDomain_tdDrpList" class="dropdownlist-left" width="250px"> <input name="ctl00$MainContent$RankListSummary$drpSubDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpListYear_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpListYear_tdDrpList" class="dropdownlist-left" width="100px"> <input name="ctl00$MainContent$RankListSummary$drpListYear$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpListYear_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpListYear_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    var request_paras = {};    
+    var pageurl_ranklist = window.location.toString();
+    var question_mark_ranklist = pageurl_ranklist.lastIndexOf('?');
+    (function () { request_paras = queryToJson(pageurl_ranklist); })();
+    if (question_mark_ranklist > -1) {
+        pageurl_ranklist = pageurl_ranklist.substr(0, question_mark_ranklist);
+    }
+    var s = [""];
+    s.push(pageurl_ranklist);
+    s.push("?");    
+            
+    function GetDomainID(para) {
+        var domainID;
+        try {
+            domainID = decodeURI(request(para));
+        }
+        catch (ex) {
+            domainID = "";
+        }
+        return domainID;
+    }
+
+    var ChangingWindowLocation = false;
+    function CheckChangingWindowLocation() {
+        if (ChangingWindowLocation == false) {
+            ChangingWindowLocation = true;
+            return true;
+        }
+        return false;
+    }
+</script> 
+      <div id="ctl00_MainContent_RankListSummary_sriptSubDomain"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+
+    function BindSubDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);                    
+                    if( typeof value != "undefined"){
+                        request_paras.subdomainid = value;
+                        s.push(jsonToQuery(request_paras));
+                        window.location = s.join('');
+
+                    }
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Aeronautics & Aerospace Engineering", "Value": "1"};options[1] = { "Text": "Biomedical Engineering", "Value": "2"};options[2] = { "Text": "Chemical Engineering", "Value": "3"};options[3] = { "Text": "Civil Engineering", "Value": "4"};options[4] = { "Text": "Construction", "Value": "5"};options[5] = { "Text": "Electrical & Electronic Engineering", "Value": "6"};options[6] = { "Text": "Energy", "Value": "7"};options[7] = { "Text": "Industrial Engineering", "Value": "8"};options[8] = { "Text": "Manufacturing Technology", "Value": "9"};options[9] = { "Text": "Mechanical Engineering", "Value": "10"};options[10] = { "Text": "Mining Engineering", "Value": "11"};options[11] = { "Text": "Nanotechnology", "Value": "12"};options[12] = { "Text": "Nuclear Engineering", "Value": "13"};options[13] = { "Text": "Ocean Engineering", "Value": "14"};options[14] = { "Text": "Reliability & Risk Analysis", "Value": "15"};options[15] = { "Text": "Transportation Engineering", "Value": "16"};options[16] = { "Text": "Overall for Engineering", "Value": "0", "Selected": "true"};
+       
+        DropDown.SetOptions(options);
+        //var domainID = GetDomainID("subDomainID");
+        var domainID = "";
+        if(typeof (request_paras.subdomainid) != "undefined"){
+            domainID = request_paras.subdomainid;
+        }
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }
+    }
+    BindSubDomainFilter();
+       //]]>
+</script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+    function BindYearFilter() {
+        //year
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpListYear_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpListYear_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpListYear_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);
+
+                    if( /\/detail[\.\?]/g.test(query.toLowerCase())){                        
+                        // if this control is used by organization detail page                        
+
+                        if(typeof value == "undefined") return;
+                        if(typeof (request_paras.last) != "null" && typeof (request_paras.last) != "undefined" && value == 0 ){
+                            delete request_paras.last;
+                        }
+                        if(value > 0){
+                            request_paras.last = value;
+                        }
+                        s.push(jsonToQuery(request_paras));
+                        pageurl_ranklist = s.join('');     
+                        consolelog(pageurl_ranklist);
+                        window.location = pageurl_ranklist;
+                        return;
+                    }                    
+                    request_paras.last = value;
+                    s.push(jsonToQuery(request_paras));
+                    pageurl_ranklist = s.join('');     
+                    consolelog(pageurl_ranklist);                      
+                    window.location = pageurl_ranklist;                    
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        options[0] = { "Text": "Last 5 Years", "Value": "5" };
+        options[1] = { "Text": "Last 10 Years", "Value": "10" };
+        options[2] = { "Text": "All Years", "Value": "0", "Selected": "true" };
+
+
+        DropDown.SetOptions(options);
+        if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+            DropDown.SetDefaultValue(request_paras.last);
+        }
+    }
+    BindYearFilter();
+
+    function removeStartEndIndex(query) {        
+        if(typeof (request_paras.start) != "null" && typeof (request_paras.start) != "undefined"){        
+            delete request_paras.start;
+        }
+        if(typeof (request_paras.end) != "null" && typeof (request_paras.end) != "undefined"){
+            delete request_paras.end;
+        }
+        return true;      
+    }
+    function removeContinent(query) {        
+        if(typeof (request_paras.continentid) != "null" && typeof (request_paras.continentid) != "undefined"){        
+            delete request_paras.continentid;
+        }
+        return query;        
+    }
+    function GetLastYear() {
+        var lastYear;
+        try {
+            lastYear = decodeURI(request("last"));
+        }
+        catch (ex) {
+            lastYear = "";
+        }
+
+        return lastYear;
+    }
+    //]]>
+
+    //<![CDATA[
+    function BindTopDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                
+                //set subDomain to 0
+                if (query) {
+                    if(typeof (request_paras.subdomainid) != "null" && typeof (request_paras.subdomainid) != "undefined"){
+                        request_paras.subdomainid = 0;
+                    }
+                    removeStartEndIndex(query);
+                    if(typeof value != "undefined"){
+                        request_paras.topdomainid = value;
+                        s.push(jsonToQuery(request_paras));                        
+                        window.location = s.join('');
+                    }
+                    
+
+
+                    /*var regExp = new RegExp("&subDomainID=\\d+", "g");
+                    var match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "&subDomainID=0");
+                    }
+
+                    query = removeStartEndIndex(query);
+                    regExp = new RegExp("topDomainID=\\d+", "g");
+                    match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "topDomainID=" + value);
+                        window.location = query;
+                    }*/
+                }                
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Agriculture Science", "Value": "16"};options[1] = { "Text": "Arts & Humanities", "Value": "3"};options[2] = { "Text": "Biology", "Value": "4"};options[3] = { "Text": "Chemistry", "Value": "5"};options[4] = { "Text": "Computer Science", "Value": "2"};options[5] = { "Text": "Economics & Business", "Value": "7"};options[6] = { "Text": "Engineering", "Value": "8"};options[7] = { "Text": "Environmental Sciences", "Value": "9"};options[8] = { "Text": "Geosciences", "Value": "10"};options[9] = { "Text": "Material Science", "Value": "12"};options[10] = { "Text": "Mathematics", "Value": "15"};options[11] = { "Text": "Medicine", "Value": "6"};options[12] = { "Text": "Physics", "Value": "19"};options[13] = { "Text": "Social Science", "Value": "22"};options[14] = { "Text": "Multidisciplinary", "Value": "1"};
+       
+        DropDown.SetOptions(options);
+        var domainID = GetDomainID("topDomainID");
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }else{
+            if( options.length > 0  && options[options.length-1].Value == "0"){      
+                var t = options[options.length-1].Value;                
+                DropDown.SetDefaultValue(t);
+            }else{
+                DropDown.SetDefaultValue();
+            }
+        }
+    }
+    BindTopDomainFilter();
+    //]]>
+</script> 
+      <div class="clear"></div> 
+     </div> 
+     <div id="ctl00_MainContent_divRankList"> 
+      <div> 
+       <table class="staticTable" cellpadding="0" cellspacing="0"> 
+        <thead> 
+         <tr> 
+          <th width="1px" style="border:0"></th> 
+          <th> Journals </th> 
+          <th id="ctl00_MainContent_thPublication" class="staticOrderHeader" width="90px"> Publications </th> 
+          <th id="ctl00_MainContent_thCitation" class="staticOrderHeader" width="110px" title="H-Index in Engineering"> 
+           <div id="ctl00_MainContent_divRankType" style="position: relative; min-width: 100px; height: 1px;"> 
+            <div style="position: absolute; right: -5px; top: 0px; z-index:0;"> 
+             <div class="dropdownlist"> 
+              <div> 
+               <table id="ctl00_MainContent_drpRankType_drpList" cellpadding="0" cellspacing="0" width="85px"> 
+                <tbody>
+                 <tr> 
+                  <td id="ctl00_MainContent_drpRankType_tdDrpList" class="dropdownlist-left" width="70px"> <input name="ctl00$MainContent$drpRankType$drp_hidden_focus" type="text" id="ctl00_MainContent_drpRankType_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_drpRankType_spSelectedText"></span> </td> 
+                  <td class="dropdownlist-right"> </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </div> 
+              <div id="ctl00_MainContent_drpRankType_drpListContent" class="dropdownlist-content"> 
+              </div> 
+             </div> 
+             <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+                            function BindRankTypeFilter() {
+                                //year
+                                var data = { 'inputId': '#ctl00_MainContent_drpRankType_drpList',
+                                    "hiddenId": '#ctl00_MainContent_drpRankType_drp_hidden_focus',
+                                    'textId': '#ctl00_MainContent_drpRankType_spSelectedText',
+                                    'tsId': '#ctl00_MainContent_drpRankType_drpListContent',
+                                    'postAction': function () {
+                                        if(CheckChangingWindowLocation() == false)
+                                        {
+                                            return;
+                                        }
+
+                                        var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                                        var query = window.location.href;
+                                        if (query) {
+                                            removeStartEndIndex(query);
+                                            $('#ctl00_MainContent_thCitation').attr('title', '');
+                                            request_paras.orderby = value;
+                                            s.push(jsonToQuery(request_paras));
+                                            pageurl_ranklist = s.join('');     
+                                            window.location = pageurl_ranklist;                    
+                                        }
+                                    }
+                                };
+                                DropDown.Init(data);
+                                $('#ctl00_MainContent_drpRankType_drpListContent').width(80);
+                                var options = new Array();
+                                options[0] = { "Text": "H-Index", "Value": "6", "Selected": "true"};options[1] = { "Text": "Citation", "Value": "1"};
+
+
+                                DropDown.SetOptions(options);
+                                if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+                                    DropDown.SetDefaultValue(request_paras.orderby);
+                                }
+                            }
+                            BindRankTypeFilter();
+
+                           
+                        //]]>
+                        </script> 
+            </div> 
+           </div> &nbsp;  </th>
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               1 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl00_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl00_hypName" href="/Journal/5336/ieee-trans-automat-contr-ieee-transactions-on-automatic-control">IEEE TRANS AUTOMAT CONTR - IEEE Transactions on Automatic Control</a> </td> 
+          <td id="ctl00_MainContent_ctl00_tdPulicationCount" class="staticOrderCol"> 14194 </td> 
+          <td class="staticOrderCol"> 190 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               2 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl01_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl01_hypName" href="/Journal/5534/j-fluid-mech-journal-of-fluid-mechanics">J FLUID MECH - Journal of Fluid Mechanics</a> </td> 
+          <td id="ctl00_MainContent_ctl01_tdPulicationCount" class="staticOrderCol"> 25122 </td> 
+          <td class="staticOrderCol"> 171 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               3 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl02_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl02_hypName" href="/Journal/5320/ieee-j-solid-state-circuits-ieee-journal-of-solid-state-circuits">IEEE J SOLID-STATE CIRCUITS - IEEE Journal of Solid-state Circuits</a> </td> 
+          <td id="ctl00_MainContent_ctl02_tdPulicationCount" class="staticOrderCol"> 9404 </td> 
+          <td class="staticOrderCol"> 139 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               4 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl03_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl03_hypName" href="/Journal/8447/j-acoust-soc-amer-journal-of-the-acoustical-society-of-america">J ACOUST SOC AMER - Journal of The Acoustical Society of America</a> </td> 
+          <td id="ctl00_MainContent_ctl03_tdPulicationCount" class="staticOrderCol"> 179130 </td> 
+          <td class="staticOrderCol"> 138 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               5 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl04_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl04_hypName" href="/Journal/17150/ieee-transactions-on-acoustics-speech-and-signal-processing">IEEE Transactions on Acoustics, Speech, and Signal Processing</a> </td> 
+          <td id="ctl00_MainContent_ctl04_tdPulicationCount" class="staticOrderCol"> 3240 </td> 
+          <td class="staticOrderCol"> 128 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               6 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl05_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl05_hypName" href="/Journal/5354/ieee-trans-microwave-theory-ieee-transactions-on-microwave-theory-and-techniques">IEEE TRANS MICROWAVE THEORY - IEEE Transactions on Microwave Theory and Techniques</a> </td> 
+          <td id="ctl00_MainContent_ctl05_tdPulicationCount" class="staticOrderCol"> 22379 </td> 
+          <td class="staticOrderCol"> 120 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               7 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl06_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl06_hypName" href="/Journal/5335/ieee-trans-antennas-propagat-ieee-transactions-on-antennas-and-propagation">IEEE TRANS ANTENNAS PROPAGAT - IEEE Transactions on Antennas and Propagation</a> </td> 
+          <td id="ctl00_MainContent_ctl06_tdPulicationCount" class="staticOrderCol"> 19332 </td> 
+          <td class="staticOrderCol"> 115 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               8 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl07_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl07_hypName" href="/Journal/5362/ieee-trans-robotics-automat-ieee-transactions-on-robotics-and-automation">IEEE TRANS ROBOTICS AUTOMAT - IEEE Transactions on Robotics and Automation</a> </td> 
+          <td id="ctl00_MainContent_ctl07_tdPulicationCount" class="staticOrderCol"> 1408 </td> 
+          <td class="staticOrderCol"> 113 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               9 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl08_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl08_hypName" href="/Journal/5360/ieee-trans-power-syst-ieee-transactions-on-power-systems">IEEE TRANS POWER SYST - IEEE Transactions on Power Systems</a> </td> 
+          <td id="ctl00_MainContent_ctl08_tdPulicationCount" class="staticOrderCol"> 6008 </td> 
+          <td class="staticOrderCol"> 111 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               10 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl09_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl09_hypName" href="/Journal/5438/int-j-numer-method-eng-international-journal-for-numerical-methods-in-engineering">INT J NUMER METHOD ENG - International Journal for Numerical Methods in Engineering</a> </td> 
+          <td id="ctl00_MainContent_ctl09_tdPulicationCount" class="staticOrderCol"> 9055 </td> 
+          <td class="staticOrderCol"> 109 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               11 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl10_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl10_hypName" href="/Journal/5351/ieee-trans-ind-appl-ieee-transactions-on-industry-applications">IEEE TRANS IND APPL - IEEE Transactions on Industry Applications</a> </td> 
+          <td id="ctl00_MainContent_ctl10_tdPulicationCount" class="staticOrderCol"> 6929 </td> 
+          <td class="staticOrderCol"> 109 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               12 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl11_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl11_hypName" href="/Journal/5568/j-mech-phys-solids-journal-of-the-mechanics-and-physics-of-solids">J MECH PHYS SOLIDS - Journal of The Mechanics and Physics of Solids</a> </td> 
+          <td id="ctl00_MainContent_ctl11_tdPulicationCount" class="staticOrderCol"> 3899 </td> 
+          <td class="staticOrderCol"> 108 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               13 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl12_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl12_hypName" href="/Journal/5546/j-hydrol-journal-of-hydrology">J HYDROL - Journal of Hydrology</a> </td> 
+          <td id="ctl00_MainContent_ctl12_tdPulicationCount" class="staticOrderCol"> 12058 </td> 
+          <td class="staticOrderCol"> 107 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               14 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl13_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl13_hypName" href="/Journal/5100/annu-rev-fluid-mech-annual-review-of-fluid-mechanics">ANNU REV FLUID MECH - Annual Review of Fluid Mechanics</a> </td> 
+          <td id="ctl00_MainContent_ctl13_tdPulicationCount" class="staticOrderCol"> 1391 </td> 
+          <td class="staticOrderCol"> 106 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               15 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl14_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl14_hypName" href="/Journal/2127/j-electrochem-soc-journal-of-the-electrochemical-society">J ELECTROCHEM SOC - Journal of The Electrochemical Society</a> </td> 
+          <td id="ctl00_MainContent_ctl14_tdPulicationCount" class="staticOrderCol"> 35724 </td> 
+          <td class="staticOrderCol"> 105 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               16 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl15_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl15_hypName" href="/Journal/5347/ieee-trans-electron-devices-ieee-transactions-on-electron-devices">IEEE TRANS ELECTRON DEVICES - IEEE Transactions on Electron Devices</a> </td> 
+          <td id="ctl00_MainContent_ctl15_tdPulicationCount" class="staticOrderCol"> 23130 </td> 
+          <td class="staticOrderCol"> 97 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               17 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl16_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl16_hypName" href="/Journal/5359/ieee-trans-power-elect-ieee-transactions-on-power-electronics">IEEE TRANS POWER ELECT - IEEE Transactions on Power Electronics</a> </td> 
+          <td id="ctl00_MainContent_ctl16_tdPulicationCount" class="staticOrderCol"> 4355 </td> 
+          <td class="staticOrderCol"> 95 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               18 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl17_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl17_hypName" href="/Journal/5483/j-appl-mech-journal-of-applied-mechanics-transactions-of-the-asme">J APPL MECH - Journal of Applied Mechanics-transactions of The Asme</a> </td> 
+          <td id="ctl00_MainContent_ctl17_tdPulicationCount" class="staticOrderCol"> 6051 </td> 
+          <td class="staticOrderCol"> 93 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               19 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl18_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl18_hypName" href="/Journal/5424/int-j-heat-mass-transfer-international-journal-of-heat-and-mass-transfer">INT J HEAT MASS TRANSFER - International Journal of Heat and Mass Transfer</a> </td> 
+          <td id="ctl00_MainContent_ctl18_tdPulicationCount" class="staticOrderCol"> 16105 </td> 
+          <td class="staticOrderCol"> 92 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               20 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl19_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl19_hypName" href="/Journal/5352/ieee-trans-ind-electron-ieee-transactions-on-industrial-electronics">IEEE TRANS IND ELECTRON - IEEE Transactions on Industrial Electronics</a> </td> 
+          <td id="ctl00_MainContent_ctl19_tdPulicationCount" class="staticOrderCol"> 5390 </td> 
+          <td class="staticOrderCol"> 91 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               21 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl20_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl20_hypName" href="/Journal/5118/arch-ration-mech-anal-archive-for-rational-mechanics-and-analysis">ARCH RATION MECH ANAL - Archive for Rational Mechanics and Analysis</a> </td> 
+          <td id="ctl00_MainContent_ctl20_tdPulicationCount" class="staticOrderCol"> 5179 </td> 
+          <td class="staticOrderCol"> 91 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               22 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl21_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl21_hypName" href="/Journal/5222/electron-lett-electronics-letters">ELECTRON LETT - Electronics Letters</a> </td> 
+          <td id="ctl00_MainContent_ctl21_tdPulicationCount" class="staticOrderCol"> 44873 </td> 
+          <td class="staticOrderCol"> 90 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               23 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl22_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl22_hypName" href="/Journal/5330/ieee-signal-process-mag-ieee-signal-processing-magazine">IEEE SIGNAL PROCESS MAG - IEEE Signal Processing Magazine</a> </td> 
+          <td id="ctl00_MainContent_ctl22_tdPulicationCount" class="staticOrderCol"> 1525 </td> 
+          <td class="staticOrderCol"> 89 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               24 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl23_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl23_hypName" href="/Journal/5091/aiaa-j-aiaa-journal">AIAA J - Aiaa Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl23_tdPulicationCount" class="staticOrderCol"> 27468 </td> 
+          <td class="staticOrderCol"> 82 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               25 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl24_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl24_hypName" href="/Journal/5409/int-j-contr-international-journal-of-control">INT J CONTR - International Journal of Control</a> </td> 
+          <td id="ctl00_MainContent_ctl24_tdPulicationCount" class="staticOrderCol"> 8576 </td> 
+          <td class="staticOrderCol"> 82 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               26 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl25_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl25_hypName" href="/Journal/5454/int-j-solids-struct-international-journal-of-solids-and-structures">INT J SOLIDS STRUCT - International Journal of Solids and Structures</a> </td> 
+          <td id="ctl00_MainContent_ctl25_tdPulicationCount" class="staticOrderCol"> 9191 </td> 
+          <td class="staticOrderCol"> 81 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               27 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl26_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl26_hypName" href="/Journal/5492/j-biomech-eng-journal-of-biomechanical-engineering-transactions-of-the-asme">J BIOMECH ENG - Journal of Biomechanical Engineering-transactions of The Asme</a> </td> 
+          <td id="ctl00_MainContent_ctl26_tdPulicationCount" class="staticOrderCol"> 2841 </td> 
+          <td class="staticOrderCol"> 81 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               28 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl27_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl27_hypName" href="/Journal/1946/chem-eng-sci-chemical-engineering-science">CHEM ENG SCI - Chemical Engineering Science</a> </td> 
+          <td id="ctl00_MainContent_ctl27_tdPulicationCount" class="staticOrderCol"> 19364 </td> 
+          <td class="staticOrderCol"> 80 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               29 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl28_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl28_hypName" href="/Journal/5107/appl-mech-rev-applied-mechanics-reviews">APPL MECH REV - Applied Mechanics Reviews</a> </td> 
+          <td id="ctl00_MainContent_ctl28_tdPulicationCount" class="staticOrderCol"> 1448 </td> 
+          <td class="staticOrderCol"> 79 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               30 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl29_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl29_hypName" href="/Journal/2121/j-colloid-interface-sci-journal-of-colloid-and-interface-science">J COLLOID INTERFACE SCI - Journal of Colloid and Interface Science</a> </td> 
+          <td id="ctl00_MainContent_ctl29_tdPulicationCount" class="staticOrderCol"> 24694 </td> 
+          <td class="staticOrderCol"> 78 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               31 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl30_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl30_hypName" href="/Journal/5338/ieee-trans-circuit-syst-i-ieee-transactions-on-circuits-and-systems-i-regular-papers">IEEE TRANS CIRCUIT SYST-I - IEEE Transactions on Circuits and Systems I-regular Papers</a> </td> 
+          <td id="ctl00_MainContent_ctl30_tdPulicationCount" class="staticOrderCol"> 5424 </td> 
+          <td class="staticOrderCol"> 78 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               32 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl31_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl31_hypName" href="/Journal/5358/ieee-trans-power-delivery-ieee-transactions-on-power-delivery">IEEE TRANS POWER DELIVERY - IEEE Transactions on Power Delivery</a> </td> 
+          <td id="ctl00_MainContent_ctl31_tdPulicationCount" class="staticOrderCol"> 7025 </td> 
+          <td class="staticOrderCol"> 77 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               33 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl32_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl32_hypName" href="/Journal/5310/ieee-control-syst-mag-ieee-control-systems-magazine">IEEE CONTROL SYST MAG - IEEE Control Systems Magazine</a> </td> 
+          <td id="ctl00_MainContent_ctl32_tdPulicationCount" class="staticOrderCol"> 2369 </td> 
+          <td class="staticOrderCol"> 74 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               34 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl33_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl33_hypName" href="/Journal/5337/ieee-trans-biomed-eng-ieee-transactions-on-biomedical-engineering">IEEE TRANS BIOMED ENG - IEEE Transactions on Biomedical Engineering</a> </td> 
+          <td id="ctl00_MainContent_ctl33_tdPulicationCount" class="staticOrderCol"> 7741 </td> 
+          <td class="staticOrderCol"> 72 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               35 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl34_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl34_hypName" href="/Journal/5334/ieee-trans-aerosp-electron-sy-ieee-transactions-on-aerospace-and-electronic-systems">IEEE TRANS AEROSP ELECTRON SY - IEEE Transactions on Aerospace and Electronic Systems</a> </td> 
+          <td id="ctl00_MainContent_ctl34_tdPulicationCount" class="staticOrderCol"> 8125 </td> 
+          <td class="staticOrderCol"> 71 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               36 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl35_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl35_hypName" href="/Journal/5383/ind-eng-chem-res-industrial-&amp;-engineering-chemistry-research">IND ENG CHEM RES - Industrial &amp; Engineering Chemistry Research</a> </td> 
+          <td id="ctl00_MainContent_ctl35_tdPulicationCount" class="staticOrderCol"> 17671 </td> 
+          <td class="staticOrderCol"> 70 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               37 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl36_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl36_hypName" href="/Journal/5852/syst-control-lett-systems-&amp;-control-letters">SYST CONTROL LETT - Systems &amp; Control Letters</a> </td> 
+          <td id="ctl00_MainContent_ctl36_tdPulicationCount" class="staticOrderCol"> 3371 </td> 
+          <td class="staticOrderCol"> 70 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               38 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl37_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl37_hypName" href="/Journal/5349/ieee-trans-energy-convers-ieee-transactions-on-energy-conversion">IEEE TRANS ENERGY CONVERS - IEEE Transactions on Energy Conversion</a> </td> 
+          <td id="ctl00_MainContent_ctl37_tdPulicationCount" class="staticOrderCol"> 2833 </td> 
+          <td class="staticOrderCol"> 69 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               39 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl38_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl38_hypName" href="/Journal/5572/j-microelectromechanical-syst-ieee-asme-journal-of-microelectromechanical-systems">J MICROELECTROMECHANICAL SYST - IEEE/ASME Journal of Microelectromechanical Systems</a> </td> 
+          <td id="ctl00_MainContent_ctl38_tdPulicationCount" class="staticOrderCol"> 2031 </td> 
+          <td class="staticOrderCol"> 69 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               40 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl39_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl39_hypName" href="/Journal/5312/ieee-electron-dev-lett-ieee-electron-device-letters">IEEE ELECTRON DEV LETT - IEEE Electron Device Letters</a> </td> 
+          <td id="ctl00_MainContent_ctl39_tdPulicationCount" class="staticOrderCol"> 10503 </td> 
+          <td class="staticOrderCol"> 65 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               41 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl40_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl40_hypName" href="/Journal/5583/j-optimiz-theor-appl-journal-of-optimization-theory-and-applications">J OPTIMIZ THEOR APPL - Journal of Optimization Theory and Applications</a> </td> 
+          <td id="ctl00_MainContent_ctl40_tdPulicationCount" class="staticOrderCol"> 5601 </td> 
+          <td class="staticOrderCol"> 65 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               42 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl41_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl41_hypName" href="/Journal/5588/j-power-sources-journal-of-power-sources">J POWER SOURCES - Journal of Power Sources</a> </td> 
+          <td id="ctl00_MainContent_ctl41_tdPulicationCount" class="staticOrderCol"> 13913 </td> 
+          <td class="staticOrderCol"> 64 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               43 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl42_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl42_hypName" href="/Journal/5543/j-hydraul-eng-asce-journal-of-hydraulic-engineering-asce">J HYDRAUL ENG-ASCE - Journal of Hydraulic Engineering-asce</a> </td> 
+          <td id="ctl00_MainContent_ctl42_tdPulicationCount" class="staticOrderCol"> 4889 </td> 
+          <td class="staticOrderCol"> 64 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               44 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl43_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl43_hypName" href="/Journal/5288/geotechnique">Geotechnique</a> </td> 
+          <td id="ctl00_MainContent_ctl43_tdPulicationCount" class="staticOrderCol"> 3568 </td> 
+          <td class="staticOrderCol"> 64 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               45 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl44_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl44_hypName" href="/Journal/5566/j-mech-design-journal-of-mechanical-design">J MECH DESIGN - Journal of Mechanical Design</a> </td> 
+          <td id="ctl00_MainContent_ctl44_tdPulicationCount" class="staticOrderCol"> 2974 </td> 
+          <td class="staticOrderCol"> 64 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               46 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl45_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl45_hypName" href="/Journal/5870/transp-res-pt-b-method-transportation-research-part-b-methodological">TRANSP RES PT B-METHOD - Transportation Research Part B-methodological</a> </td> 
+          <td id="ctl00_MainContent_ctl45_tdPulicationCount" class="staticOrderCol"> 1526 </td> 
+          <td class="staticOrderCol"> 64 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               47 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl46_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl46_hypName" href="/Journal/5542/j-heat-transfer-journal-of-heat-transfer-transactions-of-the-asme">J HEAT TRANSFER - Journal of Heat Transfer-transactions of The Asme</a> </td> 
+          <td id="ctl00_MainContent_ctl46_tdPulicationCount" class="staticOrderCol"> 5665 </td> 
+          <td class="staticOrderCol"> 63 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               48 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl47_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl47_hypName" href="/Journal/5524/j-eng-mech-asce-journal-of-engineering-mechanics-asce">J ENG MECH-ASCE - Journal of Engineering Mechanics-asce</a> </td> 
+          <td id="ctl00_MainContent_ctl47_tdPulicationCount" class="staticOrderCol"> 4465 </td> 
+          <td class="staticOrderCol"> 63 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               49 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl48_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl48_hypName" href="/Journal/5448/int-j-prod-econ-international-journal-of-production-economics">INT J PROD ECON - International Journal of Production Economics</a> </td> 
+          <td id="ctl00_MainContent_ctl48_tdPulicationCount" class="staticOrderCol"> 4324 </td> 
+          <td class="staticOrderCol"> 63 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               50 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl49_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl49_hypName" href="/Journal/5766/prog-energ-combust-sci-progress-in-energy-and-combustion-science">PROG ENERG COMBUST SCI - Progress in Energy and Combustion Science</a> </td> 
+          <td id="ctl00_MainContent_ctl49_tdPulicationCount" class="staticOrderCol"> 541 </td> 
+          <td class="staticOrderCol"> 63 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               51 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl50_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl50_hypName" href="/Journal/2082/j-aerosol-sci-journal-of-aerosol-science">J AEROSOL SCI - Journal of Aerosol Science</a> </td> 
+          <td id="ctl00_MainContent_ctl50_tdPulicationCount" class="staticOrderCol"> 8986 </td> 
+          <td class="staticOrderCol"> 62 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               52 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl51_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl51_hypName" href="/Journal/5240/eng-fracture-mech-engineering-fracture-mechanics">ENG FRACTURE MECH - Engineering Fracture Mechanics</a> </td> 
+          <td id="ctl00_MainContent_ctl51_tdPulicationCount" class="staticOrderCol"> 7342 </td> 
+          <td class="staticOrderCol"> 62 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               53 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl52_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl52_hypName" href="/Journal/5084/adv-water-resour-advances-in-water-resources">ADV WATER RESOUR - Advances in Water Resources</a> </td> 
+          <td id="ctl00_MainContent_ctl52_tdPulicationCount" class="staticOrderCol"> 2898 </td> 
+          <td class="staticOrderCol"> 62 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               54 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl53_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl53_hypName" href="/Journal/5342/ieee-trans-control-syst-techn-ieee-transactions-on-control-systems-technology">IEEE TRANS CONTROL SYST TECHN - IEEE Transactions on Control Systems Technology</a> </td> 
+          <td id="ctl00_MainContent_ctl53_tdPulicationCount" class="staticOrderCol"> 1923 </td> 
+          <td class="staticOrderCol"> 62 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               55 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl54_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl54_hypName" href="/Journal/5439/int-j-numer-method-fluid-international-journal-for-numerical-methods-in-fluids">INT J NUMER METHOD FLUID - International Journal for Numerical Methods in Fluids</a> </td> 
+          <td id="ctl00_MainContent_ctl54_tdPulicationCount" class="staticOrderCol"> 6067 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               56 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl55_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl55_hypName" href="/Journal/5418/int-j-eng-sci-international-journal-of-engineering-science">INT J ENG SCI - International Journal of Engineering Science</a> </td> 
+          <td id="ctl00_MainContent_ctl55_tdPulicationCount" class="staticOrderCol"> 5655 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               57 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl56_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl56_hypName" href="/Journal/5421/int-j-fracture-international-journal-of-fracture">INT J FRACTURE - International Journal of Fracture</a> </td> 
+          <td id="ctl00_MainContent_ctl56_tdPulicationCount" class="staticOrderCol"> 5610 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               58 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl57_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl57_hypName" href="/Journal/5165/cirp-ann-manuf-technol-cirp-annals-manufacturing-technology">CIRP ANN-MANUF TECHNOL - Cirp Annals-manufacturing Technology</a> </td> 
+          <td id="ctl00_MainContent_ctl57_tdPulicationCount" class="staticOrderCol"> 4125 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               59 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl58_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl58_hypName" href="/Journal/5097/ann-biomed-eng-annals-of-biomedical-engineering">ANN BIOMED ENG - Annals of Biomedical Engineering</a> </td> 
+          <td id="ctl00_MainContent_ctl58_tdPulicationCount" class="staticOrderCol"> 3782 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               60 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl59_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl59_hypName" href="/Journal/5434/int-j-multiphase-flow-international-journal-of-multiphase-flow">INT J MULTIPHASE FLOW - International Journal of Multiphase Flow</a> </td> 
+          <td id="ctl00_MainContent_ctl59_tdPulicationCount" class="staticOrderCol"> 3316 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               61 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl60_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl60_hypName" href="/Journal/5318/ieee-j-sel-top-quantum-electr-ieee-journal-of-selected-topics-in-quantum-electronics">IEEE J SEL TOP QUANTUM ELECTR - IEEE Journal of Selected Topics in Quantum Electronics</a> </td> 
+          <td id="ctl00_MainContent_ctl60_tdPulicationCount" class="staticOrderCol"> 3152 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               62 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl61_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl61_hypName" href="/Journal/17131/ieee-transactions-on-circuits-and-systems-ii-analog-and-digital-signal-processing">IEEE Transactions on Circuits and Systems Ii: Analog and Digital Signal Processing</a> </td> 
+          <td id="ctl00_MainContent_ctl61_tdPulicationCount" class="staticOrderCol"> 1868 </td> 
+          <td class="staticOrderCol"> 61 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               63 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl62_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl62_hypName" href="/Journal/5425/int-j-hydrogen-energ-international-journal-of-hydrogen-energy">INT J HYDROGEN ENERG - International Journal of Hydrogen Energy</a> </td> 
+          <td id="ctl00_MainContent_ctl62_tdPulicationCount" class="staticOrderCol"> 7963 </td> 
+          <td class="staticOrderCol"> 60 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               64 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl63_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl63_hypName" href="/Journal/5812/sensor-actuator-a-phys-sensors-and-actuators-a-physical">SENSOR ACTUATOR A-PHYS - Sensors and Actuators A-physical</a> </td> 
+          <td id="ctl00_MainContent_ctl63_tdPulicationCount" class="staticOrderCol"> 7810 </td> 
+          <td class="staticOrderCol"> 60 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               65 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl64_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl64_hypName" href="/Journal/5540/j-guid-control-dynam-journal-of-guidance-control-and-dynamics">J GUID CONTROL DYNAM - Journal of Guidance Control and Dynamics</a> </td> 
+          <td id="ctl00_MainContent_ctl64_tdPulicationCount" class="staticOrderCol"> 5552 </td> 
+          <td class="staticOrderCol"> 60 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               66 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl65_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl65_hypName" href="/Journal/5329/ieee-signal-process-lett-ieee-signal-processing-letters">IEEE SIGNAL PROCESS LETT - IEEE Signal Processing Letters</a> </td> 
+          <td id="ctl00_MainContent_ctl65_tdPulicationCount" class="staticOrderCol"> 3539 </td> 
+          <td class="staticOrderCol"> 60 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               67 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl66_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl66_hypName" href="/Journal/17164/ieee-transactions-on-power-apparatus-and-systems">IEEE Transactions on Power Apparatus and Systems</a> </td> 
+          <td id="ctl00_MainContent_ctl66_tdPulicationCount" class="staticOrderCol"> 6628 </td> 
+          <td class="staticOrderCol"> 59 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               68 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl67_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl67_hypName" href="/Journal/5381/iie-transactions">Iie Transactions</a> </td> 
+          <td id="ctl00_MainContent_ctl67_tdPulicationCount" class="staticOrderCol"> 3857 </td> 
+          <td class="staticOrderCol"> 59 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               69 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl68_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl68_hypName" href="/Journal/7023/wear">Wear</a> </td> 
+          <td id="ctl00_MainContent_ctl68_tdPulicationCount" class="staticOrderCol"> 11891 </td> 
+          <td class="staticOrderCol"> 58 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               70 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl69_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl69_hypName" href="/Journal/10776/j-amer-soc-inform-sci-journal-of-the-american-society-for-information-science">J AMER SOC INFORM SCI - Journal of The American Society for Information Science</a> </td> 
+          <td id="ctl00_MainContent_ctl69_tdPulicationCount" class="staticOrderCol"> 2369 </td> 
+          <td class="staticOrderCol"> 58 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               71 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl70_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl70_hypName" href="/Journal/5099/annu-rev-biomed-eng-annual-review-of-biomedical-engineering">ANNU REV BIOMED ENG - Annual Review of Biomedical Engineering</a> </td> 
+          <td id="ctl00_MainContent_ctl70_tdPulicationCount" class="staticOrderCol"> 212 </td> 
+          <td class="staticOrderCol"> 58 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               72 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl71_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl71_hypName" href="/Journal/5674/med-biol-eng-comput-medical-&amp;-biological-engineering-&amp;-computing">MED BIOL ENG COMPUT - Medical &amp; Biological Engineering &amp; Computing</a> </td> 
+          <td id="ctl00_MainContent_ctl71_tdPulicationCount" class="staticOrderCol"> 5665 </td> 
+          <td class="staticOrderCol"> 57 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               73 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl72_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl72_hypName" href="/Journal/5824/solar-energ-solar-energy">SOLAR ENERG - Solar Energy</a> </td> 
+          <td id="ctl00_MainContent_ctl72_tdPulicationCount" class="staticOrderCol"> 6767 </td> 
+          <td class="staticOrderCol"> 56 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               74 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl73_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl73_hypName" href="/Journal/5603/j-struct-eng-asce-journal-of-structural-engineering-asce">J STRUCT ENG-ASCE - Journal of Structural Engineering-asce</a> </td> 
+          <td id="ctl00_MainContent_ctl73_tdPulicationCount" class="staticOrderCol"> 6572 </td> 
+          <td class="staticOrderCol"> 56 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               75 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl74_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl74_hypName" href="/Journal/1505/biosens-bioelectron-biosensors-&amp;-bioelectronics">BIOSENS BIOELECTRON - Biosensors &amp; Bioelectronics</a> </td> 
+          <td id="ctl00_MainContent_ctl74_tdPulicationCount" class="staticOrderCol"> 5626 </td> 
+          <td class="staticOrderCol"> 56 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               76 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl75_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl75_hypName" href="/Journal/17162/proceedings-of-the-institute-of-radio-engineers">Proceedings of The Institute of Radio Engineers</a> </td> 
+          <td id="ctl00_MainContent_ctl75_tdPulicationCount" class="staticOrderCol"> 3761 </td> 
+          <td class="staticOrderCol"> 56 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               77 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl76_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl76_hypName" href="/Journal/2203/lab-chip-lab-on-a-chip">LAB CHIP - Lab on A Chip</a> </td> 
+          <td id="ctl00_MainContent_ctl76_tdPulicationCount" class="staticOrderCol"> 2073 </td> 
+          <td class="staticOrderCol"> 56 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               78 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl77_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl77_hypName" href="/Journal/5317/ieee-j-oceanic-eng-ieee-journal-of-oceanic-engineering">IEEE J OCEANIC ENG - IEEE Journal of Oceanic Engineering</a> </td> 
+          <td id="ctl00_MainContent_ctl77_tdPulicationCount" class="staticOrderCol"> 2007 </td> 
+          <td class="staticOrderCol"> 56 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               79 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl78_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl78_hypName" href="/Journal/5353/ieee-trans-instrum-meas-ieee-transactions-on-instrumentation-and-measurement">IEEE TRANS INSTRUM MEAS - IEEE Transactions on Instrumentation and Measurement</a> </td> 
+          <td id="ctl00_MainContent_ctl78_tdPulicationCount" class="staticOrderCol"> 8826 </td> 
+          <td class="staticOrderCol"> 55 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               80 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl79_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl79_hypName" href="/Journal/17153/ieee-power-engineering-review">IEEE Power Engineering Review</a> </td> 
+          <td id="ctl00_MainContent_ctl79_tdPulicationCount" class="staticOrderCol"> 6397 </td> 
+          <td class="staticOrderCol"> 55 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               81 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl80_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl80_hypName" href="/Journal/5364/ieee-trans-veh-technol-ieee-transactions-on-vehicular-technology">IEEE TRANS VEH TECHNOL - IEEE Transactions on Vehicular Technology</a> </td> 
+          <td id="ctl00_MainContent_ctl80_tdPulicationCount" class="staticOrderCol"> 5479 </td> 
+          <td class="staticOrderCol"> 54 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               82 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl81_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl81_hypName" href="/Journal/17151/ieee-transactions-on-circuits-and-systems">IEEE Transactions on Circuits and Systems</a> </td> 
+          <td id="ctl00_MainContent_ctl81_tdPulicationCount" class="staticOrderCol"> 3368 </td> 
+          <td class="staticOrderCol"> 54 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               83 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl82_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl82_hypName" href="/Journal/5577/j-non-newtonian-fluid-mech-journal-of-non-newtonian-fluid-mechanics">J NON-NEWTONIAN FLUID MECH - Journal of Non-newtonian Fluid Mechanics</a> </td> 
+          <td id="ctl00_MainContent_ctl82_tdPulicationCount" class="staticOrderCol"> 3079 </td> 
+          <td class="staticOrderCol"> 54 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               84 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl83_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl83_hypName" href="/Journal/5206/earthquake-eng-struc-dynam-earthquake-engineering-&amp;-structural-dynamics">EARTHQUAKE ENG STRUC DYNAM - Earthquake Engineering &amp; Structural Dynamics</a> </td> 
+          <td id="ctl00_MainContent_ctl83_tdPulicationCount" class="staticOrderCol"> 3077 </td> 
+          <td class="staticOrderCol"> 54 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               85 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl84_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl84_hypName" href="/Journal/6945/nat-nanotechnol-nature-nanotechnology">NAT NANOTECHNOL - Nature Nanotechnology</a> </td> 
+          <td id="ctl00_MainContent_ctl84_tdPulicationCount" class="staticOrderCol"> 1789 </td> 
+          <td class="staticOrderCol"> 53 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               86 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl85_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl85_hypName" href="/Journal/5357/ieee-trans-neural-syst-reh-en-ieee-transactions-on-neural-systems-and-rehabilitation-engineering">IEEE TRANS NEURAL SYST REH EN - IEEE Transactions on Neural Systems and Rehabilitation Engineering</a> </td> 
+          <td id="ctl00_MainContent_ctl85_tdPulicationCount" class="staticOrderCol"> 764 </td> 
+          <td class="staticOrderCol"> 53 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               87 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl86_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl86_hypName" href="/Journal/2022/electrochim-acta-electrochimica-acta">ELECTROCHIM ACTA - Electrochimica Acta</a> </td> 
+          <td id="ctl00_MainContent_ctl86_tdPulicationCount" class="staticOrderCol"> 20210 </td> 
+          <td class="staticOrderCol"> 52 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               88 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl87_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl87_hypName" href="/Journal/5433/int-j-mech-sci-international-journal-of-mechanical-sciences">INT J MECH SCI - International Journal of Mechanical Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl87_tdPulicationCount" class="staticOrderCol"> 4824 </td> 
+          <td class="staticOrderCol"> 52 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               89 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl88_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl88_hypName" href="/Journal/5341/ieee-trans-consum-electron-ieee-transactions-on-consumer-electronics">IEEE TRANS CONSUM ELECTRON - IEEE Transactions on Consumer Electronics</a> </td> 
+          <td id="ctl00_MainContent_ctl88_tdPulicationCount" class="staticOrderCol"> 5615 </td> 
+          <td class="staticOrderCol"> 51 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               90 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl89_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl89_hypName" href="/Journal/5533/j-fluid-eng-journal-of-fluids-engineering-transactions-of-the-asme">J FLUID ENG - Journal of Fluids Engineering-transactions of The Asme</a> </td> 
+          <td id="ctl00_MainContent_ctl89_tdPulicationCount" class="staticOrderCol"> 4107 </td> 
+          <td class="staticOrderCol"> 51 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               91 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl90_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl90_hypName" href="/Journal/5324/ieee-microw-wirel-compon-lett-ieee-microwave-and-wireless-components-letters">IEEE MICROW WIREL COMPON LETT - IEEE Microwave and Wireless Components Letters</a> </td> 
+          <td id="ctl00_MainContent_ctl90_tdPulicationCount" class="staticOrderCol"> 2643 </td> 
+          <td class="staticOrderCol"> 51 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               92 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl91_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl91_hypName" href="/Journal/5366/ieee-asme-trans-mechatron-ieee-asme-transactions-on-mechatronics">IEEE-ASME TRANS MECHATRON - IEEE-ASME Transactions on Mechatronics</a> </td> 
+          <td id="ctl00_MainContent_ctl91_tdPulicationCount" class="staticOrderCol"> 1150 </td> 
+          <td class="staticOrderCol"> 51 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               93 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl92_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl92_hypName" href="/Journal/17152/ieee-journal-on-robotics-and-automation">IEEE Journal on Robotics and Automation</a> </td> 
+          <td id="ctl00_MainContent_ctl92_tdPulicationCount" class="staticOrderCol"> 205 </td> 
+          <td class="staticOrderCol"> 51 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               94 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl93_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl93_hypName" href="/Journal/2039/fuel">Fuel</a> </td> 
+          <td id="ctl00_MainContent_ctl93_tdPulicationCount" class="staticOrderCol"> 10971 </td> 
+          <td class="staticOrderCol"> 50 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               95 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl94_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl94_hypName" href="/Journal/5785/reliab-eng-syst-safety-reliability-engineering-&amp;-system-safety">RELIAB ENG SYST SAFETY - Reliability Engineering &amp; System Safety</a> </td> 
+          <td id="ctl00_MainContent_ctl94_tdPulicationCount" class="staticOrderCol"> 3250 </td> 
+          <td class="staticOrderCol"> 50 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               96 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl95_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl95_hypName" href="/Journal/6923/mech-mater-mechanics-of-materials">MECH MATER - Mechanics of Materials</a> </td> 
+          <td id="ctl00_MainContent_ctl95_tdPulicationCount" class="staticOrderCol"> 1809 </td> 
+          <td class="staticOrderCol"> 50 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               97 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl96_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl96_hypName" href="/Journal/6161/renew-sustain-energy-rev-renewable-&amp;-sustainable-energy-reviews">RENEW SUSTAIN ENERGY REV - Renewable &amp; Sustainable Energy Reviews</a> </td> 
+          <td id="ctl00_MainContent_ctl96_tdPulicationCount" class="staticOrderCol"> 1662 </td> 
+          <td class="staticOrderCol"> 50 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               98 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl97_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl97_hypName" href="/Journal/5653/math-comput-modelling-mathematical-and-computer-modelling">MATH COMPUT MODELLING - Mathematical and Computer Modelling</a> </td> 
+          <td id="ctl00_MainContent_ctl97_tdPulicationCount" class="staticOrderCol"> 6261 </td> 
+          <td class="staticOrderCol"> 49 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               99 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl98_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl98_hypName" href="/Journal/5530/j-environ-eng-asce-journal-of-environmental-engineering-asce">J ENVIRON ENG-ASCE - Journal of Environmental Engineering-asce</a> </td> 
+          <td id="ctl00_MainContent_ctl98_tdPulicationCount" class="staticOrderCol"> 4189 </td> 
+          <td class="staticOrderCol"> 49 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               100 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl99_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl99_hypName" href="/Journal/5346/ieee-trans-electromagn-compat-ieee-transactions-on-electromagnetic-compatibility">IEEE TRANS ELECTROMAGN COMPAT - IEEE Transactions on Electromagnetic Compatibility</a> </td> 
+          <td id="ctl00_MainContent_ctl99_tdPulicationCount" class="staticOrderCol"> 3442 </td> 
+          <td class="staticOrderCol"> 49 </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </div> 
+      <ul> 
+      </ul> 
+      <div class="clear"></div> 
+      <div id="ctl00_MainContent_ObjectList_PageNavigator" class="page-navigator"> 
+       <span class="current">1</span> 
+       <a href="/RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0&amp;start=101&amp;end=200">2</a> 
+       <a href="/RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0&amp;start=201&amp;end=300">3</a> 
+       <a href="/RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0&amp;start=301&amp;end=400">4</a> 
+       <a href="/RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0&amp;start=401&amp;end=500">5</a> 
+       <a href="/RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0&amp;start=501&amp;end=600">6</a> 
+       <a id="ctl00_MainContent_ObjectList_Next" title="Go to Next Page" class="nextprev" href="/RankList?last=0&amp;entitytype=4&amp;topdomainid=8&amp;subdomainid=0&amp;start=101&amp;end=200">Next</a> 
+      </div> 
+     </div> 
+     <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+        $(function () {
+            if (request("entitytype") != "7") {
+                $(".ranklist-summary").css("position", "static");
+            }
+        })
+                             //]]>
+    </script> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+   <div class="footer-searchbox"> 
+    <div id="ctl00_FooterSearchForm_searchBar" class="search-bar"> 
+     <div id="ctl00_FooterSearchForm_divSearchBox" class="search-box" style="position:relative"> 
+      <input name="ctl00$FooterSearchForm$txtQuery" type="text" id="ctl00_FooterSearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeypress="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_FooterSearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+     </div> 
+     <input type="image" name="ctl00$FooterSearchForm$SearchButton" id="ctl00_FooterSearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_FooterSearchForm','ctl00_FooterSearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+     <div class="type-suggestion"> 
+      <div id="autoSuggest" class="typesuggest"> 
+      </div> 
+     </div> 
+     <div class="searching-div"> 
+      <div class="loadImg" id="divLoadingIcon"> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="advancedsearchDiv" class="modalpopup"> 
+    </div> 
+    <div class="modalpopup" style="display: block"> 
+     <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+      <div class="domain-closelink"> 
+      </div> 
+      <div class="small-btn"> 
+      </div> 
+      <div class="domain-panel"> 
+       <div> 
+        <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+        <span>Search in all domains</span> 
+       </div> 
+       <div> 
+        <input type="radio" value="0" name="AllDomainRadio" /> 
+        <span>Limit my searches in the following domains</span> 
+       </div> 
+       <div style="padding-left: 10px;"> 
+        <div class="option">
+         <input type="checkbox" value="16" /> 
+         <span>Agriculture Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="3" /> 
+         <span>Arts &amp; Humanities</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="4" /> 
+         <span>Biology</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="5" /> 
+         <span>Chemistry</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="2" /> 
+         <span>Computer Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="7" /> 
+         <span>Economics &amp; Business</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="8" /> 
+         <span>Engineering</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="9" /> 
+         <span>Environmental Sciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="10" /> 
+         <span>Geosciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="12" /> 
+         <span>Material Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="15" /> 
+         <span>Mathematics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="6" /> 
+         <span>Medicine</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="19" /> 
+         <span>Physics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="22" /> 
+         <span>Social Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="1" /> 
+         <span>Multidisciplinary</span>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_FooterSearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_FooterSearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_FooterSearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_advancedsearch');
+            });
+            $("#ctl00_FooterSearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+    <input name="ctl00$FooterSearchForm$hdnSelectedDomain" type="hidden" id="ctl00_FooterSearchForm_hdnSelectedDomain" /> 
+   </div> 
+  </div> 
+  <div class="footer"> 
+   <div id="ctl00_Footer_divFooterWrapper" class="footer-wrapper"> 
+    <div class="footer-left"> 
+     <div class="footer-left-arrow"> 
+     </div> 
+     <a id="ctl00_Footer_hlHelp" href="About/Help.htm" target="_blank">Help</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFeedback" href="http://social.microsoft.com/Forums/en-US/mas/threads" target="_blank">Feedback</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFollowUs" href="http://twitter.com/MSFTAcademic" target="_blank">Follow Us</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTermofUse" href="http://explore.live.com/microsoft-service-agreement?ref=none" target="_blank">Terms of Use</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkSpecTerms" href="About/TermsofUseSpecEN.html" target="_blank">Specific Terms</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTrademarks" href="http://go.microsoft.com/?linkid=4412893" target="_blank">Trademarks</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkPrivacy" href="http://go.microsoft.com/?linkid=4412894" target="_blank">Privacy &amp; Cookies</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_HyperLink1" href="http://www.zoomerang.com/Survey/WEB22CRYAWQWBM/" target="_blank">Survey</a> 
+    </div> 
+    <div class="propupwidth"> 
+     <div class="footer-right"> 
+      <div class="footer-right-arrow"> 
+      </div> 
+      <span id="ctl00_Footer_labCopyright" class="footer-copyright">&copy;2012 Microsoft Corporation. All rights reserved.</span> 
+      <a href="http://research.microsoft.com" target="_blank" class="footer-logo"></a> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("[id^='logclick']").each(
+            function (index) {
+                var thisID = $(this).attr("id");
+                $(this).click(function () { siUrl(document.location, thisID.split("_")[1]); });
+            }
+            );
+    });
+</script> 
+   </div> 
+  </div> 
+  <div class="footer-fixed"> 
+  </div> 
+ </form>   
+</body>

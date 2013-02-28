@@ -1,0 +1,40 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>IEEE Network</h1> 
+ <a href="http://dl.comsoc.org/ni/">IEEE Network @ Communications Society</a>
+ <br /> 
+ <a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=65">IEEE Network @ Xplore</a> 
+ <ul> 
+  <li><a href="network26.html">Volume 26: 2012</a></li> 
+  <li><a href="network25.html">Volume 25: 2011</a></li> 
+  <li><a href="network24.html">Volume 24: 2010</a></li> 
+  <li><a href="network23.html">Volume 23: 2009</a></li> 
+  <li><a href="network22.html">Volume 22: 2008</a></li> 
+  <li><a href="network21.html">Volume 21: 2007</a></li> 
+  <li><a href="network20.html">Volume 20: 2006</a></li> 
+  <li><a href="network19.html">Volume 19: 2005</a></li> 
+  <li><a href="network18.html">Volume 18: 2004</a></li> 
+ </ul> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../../conf/indexa.html">Conferences</a> | 
+  <a href="../index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 03:37:56 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

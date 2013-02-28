@@ -1,0 +1,119 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>Operating Systems Design and Implementation (OSDI)</h1> 
+ <a href="http://www.usenix.org/">USENIX Home Page</a> - 
+ <a href="../../usenix/index.html">More USENIX Publications</a> 
+ <h2>9. OSDI 2010: Vancouver, BC, Canada</h2> 
+ <a name="2010" href="../../indices/a-tree/a/Arpaci=Dusseau:Remzi_H=.html">Remzi H. Arpaci-Dusseau</a>, 
+ <a href="../../indices/a-tree/c/Chen:Brad.html">Brad Chen</a> (Eds.): 9th USENIX Symposium on Operating Systems Design and Implementation, OSDI 2010, October 4-6, 2010, Vancouver, BC, Canada, Proceedings. USENIX Association 2010, ISBN 978-1-931971-79-9
+ <br /> 
+ <a href="osdi2010.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%229th+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation%2C+OSDI+2010%2C++October+4%2D6%2C+2010%2C+Vancouver%2C+BC%2C+Canada%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%229th+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation%2C+OSDI+2010%2C++October+4%2D6%2C+2010%2C+Vancouver%2C+BC%2C+Canada%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/2010"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2010"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2010.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>8. OSDI 2008: San Diego, California, USA</h2> 
+ <p><a name="2008" href="../../indices/a-tree/d/Draves:Richard.html">Richard Draves</a>, <a href="../../indices/a-tree/r/Renesse:Robbert_van.html">Robbert van Renesse</a> (Eds.): 8th USENIX Symposium on Operating Systems Design and Implementation, OSDI 2008, December 8-10, 2008, San Diego, California, USA, Proceedings. USENIX Association 2008, ISBN 978-1-931971-65-2<br /> <a href="osdi2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%228th+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation%2C+OSDI+2008%2C+December+8%2D10%2C+2008%2C+San+Diego%2C+California%2C+USA%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%228th+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation%2C+OSDI+2008%2C+December+8%2D10%2C+2008%2C+San+Diego%2C+California%2C+USA%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/osdi/2008"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - <a href="http://www.usenix.org/events/osdi08/">OSDI 2008 Home Page</a></p> 
+ <p><a name="2008wiov" href="../../indices/a-tree/b/Ben=Yehuda:Muli.html">Muli Ben-Yehuda</a>, <a href="../../indices/a-tree/c/Cox:Alan_L=.html">Alan L. Cox</a>, <a href="../../indices/a-tree/r/Rixner:Scott.html">Scott Rixner</a> (Eds.): First Workshop on I/O Virtualization, December 10-11, 2008, San Diego, CA, USA, Proceedings. USENIX Association 2008<br /> <a href="wiov2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22First+Workshop+on+I%2FO+Virtualization%2C+December+10%2D11%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22First+Workshop+on+I%2FO+Virtualization%2C+December+10%2D11%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/osdi/2008wiov"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008wiov"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008wiov.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2008hotpower" href="../../indices/a-tree/z/Zhao:Feng.html">Feng Zhao</a> (Ed.): Workshop on Power Aware Computing and Systems, HotPower 2008, December 7, 2008, San Diego, CA, USA, Proceedings. USENIX Association 2008<br /> <a href="hotpower2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Workshop+on+Power+Aware+Computing+and+Systems%2C+HotPower+2008%2C+December+7%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Workshop+on+Power+Aware+Computing+and+Systems%2C+HotPower+2008%2C+December+7%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/osdi/2008hotpower"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008hotpower"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008hotpower.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2008sysml" href="../../indices/a-tree/f/Fox:Armando.html">Armando Fox</a>, <a href="../../indices/a-tree/b/Basu:Sumit.html">Sumit Basu</a> (Eds.): Third Workshop on Tackling Computer Systems Problems with Machine Learning Techniques, SysML 2008, December 11, 2008, San Diego, CA, USA, Proceedings. USENIX Association 2008<br /> <a href="sysml2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Third+Workshop+on+Tackling+Computer+Systems+Problems+with+Machine+Learning+Techniques%2C+SysML+2008%2C+December+11%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Third+Workshop+on+Tackling+Computer+Systems+Problems+with+Machine+Learning+Techniques%2C+SysML+2008%2C+December+11%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/osdi/2008sysml"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008sysml"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008sysml.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2008wasl" href="../../indices/a-tree/b/Bronevetsky:Greg.html">Greg Bronevetsky</a> (Ed.): First USENIX Workshop on the Analysis of System Logs, WASL 2008, December 7, 2008, San Diego, CA, USA, Proceedings. USENIX Association 2008<br /> <a href="wasl2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22First+USENIX+Workshop+on+the+Analysis+of+System+Logs%2C+WASL+2008%2C+December+7%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22First+USENIX+Workshop+on+the+Analysis+of+System+Logs%2C+WASL+2008%2C+December+7%2C+2008%2C+San+Diego%2C+CA%2C+USA%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/osdi/2008wasl"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008wasl"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2008wasl.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>7. OSDI 2006: Seattle, WA, USA</h2> 
+ <a name="2006" href="../../indices/a-tree/b/Bershad:Brian_N=.html">Brian N. Bershad</a>, 
+ <a href="../../indices/a-tree/m/Mogul:Jeffrey_C=.html">Jeffrey C. Mogul</a> (Eds.): 7th Symposium on Operating Systems Design and Implementation (OSDI '06), November 6-8, Seattle, WA, USA. USENIX Association 2006, ISBN 1-931971-47-1
+ <br /> 
+ <a href="osdi2006.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%227th+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI+%2706%29%2C+November+6%2D8%2C+Seattle%2C+WA%2C+USA%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%227th+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI+%2706%29%2C+November+6%2D8%2C+Seattle%2C+WA%2C+USA%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/2006"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2006"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2006.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.usenix.org/events/osdi06/">OSDI 2006 Home Page</a> 
+ <h2>6. OSDI 2004: San Francisco, California, USA</h2> 6th Symposium on Operating System Design and Implementation (OSDI 2004), San Francisco, California, USA, December 6-8, 2004. USENIX Association 2004
+ <br /> 
+ <a href="osdi2004.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%226th+Symposium+on+Operating+System+Design+and+Implementation+%28OSDI+2004%29%2C+San+Francisco%2C+California%2C+USA%2C+December+6%2D8%2C+2004%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%226th+Symposium+on+Operating+System+Design+and+Implementation+%28OSDI+2004%29%2C+San+Francisco%2C+California%2C+USA%2C+December+6%2D8%2C+2004%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/2004"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2004"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2004.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.usenix.org/events/osdi04/">OSDI 2004 Home Page</a> 
+ <h2>5. OSDI 2002: Boston, Massachusetts, USA</h2> 
+ <a name="2002" href="../../indices/a-tree/c/Culler:David_E=.html">David E. Culler</a>, 
+ <a href="../../indices/a-tree/d/Druschel:Peter.html">Peter Druschel</a> (Eds.): 5th Symposium on Operating System Design and Implementation (OSDI 2002), Boston, Massachusetts, USA, December 9-11, 2002. USENIX Association 2002, ISBN 978-1-4503-0111-4
+ <br /> 
+ <a href="osdi2002.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%225th+Symposium+on+Operating+System+Design+and+Implementation+%28OSDI+2002%29%2C+Boston%2C+Massachusetts%2C+USA%2C+December+9%2D11%2C+2002%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%225th+Symposium+on+Operating+System+Design+and+Implementation+%28OSDI+2002%29%2C+Boston%2C+Massachusetts%2C+USA%2C+December+9%2D11%2C+2002%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/2002"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2002"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2002.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a>
+ <br /> 
+ <a href="../../journals/sigops/sigops36.html">Operating Systems Review 36</a>, Special Issue - 
+ <a href="http://www.usenix.org/events/osdi02/">OSDI 2002 Home Page</a> 
+ <h2>4. OSDI 2000: San Diego, California, USA</h2> 4th Symposium on Operating System Design and Implementation (OSDI 2000), San Diego, California, USA, October 23-25, 2000. USENIX Association 2000, ISBN 1-880446-16-2
+ <br /> 
+ <a href="osdi2000.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%224th+Symposium+on+Operating+System+Design+and+Implementation+%28OSDI+2000%29%2C+San+Diego%2C+California%2C+USA%2C+October+23%2D25%2C+2000%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%224th+Symposium+on+Operating+System+Design+and+Implementation+%28OSDI+2000%29%2C+San+Diego%2C+California%2C+USA%2C+October+23%2D25%2C+2000%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/2000"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2000"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/2000.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.usenix.org/events/osdi2000/">OSDI 2000 Home Page</a> 
+ <h2>3. OSDI 1999: New Orleans, Louisiana</h2> 
+ <a name="1999" href="../../indices/a-tree/s/Seltzer:Margo_I=.html">Margo I. Seltzer</a>, 
+ <a href="../../indices/a-tree/l/Leach:Paul_J=.html">Paul J. Leach</a> (Eds.): Proceedings of the Third USENIX Symposium on Operating Systems Design and Implementation (OSDI), New Orleans, Louisiana, USA, February 22-25, 1999. USENIX Association 1999, ISBN 1-880446-39-1
+ <br /> 
+ <a href="osdi99.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+Third+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI%29%2C+New+Orleans%2C+Louisiana%2C+USA%2C+February+22%2D25%2C+1999%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+Third+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI%29%2C+New+Orleans%2C+Louisiana%2C+USA%2C+February+22%2D25%2C+1999%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/1999"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/1999"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/1999.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.usenix.org/events/osdi99/">OSDI 1999 Home Page</a> 
+ <h2>2. OSDI 1996: Seattle, Washington</h2> 
+ <a name="1996" href="../../indices/a-tree/p/Petersen:Karin.html">Karin Petersen</a>, 
+ <a href="../../indices/a-tree/z/Zwaenepoel:Willy.html">Willy Zwaenepoel</a> (Eds.): Proceedings of the Second USENIX Symposium on Operating Systems Design and Implementation (OSDI), Seattle, Washington, USA, October 28-31, 1996. ACM 1996, ISBN 1-880446-82-0
+ <br /> 
+ <a href="osdi96.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+Second+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI%29%2C+Seattle%2C+Washington%2C+USA%2C+October+28%2D31%2C+1996%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+Second+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI%29%2C+Seattle%2C+Washington%2C+USA%2C+October+28%2D31%2C+1996%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/1996"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/1996"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/1996.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a>
+ <br /> 
+ <a href="../../journals/sigops/sigops30.html">Operating Systems Review 30</a>, Special Issue - 
+ <a href="http://sandbox.parc.xerox.com/osdi-96/">OSDI'96 Home Page and On Line Proceedings</a> 
+ <h2>1. OSDI 1994: Monterey, California</h2> Proceedings of the First USENIX Symposium on Operating Systems Design and Implementation (OSDI), Monterey, California, USA, November 14-17, 1994. USENIX Association 1994
+ <br /> 
+ <a href="osdi94.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+First+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI%29%2C+Monterey%2C+California%2C+USA%2C+November+14%2D17%2C+1994%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+First+USENIX+Symposium+on+Operating+Systems+Design+and+Implementation+%28OSDI%29%2C+Monterey%2C+California%2C+USA%2C+November+14%2D17%2C+1994%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/osdi/1994"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/1994"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/osdi/1994.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cs.utah.edu/~lepreau/osdi94/index.html">On Line Proceedings</a> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../indexa.html">Conferences</a> | 
+  <a href="../../journals/index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 02:38:50 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

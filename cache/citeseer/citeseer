@@ -1,0 +1,659 @@
+<body> 
+ <div id="wrapper"> 
+  <div id="topnav"> 
+   <ul id="search_nav"> 
+    <li class="active"><a href="#search_docs">Documents</a></li> 
+    <li><a href="#search_auth">Authors</a></li> 
+    <li><a href="#search_tables">Tables</a></li> 
+   </ul> 
+   <ul id="toptools"> 
+    <li><a href="/myciteseer/login;jsessionid=3F394E18116EF46C76E38278FB7E94A4">Log in</a></li> 
+    <li><a href="/mcsutils/newAccount;jsessionid=3F394E18116EF46C76E38278FB7E94A4">Sign up</a></li> 
+    <li><a href="/metacart;jsessionid=3F394E18116EF46C76E38278FB7E94A4">MetaCart</a></li> 
+   </ul> 
+  </div> 
+  <div id="header"> 
+   <h1 id="title"><a href="/;jsessionid=3F394E18116EF46C76E38278FB7E94A4" title="CiteSeerX"><img src="/images/csx_logo.png;jsessionid=3F394E18116EF46C76E38278FB7E94A4" alt="CiteSeerX logo" /></a></h1> 
+  </div> 
+  <div id="statsMenu" class="submenu"> 
+   <ul> 
+    <li><a href="/stats/articles;jsessionid=3F394E18116EF46C76E38278FB7E94A4">Most Cited Articles</a></li> 
+    <li><a href="/stats/citations;jsessionid=3F394E18116EF46C76E38278FB7E94A4">Most Cited Citations</a></li> 
+    <li><a href="/stats/authors;jsessionid=3F394E18116EF46C76E38278FB7E94A4">Most Cited Authors</a></li> 
+    <li class="active"><a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4">Venue Impact Ratings</a></li> 
+   </ul> 
+  </div> 
+  <div id="content"> 
+   <div id="statsHeader"> 
+    <h2>Estimated Venue Impact Factors</h2> 
+    <p> Generated from documents in the CiteSeer<sup>x</sup> database as of March 20, 2008. This list is automatically generated and may contain errors. Impact is estimated based on Garfield's traditional impact factor.</p> 
+   </div> 
+   <div id="statsSubMenu">
+     Choose Window: | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1993">1993</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1994">1994</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1995">1995</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1996">1996</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1997">1997</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1998">1998</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=1999">1999</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2000">2000</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2001">2001</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2002">2002</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2003">2003</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2004">2004</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2005">2005</a> | 
+    <a href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2006">2006</a> | 
+    <a id="currentlink" href="/stats/venues;jsessionid=3F394E18116EF46C76E38278FB7E94A4?y=2007">2007</a> 
+   </div> 
+   <div>
+     Only venues with at least 25 articles are shown. Venue details obtained from 
+    <a href="http://dblp.uni-trier.de/">DBLP</a> by 
+    <a href="http://www.informatik.uni-trier.de/~ley/">Michael Ley</a>. Only venues contained in DBLP are included. 
+   </div> 
+   <div id="statsList"> 
+    <ol start="1"> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/popl/">POPL</a> <em style="font-weight:bold;">0.45</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/osdi/">OSDI</a> <em style="font-weight:bold;">0.43</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pldi/">PLDI</a> <em style="font-weight:bold;">0.4</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ccs/">ACM Conference on Computer and Communications Security</a> <em style="font-weight:bold;">0.39</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sp/">S&amp;P</a> <em style="font-weight:bold;">0.37</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/nsdi/">NSDI</a> <em style="font-weight:bold;">0.37</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/csfw/">CSFW</a> <em style="font-weight:bold;">0.33</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/asplos/">ASPLOS</a> <em style="font-weight:bold;">0.32</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigcomm/">SIGCOMM</a> <em style="font-weight:bold;">0.31</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/raid/">RAID</a> <em style="font-weight:bold;">0.31</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eurosys/">EuroSys</a> <em style="font-weight:bold;">0.3</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fast/">FAST</a> <em style="font-weight:bold;">0.3</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tcc/">TCC</a> <em style="font-weight:bold;">0.26</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iptps/">IPTPS</a> <em style="font-weight:bold;">0.26</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cgo/">CGO</a> <em style="font-weight:bold;">0.25</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/crypto/">CRYPTO</a> <em style="font-weight:bold;">0.25</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/vmcai/">VMCAI</a> <em style="font-weight:bold;">0.25</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tacas/">TACAS</a> <em style="font-weight:bold;">0.25</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sas/">SAS</a> <em style="font-weight:bold;">0.23</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cav/">CAV</a> <em style="font-weight:bold;">0.22</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/esop/">ESOP</a> <em style="font-weight:bold;">0.22</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/lctrts/">LCTES</a> <em style="font-weight:bold;">0.2</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/usenix/">USENIX Annual Technical Conference, General Track</a> <em style="font-weight:bold;">0.19</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eurocrypt/">EUROCRYPT</a> <em style="font-weight:bold;">0.17</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pkc/">Public Key Cryptography</a> <em style="font-weight:bold;">0.17</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/promas/">PROMAS</a> <em style="font-weight:bold;">0.16</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cc/">CC</a> <em style="font-weight:bold;">0.16</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/oopsla/">OOPSLA</a> <em style="font-weight:bold;">0.16</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eccv/">ECCV (1)</a> <em style="font-weight:bold;">0.16</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cidr/">CIDR</a> <em style="font-weight:bold;">0.15</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/naacl/">HLT/EMNLP</a> <em style="font-weight:bold;">0.15</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mobisys/">MobiSys</a> <em style="font-weight:bold;">0.15</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ndss/">NDSS</a> <em style="font-weight:bold;">0.14</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/hpca/">HPCA</a> <em style="font-weight:bold;">0.14</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/imc/">Internet Measurment Conference</a> <em style="font-weight:bold;">0.14</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecoop/">ECOOP</a> <em style="font-weight:bold;">0.14</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ccr/">Computer Communication Review</a> <em style="font-weight:bold;">0.13</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icml/">ICML</a> <em style="font-weight:bold;">0.13</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ics/">ICS</a> <em style="font-weight:bold;">0.12</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pods/">PODS</a> <em style="font-weight:bold;">0.12</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/">SIGMOD Conference</a> <em style="font-weight:bold;">0.12</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ctrsa/">CT-RSA</a> <em style="font-weight:bold;">0.12</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/toplas/">ACM Trans. Program. Lang. Syst.</a> <em style="font-weight:bold;">0.12</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/imc/">Internet Measurement Conference</a> <em style="font-weight:bold;">0.11</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/nips/">NIPS</a> <em style="font-weight:bold;">0.11</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aplas/">APLAS</a> <em style="font-weight:bold;">0.11</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/uist/">UIST</a> <em style="font-weight:bold;">0.11</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/rss/">Robotics: Science and Systems</a> <em style="font-weight:bold;">0.11</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/acl/">ACL</a> <em style="font-weight:bold;">0.11</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ipaw/">IPAW</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icaris/">ICARIS</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fossacs/">FoSSaCS</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ml/">Machine Learning</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/vldb/">VLDB</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tdsc/">IEEE Trans. Dependable Sec. Comput.</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ima/">IMA Int. Conf.</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aips/">ICAPS</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jair/">J. Artif. Intell. Res. (JAIR)</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/stoc/">STOC</a> <em style="font-weight:bold;">0.1</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/coling/">Computational Linguistics</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ijcai/">IJCAI</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aose/">AOSE</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecrts/">ECRTS</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmetrics/">SIGMETRICS</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eacl/">EACL</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/www/">WWW</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ipsn/">IPSN</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aPcsac/">ACSAC</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ws/">J. Web Sem.</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/chi/">CHI</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/rml/">RuleML</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jmlr/">Journal of Machine Learning Research</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kr/">KR</a> <em style="font-weight:bold;">0.09</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icalp/">ICALP</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigsoft/">SIGSOFT FSE</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/esorics/">ESORICS</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/lpar/">LPAR</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/infovis/">INFOVIS</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigir/">SIGIR</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ifip1-7/">Formal Aspects in Security and Trust</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isca/">ISCA</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jwe/">J. Web Eng.</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tochi/">ACM Trans. Comput.-Hum. Interact.</a> <em style="font-weight:bold;">0.08</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fm/">FM</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dlog/">Description Logics</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigecom/">ACM Conference on Electronic Commerce</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tphol/">TPHOLs</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/edbtw/">EDBT Workshops</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icdt/">ICDT</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sensys/">SenSys</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ai/">Artif. Intell.</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cp/">CP</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/infocom/">INFOCOM</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cvpr/">CVPR (1)</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mobihoc/">MobiHoc</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/eccc/">Electronic Colloquium on Computational Complexity (ECCC)</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icse/">WADS</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fmcad/">FMCAD</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aaai/">AAAI</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/soda/">SODA</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mobicom/">MOBICOM</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/virology/">Journal in Computer Virology</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/scw/">SCW</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/edo/">SEM</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/podc/">PODC</a> <em style="font-weight:bold;">0.07</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icac/">ICAC</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecmdafa/">ECMDA-FA</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kdid/">KDID</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sose/">SOSE</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/acid/">ACiD</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sacmat/">SACMAT</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/edbt/">EDBT</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cpc/">Combinatorics, Probability &amp; Computing</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/asiacrypt/">ASIACRYPT</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/micro/">MICRO</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cvpr/">CVPR (2)</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ppdp/">PPDP</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ipco/">IPCO</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kdd/">KDD</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/focm/">Foundations of Computational Mathematics</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tissec/">ACM Trans. Inf. Syst. Secur.</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/acns/">ACNS</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dalt/">DALT</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tos/">TOS</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icde/">ICDE</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icgi/">ICGI</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cade/">CADE</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iccv/">ICCV</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/colt/">COLT</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/naacl/">HLT-NAACL</a> <em style="font-weight:bold;">0.06</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/lics/">LICS</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/spire/">SPIRE</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ancs/">ANCS</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecml/">ECML</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/acsd/">ACSD</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ppswr/">PPSWR</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icnp/">ICNP</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fc/">Financial Cryptography</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/uai/">UAI</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dbisp2p/">DBISP2P</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ants/">ANTS</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iui/">Intelligent User Interfaces</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/adaEurope/">Ada-Europe</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/vee/">VEE</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sg/">Smart Graphics</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/p2p/">Peer-to-Peer Computing</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/er/">ER</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ccs/">ASIACCS</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pdp/">PDP</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/oss/">OSS</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/grid/">J. Grid Comput.</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cikm/">CIKM</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ih/">Information Hiding</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dsn/">DSN</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/acisp/">ACISP</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sat/">SAT</a> <em style="font-weight:bold;">0.05</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/haskell/">Haskell</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/psb/">Pacific Symposium on Biocomputing</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/robocup/">RoboCup</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sefm/">SEFM</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sacrypt/">Selected Areas in Cryptography</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/stacs/">STACS</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cn/">Computer Networks</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/lpnmr/">LPNMR</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/jelia/">JELIA</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ershov/">Ershov Memorial Conference</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sigmod/">SIGMOD Record</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icalp/">ICALP (2)</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tap/">TAP</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ec/">Evolutionary Computation</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/concur/">CONCUR</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isw/">ISC</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/spin/">SPIN</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijpp/">International Journal of Parallel Programming</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kbse/">ASE</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cpaior/">CPAIOR</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigsoft/">ESEC/SIGSOFT FSE</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/csl/">CSL</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/widm/">WIDM</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eccv/">ECCV (4)</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijcv/">International Journal of Computer Vision</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ipps/">JSSPP</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jot/">Journal of Object Technology</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jsac/">IEEE Journal on Selected Areas in Communications</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fsttcs/">FSTTCS</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/civr/">CIVR</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iiswc/">IISWC</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ida/">IDA</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wia/">CIAA</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iswc/">ISWC</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/clima/">CLIMA VI</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/japll/">J. Applied Logic</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tit/">IEEE Transactions on Information Theory</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cade/">IJCAR</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icse/">ICSE</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/rtss/">RTSS</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tosem/">ACM Trans. Softw. Eng. Methodol.</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tsd/">TSD</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/concurrency/">Concurrency - Practice and Experience</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cbse/">CBSE</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ton/">IEEE/ACM Trans. Netw.</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cases/">CASES</a> <em style="font-weight:bold;">0.04</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tods/">ACM Trans. Database Syst.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fpt/">FPT</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aiml/">Advances in Modal Logic</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/coordination/">COORDINATION</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/lcpc/">LCPC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wiopt/">WiOpt</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/caise/">CAiSE</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/avi/">AVI</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/p2p/">Peer-to-Peer Systems and Applications</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tlca/">TLCA</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icalp/">ICALP (1)</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/indocrypt/">INDOCRYPT</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/debu/">IEEE Data Eng. Bull.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mss/">MSST</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/group/">GROUP</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/etrics/">ETRICS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/webdb/">WebDB</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dagstuhl/">Graph Drawing</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sigmetrics/">SIGMETRICS Performance Evaluation Review</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/acj/">Journal of Research and Practice in Information Technology</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ictcs/">ICTCS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tabletop/">Tabletop</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jacm/">J. ACM</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/avbpa/">AVBPA</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/IEEEpact/">PaCT</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/aim/">AI Magazine</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/gir/">GIR</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/hybrid/">HSCC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/scp/">Sci. Comput. Program.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cicling/">CICLing</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dils/">DILS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/nossdav/">NOSSDAV</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/neco/">Neural Computation</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/joc/">J. Cryptology</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ppopp/">PPOPP</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ches/">CHES</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sosym/">Software and System Modeling</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/isse/">ISSE</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kivs/">KiVS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pam/">PAM</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/amast/">AMAST</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ewsa/">EWSA</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sigmobile/">Mobile Computing and Communications Review</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mascots/">MASCOTS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jlp/">J. Log. Algebr. Program.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/hri/">HRI</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mir/">Multimedia Information Retrieval</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tosn/">TOSN</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/forte/">FORTE</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/IEEEpact/">IEEE PACT</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/micro/">IEEE Micro</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tomccap/">TOMCCAP</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/swat/">SWAT</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tecs/">ACM Trans. Embedded Comput. Syst.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ecr/">Electronic Commerce Research</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/compgeom/">Symposium on Computational Geometry</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/srds/">SRDS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jbi/">Journal of Biomedical Informatics</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/soco/">Software Composition</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/esws/">ESWC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cms/">Communications and Multimedia Security</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kivs/">KiVS Kurzbeitr&auml;ge und Workshop</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icinco/">ICINCO-SPSMC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/focs/">FOCS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/edcc/">EDCC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wiri/">WIRI</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/percom/">PerCom</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijwis/">IJWIS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/bib/">Briefings in Bioinformatics</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/argmas/">ArgMAS</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/toms/">ACM Trans. Math. Softw.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/rise/">RISE</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wac/">WAC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/tgc/">TGC</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/nldb/">NLDB</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sara/">SARA</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/toit/">ACM Trans. Internet Techn.</a> <em style="font-weight:bold;">0.03</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icapr/">ICAPR (2)</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tip/">IEEE Transactions on Image Processing</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/graphicsinterface/">Graphics Interface</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/autoid/">AutoID</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isese/">ISESE</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cogsci/">Cognitive Science</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/fmsd/">Formal Methods in System Design</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/bda/">BDA</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/uml/">MoDELS Satellite Events</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/aamas/">Autonomous Agents and Multi-Agent Systems</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jiis/">J. Intell. Inf. Syst.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/scalespace/">Scale-Space</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icfp/">ICFP</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icsoft/">ICSOFT (1)</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tc/">IEEE Trans. Computers</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/recomb/">RECOMB</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/concurrency/">Concurrency and Computation: Practice and Experience</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/gis/">GIS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/adc/">ADC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/das/">Document Analysis Systems</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iccbr/">ICCBR</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ppsn/">PPSN</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/adbis/">ADBIS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sgp/">Symposium on Geometry Processing</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/semweb/">International Semantic Web Conference</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/infsof/">Information &amp; Software Technology</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dac/">DAC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ibmrd/">IBM Journal of Research and Development</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jfp/">J. Funct. Program.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/acta/">Acta Inf.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cie/">Computers in Entertainment</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/rtas/">IEEE Real-Time and Embedded Technology and Applications Symposium</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cga/">IEEE Computer Graphics and Applications</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/inex/">INEX</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pervasive/">Pervasive</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tmc/">IEEE Trans. Mob. Comput.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmetrics/">SIGMETRICS/Performance</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/evoW/">EvoCOP</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijisec/">Int. J. Inf. Sec.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijns/">Int. J. Neural Syst.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cluster/">Cluster Computing</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ksem/">KSEM</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/fuin/">Fundam. Inform.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/arobots/">Auton. Robots</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sss/">SSS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/issac/">ISSAC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecows/">ECOWS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/spc/">SPC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/scam/">SCAM</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pet/">Privacy Enhancing Technologies</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sigir/">SIGIR Forum</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/siamcomp/">SIAM J. Comput.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/msr/">MSR</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tocl/">ACM Trans. Comput. Log.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/emmcvpr/">EMMCVPR</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecsqaru/">ECSQARU</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/kcap/">K-CAP</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/approx/">APPROX-RANDOM</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/bvai/">BVAI</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fase/">FASE</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mmsec/">MM&amp;Sec</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/gpce/">GPCE</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/network/">IEEE Network</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ismir/">ISMIR</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/anss/">Annual Simulation Symposium</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dsom/">DSOM</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/context/">CONTEXT</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/assets/">ASSETS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/woa/">WOA</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icisc/">ICISC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ipps/">IPDPS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/pami/">IEEE Trans. Pattern Anal. Mach. Intell.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wea/">WEA</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mhci/">Mobile HCI</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/amr/">Adaptive Multimedia Retrieval</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/apn/">ICATPN</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aosd/">AOSD</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mm/">ACM Multimedia</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wise/">WISE Workshops</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wdag/">DISC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eccv/">ECCV (2)</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/atal/">AAMAS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tsmc/">IEEE Transactions on Systems, Man, and Cybernetics, Part B</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eccv/">ECCV (3)</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/jcdl/">JCDL</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/middleware/">Middleware</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sis/">WOSIS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cie/">CiE</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tog/">ACM Trans. Graph.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/networking/">NetWORKing</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sdm/">SDM</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icics/">ICICS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icra/">ICRA</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icdcs/">ICDCS</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/emsoft/">EMSOFT</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iat/">IAT</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/puc/">Personal and Ubiquitous Computing</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dasc/">DASC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/miccai/">MICCAI</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/vlc/">J. Vis. Lang. Comput.</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ismvl/">ISMVL</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iwpc/">ICPC</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pts/">TestCom</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ivs/">Information Visualization</a> <em style="font-weight:bold;">0.02</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ipm/">Inf. Process. Manage.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aiccsa/">AICCSA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/spe/">Softw., Pract. Exper.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cec/">Congress on Evolutionary Computation</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/3dpvt/">3DPVT</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/corr/">CoRR</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icfem/">ICFEM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/codes/">CODES+ISSS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iccd/">ICCD</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pkdd/">PKDD</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/percom/">PerCom Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icpads/">ICPADS (2)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/otm/">OTM Workshops (1)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dsd/">DSD</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aict/">AICT/ICIW</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ccgrid/">CCGRID</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iceis/">ICEIS (1)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wg/">WG</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pvm/">PVM/MPI</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wecwis/">CEC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wabi/">WABI</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fpga/">FPGA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/siguccs/">SIGUCCS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icns/">ICNS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/amai/">Ann. Math. Artif. Intell.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/mms/">Multimedia Syst.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isaac/">ISAAC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ah/">AH</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/vissym/">EuroVis</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iclp/">ICLP</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/models/">MoDELS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wowmom/">WOWMOM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/euromicro/">EUROMICRO-SEAA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/gecco/">GECCO</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icpads/">ICPADS (1)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cig/">CIG</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/para/">PARA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cg/">Computers &amp; Graphics</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecir/">ECIR</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icdm/">ICDM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/iandc/">Inf. Comput.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/cacm/">Commun. ACM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icann/">ICANN (2)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dasfaa/">DASFAA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/prdc/">PRDC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fccm/">FCCM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/nime/">NIME</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dis/">Discovery Science</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/rtcsa/">RTCSA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/serp/">Software Engineering Research and Practice</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/comgeo/">Comput. Geom.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ht/">Hypertext</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/logcom/">J. Log. Comput.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijnm/">Int. Journal of Network Management</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ispa/">ISPA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eurogp/">EuroGP</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/gecco/">GECCO Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wetice/">WETICE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aia/">Artificial Intelligence and Applications</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecbs/">ECBS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/hipc/">HiPC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ACMse/">ACM Southeast Regional Conference</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tcsv/">IEEE Trans. Circuits Syst. Video Techn.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/issre/">ISSRE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/re/">RE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icdm/">ICDM Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iui/">IUI</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jasis/">JASIST</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijar/">Int. J. Approx. Reasoning</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/doceng/">ACM Symposium on Document Engineering</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icws/">ICWS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iceis/">ICEIS (3)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ideas/">IDEAS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jal/">J. Algorithms</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iciap/">ICIAP</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/computer/">IEEE Computer</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tmm/">IEEE Transactions on Multimedia</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/flairs/">FLAIRS Conference</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ceemas/">CEEMAS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iva/">IVA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aswc/">ASWC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/apsec/">APSEC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/saint/">SAINT Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tkde/">IEEE Trans. Knowl. Data Eng.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jpdc/">J. Parallel Distrib. Comput.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijmms/">International Journal of Man-Machine Studies</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/bpm/">Business Process Management Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ieeemm/">IEEE MultiMedia</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/otm/">OTM Conferences (2)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icppw/">ICPP Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/haptics/">HAPTICS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/otm/">OTM Conferences (1)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/IEEEares/">ARES</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mlmi/">MLMI</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tvcg/">IEEE Trans. Vis. Comput. Graph.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/its/">Intelligent Tutoring Systems</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tse/">IEEE Trans. Software Eng.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/acii/">ACII</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/candc/">Computational Biology and Chemistry</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cluster/">CLUSTER</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sLogica/">Studia Logica</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wcre/">WCRE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/smi/">SMI</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ilp/">ILP</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/wecwis/">CEC/EEE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icat/">ICAT Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tcad/">IEEE Trans. on CAD of Integrated Circuits and Systems</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/interact/">INTERACT</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ias/">IAS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sac/">SAC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/latin/">LATIN</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/entcs/">Electr. Notes Theor. Comput. Sci.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icdcit/">ICDCIT</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ieeesp/">IEEE Security &amp; Privacy</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/aei/">Advanced Engineering Informatics</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sttt/">STTT</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tec/">IEEE Trans. Evolutionary Computation</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/taslp/">IEEE Transactions on Audio, Speech &amp; Language Processing</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/oopsla/">OOPSLA Companion</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jss/">Journal of Systems and Software</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isorc/">ISORC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/evoW/">EvoWorkshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/bc/">Biological Cybernetics</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/presence/">Presence</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dcoss/">DCOSS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/haptics/">WHC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ISCApdcs/">ISCA PDCS</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sutc/">SUTC (1)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tcs/">Theor. Comput. Sci.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sebd/">SEBD</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/internet/">IEEE Internet Computing</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icsm/">ICSM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/snpd/">SNPD</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icpp/">ICPP</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iccad/">ICCAD</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sigops/">Operating Systems Review</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ipl/">Inf. Process. Lett.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/eScience/">e-Science</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ercimdl/">ECDL</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cis/">CIS (2)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/sigpro/">Signal Processing</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/aiide/">AIIDE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/www/">WWW (Special interest tracks and posters)</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dexa/">DEXA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icwe/">ICWE</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/lwa/">LWA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/mam/">Microprocessors and Microsystems</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ecai/">ECAI</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ispdc/">ISPDC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ats/">Asian Test Symposium</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/nca/">NCA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/spaa/">SPAA</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tpds/">IEEE Trans. Parallel Distrib. Syst.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/apweb/">APWeb Workshops</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/alt/">ALT</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/bnaic/">BNAIC</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/fgcs/">Future Generation Comp. Syst.</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/jsa/">Journal of Systems Architecture</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/mswim/">MSWiM</a> <em style="font-weight:bold;">0.01</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iscas/">ISCAS (5)</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/dm/">Discrete Mathematics</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/dgo/">DG.O</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/appml/">Appl. Math. Lett.</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ins/">Inf. Sci.</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/bioinformatics/">Bioinformatics</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/interactions/">Interactions</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/eor/">European Journal of Operational Research</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/pr/">Pattern Recognition</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/isi/">ISI</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iccS/">International Conference on Computational Science (1)</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iscas/">ISCAS</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/dam/">Discrete Applied Mathematics</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ieicet/">IEICE Transactions</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ACMace/">Advances in Computer Entertainment Technology</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icip/">ICIP</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/fpga/">FPL</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/cbms/">CBMS</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/queue/">ACM Queue</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/eswa/">Expert Syst. Appl.</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icmcs/">ICME</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/ijcm/">Int. J. Comput. Math.</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icai/">IC-AI</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/sc/">SC</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/speech/">Speech Communication</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icip/">ICIP (1)</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/ictai/">ICTAI</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/webi/">Web Intelligence</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/icnc/">ICNC (2)</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iscas/">ISCAS (6)</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/date/">DATE</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iscc/">ISCC</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/mp/">Math. Program.</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iccS/">International Conference on Computational Science (3)</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/pdcat/">PDCAT</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/journals/tcom/">IEEE Transactions on Communications</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/iticse/">ITiCSE</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/chi/">CHI Extended Abstracts</a> <em style="font-weight:bold;">0.0</em> </li> 
+     <li> <a href="http://www.informatik.uni-trier.de/~ley/db/conf/hicss/">HICSS</a> <em style="font-weight:bold;">0.0</em> </li> 
+    </ol> 
+   </div> 
+  </div> 
+  <!-- End primary_content --> 
+ </div> 
+ <!-- End primary_tabs-n-content --> 
+ <div id="footer"> 
+  <div id="sponsors"> 
+   <a href="http://www.nsf.gov"><img src="/images/nsf_logo.png;jsessionid=3F394E18116EF46C76E38278FB7E94A4" alt="The National Science Foundation" /></a> 
+  </div> 
+  <ul class="links"> 
+   <li><a href="http://csxstatic.ist.psu.edu/about" target="_blank">About CiteSeerX</a></li> 
+   <li><a href="http://csxstatic.ist.psu.edu/submit" target="_blank">Submit Documents</a></li> 
+   <li><a href="http://csxstatic.ist.psu.edu/privacy" target="_blank">Privacy Policy</a></li> 
+   <li><a href="http://csxstatic.ist.psu.edu/help" target="_blank">Help</a></li> 
+   <li><a href="http://csxstatic.ist.psu.edu/about/data" target="_blank">Data</a></li> 
+   <li><a href="http://citeseerx.sourceforge.net" target="_blank">Source</a></li> 
+   <li><a href="http://csxstatic.ist.psu.edu/contact" target="_blank">Contact Us</a></li> 
+  </ul> 
+  <p class="info">Developed at and hosted by <a href="http://ist.psu.edu">The College of Information Sciences and Technology</a></p> 
+  <p>&copy; 2007-2012 <a href="http://www.psu.edu">The Pennsylvania State University</a></p> 
+ </div>    
+</body>

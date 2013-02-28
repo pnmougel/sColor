@@ -1,0 +1,2118 @@
+<body onpageshow="document.forms['aspnetForm'].reset();"> 
+ <form name="aspnetForm" method="post" action="RankList?entitytype=4&amp;topdomainid=7&amp;subdomainid=15&amp;last=0&amp;start=1&amp;end=100" id="aspnetForm"> 
+  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0MzI1MDM2Mw9kFgJmD2QWAgIBD2QWAgIHD2QWAgIBD2QWBgIBD2QWBAIBDxYCHgdWaXNpYmxlZxYKAgEPZBYEAgEPZBYCZg9kFgICAQ9kFgJmD2QWAmYPFgIeBXdpZHRoBQUxMDBweGQCAw9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQQ2NXB4ZAIDD2QWBAIBD2QWAmYPD2QWAh4Hb25jbGljawVudHJ5e3JldHVybiBzaSgyMSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nQ29tcGFyZScpO31jYXRjaChleCl7O31kAgMPD2QWAh8CBW50cnl7cmV0dXJuIHNpKDIxLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9oeXBDb21wYXJlJyk7fWNhdGNoKGV4KXs7fWQCBQ9kFgQCAQ8PFgIeB1Rvb2xUaXAFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseWQWAmYPD2QWAh8CBWx0cnl7cmV0dXJuIHNpKDE2LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9pbWdFbWJlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFQkVtYmVkIHRoaXMgbGlzdCBpbiB5b3VyIGhvbWVwYWdlLiBJdCB3aWxsIGJlIHVwZGF0ZWQgYXV0b21hdGljYWxseRYCHwIFb3RyeXtyZXR1cm4gc2koMTgsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnknLCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5X2xpYnJhSW5MaW5rJyk7fWNhdGNoKGV4KXs7fWQCBw8WAh8AaBYEAgEPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3RkFgJmDw9kFgIfAgVrdHJ5e3JldHVybiBzaSgxNSwnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeScsJ2N0bDAwX01haW5Db250ZW50X1NlYXJjaFN1bW1hcnlfaW1nRmVlZCcpO31jYXRjaChleCl7O31kAgMPDxYCHwMFFlN1YnNjcmliZSB0byB0aGlzIGxpc3QWAh8CBWt0cnl7cmV0dXJuIHNpKDE3LCdjdGwwMF9NYWluQ29udGVudF9TZWFyY2hTdW1tYXJ5JywnY3RsMDBfTWFpbkNvbnRlbnRfU2VhcmNoU3VtbWFyeV9Sc3NMaW5rJyk7fWNhdGNoKGV4KXs7fWQCCQ8WAh8AZxYCAgEPDxYCHgRUZXh0BRQxIC0gODkgb2YgODkgcmVzdWx0c2RkAgMPZBYCAgMPFgIfBAVRPGRpdiBjbGFzcz0icmlnaHQtYXJyb3ciPjwvZGl2PjxzcGFuPlRvcCBqb3VybmFscyBpbiBEZXZlbG9wbWVudCBFY29ub21pY3M8L3NwYW4+ZAIDD2QWCGYPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTE1MHB4ZAIBDw8WAh8AZ2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUyNTBweGQCAg9kFgICAQ9kFgJmD2QWAmYPFgIfAQUFMTAwcHhkAgMPZBYCAgEPZBYCZg9kFgJmDxYCHwEFBTEwMHB4ZAIFD2QWBgIBDxYCHwQFCEpvdXJuYWxzZAIFDxYCHgV0aXRsZQUgSC1JbmRleCBpbiBEZXZlbG9wbWVudCBFY29ub21pY3MWAgIDD2QWAmYPZBYCAgEPFgIfAQUEODVweBYCZg9kFgJmDxYCHwEFBDcwcHhkAgkPZBYCZg9kFgQCAQ9kFgQCAQ9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUxMDBweGQCAw9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQUxMDBweGQCAw9kFgJmD2QWAgIBD2QWAmYPZBYCZg8WAh8BBQQ2NXB4ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUqY3RsMDAkU2VhcmNoSGVhZGVyJFNlYXJjaEZvcm0kU2VhcmNoQnV0dG9uBSNjdGwwMCRGb290ZXJTZWFyY2hGb3JtJFNlYXJjaEJ1dHRvbrn/qCNVulnhNwwQfV+0vUVYxkAh" /> 
+  <script type="text/javascript">
+//<![CDATA[
+function si(t, i, u){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 't=' + t + '&i=' + i + '&tm=' + new Date() + '&u=' + u + '&url=' + document.location;if(document.images)(new Image).src=l;return true;}//]]>
+</script> 
+  <script type="text/javascript">var SiteRoot = 'http://academic.research.microsoft.com';</script> 
+  <script type="text/javascript">
+//<![CDATA[
+function siUrl(url, ctl){var h='http://academic.research.microsoft.com';var p='/Images/logClick.gif?';var l = h + p + 'url=' + document.location + '&tm=' + new Date() + '&ctl=' + ctl;if(document.images)(new Image).src=l;return true;}function CheckAdvInput(objName,len){var obj=document.getElementById(objName); if(obj.value.length>len){obj.value=obj.value.substring(0,len);}};function hideAdvancedSearch(){document.getElementById('advancedsearchDiv').style.display='none';delCookie('advanceTabIndex');if(document.getElementById('divYearFilter'))document.getElementById('divYearFilter').style.display = '';}//]]>
+</script> 
+  <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWGQLxpbKqBwKV79r2BwL08PyfCAKYtPr1CwKBqYHDDgLt/orqDgLhiK3CDQLkrruNCQLlrueOCQLirruNCQKkrueOCQLQrbfdBgKKh5zkDwKJh5zkDwK8z7GbCgLQ+sXxBQKPiNScAwLCjMLvCQLUlaz2CwLk8+92Aua5ydYJApC727EMAriB1YsNAqzlpPINAsHk4YYIBEwGW4MKMTz5fMbglGLgz0l8N50=" /> 
+  <div class="container"> 
+   <div id="ctl00_SearchHeader_divHeaderWrapper" class="header-wrapper"> 
+    <div class="share-link"> 
+    </div> 
+    <div class="header-wrapper-inner"> 
+     <div class="user-identity-bar"> 
+     </div> 
+     <div class="search-bar-wrapper" id="searchBarLeft"> 
+      <a class="logo" href="http://academic.research.microsoft.com"> <img id="ctl00_SearchHeader_imgLogo" navigateurl="~/" src="http://academic.research.microsoft.com/Images/logo.png" border="0" /> </a> 
+      <div id="ctl00_SearchHeader_SearchForm_searchBar" class="search-bar"> 
+       <div id="ctl00_SearchHeader_SearchForm_divSearchBox" class="search-box" style="position:relative"> 
+        <input name="ctl00$SearchHeader$SearchForm$txtQuery" type="text" id="ctl00_SearchHeader_SearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeyup="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_SearchHeader_SearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_SearchHeader_SearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+        <div id="ctl00_SearchHeader_SearchForm_divDomainButton" class="domain-panel-button" style="z-index:100; position:relative;" onclick="try{return si(20,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_divDomainButton');}catch(ex){;}"> 
+         <div class="left"> 
+          <span></span> 
+          <div class="dropdown-arrow"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <input type="image" name="ctl00$SearchHeader$SearchForm$SearchButton" id="ctl00_SearchHeader_SearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_SearchHeader_SearchForm','ctl00_SearchHeader_SearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+       <div class="type-suggestion"> 
+        <div id="autoSuggest" class="typesuggest"> 
+        </div> 
+       </div> 
+       <div id="ctl00_SearchHeader_SearchForm_SpAdvancedSearch" class="advancedsearch"> 
+       </div> 
+       <div class="searching-div"> 
+        <div class="loadImg" id="divLoadingIcon"> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="advancedsearchDiv" class="modalpopup"> 
+       <div class="advanced-search"> 
+        <div class="closelink"> 
+        </div> 
+        <div class="small-btn"></div> 
+        <table cellspacing="0" cellpadding="0" border="0" class="content-table"> 
+         <tbody>
+          <tr> 
+           <td id="tdCriteriaTab" style="color:#d7d7d7" colspan="2"> <span onclick="showAdvanceTab(0)" class="advanced-search-tab" style="padding-left: 0px"> Author</span> | <span onclick="showAdvanceTab(1)" class="advanced-search-tab-unfocus">Conference</span> | <span onclick="showAdvanceTab(2)" class="advanced-search-tab-unfocus">Journal</span> | <span onclick="showAdvanceTab(3)" class="advanced-search-tab-unfocus">Organization</span> | <span onclick="showAdvanceTab(4)" class="advanced-search-tab-unfocus">Year</span> | <span onclick="showAdvanceTab(5)" class="advanced-search-tab-unfocus">DOI</span> </td> 
+          </tr> 
+          <tr> 
+           <td class="hint" colspan="2" id="tdAdvancedSearchHint"> Look for results that meet for the following criteria: </td> 
+          </tr> 
+          <tr> 
+           <td id="tdCriteria" class="advancesearch-criteria"> 
+            <div style="display: block"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$authorQuery" type="text" value="Bill Gates" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_authorQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Bill Gates') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Bill Gates'; this.style.color = '#999';}" style="color:#999" />
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$confQuery" type="text" value="SIGGRAPH" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_confQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'SIGGRAPH') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'SIGGRAPH'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$JournQuery" type="text" value="Journal of The ACM" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_JournQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Journal of The ACM') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Journal of The ACM'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$orgQuery" type="text" value="Microsoft" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_orgQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == 'Microsoft') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'Microsoft'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <select name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$compareQuery" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery" class="advance-search-dropdownlist" onchange="showTimeSpanTextbox(this.value,event)"> <option selected="selected" value="&gt;=">since</option> <option value="=">equal to</option> <option value="&lt;=">before</option> <option value="~">between</option> </select> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearQuery" type="text" value="2000" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2000') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2000'; this.style.color = '#999';}" style="color:#999" /> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanA" type="text" value="2006" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2006') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2006'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+             <span id="yearSpanText" style="width:20px;display:none;margin-left:20px;">and</span> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$yearSpanB" type="text" value="2011" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB" class="input-box-advanced-yearquery" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB',4)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '2011') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '2011'; this.style.color = '#999';}" style="color:#999;width:40px;display:none;margin-left:20px;" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$doiQuery" type="text" value="10.1093/nar/25.17.3389" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_doiQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '10.1093/nar/25.17.3389') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '10.1093/nar/25.17.3389'; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$fulltextQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_fulltextQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> 
+            <div style="display: none"> 
+             <input name="ctl00$SearchHeader$SearchForm$DivAdvancedSearch$titleQuery" type="text" id="ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery" class="input-box-advanced" onpropertychange="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" oninput="CheckAdvInput('ctl00_SearchHeader_SearchForm_DivAdvancedSearch_titleQuery',256)" onkeypress="this.style.color='#000';if(event.keyCode==13){ document.getElementById('btnAddToSearch').click(); return false;}" onfocus="if (this.value == '') {this.value = '';} else {this.style.color = '#000';}" onblur="if (this.value == '') {this.value = ''; this.style.color = '#999';}" style="color:#999" /> 
+            </div> </td> 
+           <td align="left"> <input type="button" id="btnAddToSearch" value="Add to search" onclick="addToSearch('ctl00_SearchHeader_SearchForm_txtQuery', 'ctl00_SearchHeader_SearchForm_SearchButton');" style="width: 100px" /> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+        <script type="text/javascript">
+// <![CDATA[
+   if(typeof(window.domYearQuery) == 'undefined'){
+        window.domYearQuery = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearQuery');
+   }
+   if(typeof(window.domYearSpanA) == 'undefined'){
+        window.domYearSpanA = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanA');
+   }
+   if(typeof(window.domYearSpanB) == 'undefined'){
+        window.domYearSpanB = $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_yearSpanB');
+   }
+   if(typeof(window.domYearSpanText) == 'undefined'){
+        window.domYearSpanText = $('#yearSpanText');
+   }
+
+   if( $.browser.mozilla){
+      $('#ctl00_SearchHeader_SearchForm_DivAdvancedSearch_compareQuery').change(function(event){
+	    showTimeSpanTextbox($(this).val(), event);
+	  });
+   }
+//]]>
+    </script> 
+       </div> 
+      </div> 
+      <div class="modalpopup" style="display: block"> 
+       <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+        <div class="domain-closelink"> 
+        </div> 
+        <div class="small-btn"> 
+        </div> 
+        <div class="domain-panel"> 
+         <div> 
+          <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+          <span>Search in all domains</span> 
+         </div> 
+         <div> 
+          <input type="radio" value="0" name="AllDomainRadio" /> 
+          <span>Limit my searches in the following domains</span> 
+         </div> 
+         <div style="padding-left: 10px;"> 
+          <div class="option">
+           <input type="checkbox" value="16" /> 
+           <span>Agriculture Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="3" /> 
+           <span>Arts &amp; Humanities</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="4" /> 
+           <span>Biology</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="5" /> 
+           <span>Chemistry</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="2" /> 
+           <span>Computer Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="7" /> 
+           <span>Economics &amp; Business</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="8" /> 
+           <span>Engineering</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="9" /> 
+           <span>Environmental Sciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="10" /> 
+           <span>Geosciences</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="12" /> 
+           <span>Material Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="15" /> 
+           <span>Mathematics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="6" /> 
+           <span>Medicine</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="19" /> 
+           <span>Physics</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="22" /> 
+           <span>Social Science</span>
+          </div>
+          <div class="option">
+           <input type="checkbox" value="1" /> 
+           <span>Multidisciplinary</span>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_srptBindEventDomainButton"> 
+       <script type="text/javascript" language="javascript">
+        BindEventForDomainPanelButton("ctl00_SearchHeader_SearchForm_txtQuery", "ctl00_SearchHeader_SearchForm_divDomainButton");
+    </script> 
+      </div> 
+      <div id="ctl00_SearchHeader_SearchForm_scrpAutoComplete"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+        $(function () {
+            //author
+            var data = { 'inputId': '#ctl00_SearchHeader_SearchForm_txtQuery',
+                'tsId': '#autoSuggest',
+                'searchboxId': '#ctl00_SearchHeader_SearchForm_divSearchBox',
+                'suggestType': 1,
+                'maxNumber': -1,
+                'root': 'http://academic.research.microsoft.com',
+                'postAction': function () {
+                    $("#ctl00_SearchHeader_SearchForm_SearchButton").click();
+                }
+            };
+            TypeSuggest.Init(data);
+
+        })
+    //]]>
+    </script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_SearchHeader_SearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_SearchHeader_SearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_SearchHeader_SearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_advancedsearch');
+            });
+            $("#ctl00_SearchHeader_SearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_SearchHeader_SearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+      <input name="ctl00$SearchHeader$SearchForm$hdnSelectedDomain" type="hidden" id="ctl00_SearchHeader_SearchForm_hdnSelectedDomain" /> 
+     </div> 
+     <div class="propupwidth"> 
+      <div class="search-bar-right" id="searchBarRight"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="content-wrapper" id="divContentWrapper"> 
+    <div id="ctl00_divContentHeader" class="content-header-wrapper"> 
+     <script type="text/javascript" language="javascript"> 
+                        var isSilverlightInstalled = false;
+                        function CheckSilverlightInstalled() {
+                            try {
+                                try {
+                                    var slControl = new ActiveXObject('AgControl.AgControl'); //IE
+                                    isSilverlightInstalled = true;
+                                }
+                                catch (e) {
+                                    if (navigator.plugins["Silverlight Plug-In"]) //non-IE
+                                    {
+                                        isSilverlightInstalled = true;
+                                    }
+                                }
+                            }
+                            catch (e) { }
+                        }
+                        CheckSilverlightInstalled();
+
+                        $(function () {
+                            $(".ranklist-summary").css("position", "static");
+                            $(".ranklist-summary").css("position", "relative");
+                        })
+                    </script> 
+    </div> 
+    <div id="ctl00_divLeftWrapper" class="left-wrapper"> 
+     <div class="section-navigator"> 
+      <div id="ctl00_LeftPanel_pnlAuthor" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypAuthor" href="RankList?entitytype=2&amp;topDomainID=7&amp;subDomainID=15&amp;last=0&amp;start=1&amp;end=100">Authors &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlPublication" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypPublication" href="RankList?entitytype=1&amp;topDomainID=7&amp;subDomainID=15&amp;last=0&amp;start=1&amp;end=100">Publications &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlConference" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypConference" href="RankList?entitytype=3&amp;topDomainID=7&amp;subDomainID=15&amp;last=0&amp;start=1&amp;end=100">Conferences &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlJournal" class="highlight"> 
+       <h2><a id="ctl00_LeftPanel_hypJournal">Journals &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlOrganization" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypOrganization" href="RankList?entitytype=7&amp;topDomainID=7&amp;subDomainID=15&amp;last=0&amp;start=1&amp;end=100">Organizations &raquo;</a></h2> 
+      </div> 
+      <div id="ctl00_LeftPanel_pnlKeyword" class="normal"> 
+       <h2><a id="ctl00_LeftPanel_hypKeyword" href="RankList?entitytype=8&amp;topDomainID=7&amp;subDomainID=15&amp;last=0&amp;start=1&amp;end=100">Keywords &raquo;</a></h2> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="ctl00_divCenter" class="center-wrapper"> 
+     <div class="bing-summary"> 
+      <div id="ctl00_MainContent_SearchSummary_divAction" class="action"> 
+       <span id="ctl00_MainContent_SearchSummary_spResultCount"> <span id="ctl00_MainContent_SearchSummary_lblResultMessage" class="result">1 - 89 of 89 results</span> </span> 
+      </div> 
+      <div id="ctl00_MainContent_SearchSummary_divSummary" class="declare"> 
+       <a class="text" href="./"> Academic</a> 
+       <div class="right-arrow"></div>
+       <span>Top journals in Development Economics</span> 
+      </div> 
+     </div> 
+     <div class="clear"> 
+     </div> 
+     <div class="ranklist-summary" id="domainpanel"> 
+      <script type="text/javascript" language="javascript" src="http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpTopDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpTopDomain_tdDrpList" class="dropdownlist-left" width="150px"> <input name="ctl00$MainContent$RankListSummary$drpTopDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpSubDomain_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpSubDomain_tdDrpList" class="dropdownlist-left" width="250px"> <input name="ctl00$MainContent$RankListSummary$drpSubDomain$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <div class="dropdownlist"> 
+       <div> 
+        <table id="ctl00_MainContent_RankListSummary_drpListYear_drpList" cellpadding="0" cellspacing="0"> 
+         <tbody>
+          <tr> 
+           <td id="ctl00_MainContent_RankListSummary_drpListYear_tdDrpList" class="dropdownlist-left" width="100px"> <input name="ctl00$MainContent$RankListSummary$drpListYear$drp_hidden_focus" type="text" id="ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_RankListSummary_drpListYear_spSelectedText"></span> </td> 
+           <td class="dropdownlist-right"> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div id="ctl00_MainContent_RankListSummary_drpListYear_drpListContent" class="dropdownlist-content"> 
+       </div> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    var request_paras = {};    
+    var pageurl_ranklist = window.location.toString();
+    var question_mark_ranklist = pageurl_ranklist.lastIndexOf('?');
+    (function () { request_paras = queryToJson(pageurl_ranklist); })();
+    if (question_mark_ranklist > -1) {
+        pageurl_ranklist = pageurl_ranklist.substr(0, question_mark_ranklist);
+    }
+    var s = [""];
+    s.push(pageurl_ranklist);
+    s.push("?");    
+            
+    function GetDomainID(para) {
+        var domainID;
+        try {
+            domainID = decodeURI(request(para));
+        }
+        catch (ex) {
+            domainID = "";
+        }
+        return domainID;
+    }
+
+    var ChangingWindowLocation = false;
+    function CheckChangingWindowLocation() {
+        if (ChangingWindowLocation == false) {
+            ChangingWindowLocation = true;
+            return true;
+        }
+        return false;
+    }
+</script> 
+      <div id="ctl00_MainContent_RankListSummary_sriptSubDomain"> 
+       <script type="text/javascript" language="javascript">
+    //<![CDATA[
+
+    function BindSubDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpSubDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpSubDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpSubDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);                    
+                    if( typeof value != "undefined"){
+                        request_paras.subdomainid = value;
+                        s.push(jsonToQuery(request_paras));
+                        window.location = s.join('');
+
+                    }
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Agricultural & Environmental Economics", "Value": "17"};options[1] = { "Text": "Business Administration & Economics", "Value": "13"};options[2] = { "Text": "Development Economics", "Value": "15"};options[3] = { "Text": "Economic History", "Value": "14"};options[4] = { "Text": "Economic Systems", "Value": "16"};options[5] = { "Text": "Financial Economics", "Value": "7"};options[6] = { "Text": "General Economics & Teaching", "Value": "1"};options[7] = { "Text": "Health, Education, and Welfare", "Value": "9"};options[8] = { "Text": "Industrial Organization", "Value": "12"};options[9] = { "Text": "International Economics", "Value": "6"};options[10] = { "Text": "Labor & Demographic Economics", "Value": "10"};options[11] = { "Text": "Law & Economics", "Value": "11"};options[12] = { "Text": "Macroeconomics & Monetary Economics", "Value": "5"};options[13] = { "Text": "Mathematical & Quantitative Methods", "Value": "3"};options[14] = { "Text": "Microeconomics", "Value": "4"};options[15] = { "Text": "Public Economics", "Value": "8"};options[16] = { "Text": "Regional Economics", "Value": "18"};options[17] = { "Text": "Overall for Economics & Business", "Value": "0", "Selected": "true"};
+       
+        DropDown.SetOptions(options);
+        //var domainID = GetDomainID("subDomainID");
+        var domainID = "";
+        if(typeof (request_paras.subdomainid) != "undefined"){
+            domainID = request_paras.subdomainid;
+        }
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }
+    }
+    BindSubDomainFilter();
+       //]]>
+</script> 
+      </div> 
+      <script type="text/javascript" language="javascript">
+    //<![CDATA[
+    function BindYearFilter() {
+        //year
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpListYear_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpListYear_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpListYear_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpListYear_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                var query = window.location.href;
+                if (query) {
+                    removeStartEndIndex(query);
+
+                    if( /\/detail[\.\?]/g.test(query.toLowerCase())){                        
+                        // if this control is used by organization detail page                        
+
+                        if(typeof value == "undefined") return;
+                        if(typeof (request_paras.last) != "null" && typeof (request_paras.last) != "undefined" && value == 0 ){
+                            delete request_paras.last;
+                        }
+                        if(value > 0){
+                            request_paras.last = value;
+                        }
+                        s.push(jsonToQuery(request_paras));
+                        pageurl_ranklist = s.join('');     
+                        consolelog(pageurl_ranklist);
+                        window.location = pageurl_ranklist;
+                        return;
+                    }                    
+                    request_paras.last = value;
+                    s.push(jsonToQuery(request_paras));
+                    pageurl_ranklist = s.join('');     
+                    consolelog(pageurl_ranklist);                      
+                    window.location = pageurl_ranklist;                    
+
+                }
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        options[0] = { "Text": "Last 5 Years", "Value": "5" };
+        options[1] = { "Text": "Last 10 Years", "Value": "10" };
+        options[2] = { "Text": "All Years", "Value": "0", "Selected": "true" };
+
+
+        DropDown.SetOptions(options);
+        if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+            DropDown.SetDefaultValue(request_paras.last);
+        }
+    }
+    BindYearFilter();
+
+    function removeStartEndIndex(query) {        
+        if(typeof (request_paras.start) != "null" && typeof (request_paras.start) != "undefined"){        
+            delete request_paras.start;
+        }
+        if(typeof (request_paras.end) != "null" && typeof (request_paras.end) != "undefined"){
+            delete request_paras.end;
+        }
+        return true;      
+    }
+    function removeContinent(query) {        
+        if(typeof (request_paras.continentid) != "null" && typeof (request_paras.continentid) != "undefined"){        
+            delete request_paras.continentid;
+        }
+        return query;        
+    }
+    function GetLastYear() {
+        var lastYear;
+        try {
+            lastYear = decodeURI(request("last"));
+        }
+        catch (ex) {
+            lastYear = "";
+        }
+
+        return lastYear;
+    }
+    //]]>
+
+    //<![CDATA[
+    function BindTopDomainFilter() {
+        //author
+        var data = { 'inputId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpList',
+            "hiddenId": '#ctl00_MainContent_RankListSummary_drpTopDomain_drp_hidden_focus',
+            'textId': '#ctl00_MainContent_RankListSummary_drpTopDomain_spSelectedText',
+            'tsId': '#ctl00_MainContent_RankListSummary_drpTopDomain_drpListContent',
+            'postAction': function () {
+                if(CheckChangingWindowLocation() == false)
+                {
+                    return;
+                }
+                var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+
+                var query = window.location.href;
+                
+                //set subDomain to 0
+                if (query) {
+                    if(typeof (request_paras.subdomainid) != "null" && typeof (request_paras.subdomainid) != "undefined"){
+                        request_paras.subdomainid = 0;
+                    }
+                    removeStartEndIndex(query);
+                    if(typeof value != "undefined"){
+                        request_paras.topdomainid = value;
+                        s.push(jsonToQuery(request_paras));                        
+                        window.location = s.join('');
+                    }
+                    
+
+
+                    /*var regExp = new RegExp("&subDomainID=\\d+", "g");
+                    var match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "&subDomainID=0");
+                    }
+
+                    query = removeStartEndIndex(query);
+                    regExp = new RegExp("topDomainID=\\d+", "g");
+                    match = regExp.exec(query);
+                    if (match && match.length == 1) {
+                        query = query.replace(match, "topDomainID=" + value);
+                        window.location = query;
+                    }*/
+                }                
+            }
+        };
+        DropDown.Init(data);
+        var options = new Array();
+        
+        options[0] = { "Text": "Agriculture Science", "Value": "16"};options[1] = { "Text": "Arts & Humanities", "Value": "3"};options[2] = { "Text": "Biology", "Value": "4"};options[3] = { "Text": "Chemistry", "Value": "5"};options[4] = { "Text": "Computer Science", "Value": "2"};options[5] = { "Text": "Economics & Business", "Value": "7"};options[6] = { "Text": "Engineering", "Value": "8"};options[7] = { "Text": "Environmental Sciences", "Value": "9"};options[8] = { "Text": "Geosciences", "Value": "10"};options[9] = { "Text": "Material Science", "Value": "12"};options[10] = { "Text": "Mathematics", "Value": "15"};options[11] = { "Text": "Medicine", "Value": "6"};options[12] = { "Text": "Physics", "Value": "19"};options[13] = { "Text": "Social Science", "Value": "22"};options[14] = { "Text": "Multidisciplinary", "Value": "1"};
+       
+        DropDown.SetOptions(options);
+        var domainID = GetDomainID("topDomainID");
+        if (domainID && domainID != "") {
+            DropDown.SetDefaultValue(domainID);
+        }else{
+            if( options.length > 0  && options[options.length-1].Value == "0"){      
+                var t = options[options.length-1].Value;                
+                DropDown.SetDefaultValue(t);
+            }else{
+                DropDown.SetDefaultValue();
+            }
+        }
+    }
+    BindTopDomainFilter();
+    //]]>
+</script> 
+      <div class="clear"></div> 
+     </div> 
+     <div id="ctl00_MainContent_divRankList"> 
+      <div> 
+       <table class="staticTable" cellpadding="0" cellspacing="0"> 
+        <thead> 
+         <tr> 
+          <th width="1px" style="border:0"></th> 
+          <th> Journals </th> 
+          <th id="ctl00_MainContent_thPublication" class="staticOrderHeader" width="90px"> Publications </th> 
+          <th id="ctl00_MainContent_thCitation" class="staticOrderHeader" width="110px" title="H-Index in Development Economics"> 
+           <div id="ctl00_MainContent_divRankType" style="position: relative; min-width: 100px; height: 1px;"> 
+            <div style="position: absolute; right: -5px; top: 0px; z-index:0;"> 
+             <div class="dropdownlist"> 
+              <div> 
+               <table id="ctl00_MainContent_drpRankType_drpList" cellpadding="0" cellspacing="0" width="85px"> 
+                <tbody>
+                 <tr> 
+                  <td id="ctl00_MainContent_drpRankType_tdDrpList" class="dropdownlist-left" width="70px"> <input name="ctl00$MainContent$drpRankType$drp_hidden_focus" type="text" id="ctl00_MainContent_drpRankType_drp_hidden_focus" class="hidden" /> <span id="ctl00_MainContent_drpRankType_spSelectedText"></span> </td> 
+                  <td class="dropdownlist-right"> </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </div> 
+              <div id="ctl00_MainContent_drpRankType_drpListContent" class="dropdownlist-content"> 
+              </div> 
+             </div> 
+             <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+                            function BindRankTypeFilter() {
+                                //year
+                                var data = { 'inputId': '#ctl00_MainContent_drpRankType_drpList',
+                                    "hiddenId": '#ctl00_MainContent_drpRankType_drp_hidden_focus',
+                                    'textId': '#ctl00_MainContent_drpRankType_spSelectedText',
+                                    'tsId': '#ctl00_MainContent_drpRankType_drpListContent',
+                                    'postAction': function () {
+                                        if(CheckChangingWindowLocation() == false)
+                                        {
+                                            return;
+                                        }
+
+                                        var value = $(DropDown.tsId + ' .selected').find(':hidden').text();
+                                        var query = window.location.href;
+                                        if (query) {
+                                            removeStartEndIndex(query);
+                                            $('#ctl00_MainContent_thCitation').attr('title', '');
+                                            request_paras.orderby = value;
+                                            s.push(jsonToQuery(request_paras));
+                                            pageurl_ranklist = s.join('');     
+                                            window.location = pageurl_ranklist;                    
+                                        }
+                                    }
+                                };
+                                DropDown.Init(data);
+                                $('#ctl00_MainContent_drpRankType_drpListContent').width(80);
+                                var options = new Array();
+                                options[0] = { "Text": "H-Index", "Value": "6", "Selected": "true"};options[1] = { "Text": "Citation", "Value": "1"};
+
+
+                                DropDown.SetOptions(options);
+                                if( typeof (request_paras.last) != "null" && typeof(request_paras.last) != "undefined"){
+                                    DropDown.SetDefaultValue(request_paras.orderby);
+                                }
+                            }
+                            BindRankTypeFilter();
+
+                           
+                        //]]>
+                        </script> 
+            </div> 
+           </div> &nbsp;  </th>
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               1 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl00_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl00_hypName" href="/Journal/5008/res-policy-research-policy">RES POLICY - Research Policy</a> </td> 
+          <td id="ctl00_MainContent_ctl00_tdPulicationCount" class="staticOrderCol"> 2480 </td> 
+          <td class="staticOrderCol"> 113 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               2 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl01_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl01_hypName" href="/Journal/4847/j-develop-econ-journal-of-development-economics">J DEVELOP ECON - Journal of Development Economics</a> </td> 
+          <td id="ctl00_MainContent_ctl01_tdPulicationCount" class="staticOrderCol"> 2636 </td> 
+          <td class="staticOrderCol"> 89 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               3 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl02_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl02_hypName" href="/Journal/4837/j-bus-venturing-journal-of-business-venturing">J BUS VENTURING - Journal of Business Venturing</a> </td> 
+          <td id="ctl00_MainContent_ctl02_tdPulicationCount" class="staticOrderCol"> 881 </td> 
+          <td class="staticOrderCol"> 84 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               4 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl03_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl03_hypName" href="/Journal/4920/j-prod-innovat-manage-journal-of-product-innovation-management">J PROD INNOVAT MANAGE - Journal of Product Innovation Management</a> </td> 
+          <td id="ctl00_MainContent_ctl03_tdPulicationCount" class="staticOrderCol"> 1573 </td> 
+          <td class="staticOrderCol"> 70 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               5 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl04_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl04_hypName" href="/Journal/4771/ind-corp-change-industrial-and-corporate-change">IND CORP CHANGE - Industrial and Corporate Change</a> </td> 
+          <td id="ctl00_MainContent_ctl04_tdPulicationCount" class="staticOrderCol"> 603 </td> 
+          <td class="staticOrderCol"> 57 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               6 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl05_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl05_hypName" href="/Journal/4687/econ-hist-rev-economic-history-review">ECON HIST REV - Economic History Review</a> </td> 
+          <td id="ctl00_MainContent_ctl05_tdPulicationCount" class="staticOrderCol"> 11560 </td> 
+          <td class="staticOrderCol"> 52 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               7 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl06_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl06_hypName" href="/Journal/4949/long-range-plann-long-range-planning">LONG RANGE PLANN - Long Range Planning</a> </td> 
+          <td id="ctl00_MainContent_ctl06_tdPulicationCount" class="staticOrderCol"> 4127 </td> 
+          <td class="staticOrderCol"> 49 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               8 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl07_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl07_hypName" href="/Journal/4789/int-j-forecasting-international-journal-of-forecasting">INT J FORECASTING - International Journal of Forecasting</a> </td> 
+          <td id="ctl00_MainContent_ctl07_tdPulicationCount" class="staticOrderCol"> 1863 </td> 
+          <td class="staticOrderCol"> 48 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               9 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl08_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl08_hypName" href="/Journal/4875/j-forecasting-journal-of-forecasting">J FORECASTING - Journal of Forecasting</a> </td> 
+          <td id="ctl00_MainContent_ctl08_tdPulicationCount" class="staticOrderCol"> 1149 </td> 
+          <td class="staticOrderCol"> 41 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               10 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl09_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl09_hypName" href="/Journal/4919/j-prod-anal-journal-of-productivity-analysis">J PROD ANAL - Journal of Productivity Analysis</a> </td> 
+          <td id="ctl00_MainContent_ctl09_tdPulicationCount" class="staticOrderCol"> 394 </td> 
+          <td class="staticOrderCol"> 35 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               11 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl10_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl10_hypName" href="/Journal/4853/j-econ-growth-journal-of-economic-growth">J ECON GROWTH - Journal of Economic Growth</a> </td> 
+          <td id="ctl00_MainContent_ctl10_tdPulicationCount" class="staticOrderCol"> 102 </td> 
+          <td class="staticOrderCol"> 34 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               12 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl11_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl11_hypName" href="/Journal/15907/economics-of-innovation-and-new-technology">Economics of Innovation and New Technology</a> </td> 
+          <td id="ctl00_MainContent_ctl11_tdPulicationCount" class="staticOrderCol"> 515 </td> 
+          <td class="staticOrderCol"> 32 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               13 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl12_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl12_hypName" href="/Journal/4953/manage-decision-management-decision">MANAGE DECISION - Management Decision</a> </td> 
+          <td id="ctl00_MainContent_ctl12_tdPulicationCount" class="staticOrderCol"> 2461 </td> 
+          <td class="staticOrderCol"> 31 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               14 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl13_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl13_hypName" href="/Journal/5057/technol-anal-strateg-manage-technology-analysis-&amp;-strategic-management">TECHNOL ANAL STRATEG MANAGE - Technology Analysis &amp; Strategic Management</a> </td> 
+          <td id="ctl00_MainContent_ctl13_tdPulicationCount" class="staticOrderCol"> 719 </td> 
+          <td class="staticOrderCol"> 30 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               15 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl14_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl14_hypName" href="/Journal/5012/rev-dev-econ-review-of-development-economics">REV DEV ECON - Review of Development Economics</a> </td> 
+          <td id="ctl00_MainContent_ctl14_tdPulicationCount" class="staticOrderCol"> 535 </td> 
+          <td class="staticOrderCol"> 27 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               16 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl15_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl15_hypName" href="/Journal/14301/socio-economic-planning-sciences">Socio-economic Planning Sciences</a> </td> 
+          <td id="ctl00_MainContent_ctl15_tdPulicationCount" class="staticOrderCol"> 1477 </td> 
+          <td class="staticOrderCol"> 25 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               17 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl16_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl16_hypName" href="/Journal/4804/int-j-technol-manage-international-journal-of-technology-management">INT J TECHNOL MANAGE - International Journal of Technology Management</a> </td> 
+          <td id="ctl00_MainContent_ctl16_tdPulicationCount" class="staticOrderCol"> 1295 </td> 
+          <td class="staticOrderCol"> 25 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               18 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl17_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl17_hypName" href="/Journal/5044/serv-ind-j-service-industries-journal">SERV IND J - Service Industries Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl17_tdPulicationCount" class="staticOrderCol"> 1280 </td> 
+          <td class="staticOrderCol"> 25 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               19 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl18_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl18_hypName" href="/Journal/4912/j-organ-change-manage-journal-of-organizational-change-management">J ORGAN CHANGE MANAGE - Journal of Organizational Change Management</a> </td> 
+          <td id="ctl00_MainContent_ctl18_tdPulicationCount" class="staticOrderCol"> 748 </td> 
+          <td class="staticOrderCol"> 25 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               20 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl19_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl19_hypName" href="/Journal/4686/econ-dev-q-economic-development-quarterly">ECON DEV Q - Economic Development Quarterly</a> </td> 
+          <td id="ctl00_MainContent_ctl19_tdPulicationCount" class="staticOrderCol"> 746 </td> 
+          <td class="staticOrderCol"> 25 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               21 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl20_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl20_hypName" href="/Journal/16962/leadership-&amp;-organization-development-journal">Leadership &amp; Organization Development Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl20_tdPulicationCount" class="staticOrderCol"> 997 </td> 
+          <td class="staticOrderCol"> 22 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               22 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl21_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl21_hypName" href="/Journal/13264/journal-of-consumer-behaviour">Journal of Consumer Behaviour</a> </td> 
+          <td id="ctl00_MainContent_ctl21_tdPulicationCount" class="staticOrderCol"> 307 </td> 
+          <td class="staticOrderCol"> 17 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               23 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl22_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl22_hypName" href="/Journal/17304/int-j-train-dev-international-journal-of-training-and-development">Int J Train Dev - International Journal of Training and Development</a> </td> 
+          <td id="ctl00_MainContent_ctl22_tdPulicationCount" class="staticOrderCol"> 287 </td> 
+          <td class="staticOrderCol"> 16 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               24 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl23_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl23_hypName" href="/Journal/4670/comput-econ-computational-economics">COMPUT ECON - Computational Economics</a> </td> 
+          <td id="ctl00_MainContent_ctl23_tdPulicationCount" class="staticOrderCol"> 453 </td> 
+          <td class="staticOrderCol"> 15 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               25 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl24_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl24_hypName" href="/Journal/4645/b-e-j-econ-anal-policy-b-e-journal-of-economic-analysis-&amp;-policy">B E J ECON ANAL POLICY - B E Journal of Economic Analysis &amp; Policy</a> </td> 
+          <td id="ctl00_MainContent_ctl24_tdPulicationCount" class="staticOrderCol"> 300 </td> 
+          <td class="staticOrderCol"> 14 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               26 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl25_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl25_hypName" href="/Journal/4776/inf-technol-manag-information-technology-&amp;-management">INF TECHNOL MANAG - Information Technology &amp; Management</a> </td> 
+          <td id="ctl00_MainContent_ctl25_tdPulicationCount" class="staticOrderCol"> 117 </td> 
+          <td class="staticOrderCol"> 14 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               27 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl26_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl26_hypName" href="/Journal/18189/progr-dev-stud-progress-in-development-studies">Progr Dev Stud - Progress in Development Studies</a> </td> 
+          <td id="ctl00_MainContent_ctl26_tdPulicationCount" class="staticOrderCol"> 507 </td> 
+          <td class="staticOrderCol"> 13 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               28 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl27_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl27_hypName" href="/Journal/13244/national-productivity-review">National Productivity Review</a> </td> 
+          <td id="ctl00_MainContent_ctl27_tdPulicationCount" class="staticOrderCol"> 946 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               29 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl28_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl28_hypName" href="/Journal/16575/community-development">Community Development</a> </td> 
+          <td id="ctl00_MainContent_ctl28_tdPulicationCount" class="staticOrderCol"> 547 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               30 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl29_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl29_hypName" href="/Journal/16995/foresight">Foresight</a> </td> 
+          <td id="ctl00_MainContent_ctl29_tdPulicationCount" class="staticOrderCol"> 449 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               31 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl30_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl30_hypName" href="/Journal/18890/int-j-sustain-dev-international-journal-of-sustainable-development">Int J Sustain Dev - International Journal of Sustainable Development</a> </td> 
+          <td id="ctl00_MainContent_ctl30_tdPulicationCount" class="staticOrderCol"> 251 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               32 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl31_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl31_hypName" href="/Journal/16028/journal-of-change-management">Journal of Change Management</a> </td> 
+          <td id="ctl00_MainContent_ctl31_tdPulicationCount" class="staticOrderCol"> 246 </td> 
+          <td class="staticOrderCol"> 12 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               33 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl32_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl32_hypName" href="/Journal/13299/strategic-change">Strategic Change</a> </td> 
+          <td id="ctl00_MainContent_ctl32_tdPulicationCount" class="staticOrderCol"> 931 </td> 
+          <td class="staticOrderCol"> 11 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               34 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl33_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl33_hypName" href="/Journal/16195/planning-practice-and-research">Planning Practice and Research</a> </td> 
+          <td id="ctl00_MainContent_ctl33_tdPulicationCount" class="staticOrderCol"> 518 </td> 
+          <td class="staticOrderCol"> 11 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               35 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl34_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl34_hypName" href="/Journal/18263/compet-change-competition-and-change">Compet Change - Competition and Change</a> </td> 
+          <td id="ctl00_MainContent_ctl34_tdPulicationCount" class="staticOrderCol"> 150 </td> 
+          <td class="staticOrderCol"> 11 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               36 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl35_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl35_hypName" href="/Journal/5058/technol-econ-dev-econ-technological-and-economic-development-of-economy">TECHNOL ECON DEV ECON - Technological and Economic Development of Economy</a> </td> 
+          <td id="ctl00_MainContent_ctl35_tdPulicationCount" class="staticOrderCol"> 111 </td> 
+          <td class="staticOrderCol"> 11 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               37 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl36_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl36_hypName" href="/Journal/4697/econ-plann-economics-of-planning">ECON PLANN - Economics of Planning</a> </td> 
+          <td id="ctl00_MainContent_ctl36_tdPulicationCount" class="staticOrderCol"> 501 </td> 
+          <td class="staticOrderCol"> 10 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               38 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl37_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl37_hypName" href="/Journal/17938/innovations-technology-governance-globalization">Innovations: Technology, Governance, Globalization</a> </td> 
+          <td id="ctl00_MainContent_ctl37_tdPulicationCount" class="staticOrderCol"> 202 </td> 
+          <td class="staticOrderCol"> 10 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               39 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl38_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl38_hypName" href="/Journal/20421/e-serv-j-e-service-journal">e Serv J - E-service Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl38_tdPulicationCount" class="staticOrderCol"> 140 </td> 
+          <td class="staticOrderCol"> 10 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               40 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl39_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl39_hypName" href="/Journal/17449/the-journal-of-world-intellectual-property">The Journal of World Intellectual Property</a> </td> 
+          <td id="ctl00_MainContent_ctl39_tdPulicationCount" class="staticOrderCol"> 479 </td> 
+          <td class="staticOrderCol"> 9 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               41 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl40_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl40_hypName" href="/Journal/18889/int-j-manag-decis-making-international-journal-of-management-and-decision-making">Int J Manag Decis Making - International Journal of Management and Decision Making</a> </td> 
+          <td id="ctl00_MainContent_ctl40_tdPulicationCount" class="staticOrderCol"> 238 </td> 
+          <td class="staticOrderCol"> 9 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               42 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl41_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl41_hypName" href="/Journal/18921/int-j-prod-dev-international-journal-of-product-development">Int J Prod Dev - International Journal of Product Development</a> </td> 
+          <td id="ctl00_MainContent_ctl41_tdPulicationCount" class="staticOrderCol"> 239 </td> 
+          <td class="staticOrderCol"> 8 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               43 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl42_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl42_hypName" href="/Journal/18645/j-develop-area-the-journal-of-developing-areas">J Develop Area - The Journal of Developing Areas</a> </td> 
+          <td id="ctl00_MainContent_ctl42_tdPulicationCount" class="staticOrderCol"> 241 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               44 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl43_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl43_hypName" href="/Journal/18893/int-j-automot-tech-manag-international-journal-of-automotive-technology-and-management">Int J Automot Tech Manag - International Journal of Automotive Technology and Management</a> </td> 
+          <td id="ctl00_MainContent_ctl43_tdPulicationCount" class="staticOrderCol"> 209 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               45 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl44_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl44_hypName" href="/Journal/18969/int-j-innovat-sustain-dev-international-journal-of-innovation-and-sustainable-development">Int J Innovat Sustain Dev - International Journal of Innovation and Sustainable Development</a> </td> 
+          <td id="ctl00_MainContent_ctl44_tdPulicationCount" class="staticOrderCol"> 106 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               46 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl45_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl45_hypName" href="/Journal/14323/journal-of-income-distribution">Journal of Income Distribution</a> </td> 
+          <td id="ctl00_MainContent_ctl45_tdPulicationCount" class="staticOrderCol"> 47 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               47 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl46_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl46_hypName" href="/Journal/20148/j-emerg-tech-account-journal-of-emerging-technologies-in-accounting">J Emerg Tech Account - Journal of Emerging Technologies in Accounting</a> </td> 
+          <td id="ctl00_MainContent_ctl46_tdPulicationCount" class="staticOrderCol"> 47 </td> 
+          <td class="staticOrderCol"> 7 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               48 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl47_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl47_hypName" href="/Journal/17242/the-ids-bulletin">The Ids Bulletin</a> </td> 
+          <td id="ctl00_MainContent_ctl47_tdPulicationCount" class="staticOrderCol"> 292 </td> 
+          <td class="staticOrderCol"> 6 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               49 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl48_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl48_hypName" href="/Journal/16966/journal-of-accounting-&amp;-organizational-change">Journal of Accounting &amp; Organizational Change</a> </td> 
+          <td id="ctl00_MainContent_ctl48_tdPulicationCount" class="staticOrderCol"> 82 </td> 
+          <td class="staticOrderCol"> 6 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               50 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl49_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl49_hypName" href="/Journal/18933/international-journal-of-technology-and-globalisation">International Journal of Technology and Globalisation</a> </td> 
+          <td id="ctl00_MainContent_ctl49_tdPulicationCount" class="staticOrderCol"> 67 </td> 
+          <td class="staticOrderCol"> 6 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               51 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl50_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl50_hypName" href="/Journal/4671/comput-math-organ-theory-computational-and-mathematical-organization-theory">COMPUT MATH ORGAN THEORY - Computational and Mathematical Organization Theory</a> </td> 
+          <td id="ctl00_MainContent_ctl50_tdPulicationCount" class="staticOrderCol"> 38 </td> 
+          <td class="staticOrderCol"> 6 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               52 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl51_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl51_hypName" href="/Journal/16973/journal-of-technology-management-in-china">Journal of Technology Management in China</a> </td> 
+          <td id="ctl00_MainContent_ctl51_tdPulicationCount" class="staticOrderCol"> 82 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               53 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl52_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl52_hypName" href="/Journal/14671/technological-forecasting">Technological Forecasting</a> </td> 
+          <td id="ctl00_MainContent_ctl52_tdPulicationCount" class="staticOrderCol"> 54 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               54 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl53_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl53_hypName" href="/Journal/19017/int-j-technol-learn-innovat-dev-international-journal-of-technological-learning-innovation-and">Int J Technol Learn Innovat Dev - International Journal of Technological Learning, Innovation and Development</a> </td> 
+          <td id="ctl00_MainContent_ctl53_tdPulicationCount" class="staticOrderCol"> 50 </td> 
+          <td class="staticOrderCol"> 5 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               55 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl54_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl54_hypName" href="/Journal/19348/rev-econ-e-soc-rural-revista-de-economia-e-sociologia-rural">Rev Econ e Soc Rural - Revista De Economia E Sociologia Rural</a> </td> 
+          <td id="ctl00_MainContent_ctl54_tdPulicationCount" class="staticOrderCol"> 209 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               56 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl55_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl55_hypName" href="/Journal/18902/international-journal-of-technology-transfer-and-commercialisation">International Journal of Technology Transfer and Commercialisation</a> </td> 
+          <td id="ctl00_MainContent_ctl55_tdPulicationCount" class="staticOrderCol"> 194 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               57 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl56_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl56_hypName" href="/Journal/18930/int-j-tech-intell-plann-international-journal-of-technology-intelligence-and-planning">Int J Tech Intell Plann - International Journal of Technology Intelligence and Planning</a> </td> 
+          <td id="ctl00_MainContent_ctl56_tdPulicationCount" class="staticOrderCol"> 114 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               58 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl57_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl57_hypName" href="/Journal/17670/int-j-innovat-tech-manag-international-journal-of-innovation-and-technology-management">Int J Innovat Tech Manag - International Journal of Innovation and Technology Management</a> </td> 
+          <td id="ctl00_MainContent_ctl57_tdPulicationCount" class="staticOrderCol"> 88 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               59 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl58_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl58_hypName" href="/Journal/18954/int-j-learn-change-international-journal-of-learning-and-change">Int J Learn Change - International Journal of Learning and Change</a> </td> 
+          <td id="ctl00_MainContent_ctl58_tdPulicationCount" class="staticOrderCol"> 88 </td> 
+          <td class="staticOrderCol"> 4 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               60 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl59_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl59_hypName" href="/Journal/17617/stud-russ-econ-dev-studies-on-russian-economic-development">Stud Russ Econ Dev - Studies on Russian Economic Development</a> </td> 
+          <td id="ctl00_MainContent_ctl59_tdPulicationCount" class="staticOrderCol"> 303 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               61 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl60_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl60_hypName" href="/Journal/17244/institute-of-development-studies-bulletin">Institute of Development Studies Bulletin</a> </td> 
+          <td id="ctl00_MainContent_ctl60_tdPulicationCount" class="staticOrderCol"> 185 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               62 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl61_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl61_hypName" href="/Journal/18973/int-j-bus-innovat-res-international-journal-of-business-innovation-and-research">Int J Bus Innovat Res - International Journal of Business Innovation and Research</a> </td> 
+          <td id="ctl00_MainContent_ctl61_tdPulicationCount" class="staticOrderCol"> 111 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               63 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl62_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl62_hypName" href="/Journal/18958/int-j-tech-market-international-journal-of-technology-marketing">Int J Tech Market - International Journal of Technology Marketing</a> </td> 
+          <td id="ctl00_MainContent_ctl62_tdPulicationCount" class="staticOrderCol"> 81 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               64 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl63_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl63_hypName" href="/Journal/17070/int-j-dev-issues-international-journal-of-development-issues">Int J Dev Issues - International Journal of Development Issues</a> </td> 
+          <td id="ctl00_MainContent_ctl63_tdPulicationCount" class="staticOrderCol"> 75 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               65 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl64_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl64_hypName" href="/Journal/15829/journal-of-internet-commerce">Journal of Internet Commerce</a> </td> 
+          <td id="ctl00_MainContent_ctl64_tdPulicationCount" class="staticOrderCol"> 64 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               66 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl65_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl65_hypName" href="/Journal/21783/ijdar-the-international-journal-of-digital-accounting-research">IJDAR - The International Journal of Digital Accounting Research</a> </td> 
+          <td id="ctl00_MainContent_ctl65_tdPulicationCount" class="staticOrderCol"> 62 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               67 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl66_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl66_hypName" href="/Journal/16583/journal-of-development-effectiveness">Journal of Development Effectiveness</a> </td> 
+          <td id="ctl00_MainContent_ctl66_tdPulicationCount" class="staticOrderCol"> 40 </td> 
+          <td class="staticOrderCol"> 3 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               68 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl67_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl67_hypName" href="/Journal/20328/int-j-sustain-dev-plann-international-journal-of-sustainable-development-and-planning">Int J Sustain Dev Plann - International Journal of Sustainable Development and Planning</a> </td> 
+          <td id="ctl00_MainContent_ctl67_tdPulicationCount" class="staticOrderCol"> 125 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               69 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl68_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl68_hypName" href="/Journal/16893/strategic-direction">Strategic Direction</a> </td> 
+          <td id="ctl00_MainContent_ctl68_tdPulicationCount" class="staticOrderCol"> 100 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               70 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl69_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl69_hypName" href="/Journal/19061/int-j-sustain-econ-international-journal-of-sustainable-economy">Int J Sustain Econ - International Journal of Sustainable Economy</a> </td> 
+          <td id="ctl00_MainContent_ctl69_tdPulicationCount" class="staticOrderCol"> 48 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               71 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl70_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl70_hypName" href="/Journal/21154/journal-of-innovation-economics">Journal of Innovation Economics</a> </td> 
+          <td id="ctl00_MainContent_ctl70_tdPulicationCount" class="staticOrderCol"> 43 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               72 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl71_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl71_hypName" href="/Journal/17087/indian-growth-dev-rev-indian-growth-and-development-review">Indian Growth Dev Rev - Indian Growth and Development Review</a> </td> 
+          <td id="ctl00_MainContent_ctl71_tdPulicationCount" class="staticOrderCol"> 25 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               73 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl72_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl72_hypName" href="/Journal/17702/middle-east-development-journal">Middle East Development Journal</a> </td> 
+          <td id="ctl00_MainContent_ctl72_tdPulicationCount" class="staticOrderCol"> 18 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               74 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl73_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl73_hypName" href="/Journal/21821/mod-econ-modern-economy">Mod Econ - Modern Economy</a> </td> 
+          <td id="ctl00_MainContent_ctl73_tdPulicationCount" class="staticOrderCol"> 5 </td> 
+          <td class="staticOrderCol"> 2 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               75 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl74_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl74_hypName" href="/Journal/20073/doboku-gakkai-ronbunshuu-d">Doboku Gakkai Ronbunshuu D</a> </td> 
+          <td id="ctl00_MainContent_ctl74_tdPulicationCount" class="staticOrderCol"> 227 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               76 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl75_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl75_hypName" href="/Journal/5022/rev-etud-compar-est-ouest-revue-d-etudes-comparatives-est-ouest">REV ETUD COMPAR EST-OUEST - Revue D Etudes Comparatives Est-ouest</a> </td> 
+          <td id="ctl00_MainContent_ctl75_tdPulicationCount" class="staticOrderCol"> 68 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               77 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl76_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl76_hypName" href="/Journal/21385/international-journal-of-business-intelligence-research">International Journal of Business Intelligence Research</a> </td> 
+          <td id="ctl00_MainContent_ctl76_tdPulicationCount" class="staticOrderCol"> 24 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               78 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl77_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl77_hypName" href="/Journal/17095/journal-of-knowledge-based-innovation-in-china">Journal of Knowledge-based Innovation in China</a> </td> 
+          <td id="ctl00_MainContent_ctl77_tdPulicationCount" class="staticOrderCol"> 21 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               79 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl78_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl78_hypName" href="/Journal/20064/journal-of-globalization-and-development">Journal of Globalization and Development</a> </td> 
+          <td id="ctl00_MainContent_ctl78_tdPulicationCount" class="staticOrderCol"> 18 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               80 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl79_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl79_hypName" href="/Journal/21451/international-journal-on-it-business-alignment-and-governance">International Journal on It/business Alignment and Governance</a> </td> 
+          <td id="ctl00_MainContent_ctl79_tdPulicationCount" class="staticOrderCol"> 12 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               81 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl80_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl80_hypName" href="/Journal/19137/int-j-knowl-base-dev-international-journal-of-knowledge-based-development">Int J Knowl Base Dev - International Journal of Knowledge-based Development</a> </td> 
+          <td id="ctl00_MainContent_ctl80_tdPulicationCount" class="staticOrderCol"> 8 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               82 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl81_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl81_hypName" href="/Journal/21384/international-journal-of-actor-network-theory-and-technological-innovation">International Journal of Actor-network Theory and Technological Innovation</a> </td> 
+          <td id="ctl00_MainContent_ctl81_tdPulicationCount" class="staticOrderCol"> 8 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               83 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl82_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl82_hypName" href="/Journal/21400/international-journal-of-e-collaboration">International Journal of E-collaboration</a> </td> 
+          <td id="ctl00_MainContent_ctl82_tdPulicationCount" class="staticOrderCol"> 3 </td> 
+          <td class="staticOrderCol"> 1 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               84 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl83_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl83_hypName" href="/Journal/20303/comp-econ-res-comparative-economic-research">Comp Econ Res - Comparative Economic Research</a> </td> 
+          <td id="ctl00_MainContent_ctl83_tdPulicationCount" class="staticOrderCol"> 26 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               85 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl84_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl84_hypName" href="/Journal/21435/international-journal-of-technology-diffusion">International Journal of Technology Diffusion</a> </td> 
+          <td id="ctl00_MainContent_ctl84_tdPulicationCount" class="staticOrderCol"> 25 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               86 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl85_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl85_hypName" href="/Journal/21424/international-journal-of-innovation-in-the-digital-economy">International Journal of Innovation in The Digital Economy</a> </td> 
+          <td id="ctl00_MainContent_ctl85_tdPulicationCount" class="staticOrderCol"> 21 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               87 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl86_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl86_hypName" href="/Journal/19072/int-j-arab-cult-manag-sustain-dev-international-journal-of-arab-culture-management-and">Int J Arab Cult Manag Sustain Dev - International Journal of Arab Culture, Management and Sustainable Development</a> </td> 
+          <td id="ctl00_MainContent_ctl86_tdPulicationCount" class="staticOrderCol"> 18 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               88 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl87_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl87_hypName" href="/Journal/21844/tech-invest-technology-and-investment">Tech Invest - Technology and Investment</a> </td> 
+          <td id="ctl00_MainContent_ctl87_tdPulicationCount" class="staticOrderCol"> 18 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+         <tr> 
+          <td class="rank-number-td"> 
+           <div class="rank-div"> 
+            <div class="rank-number"> 
+             <div class="right"></div> 
+             <div class="left">
+               89 
+             </div> 
+            </div> 
+           </div> </td> 
+          <td id="ctl00_MainContent_ctl88_tdContent" class="rank-content"> <a id="ctl00_MainContent_ctl88_hypName" href="/Journal/16902/advances-in-the-study-of-entrepreneurship-innovation-&amp;-economic-growth">Advances in The Study of Entrepreneurship, Innovation, &amp; Economic Growth</a> </td> 
+          <td id="ctl00_MainContent_ctl88_tdPulicationCount" class="staticOrderCol"> 3 </td> 
+          <td class="staticOrderCol"> 0 </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </div> 
+      <ul> 
+      </ul> 
+      <div class="clear"></div> 
+     </div> 
+     <script type="text/javascript" language="javascript">
+                            //<![CDATA[
+        $(function () {
+            if (request("entitytype") != "7") {
+                $(".ranklist-summary").css("position", "static");
+            }
+        })
+                             //]]>
+    </script> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+   <div class="footer-searchbox"> 
+    <div id="ctl00_FooterSearchForm_searchBar" class="search-bar"> 
+     <div id="ctl00_FooterSearchForm_divSearchBox" class="search-box" style="position:relative"> 
+      <input name="ctl00$FooterSearchForm$txtQuery" type="text" id="ctl00_FooterSearchForm_txtQuery" class="search-textbox" autocomplete="off" onkeypress="flagUserKeyDown =true ;if(event.keyCode==13){ document.getElementById('ctl00_FooterSearchForm_SearchButton').click(); return false;}" oninput="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" onpropertychange="var obj=document.getElementById('ctl00_FooterSearchForm_txtQuery'); if(obj.value.length&gt;256){obj.value=obj.value.substring(0,256);};" /> 
+     </div> 
+     <input type="image" name="ctl00$FooterSearchForm$SearchButton" id="ctl00_FooterSearchForm_SearchButton" class="search-button" src="Images/search_button_wide.png" alt="Search" onclick="try{return si(11,'ctl00_FooterSearchForm','ctl00_FooterSearchForm_SearchButton');}catch(ex){;};" border="0" /> 
+     <div class="type-suggestion"> 
+      <div id="autoSuggest" class="typesuggest"> 
+      </div> 
+     </div> 
+     <div class="searching-div"> 
+      <div class="loadImg" id="divLoadingIcon"> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="advancedsearchDiv" class="modalpopup"> 
+    </div> 
+    <div class="modalpopup" style="display: block"> 
+     <div class="advanced-search" id="divDomainPanel" style="display: none"> 
+      <div class="domain-closelink"> 
+      </div> 
+      <div class="small-btn"> 
+      </div> 
+      <div class="domain-panel"> 
+       <div> 
+        <input type="radio" value="1" name="AllDomainRadio" checked="checked" /> 
+        <span>Search in all domains</span> 
+       </div> 
+       <div> 
+        <input type="radio" value="0" name="AllDomainRadio" /> 
+        <span>Limit my searches in the following domains</span> 
+       </div> 
+       <div style="padding-left: 10px;"> 
+        <div class="option">
+         <input type="checkbox" value="16" /> 
+         <span>Agriculture Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="3" /> 
+         <span>Arts &amp; Humanities</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="4" /> 
+         <span>Biology</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="5" /> 
+         <span>Chemistry</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="2" /> 
+         <span>Computer Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="7" /> 
+         <span>Economics &amp; Business</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="8" /> 
+         <span>Engineering</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="9" /> 
+         <span>Environmental Sciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="10" /> 
+         <span>Geosciences</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="12" /> 
+         <span>Material Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="15" /> 
+         <span>Mathematics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="6" /> 
+         <span>Medicine</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="19" /> 
+         <span>Physics</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="22" /> 
+         <span>Social Science</span>
+        </div>
+        <div class="option">
+         <input type="checkbox" value="1" /> 
+         <span>Multidisciplinary</span>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript" language="javascript">
+    //<![CDATA[
+     $(function () {
+         $("#ctl00_FooterSearchForm_SearchButton").click(
+                function () {
+                    var query = $('#ctl00_FooterSearchForm_txtQuery')[0].value;
+                    $.ajax({
+                        url: "http://academic.research.microsoft.com/Images/logClick.gif?t=13&query=" + query + "&tm=" + new Date(),
+                        success: function () {
+                        }
+                    });
+                    $("#divLoadingIcon").show();
+                    var xPosition = 0;
+                    setInterval(function () {
+                        if (xPosition <= 0)
+                            xPosition = 160;
+                        xPosition = xPosition - 20;
+                        $('#divLoadingIcon').css('background-position', xPosition + 'px 0px');
+                    }, 125);
+
+                }
+            );
+
+            $("#ctl00_FooterSearchForm_advancedsearch").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_advancedsearch');
+            });
+            $("#ctl00_FooterSearchForm_divSearchBox").click(function () {
+                siUrl(this.location, 'ctl00_FooterSearchForm_divSearchBox');
+            });
+     })
+    //]]>
+    </script> 
+    <input name="ctl00$FooterSearchForm$hdnSelectedDomain" type="hidden" id="ctl00_FooterSearchForm_hdnSelectedDomain" /> 
+   </div> 
+  </div> 
+  <div class="footer"> 
+   <div id="ctl00_Footer_divFooterWrapper" class="footer-wrapper"> 
+    <div class="footer-left"> 
+     <div class="footer-left-arrow"> 
+     </div> 
+     <a id="ctl00_Footer_hlHelp" href="About/Help.htm" target="_blank">Help</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFeedback" href="http://social.microsoft.com/Forums/en-US/mas/threads" target="_blank">Feedback</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkFollowUs" href="http://twitter.com/MSFTAcademic" target="_blank">Follow Us</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTermofUse" href="http://explore.live.com/microsoft-service-agreement?ref=none" target="_blank">Terms of Use</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkSpecTerms" href="About/TermsofUseSpecEN.html" target="_blank">Specific Terms</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkTrademarks" href="http://go.microsoft.com/?linkid=4412893" target="_blank">Trademarks</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_linkPrivacy" href="http://go.microsoft.com/?linkid=4412894" target="_blank">Privacy &amp; Cookies</a> 
+     <span class="space">|</span> 
+     <a id="ctl00_Footer_HyperLink1" href="http://go.microsoft.com/fwlink/?LinkId=225021" target="_blank">Survey</a> 
+    </div> 
+    <div class="propupwidth"> 
+     <div class="footer-right"> 
+      <div class="footer-right-arrow"> 
+      </div> 
+      <span id="ctl00_Footer_labCopyright" class="footer-copyright">&copy;2012 Microsoft Corporation. All rights reserved.</span> 
+      <a href="http://research.microsoft.com" target="_blank" class="footer-logo"></a> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("[id^='logclick']").each(
+            function (index) {
+                var thisID = $(this).attr("id");
+                $(this).click(function () { siUrl(document.location, thisID.split("_")[1]); });
+            }
+            );
+    });
+</script> 
+   </div> 
+  </div> 
+  <div class="footer-fixed"> 
+  </div> 
+ </form>   
+</body>

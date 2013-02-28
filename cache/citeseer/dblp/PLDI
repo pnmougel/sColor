@@ -1,0 +1,300 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>SIGPLAN Conference on Programming Language Design and Implementation (PLDI)</h1> 
+ <a href="http://portal.acm.org/proceedings/pldi/">PLDI @ ACM DL</a> 
+ <h2>Best of PLDI</h2> 
+ <a name="2004best" href="../../indices/a-tree/m/McKinley:Kathryn_S=.html">Kathryn S. McKinley</a> (Ed.): 20 Years of the ACM SIGPLAN Conference on Programming Language Design and Implementation 1979-1999, A Selection. ACM 2004, ISBN 1-58113-623-4
+ <br /> 
+ <a href="pldi2004best.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%2220+Years+of+the+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+1979%2D1999%2C+A+Selection%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%2220+Years+of+the+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+1979%2D1999%2C+A+Selection%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2004best"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2004best"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2004best.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <hr /> 
+ <h2>PLDI 2012: Beijing, China</h2> 
+ <p><a name="2012" href="../../indices/a-tree/v/Vitek:Jan.html">Jan Vitek</a>, <a href="../../indices/a-tree/l/Lin:Haibo.html">Haibo Lin</a>, <a href="../../indices/a-tree/t/Tip:Frank.html">Frank Tip</a> (Eds.): ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '12, Beijing, China - June 11 - 16, 2012. ACM 2012, ISBN 978-1-4503-1205-9<br /> <a href="pldi2012.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+%2712%2C+Beijing%2C+China+%2D+June+11+%2D+16%2C+2012%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+%2712%2C+Beijing%2C+China+%2D+June+11+%2D+16%2C+2012%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2012"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2012"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2012.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2012mspc" href="../../indices/a-tree/z/Zhang:Lixin.html">Lixin Zhang</a>, <a href="../../indices/a-tree/m/Mutlu:Onur.html">Onur Mutlu</a> (Eds.): Proceedings of the 2012 ACM SIGPLAN workshop on Memory Systems Performance and Correctness: held in conjunction with PLDI '12, Beijing, China, June 16, 2012. ACM 2012/2012, ISBN 978-1-4503-1219-6<br /> <a href="mspc2012.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2012+ACM+SIGPLAN+workshop+on+Memory+Systems+Performance+and+Correctness+held+in+conjunction+with+PLDI+%2712%2C+Beijing%2C+China%2C+June+16%2C+2012%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2012+ACM+SIGPLAN+workshop+on+Memory+Systems+Performance+and+Correctness+held+in+conjunction+with+PLDI+%2712%2C+Beijing%2C+China%2C+June+16%2C+2012%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2012mspc"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2012mspc"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2012mspc.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2011: San Jose, CA, USA</h2> 
+ <p><a name="2011" href="../../indices/a-tree/h/Hall:Mary_W=.html">Mary W. Hall</a>, <a href="../../indices/a-tree/p/Padua:David_A=.html">David A. Padua</a> (Eds.): Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI 2011, San Jose, CA, USA, June 4-8, 2011. ACM 2011, ISBN 978-1-4503-0663-8<br /> <a href="pldi2011.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+32nd+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+2011%2C+San+Jose%2C+CA%2C+USA%2C+June+4%2D8%2C+2011%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+32nd+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+2011%2C+San+Jose%2C+CA%2C+USA%2C+June+4%2D8%2C+2011%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2011"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2011"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2011.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2011mspc" href="../../indices/a-tree/v/Vetter:Jeffrey_S=.html">Jeffrey S. Vetter</a>, <a href="../../indices/a-tree/m/Musuvathi:Madanlal.html">Madanlal Musuvathi</a>, <a href="../../indices/a-tree/s/Shen:Xipeng.html">Xipeng Shen</a> (Eds.): Proceedings of the 2011 ACM SIGPLAN workshop on Memory Systems Performance and Correctness: held in conjunction with PLDI '11, San Jose, CA, USA, June 5, 2011. ACM 2011/2011, ISBN 978-1-4503-0794-9<br /> <a href="mspc2011.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2011+ACM+SIGPLAN+workshop+on+Memory+Systems+Performance+and+Correctness+held+in+conjunction+with+PLDI+%2711%2C+San+Jose%2C+CA%2C+USA%2C+June+5%2C+2011%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2011+ACM+SIGPLAN+workshop+on+Memory+Systems+Performance+and+Correctness+held+in+conjunction+with+PLDI+%2711%2C+San+Jose%2C+CA%2C+USA%2C+June+5%2C+2011%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2011mspc"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2011mspc"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2011mspc.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2010: Toronto, Ontario, Canada</h2> 
+ <p><a name="2010" href="../../indices/a-tree/z/Zorn:Benjamin_G=.html">Benjamin G. Zorn</a>, <a href="../../indices/a-tree/a/Aiken:Alexander.html">Alexander Aiken</a> (Eds.): Proceedings of the 2010 ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI 2010, Toronto, Ontario, Canada, June 5-10, 2010. ACM 2010, ISBN 978-1-4503-0019-3<br /> <a href="pldi2010.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2010+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+2010%2C+Toronto%2C+Ontario%2C+Canada%2C+June+5%2D10%2C+2010%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2010+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+2010%2C+Toronto%2C+Ontario%2C+Canada%2C+June+5%2D10%2C+2010%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2010"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2010"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2010.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2009: Dublin, Ireland</h2> 
+ <p><a name="2009" href="../../indices/a-tree/h/Hind:Michael.html">Michael Hind</a>, <a href="../../indices/a-tree/d/Diwan:Amer.html">Amer Diwan</a> (Eds.): Proceedings of the 2009 ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI 2009, Dublin, Ireland, June 15-21, 2009. ACM 2009, ISBN 978-1-60558-392-1<br /> <a href="pldi2009.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2009+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+2009%2C+Dublin%2C+Ireland%2C+June+15%2D21%2C+2009%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2009+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation%2C+PLDI+2009%2C+Dublin%2C+Ireland%2C+June+15%2D21%2C+2009%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2009"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2009"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2009.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2009plas" href="../../indices/a-tree/c/Chong:Stephen.html">Stephen Chong</a>, <a href="../../indices/a-tree/n/Naumann:David_A=.html">David A. Naumann</a> (Eds.): Proceedings of the 2009 Workshop on Programming Languages and Analysis for Security, PLAS 2009, Dublin, Ireland, 15-21 June, 2009. ACM 2009, ISBN 978-1-60558-645-8<br /> <a href="plas2009.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2009+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2009%2C+Dublin%2C+Ireland%2C+15%2D21+June%2C+2009%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2009+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2009%2C+Dublin%2C+Ireland%2C+15%2D21+June%2C+2009%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2009plas"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2009plas"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2009plas.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2008: Tucson, AZ, USA</h2> 
+ <p><a name="2008" href="../../indices/a-tree/g/Gupta:Rajiv.html">Rajiv Gupta</a>, <a href="../../indices/a-tree/a/Amarasinghe:Saman_P=.html">Saman P. Amarasinghe</a> (Eds.): Proceedings of the ACM SIGPLAN 2008 Conference on Programming Language Design and Implementation, Tucson, AZ, USA, June 7-13, 2008. ACM 2008, ISBN 978-1-59593-860-2<br /> <a href="pldi2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+2008+Conference+on+Programming+Language+Design+and+Implementation%2C+Tucson%2C+AZ%2C+USA%2C+June+7%2D13%2C+2008%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+2008+Conference+on+Programming+Language+Design+and+Implementation%2C+Tucson%2C+AZ%2C+USA%2C+June+7%2D13%2C+2008%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2008"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2008"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2008.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2008plas" href="../../indices/a-tree/e/Erlingsson:=Uacute=lfar.html">&Uacute;lfar Erlingsson</a>, <a href="../../indices/a-tree/p/Pistoia:Marco.html">Marco Pistoia</a> (Eds.): Proceedings of the 2008 Workshop on Programming Languages and Analysis for Security, PLAS 2008, Tucson, AZ, USA, June 8, 2008. ACM 2008, ISBN 978-1-59593-936-4<br /> <a href="plas2008.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2008+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2008%2C+Tucson%2C+AZ%2C+USA%2C+June+8%2C+2008%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2008+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2008%2C+Tucson%2C+AZ%2C+USA%2C+June+8%2C+2008%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2008plas"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2008plas"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2008plas.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2007: San Diego, California, USA</h2> 
+ <p><a name="2007" href="../../indices/a-tree/f/Ferrante:Jeanne.html">Jeanne Ferrante</a>, <a href="../../indices/a-tree/m/McKinley:Kathryn_S=.html">Kathryn S. McKinley</a> (Eds.): Proceedings of the ACM SIGPLAN 2007 Conference on Programming Language Design and Implementation, San Diego, California, USA, June 10-13, 2007. ACM 2007, ISBN 978-1-59593-633-2<br /> <a href="pldi2007.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+2007+Conference+on+Programming+Language+Design+and+Implementation%2C+San+Diego%2C+California%2C+USA%2C+June+10%2D13%2C+2007%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+2007+Conference+on+Programming+Language+Design+and+Implementation%2C+San+Diego%2C+California%2C+USA%2C+June+10%2D13%2C+2007%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2007"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2007"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2007.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2007plas" href="../../indices/a-tree/h/Hicks:Michael_W=.html">Michael W. Hicks</a> (Ed.): Proceedings of the 2007 Workshop on Programming Languages and Analysis for Security, PLAS 2007, San Diego, California, USA, June 14, 2007. ACM 2007, ISBN 978-1-59593-711-7<br /> <a href="plas2007.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2007+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2007%2C+San+Diego%2C+California%2C+USA%2C+June+14%2C+2007%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2007+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2007%2C+San+Diego%2C+California%2C+USA%2C+June+14%2C+2007%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2007plas"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2007plas"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2007plas.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2006: Ottawa, Ontario, Canada</h2> 
+ <p><a name="2006" href="../../indices/a-tree/s/Schwartzbach:Michael_I=.html">Michael I. Schwartzbach</a>, <a href="../../indices/a-tree/b/Ball:Thomas.html">Thomas Ball</a> (Eds.): Proceedings of the ACM SIGPLAN 2006 Conference on Programming Language Design and Implementation, Ottawa, Ontario, Canada, June 11-14, 2006. ACM 2006, ISBN 1-59593-320-4<br /> <a href="pldi2006.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+2006+Conference+on+Programming+Language+Design+and+Implementation%2C+Ottawa%2C+Ontario%2C+Canada%2C+June+11%2D14%2C+2006%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+2006+Conference+on+Programming+Language+Design+and+Implementation%2C+Ottawa%2C+Ontario%2C+Canada%2C+June+11%2D14%2C+2006%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2006"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2006"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2006.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <p><a name="2006plas" href="../../indices/a-tree/s/Sreedhar:Vugranam_C=.html">Vugranam C. Sreedhar</a>, <a href="../../indices/a-tree/z/Zdancewic:Steve.html">Steve Zdancewic</a> (Eds.): Proceedings of the 2006 Workshop on Programming Languages and Analysis for Security, PLAS 2006, Ottawa, Ontario, Canada, June 10, 2006. ACM 2006, ISBN 1-59593-374-3<br /> <a href="plas2006.html">Contents</a> <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2006+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2006%2C+Ottawa%2C+Ontario%2C+Canada%2C+June+10%2C+2006%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2006+Workshop+on+Programming+Languages+and+Analysis+for+Security%2C+PLAS+2006%2C+Ottawa%2C+Ontario%2C+Canada%2C+June+10%2C+2006%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> <a href="http://www.pubzone.org/dblp/conf/pldi/2006plas"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2006plas"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2006plas.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a></p> 
+ <h2>PLDI 2005: Chicago, IL, USA</h2> 
+ <a name="2005" href="../../indices/a-tree/s/Sarkar:Vivek.html">Vivek Sarkar</a>, 
+ <a href="../../indices/a-tree/h/Hall:Mary_W=.html">Mary W. Hall</a> (Eds.): Proceedings of the ACM SIGPLAN 2005 Conference on Programming Language Design and Implementation, Chicago, IL, USA, June 12-15, 2005. ACM 2005, ISBN 1-59593-056-6
+ <br /> 
+ <a href="pldi2005.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+2005+Conference+on+Programming+Language+Design+and+Implementation%2C+Chicago%2C+IL%2C+USA%2C+June+12%2D15%2C+2005%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+2005+Conference+on+Programming+Language+Design+and+Implementation%2C+Chicago%2C+IL%2C+USA%2C+June+12%2D15%2C+2005%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2005"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2005"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2005.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.research.ibm.com/pldi2005/">PLDI 2005 Home Page</a> 
+ <h2>PLDI 2004: Washington, DC, USA</h2> 
+ <a name="2004" href="../../indices/a-tree/p/Pugh:William.html">William Pugh</a>, 
+ <a href="../../indices/a-tree/c/Chambers:Craig.html">Craig Chambers</a> (Eds.): Proceedings of the ACM SIGPLAN 2004 Conference on Programming Language Design and Implementation 2004, Washington, DC, USA, June 9-11, 2004. ACM 2004, ISBN 1-58113-807-5
+ <br /> 
+ <a href="pldi2004.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+2004+Conference+on+Programming+Language+Design+and+Implementation+2004%2C+Washington%2C+DC%2C+USA%2C+June+9%2D11%2C+2004%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+2004+Conference+on+Programming+Language+Design+and+Implementation+2004%2C+Washington%2C+DC%2C+USA%2C+June+9%2D11%2C+2004%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2004"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2004"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2004.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cs.umd.edu/~pugh/pldi04/">PLDI 2004 Home Page</a> 
+ <h2>PLDI 2003: San Diego, California, USA</h2> 
+ <a name="2003" href="../../indices/a-tree/c/Cytron:Ron.html">Ron Cytron</a>, 
+ <a href="../../indices/a-tree/g/Gupta:Rajiv.html">Rajiv Gupta</a> (Eds.): Proceedings of the ACM SIGPLAN 2003 Conference on Programming Language Design and Implementation 2003, San Diego, California, USA, June 9-11, 2003. ACM 2003, ISBN 1-58113-662-5
+ <br /> 
+ <a href="pldi2003.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+2003+Conference+on+Programming+Language+Design+and+Implementation+2003%2C+San+Diego%2C+California%2C+USA%2C+June+9%2D11%2C+2003%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+2003+Conference+on+Programming+Language+Design+and+Implementation+2003%2C+San+Diego%2C+California%2C+USA%2C+June+9%2D11%2C+2003%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2003"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2003"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2003.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>PLDI 2002: Berlin, Germany</h2> 
+ <a name="2002" href="../../indices/a-tree/k/Knoop:Jens.html">Jens Knoop</a>, 
+ <a href="../../indices/a-tree/h/Hendren:Laurie_J=.html">Laurie J. Hendren</a> (Eds.): Proceedings of the 2002 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), Berlin, Germany, June 17-19, 2002. ACM 2002, ISBN 1-58113-463-0
+ <br /> 
+ <a href="pldi2002.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2002+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Berlin%2C+Germany%2C+June+17%2D19%2C+2002%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2002+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Berlin%2C+Germany%2C+June+17%2D19%2C+2002%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2002"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2002"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2002.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan37.html">SIGPLAN Notices 37</a>(5) (May 2001) 
+ <h2>PLDI 2001: Snowbird, Utah, USA</h2> 
+ <a name="2001" href="../../indices/a-tree/b/Burke:Michael.html">Michael Burke</a>, 
+ <a href="../../indices/a-tree/s/Soffa:Mary_Lou.html">Mary Lou Soffa</a> (Eds.): Proceedings of the 2001 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), Snowbird, Utah, USA, June 20-22, 2001. ACM 2001, ISBN 1-58113-414-2
+ <br /> 
+ <a href="pldi2001.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2001+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Snowbird%2C+Utah%2C+USA%2C+June+20%2D22%2C+2001%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2001+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Snowbird%2C+Utah%2C+USA%2C+June+20%2D22%2C+2001%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2001"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2001"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2001.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan36.html">SIGPLAN Notices 36</a>(5) (May 2001) 
+ <h2>PLDI 2000: Vancouver, British Columbia, Canada</h2> 
+ <a name="2000" href="../../indices/a-tree/l/Lam:Monica_S=.html">Monica S. Lam</a> (Ed.): Proceedings of the 2000 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), Vancouver, Britith Columbia, Canada, June 18-21, 2000. ACM 2000, ISBN 1-58113-199-2
+ <br /> 
+ <a href="pldi2000.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+2000+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Vancouver%2C+Britith+Columbia%2C+Canada%2C+June+18%2D21%2C+2000%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+2000+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Vancouver%2C+Britith+Columbia%2C+Canada%2C+June+18%2D21%2C+2000%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/2000"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2000"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/2000.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan35.html">SIGPLAN Notices 35</a>(5) (May 2000) - 
+ <a href="http://suif.stanford.edu/~lam/pldi00/">PLDI 2000 Home Page</a> 
+ <h2>PLDI 1999: Atlanta, Georgia, USA</h2> 
+ <a name="1999" href="../../indices/a-tree/r/Ryder:Barbara_G=.html">Barbara G. Ryder</a>, 
+ <a href="../../indices/a-tree/z/Zorn:Benjamin_G=.html">Benjamin G. Zorn</a> (Eds.): Proceedings of the 1999 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), Atlanta, Georgia, USA, May 1-4, 1999. ACM 1999, ISBN 1-58113-094-5
+ <br /> 
+ <a href="pldi99.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+1999+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Atlanta%2C+Georgia%2C+USA%2C+May+1%2D4%2C+1999%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+1999+ACM+SIGPLAN+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Atlanta%2C+Georgia%2C+USA%2C+May+1%2D4%2C+1999%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1999"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1999"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1999.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan34.html">SIGPLAN Notices 34</a>(5) (May 1999) - 
+ <a href="http://www.cs.rutgers.edu/pldi99/">PLDI 1999 Home Page</a> 
+ <h2>PLDI 1998, Montreal, Canada</h2> 
+ <a name="1998" href="../../indices/a-tree/d/Davidson:Jack_W=.html">Jack W. Davidson</a>, 
+ <a href="../../indices/a-tree/c/Cooper:Keith_D=.html">Keith D. Cooper</a>, 
+ <a href="../../indices/a-tree/b/Berman:A=_Michael.html">A. Michael Berman</a> (Eds.): Proceedings of the ACM SIGPLAN '98 Conference on Programming Language Design and Implementation (PLDI), Montreal, Canada, June 17-19, 1998. ACM 1998, ISBN 0-89791-987-4
+ <br /> 
+ <a href="pldi98.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+%2798+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Montreal%2C+Canada%2C+June+17%2D19%2C+1998%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+%2798+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Montreal%2C+Canada%2C+June+17%2D19%2C+1998%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1998"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1998"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1998.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan33.html">SIGPLAN Notices 33</a>(5) (May 1998) 
+ <h2>PLDI 1997: Las Vegas, Nevada, USA</h2> 
+ <a name="1997" href="../../indices/a-tree/c/Chen:Marina_C=.html">Marina C. Chen</a>, 
+ <a href="../../indices/a-tree/c/Cytron:Ron_K=.html">Ron K. Cytron</a>, 
+ <a href="../../indices/a-tree/b/Berman:A=_Michael.html">A. Michael Berman</a> (Eds.): Proceedings of the ACM SIGPLAN '97 Conference on Programming Language Design and Implementation (PLDI), Las Vegas, Nevada, June 15-18, 1997. ACM 1997, ISBN 0-89791-907-6
+ <br /> 
+ <a href="pldi97.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN+%2797+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Las+Vegas%2C+Nevada%2C+June+15%2D18%2C+1997%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN+%2797+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Las+Vegas%2C+Nevada%2C+June+15%2D18%2C+1997%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1997"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1997"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1997.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan32.html">SIGPLAN Notices 32</a>(5) (May 1997) - 
+ <a href="http://cs-www.bu.edu/pub/pldi97/">PLDI 1997 Home Page</a> 
+ <h2>PLDI 1996: Philadephia, Pennsylvania, USA</h2> 
+ <a name="1996" href="../../indices/a-tree/f/Fischer:Charles_N=.html">Charles N. Fischer</a> (Ed.): Proceedings of the ACM SIGPLAN'96 Conference on Programming Language Design and Implementation (PLDI), Philadephia, Pennsylvania, May 21-24, 1996. ACM 1996, ISBN 0-89791-795-2
+ <br /> 
+ <a href="pldi96.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2796+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Philadephia%2C+Pennsylvania%2C+May+21%2D24%2C+1996%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2796+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Philadephia%2C+Pennsylvania%2C+May+21%2D24%2C+1996%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1996"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1996"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1996.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan31.html">SIGPLAN Notices 31</a>(5) (May 1996) 
+ <h2>PLDI 1995: La Jolla, California, USA</h2> 
+ <a name="1995" href="../../indices/a-tree/w/Wall:David_W=.html">David W. Wall</a> (Ed.): Proceedings of the ACM SIGPLAN'95 Conference on Programming Language Design and Implementation (PLDI), La Jolla, California, USA, June 18-21, 1995. ACM 1995, ISBN 0-89791-697-2
+ <br /> 
+ <a href="pldi95.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2795+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+La+Jolla%2C+California%2C+USA%2C+June+18%2D21%2C+1995%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2795+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+La+Jolla%2C+California%2C+USA%2C+June+18%2D21%2C+1995%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1995"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1995"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1995.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan30.html">SIGPLAN Notices 30</a>(6) (June 1995) 
+ <h2>PLDI 1994: Orlando, Florida, USA</h2> 
+ <a name="1994" href="../../indices/a-tree/s/Sarkar:Vivek.html">Vivek Sarkar</a>, 
+ <a href="../../indices/a-tree/r/Ryder:Barbara_G=.html">Barbara G. Ryder</a>, 
+ <a href="../../indices/a-tree/s/Soffa:Mary_Lou.html">Mary Lou Soffa</a> (Eds.): Proceedings of the ACM SIGPLAN'94 Conference on Programming Language Design and Implementation (PLDI), Orlando, Florida, USA, June 20-24, 1994. ACM 1994, ISBN 0-89791-662-X
+ <br /> 
+ <a href="pldi94.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2794+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Orlando%2C+Florida%2C+USA%2C+June+20%2D24%2C+1994%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2794+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Orlando%2C+Florida%2C+USA%2C+June+20%2D24%2C+1994%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1994"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1994"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1994.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan29.html">SIGPLAN Notices 29</a>(6) (June 1994) 
+ <h2>PLDI 1993: Albuquerque, New Mexico, USA</h2> 
+ <a name="1993" href="../../indices/a-tree/c/Cartwright:Robert.html">Robert Cartwright</a> (Ed.): Proceedings of the ACM SIGPLAN'93 Conference on Programming Language Design and Implementation (PLDI), Albuquerque, New Mexico, USA, June 23-25, 1993. ACM 1993, ISBN 0-89791-598-4
+ <br /> 
+ <a href="pldi93.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2793+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Albuquerque%2C+New+Mexico%2C+USA%2C+June+23%2D25%2C+1993%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2793+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Albuquerque%2C+New+Mexico%2C+USA%2C+June+23%2D25%2C+1993%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1993"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1993"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1993.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan28.html">SIGPLAN Notices 28</a>(6) (June 1993) 
+ <h2>PLDI 1992: San Francisco, California, USA</h2> 
+ <a name="1992" href="../../indices/a-tree/f/Feldman:Stuart_I=.html">Stuart I. Feldman</a>, 
+ <a href="../../indices/a-tree/w/Wexelblat:Richard_L=.html">Richard L. Wexelblat</a> (Eds.): Proceedings of the ACM SIGPLAN'92 Conference on Programming Language Design and Implementation (PLDI), San Francisco, California, USA, June 17-19, 1992. ACM 1992, ISBN 0-89791-475-9
+ <br /> 
+ <a href="pldi92.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2792+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+San+Francisco%2C+California%2C+USA%2C+June+17%2D19%2C+1992%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2792+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+San+Francisco%2C+California%2C+USA%2C+June+17%2D19%2C+1992%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1992"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1992"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1992.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan27.html">SIGPLAN Notices 27</a>(7) (July 1992) 
+ <h2>PLDI 1991: Toronto, Ontario, Canada</h2> 
+ <a name="1991" href="../../indices/a-tree/w/Wise:David_S=.html">David S. Wise</a> (Ed.): Proceedings of the ACM SIGPLAN'91 Conference on Programming Language Design and Implementation (PLDI), Toronto, Ontario, Canada, June 26-28, 1991. ACM 1991, ISBN 0-89791-428-7
+ <br /> 
+ <a href="pldi91.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2791+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Toronto%2C+Ontario%2C+Canada%2C+June+26%2D28%2C+1991%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2791+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Toronto%2C+Ontario%2C+Canada%2C+June+26%2D28%2C+1991%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1991"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1991"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1991.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan26.html">SIGPLAN Notices 26</a>(6) (June 1991) 
+ <h2>PLDI 1990: White Plains, New York, USA</h2> 
+ <a name="1990" href="../../indices/a-tree/f/Fischer:Bernard_N=.html">Bernard N. Fischer</a> (Ed.): Proceedings of the ACM SIGPLAN'90 Conference on Programming Language Design and Implementation (PLDI), White Plains, New York, USA, June 20-22, 1990. ACM 1990, ISBN 0-89791-364-7
+ <br /> 
+ <a href="pldi90.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2790+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+White+Plains%2C+New+York%2C+USA%2C+June+20%2D22%2C+1990%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2790+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+White+Plains%2C+New+York%2C+USA%2C+June+20%2D22%2C+1990%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1990"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1990"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1990.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan25.html">SIGPLAN Notices 25</a>(6) (June 1990) 
+ <h2>PLDI 1989: Portland, Oregon, USA</h2> 
+ <a name="1989" href="../../indices/a-tree/w/Wexelblat:Richard_L=.html">Richard L. Wexelblat</a> (Ed.): Proceedings of the ACM SIGPLAN'89 Conference on Programming Language Design and Implementation (PLDI), Portland, Oregon, USA, June 21-23, 1989. ACM 1989, ISBN 0-89791-306-X
+ <br /> 
+ <a href="pldi89.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2789+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Portland%2C+Oregon%2C+USA%2C+June+21%2D23%2C+1989%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2789+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Portland%2C+Oregon%2C+USA%2C+June+21%2D23%2C+1989%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1989"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1989"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1989.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan24.html">SIGPLAN Notices 24</a>(7) (July 1989) 
+ <h2>PLDI 1988: Atlanta, Georgia, USA</h2> 
+ <a name="1988" href="../../indices/a-tree/w/Wexelblat:Richard_L=.html">Richard L. Wexelblat</a> (Ed.): Proceedings of the ACM SIGPLAN'88 Conference on Programming Language Design and Implementation (PLDI), Atlanta, Georgia, USA, June 22-24, 1988. ACM 1988, ISBN 0-89791-269-1
+ <br /> 
+ <a href="pldi88.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+ACM+SIGPLAN%2788+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Atlanta%2C+Georgia%2C+USA%2C+June+22%2D24%2C+1988%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+ACM+SIGPLAN%2788+Conference+on+Programming+Language+Design+and+Implementation+%28PLDI%29%2C+Atlanta%2C+Georgia%2C+USA%2C+June+22%2D24%2C+1988%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1988"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1988"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1988.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan23.html">SIGPLAN Notices 23</a>(7) (July 1988) 
+ <h2>PLDI 1987: St. Paul, Minnesota, USA</h2> 
+ <a name="1987" href="../../indices/a-tree/w/Wexelblat:Richard_L=.html">Richard L. Wexelblat</a> (Ed.): Proceedings of the Symposium on Interpreters and Interpretive Techniques, 1987, St. Paul, Minnesota, USA, June 24 - 26, 1987. ACM 1987, ISBN 0-89791-235-7
+ <br /> 
+ <a href="pldi1987.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+Symposium+on+Interpreters+and+Interpretive+Techniques%2C+1987%2C+St.+Paul%2C+Minnesota%2C+USA%2C+June+24+%2D+26%2C+1987%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+Symposium+on+Interpreters+and+Interpretive+Techniques%2C+1987%2C+St.+Paul%2C+Minnesota%2C+USA%2C+June+24+%2D+26%2C+1987%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pldi/1987"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1987"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pldi/1987.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SIGPLAN Symposium on Compiler Construction 1986: Palo Alto, California, USA</h2> 
+ <a name="1986" href="../../indices/a-tree/w/Wexelblat:Richard_L=.html">Richard L. Wexelblat</a> (Ed.): Proceedings of the 1986 SIGPLAN Symposium on Compiler Construction, Palo Alto, California, USA, June 25-27, 1986. ACM 1986, ISBN 0-89791-197-0
+ <br /> 
+ <a href="../sigplan/sigplan1986.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+1986+SIGPLAN+Symposium+on+Compiler+Construction%2C+Palo+Alto%2C+California%2C+USA%2C+June+25%2D27%2C+1986%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+1986+SIGPLAN+Symposium+on+Compiler+Construction%2C+Palo+Alto%2C+California%2C+USA%2C+June+25%2D27%2C+1986%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sigplan/1986"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1986"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1986.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SIGPLAN Symposium on Compiler Construction 1984: Montreal, Canada</h2> 
+ <a name="1984" href="../../indices/a-tree/d/Deusen:Mary_S=_Van.html">Mary S. Van Deusen</a>, 
+ <a href="../../indices/a-tree/g/Graham:Susan_L=.html">Susan L. Graham</a> (Eds.): Proceedings of the 1984 SIGPLAN Symposium on Compiler Construction, Montreal, Canada, June 17-22, 1984. ACM 1984, ISBN 0-89791-139-3
+ <br /> 
+ <a href="../sigplan/sigplan1984.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+1984+SIGPLAN+Symposium+on+Compiler+Construction%2C+Montreal%2C+Canada%2C+June+17%2D22%2C+1984%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+1984+SIGPLAN+Symposium+on+Compiler+Construction%2C+Montreal%2C+Canada%2C+June+17%2D22%2C+1984%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sigplan/1984"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1984"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1984.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SIGPLAN Symposium on Compiler Construction 1982: Boston, Massachusetts, USA</h2> 
+ <a name="1982" href="../../indices/a-tree/w/White:John_R=.html">John R. White</a>, 
+ <a href="../../indices/a-tree/a/Allen:Frances_E=.html">Frances E. Allen</a> (Eds.): Proceedings of the SIGPLAN '82 Symposium on Compiler Construction, Boston, Massachusetts, USA, June 23-25, 1982. ACM 1982, ISBN 0-89791-074-5
+ <br /> 
+ <a href="../sigplan/sigplan82.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+SIGPLAN+%2782+Symposium+on+Compiler+Construction%2C+Boston%2C+Massachusetts%2C+USA%2C+June+23%2D25%2C+1982%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+SIGPLAN+%2782+Symposium+on+Compiler+Construction%2C+Boston%2C+Massachusetts%2C+USA%2C+June+23%2D25%2C+1982%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sigplan/1982"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1982"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1982.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="../../journals/sigplan/sigplan17.html">SIGPLAN Notices 17</a>(6) (June 1982) 
+ <h2>SIGPLAN Symposium on Compiler Construction 1979: Denver, Colorado, USA</h2> 
+ <a name="1979" href="../../indices/a-tree/j/Johnson:Stephen_C=.html">Stephen C. Johnson</a> (Ed.): Proceedings of the 1979 SIGPLAN Symposium on Compiler Construction, Denver, Colorado, USA, August 6-10, 1979. ACM 1979, ISBN 0-89791-002-8
+ <br /> 
+ <a href="../sigplan/sigplan1979.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Proceedings+of+the+1979+SIGPLAN+Symposium+on+Compiler+Construction%2C+Denver%2C+Colorado%2C+USA%2C+August+6%2D10%2C+1979%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Proceedings+of+the+1979+SIGPLAN+Symposium+on+Compiler+Construction%2C+Denver%2C+Colorado%2C+USA%2C+August+6%2D10%2C+1979%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sigplan/1979"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1979"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sigplan/1979.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../indexa.html">Conferences</a> | 
+  <a href="../../journals/index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 02:40:07 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

@@ -1,0 +1,218 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>Approximation Algorithms for Combinatorial Optimization (APPROX)</h1> 
+ <h2>15. APPROX / 16. <a href="../random/index.html">RANDOM</a> 2012: Cambridge, MA, USA</h2> 
+ <a name="2012" href="../../indices/a-tree/g/Gupta:Anupam.html">Anupam Gupta</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/s/Servedio:Rocco_A=.html">Rocco A. Servedio</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques - 15th International Workshop, APPROX 2012, and 16th International Workshop, RANDOM 2012, Cambridge, MA, USA, August 15-17, 2012. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 7408 Springer 2012, ISBN 978-3-642-32511-3
+ <br /> 
+ <a href="approx2012.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques+%2D+15th+International+Workshop%2C+APPROX+2012%2C+and+16th+International+Workshop%2C+RANDOM+2012%2C+Cambridge%2C+MA%2C+USA%2C+August+15%2D17%2C+2012.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques+%2D+15th+International+Workshop%2C+APPROX+2012%2C+and+16th+International+Workshop%2C+RANDOM+2012%2C+Cambridge%2C+MA%2C+USA%2C+August+15%2D17%2C+2012.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2012"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2012"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2012.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>14. APPROX / 15. <a href="../random/index.html">RANDOM</a> 2011: Princeton, NJ, USA</h2> 
+ <a name="2011" href="../../indices/a-tree/g/Goldberg:Leslie_Ann.html">Leslie Ann Goldberg</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Ravi:R=.html">R. Ravi</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques - 14th International Workshop, APPROX 2011, and 15th International Workshop, RANDOM 2011, Princeton, NJ, USA, August 17-19, 2011. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 6845 Springer 2011, ISBN 978-3-642-22934-3
+ <br /> 
+ <a href="approx2011.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques+%2D+14th+International+Workshop%2C+APPROX+2011%2C+and+15th+International+Workshop%2C+RANDOM+2011%2C+Princeton%2C+NJ%2C+USA%2C+August+17%2D19%2C+2011.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques+%2D+14th+International+Workshop%2C+APPROX+2011%2C+and+15th+International+Workshop%2C+RANDOM+2011%2C+Princeton%2C+NJ%2C+USA%2C+August+17%2D19%2C+2011.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2011"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2011"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2011.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>13. APPROX / 14. <a href="../random/index.html">RANDOM</a> 2010: Barcelona, Spain</h2> 
+ <a name="2010" href="../../indices/a-tree/s/Serna:Maria_J=.html">Maria J. Serna</a>, 
+ <a href="../../indices/a-tree/s/Shaltiel:Ronen.html">Ronen Shaltiel</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, 13th International Workshop, APPROX 2010, and 14th International Workshop, RANDOM 2010, Barcelona, Spain, September 1-3, 2010. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 6302 Springer 2010, ISBN 978-3-642-15368-6
+ <br /> 
+ <a href="approx2010.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+13th+International+Workshop%2C+APPROX+2010%2C+and+14th+International+Workshop%2C+RANDOM+2010%2C+Barcelona%2C+Spain%2C+September+1%2D3%2C+2010.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+13th+International+Workshop%2C+APPROX+2010%2C+and+14th+International+Workshop%2C+RANDOM+2010%2C+Barcelona%2C+Spain%2C+September+1%2D3%2C+2010.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2010"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2010"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2010.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>12. APPROX / 13. <a href="../random/index.html">RANDOM</a> 2009: Berkeley, CA, USA</h2> 
+ <a name="2009" href="../../indices/a-tree/d/Dinur:Irit.html">Irit Dinur</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/n/Naor:Joseph.html">Joseph Naor</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, 12th International Workshop, APPROX 2009, and 13th International Workshop, RANDOM 2009, Berkeley, CA, USA, August 21-23, 2009. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 5687 Springer 2009, ISBN 978-3-642-03684-2
+ <br /> 
+ <a href="approx2009.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+12th+International+Workshop%2C+APPROX+2009%2C+and+13th+International+Workshop%2C+RANDOM+2009%2C+Berkeley%2C+CA%2C+USA%2C+August+21%2D23%2C+2009.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+12th+International+Workshop%2C+APPROX+2009%2C+and+13th+International+Workshop%2C+RANDOM+2009%2C+Berkeley%2C+CA%2C+USA%2C+August+21%2D23%2C+2009.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2009"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2009"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2009.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>11. APPROX / 12. <a href="../random/index.html">RANDOM</a> 2008: Boston, MA, USA</h2> 
+ <a name="2008" href="../../indices/a-tree/g/Goel:Ashish.html">Ashish Goel</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/r/Rubinfeld:Ronitt.html">Ronitt Rubinfeld</a> (Eds.): Approximation, Randomization and Combinatorial Optimization. Algorithms and Techniques, 11th International Workshop, APPROX 2008, and 12th International Workshop, RANDOM 2008, Boston, MA, USA, August 25-27, 2008. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 5171 Springer 2008, ISBN 978-3-540-85362-6
+ <br /> 
+ <a href="approx2008.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+11th+International+Workshop%2C+APPROX+2008%2C+and+12th+International+Workshop%2C+RANDOM+2008%2C+Boston%2C+MA%2C+USA%2C+August+25%2D27%2C+2008.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+11th+International+Workshop%2C+APPROX+2008%2C+and+12th+International+Workshop%2C+RANDOM+2008%2C+Boston%2C+MA%2C+USA%2C+August+25%2D27%2C+2008.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2008"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2008"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2008.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>10. APPROX / 11. <a href="../random/index.html">RANDOM</a> 2007: Princeton, NJ, USA</h2> 
+ <a name="2007" href="../../indices/a-tree/c/Charikar:Moses.html">Moses Charikar</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Reingold:Omer.html">Omer Reingold</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, 10th International Workshop, APPROX 2007, and 11th International Workshop, RANDOM 2007, Princeton, NJ, USA, August 20-22, 2007, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 4627 Springer 2007, ISBN 978-3-540-74207-4
+ <br /> 
+ <a href="approx2007.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+10th+International+Workshop%2C+APPROX+2007%2C+and+11th+International+Workshop%2C+RANDOM+2007%2C+Princeton%2C+NJ%2C+USA%2C+August+20%2D22%2C+2007%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+10th+International+Workshop%2C+APPROX+2007%2C+and+11th+International+Workshop%2C+RANDOM+2007%2C+Princeton%2C+NJ%2C+USA%2C+August+20%2D22%2C+2007%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2007"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2007"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2007.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>9. APPROX / 10. <a href="../random/index.html">RANDOM</a> 2006: Barcelona, Spain</h2> 
+ <a name="2006" href="../../indices/a-tree/d/D=iacute=az:Josep.html">Josep D&iacute;az</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/z/Zwick:Uri.html">Uri Zwick</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, 9th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems, APPROX 2006 and 10th International Workshop on Randomization and Computation, RANDOM 2006, Barcelona, Spain, August 28-30 2006, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 4110 Springer 2006, ISBN 3-540-38044-2
+ <br /> 
+ <a href="approx2006.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+9th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2006+and+10th+International+Workshop+on+Randomization+and+Computation%2C+RANDOM+2006%2C+Barcelona%2C+Spain%2C+August+28%2D30+2006%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization.+Algorithms+and+Techniques%2C+9th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2006+and+10th+International+Workshop+on+Randomization+and+Computation%2C+RANDOM+2006%2C+Barcelona%2C+Spain%2C+August+28%2D30+2006%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2006"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2006"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2006.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>8. APPROX / 9. <a href="../random/index.html">RANDOM</a> 2005: Berkeley, CA, USA</h2> 
+ <a name="2005" href="../../indices/a-tree/c/Chekuri:Chandra.html">Chandra Chekuri</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/t/Trevisan:Luca.html">Luca Trevisan</a> (Eds.): Approximation, Randomization and Combinatorial Optimization, Algorithms and Techniques, 8th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems, APPROX 2005 and 9th InternationalWorkshop on Randomization and Computation, RANDOM 2005, Berkeley, CA, USA, August 22-24, 2005, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3624 Springer 2005, ISBN 3-540-28239-4
+ <br /> 
+ <a href="approx2005.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization+and+Combinatorial+Optimization%2C+Algorithms+and+Techniques%2C+8th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2005+and+9th+InternationalWorkshop+on+Randomization+and+Computation%2C+RANDOM+2005%2C+Berkeley%2C+CA%2C+USA%2C+August+22%2D24%2C+2005%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization+and+Combinatorial+Optimization%2C+Algorithms+and+Techniques%2C+8th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2005+and+9th+InternationalWorkshop+on+Randomization+and+Computation%2C+RANDOM+2005%2C+Berkeley%2C+CA%2C+USA%2C+August+22%2D24%2C+2005%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2005"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2005"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2005.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>7. APPROX / 8. <a href="../random/index.html">RANDOM</a> 2004: Cambridge, MA, USA</h2> 
+ <a name="2004" href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/k/Khanna:Sanjeev.html">Sanjeev Khanna</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/r/Ron:Dana.html">Dana Ron</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization, Algorithms and Techniques, 7th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems, APPROX 2004, and 8th International Workshop on Randomization and Computation, RANDOM 2004, Cambridge, MA, USA, August 22-24, 2004, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3122 Springer 2004, ISBN 3-540-22894-2
+ <br /> 
+ <a href="approx2004.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization%2C+Algorithms+and+Techniques%2C+7th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2004%2C+and+8th+International+Workshop+on+Randomization+and+Computation%2C+RANDOM+2004%2C+Cambridge%2C+MA%2C+USA%2C+August+22%2D24%2C+2004%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization%2C+Algorithms+and+Techniques%2C+7th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2004%2C+and+8th+International+Workshop+on+Randomization+and+Computation%2C+RANDOM+2004%2C+Cambridge%2C+MA%2C+USA%2C+August+22%2D24%2C+2004%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2004"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2004"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2004.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>6. APPROX / 7. <a href="../random/index.html">RANDOM</a> 2003: Princeton University, NY, USA</h2> 
+ <a name="2003" href="../../indices/a-tree/a/Arora:Sanjeev.html">Sanjeev Arora</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/s/Sahai:Amit.html">Amit Sahai</a> (Eds.): Approximation, Randomization, and Combinatorial Optimization: Algorithms and Techniques, 6th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems, APPROX 2003 and 7th International Workshop on Randomization and Approximation Techniques in Computer Science, RANDOM 2003, Princeton, NJ, USA, August 24-26, 2003, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2764 Springer 2003, ISBN 3-540-40770-7
+ <br /> 
+ <a href="../random/random2003.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization+Algorithms+and+Techniques%2C+6th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2003+and+7th+International+Workshop+on+Randomization+and+Approximation+Techniques+in+Computer+Science%2C+RANDOM+2003%2C+Princeton%2C+NJ%2C+USA%2C+August+24%2D26%2C+2003%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization%2C+and+Combinatorial+Optimization+Algorithms+and+Techniques%2C+6th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2003+and+7th+International+Workshop+on+Randomization+and+Approximation+Techniques+in+Computer+Science%2C+RANDOM+2003%2C+Princeton%2C+NJ%2C+USA%2C+August+24%2D26%2C+2003%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/random/2003"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/random/2003"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/random/2003.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cs.princeton.edu/random-approx/">RANDOM/APPROX 2003 Home Page</a> 
+ <h2>5. APPROX 2002: Rome, Italy</h2> 
+ <a name="2002" href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/l/Leonardi:Stefano.html">Stefano Leonardi</a>, 
+ <a href="../../indices/a-tree/v/Vazirani:Vijay_V=.html">Vijay V. Vazirani</a> (Eds.): Approximation Algorithms for Combinatorial Optimization, 5th International Workshop, APPROX 2002, Rome, Italy, September 17-21, 2002, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2462 Springer 2002, ISBN 3-540-44186-7
+ <br /> 
+ <a href="approx2002.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation+Algorithms+for+Combinatorial+Optimization%2C+5th+International+Workshop%2C+APPROX+2002%2C+Rome%2C+Italy%2C+September+17%2D21%2C+2002%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation+Algorithms+for+Combinatorial+Optimization%2C+5th+International+Workshop%2C+APPROX+2002%2C+Rome%2C+Italy%2C+September+17%2D21%2C+2002%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2002"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2002"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2002.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>4. APPROX / 5. <a href="../random/index.html">RANDOM</a> 2001: Berkeley, CA, USA</h2> 
+ <a name="2001" href="../../indices/a-tree/g/Goemans:Michel_X=.html">Michel X. Goemans</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/t/Trevisan:Luca.html">Luca Trevisan</a> (Eds.): Approximation, Randomization and Combinatorial Optimization: Algorithms and Techniques, 4th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems, APPROX 2001 and 5th International Workshop on Randomization and Approximation Techniques in Computer Science, RANDOM 2001 Berkeley, CA, USA, August 18-20, 2001, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2129 Springer 2001, ISBN 3-540-42470-9
+ <br /> 
+ <a href="../random/random2001.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation%2C+Randomization+and+Combinatorial+Optimization+Algorithms+and+Techniques%2C+4th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2001+and+5th+International+Workshop+on+Randomization+and+Approximation+Techniques+in+Computer+Science%2C+RANDOM+2001+Berkeley%2C+CA%2C+USA%2C+August+18%2D20%2C+2001%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation%2C+Randomization+and+Combinatorial+Optimization+Algorithms+and+Techniques%2C+4th+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems%2C+APPROX+2001+and+5th+International+Workshop+on+Randomization+and+Approximation+Techniques+in+Computer+Science%2C+RANDOM+2001+Berkeley%2C+CA%2C+USA%2C+August+18%2D20%2C+2001%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/random/2001"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/random/2001"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/random/2001.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://cui.unige.ch/tcs/random-approx/">RANDOM/APPROX 2001 Home Page</a> 
+ <h2>3. APPROX 2000: Saarbr&uuml;cken, Germany</h2> 
+ <a name="2000" href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/k/Khuller:Samir.html">Samir Khuller</a> (Eds.): Approximation Algorithms for Combinatorial Optimization, Third International Workshop, APPROX 2000, Saarbr&uuml;cken, Germany, September 5-8, 2000, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1913 Springer 2000, ISBN 3-540-67996-0
+ <br /> 
+ <a href="approx2000.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation+Algorithms+for+Combinatorial+Optimization%2C+Third+International+Workshop%2C+APPROX+2000%2C+Saarbr%FCcken%2C+Germany%2C+September+5%2D8%2C+2000%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation+Algorithms+for+Combinatorial+Optimization%2C+Third+International+Workshop%2C+APPROX+2000%2C+Saarbr%FCcken%2C+Germany%2C+September+5%2D8%2C+2000%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/2000"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2000"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/2000.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>2. APPROX / 3. <a href="../random/index.html">RANDOM</a> 1999: Berkeley, CA, USA</h2> 
+ <a name="1999" href="../../indices/a-tree/h/Hochbaum:Dorit_S=.html">Dorit S. Hochbaum</a>, 
+ <a href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/r/Rolim:Jos=eacute=_D=_P=.html">Jos&eacute; D. P. Rolim</a>, 
+ <a href="../../indices/a-tree/s/Sinclair:Alistair.html">Alistair Sinclair</a> (Eds.): Randomization, Approximation, and Combinatorial Algorithms and Techniques, Third International Workshop on Randomization and Approximation Techniques in Computer Science, and Second International Workshop on Approximation Algorithms for Combinatorial Optimization Problems RANDOM-APPROX'99, Berkeley, CA, USA, August 8-11, 1999, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1671 Springer 1999, ISBN 3-540-66329-0
+ <br /> 
+ <a href="../random/random1999.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Randomization%2C+Approximation%2C+and+Combinatorial+Algorithms+and+Techniques%2C+Third+International+Workshop+on+Randomization+and+Approximation+Techniques+in+Computer+Science%2C+and+Second+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems+RANDOM%2DAPPROX%2799%2C+Berkeley%2C+CA%2C+USA%2C+August+8%2D11%2C+1999%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Randomization%2C+Approximation%2C+and+Combinatorial+Algorithms+and+Techniques%2C+Third+International+Workshop+on+Randomization+and+Approximation+Techniques+in+Computer+Science%2C+and+Second+International+Workshop+on+Approximation+Algorithms+for+Combinatorial+Optimization+Problems+RANDOM%2DAPPROX%2799%2C+Berkeley%2C+CA%2C+USA%2C+August+8%2D11%2C+1999%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/random/1999"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/random/1999"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/random/1999.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>1. APPROX 1998: Aalborg, Denmark</h2> 
+ <a name="1998" href="../../indices/a-tree/j/Jansen:Klaus.html">Klaus Jansen</a>, 
+ <a href="../../indices/a-tree/h/Hochbaum:Dorit_S=.html">Dorit S. Hochbaum</a> (Eds.): Approximation Algorithms for Combinatorial Optimization, International Workshop APPROX'98, Aalborg, Denmark, July 18-19, 1998, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1444 Springer 1998, ISBN 3-540-64736-8
+ <br /> 
+ <a href="approx1998.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Approximation+Algorithms+for+Combinatorial+Optimization%2C+International+Workshop+APPROX%2798%2C+Aalborg%2C+Denmark%2C+July+18%2D19%2C+1998%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Approximation+Algorithms+for+Combinatorial+Optimization%2C+International+Workshop+APPROX%2798%2C+Aalborg%2C+Denmark%2C+July+18%2D19%2C+1998%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/approx/1998"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/1998"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/approx/1998.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../indexa.html">Conferences</a> | 
+  <a href="../../journals/index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 02:03:14 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

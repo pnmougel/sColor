@@ -1,0 +1,50 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>Interactions</h1> 
+ <a href="http://interactions.acm.org">Interactions Home Page</a>
+ <br /> 
+ <a href="http://dl.acm.org/citation.cfm?id=J373">Interactions @ ACM DL</a> 
+ <ul> 
+  <li><a href="interactions19.html">Volume 19: 2012</a></li> 
+  <li><a href="interactions18.html">Volume 18: 2011</a></li> 
+  <li><a href="interactions17.html">Volume 17: 2010</a></li> 
+  <li><a href="interactions16.html">Volume 16: 2009</a></li> 
+  <li><a href="interactions15.html">Volume 15: 2008</a></li> 
+  <li><a href="interactions14.html">Volume 14: 2007</a></li> 
+  <li><a href="interactions13.html">Volume 13: 2006</a></li> 
+  <li><a href="interactions12.html">Volume 12: 2005</a></li> 
+  <li><a href="interactions11.html">Volume 11: 2004</a></li> 
+  <li><a href="interactions10.html">Volume 10: 2003</a></li> 
+  <li><a href="interactions9.html">Volume 9: 2002</a></li> 
+  <li><a href="interactions8.html">Volume 8: 2001</a></li> 
+  <li><a href="interactions7.html">Volume 7: 2000</a></li> 
+  <li><a href="interactions6.html">Volume 6: 1999</a></li> 
+  <li><a href="interactions5.html">Volume 5: 1998</a></li> 
+  <li><a href="interactions4.html">Volume 4: 1997</a></li> 
+  <li><a href="interactions3.html">Volume 3: 1996</a></li> 
+  <li><a href="interactions2.html">Volume 2: 1995</a></li> 
+  <li><a href="interactions1.html">Volume 1: 1994</a></li> 
+ </ul> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../../conf/indexa.html">Conferences</a> | 
+  <a href="../index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 03:19:03 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

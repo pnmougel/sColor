@@ -1,0 +1,239 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>Parallel Virtual Machine / Message Passing Interface (PVM/MPI)</h1> 
+ <a href="http://www.epm.ornl.gov/pvm/">PVM Home Page</a> - 
+ <a href="http://www-unix.mcs.anl.gov/mpi/">MPI Home Page</a> 
+ <h2>19. EuroMPI 2012: Vienna, Austria</h2> 
+ <a name="2012" href="../../indices/a-tree/t/Tr=auml=ff:Jesper_Larsson.html">Jesper Larsson Tr&auml;ff</a>, 
+ <a href="../../indices/a-tree/b/Benkner:Siegfried.html">Siegfried Benkner</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack_J=.html">Jack J. Dongarra</a> (Eds.): Recent Advances in the Message Passing Interface - 19th European MPI Users' Group Meeting, EuroMPI 2012, Vienna, Austria, September 23-26, 2012. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 7490 Springer 2012, ISBN 978-3-642-33517-4
+ <br /> 
+ <a href="eurompi2012.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+the+Message+Passing+Interface+%2D+19th+European+MPI+Users%27+Group+Meeting%2C+EuroMPI+2012%2C+Vienna%2C+Austria%2C+September+23%2D26%2C+2012.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+the+Message+Passing+Interface+%2D+19th+European+MPI+Users%27+Group+Meeting%2C+EuroMPI+2012%2C+Vienna%2C+Austria%2C+September+23%2D26%2C+2012.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2012"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2012"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2012.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>18. EuroMPI 2011: Santorini, Greece</h2> 
+ <a name="2011" href="../../indices/a-tree/c/Cotronis:Yiannis.html">Yiannis Cotronis</a>, 
+ <a href="../../indices/a-tree/d/Danalis:Anthony.html">Anthony Danalis</a>, 
+ <a href="../../indices/a-tree/n/Nikolopoulos:Dimitrios_S=.html">Dimitrios S. Nikolopoulos</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in the Message Passing Interface - 18th European MPI Users' Group Meeting, EuroMPI 2011, Santorini, Greece, September 18-21, 2011. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 6960 Springer 2011, ISBN 978-3-642-24448-3
+ <br /> 
+ <a href="eurompi2011.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+the+Message+Passing+Interface+%2D+18th+European+MPI+Users%27+Group+Meeting%2C+EuroMPI+2011%2C+Santorini%2C+Greece%2C+September+18%2D21%2C+2011.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+the+Message+Passing+Interface+%2D+18th+European+MPI+Users%27+Group+Meeting%2C+EuroMPI+2011%2C+Santorini%2C+Greece%2C+September+18%2D21%2C+2011.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2011"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2011"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2011.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>17. EuroMPI 2010: Stuttgart, Germany</h2> 
+ <a name="2010" href="../../indices/a-tree/k/Keller:Rainer.html">Rainer Keller</a>, 
+ <a href="../../indices/a-tree/g/Gabriel:Edgar.html">Edgar Gabriel</a>, 
+ <a href="../../indices/a-tree/r/Resch:Michael_M=.html">Michael M. Resch</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in the Message Passing Interface - 17th European MPI Users' Group Meeting, EuroMPI 2010, Stuttgart, Germany, September 12-15, 2010. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 6305 Springer 2010, ISBN 978-3-642-15645-8
+ <br /> 
+ <a href="eurompi2010.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+the+Message+Passing+Interface+%2D+17th+European+MPI+Users%27+Group+Meeting%2C+EuroMPI+2010%2C+Stuttgart%2C+Germany%2C+September+12%2D15%2C+2010.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+the+Message+Passing+Interface+%2D+17th+European+MPI+Users%27+Group+Meeting%2C+EuroMPI+2010%2C+Stuttgart%2C+Germany%2C+September+12%2D15%2C+2010.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2010"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2010"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2010.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>16. PVM/MPI 2009: Espoo, Finland</h2> 
+ <a name="2009" href="../../indices/a-tree/r/Ropo:Matti.html">Matti Ropo</a>, 
+ <a href="../../indices/a-tree/w/Westerholm:Jan.html">Jan Westerholm</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 16th European PVM/MPI Users' Group Meeting, Espoo, Finland, September 7-10, 2009. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 5759 Springer 2009, ISBN 978-3-642-03769-6
+ <br /> 
+ <a href="pvm2009.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+16th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Espoo%2C+Finland%2C+September+7%2D10%2C+2009.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+16th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Espoo%2C+Finland%2C+September+7%2D10%2C+2009.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2009"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2009"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2009.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>15. PVM/MPI 2008: Dublin, Ireland</h2> 
+ <a name="2008" href="../../indices/a-tree/l/Lastovetsky:Alexey_L=.html">Alexey L. Lastovetsky</a>, 
+ <a href="../../indices/a-tree/k/Kechadi:M=_Tahar.html">M. Tahar Kechadi</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 15th European PVM/MPI Users' Group Meeting, Dublin, Ireland, September 7-10, 2008. Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 5205 Springer 2008, ISBN 978-3-540-87474-4
+ <br /> 
+ <a href="pvm2008.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+15th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Dublin%2C+Ireland%2C+September+7%2D10%2C+2008.+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+15th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Dublin%2C+Ireland%2C+September+7%2D10%2C+2008.+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2008"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2008"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2008.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>14. PVM/MPI 2007: Paris, France</h2> 
+ <a name="2007" href="../../indices/a-tree/c/Cappello:Franck.html">Franck Cappello</a>, 
+ <a href="../../indices/a-tree/h/H=eacute=rault:Thomas.html">Thomas H&eacute;rault</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 14th European PVM/MPI User's Group Meeting, Paris, France, September 30 - October 3, 2007, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 4757 Springer 2007, ISBN 978-3-540-75415-2
+ <br /> 
+ <a href="pvm2007.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+14th+European+PVM%2FMPI+User%27s+Group+Meeting%2C+Paris%2C+France%2C+September+30+%2D+October+3%2C+2007%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+14th+European+PVM%2FMPI+User%27s+Group+Meeting%2C+Paris%2C+France%2C+September+30+%2D+October+3%2C+2007%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2007"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2007"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2007.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>13. PVM/MPI 2006: Bonn, Germany</h2> 
+ <a name="2006" href="../../indices/a-tree/m/Mohr:Bernd.html">Bernd Mohr</a>, 
+ <a href="../../indices/a-tree/t/Tr=auml=ff:Jesper_Larsson.html">Jesper Larsson Tr&auml;ff</a>, 
+ <a href="../../indices/a-tree/w/Worringen:Joachim.html">Joachim Worringen</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 13th European PVM/MPI User's Group Meeting, Bonn, Germany, September 17-20, 2006, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 4192 Springer 2006, ISBN 3-540-39110-X
+ <br /> 
+ <a href="pvm2006.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+13th+European+PVM%2FMPI+User%27s+Group+Meeting%2C+Bonn%2C+Germany%2C+September+17%2D20%2C+2006%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+13th+European+PVM%2FMPI+User%27s+Group+Meeting%2C+Bonn%2C+Germany%2C+September+17%2D20%2C+2006%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2006"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2006"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2006.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>12. PVM/MPI 2005: Sorrento, Italy</h2> 
+ <a name="2005" href="../../indices/a-tree/m/Martino:Beniamino_Di.html">Beniamino Di Martino</a>, 
+ <a href="../../indices/a-tree/k/Kranzlm=uuml=ller:Dieter.html">Dieter Kranzlm&uuml;ller</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 12th European PVM/MPI Users' Group Meeting, Sorrento, Italy, September 18-21, 2005, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3666 Springer 2005, ISBN 3-540-29009-5
+ <br /> 
+ <a href="pvm2005.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+12th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Sorrento%2C+Italy%2C+September+18%2D21%2C+2005%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+12th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Sorrento%2C+Italy%2C+September+18%2D21%2C+2005%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2005"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2005"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2005.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>11. PVM/MPI 2004: Budapest, Hungary</h2> 
+ <a name="2004" href="../../indices/a-tree/k/Kranzlm=uuml=ller:Dieter.html">Dieter Kranzlm&uuml;ller</a>, 
+ <a href="../../indices/a-tree/k/Kacsuk:P=eacute=ter.html">P&eacute;ter Kacsuk</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 11th European PVM/MPI Users' Group Meeting, Budapest, Hungary, September 19-22, 2004, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3241 Springer 2004, ISBN 3-540-23163-3
+ <br /> 
+ <a href="pvm2004.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+11th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Budapest%2C+Hungary%2C+September+19%2D22%2C+2004%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+11th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Budapest%2C+Hungary%2C+September+19%2D22%2C+2004%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2004"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2004"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2004.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>10. PVM/MPI 2003: Venice, Italy</h2> 
+ <a name="2003" href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a>, 
+ <a href="../../indices/a-tree/l/Laforenza:Domenico.html">Domenico Laforenza</a>, 
+ <a href="../../indices/a-tree/o/Orlando:Salvatore.html">Salvatore Orlando</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface,10th European PVM/MPI Users' Group Meeting, Venice, Italy, September 29 - October 2, 2003, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2840 Springer 2003, ISBN 3-540-20149-1
+ <br /> 
+ <a href="pvm2003.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C10th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Venice%2C+Italy%2C+September+29+%2D+October+2%2C+2003%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C10th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Venice%2C+Italy%2C+September+29+%2D+October+2%2C+2003%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2003"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2003"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2003.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>9. PVM/MPI 2002: Linz, Austria</h2> 
+ <a name="2002" href="../../indices/a-tree/k/Kranzlm=uuml=ller:Dieter.html">Dieter Kranzlm&uuml;ller</a>, 
+ <a href="../../indices/a-tree/k/Kacsuk:P=eacute=ter.html">P&eacute;ter Kacsuk</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a>, 
+ <a href="../../indices/a-tree/v/Volkert:Jens.html">Jens Volkert</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 9th European PVM/MPI Users' Group Meeting, Linz, Austria, September 29 - October 2, 2002, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2474 Springer 2002, ISBN 3-540-44296-0
+ <br /> 
+ <a href="pvm2002.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+9th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Linz%2C+Austria%2C+September+29+%2D+October+2%2C+2002%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+9th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Linz%2C+Austria%2C+September+29+%2D+October+2%2C+2002%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2002"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2002"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2002.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>8. PVM/MPI 2001: Santorini/Thera, Greece</h2> 
+ <a name="2001" href="../../indices/a-tree/c/Cotronis:Yannis.html">Yannis Cotronis</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 8th European PVM/MPI Users' Group Meeting, Santorini/Thera, Greece, September 23-26, 2001, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2131 Springer 2001, ISBN 3-540-42609-4
+ <br /> 
+ <a href="pvm2001.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+8th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Santorini%2FThera%2C+Greece%2C+September+23%2D26%2C+2001%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+8th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Santorini%2FThera%2C+Greece%2C+September+23%2D26%2C+2001%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2001"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2001"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2001.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>7. PVM/MPI 2000: Balatonf&uuml;red, Lake Balaton, Hungary</h2> 
+ <a name="2000" href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a>, 
+ <a href="../../indices/a-tree/k/Kacsuk:P=eacute=ter.html">P&eacute;ter Kacsuk</a>, 
+ <a href="../../indices/a-tree/p/Podhorszki:Norbert.html">Norbert Podhorszki</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 7th European PVM/MPI Users' Group Meeting, Balatonf&uuml;red, Hungary, September 2000, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1908 Springer 2000, ISBN 3-540-41010-4
+ <br /> 
+ <a href="pvm2000.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+7th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Balatonf%FCred%2C+Hungary%2C+September+2000%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+7th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Balatonf%FCred%2C+Hungary%2C+September+2000%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/2000"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2000"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/2000.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.lpds.sztaki.hu/EuroPVM_MPI2000/">PVM/MPI 2000 Home Page</a> 
+ <h2>6. PVM/MPI 1999: Barcelona, Spain</h2> 
+ <a name="1999" href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a>, 
+ <a href="../../indices/a-tree/l/Luque:Emilio.html">Emilio Luque</a>, 
+ <a href="../../indices/a-tree/m/Margalef:Tom=agrave=s.html">Tom&agrave;s Margalef</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 6th European PVM/MPI Users' Group Meeting, Barcelona, Spain, September 26-29, 1999, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1697 Springer 1999, ISBN 3-540-66549-8
+ <br /> 
+ <a href="pvm1999.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+6th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Barcelona%2C+Spain%2C+September+26%2D29%2C+1999%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+6th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Barcelona%2C+Spain%2C+September+26%2D29%2C+1999%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/1999"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1999"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1999.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>5. PVM/MPI 1998: Liverpool, UK</h2> 
+ <a name="1998" href="../../indices/a-tree/a/Alexandrov:Vassil_N=.html">Vassil N. Alexandrov</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 5th European PVM/MPI Users' Group Meeting, Liverpool, UK, September 7-9, 1998, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1497 Springer 1998, ISBN 3-540-65041-5
+ <br /> 
+ <a href="pvm1998.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+5th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Liverpool%2C+UK%2C+September+7%2D9%2C+1998%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+5th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Liverpool%2C+UK%2C+September+7%2D9%2C+1998%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/1998"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1998"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1998.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>4. PVM/MPI 1997: Crakow, Poland</h2> 
+ <a name="1997" href="../../indices/a-tree/b/Bubak:Marian.html">Marian Bubak</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a>, 
+ <a href="../../indices/a-tree/w/Wasniewski:Jerzy.html">Jerzy Wasniewski</a> (Eds.): Recent Advances in Parallel Virtual Machine and Message Passing Interface, 4th European PVM/MPI Users' Group Meeting, Cracow, Poland, November 3-5, 1997, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1332 Springer 1997, ISBN 3-540-63697-8
+ <br /> 
+ <a href="pvm1997.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+4th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Cracow%2C+Poland%2C+November+3%2D5%2C+1997%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Recent+Advances+in+Parallel+Virtual+Machine+and+Message+Passing+Interface%2C+4th+European+PVM%2FMPI+Users%27+Group+Meeting%2C+Cracow%2C+Poland%2C+November+3%2D5%2C+1997%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/1997"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1997"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1997.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cyf-kr.edu.pl/pvmpi97/">PVM/MPI 1997 Home Page</a> 
+ <h2>3. PVM 1996: M&uuml;nchen, Germany</h2> 
+ <a name="1996" href="../../indices/a-tree/b/Bode:Arndt.html">Arndt Bode</a>, 
+ <a href="../../indices/a-tree/d/Dongarra:Jack.html">Jack Dongarra</a>, 
+ <a href="../../indices/a-tree/l/Ludwig_0002:Thomas.html">Thomas Ludwig</a>, 
+ <a href="../../indices/a-tree/s/Sunderam:Vaidy_S=.html">Vaidy S. Sunderam</a> (Eds.): Parallel Virtual Machine - EuroPVM'96, Third European PVM Conference, M&uuml;nchen, Germany, October 7-9, 1996, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1156 Springer 1996, ISBN 3-540-61779-5
+ <br /> 
+ <a href="pvm1996.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Parallel+Virtual+Machine+%2D+EuroPVM%2796%2C+Third+European+PVM+Conference%2C+M%FCnchen%2C+Germany%2C+October+7%2D9%2C+1996%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Parallel+Virtual+Machine+%2D+EuroPVM%2796%2C+Third+European+PVM+Conference%2C+M%FCnchen%2C+Germany%2C+October+7%2D9%2C+1996%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/pvm/1996"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1996"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/pvm/1996.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>2. PVM/MPI 1995: Lyon, France</h2> 
+ <h2>1. PVM/MPI 1994: Rome, Italy</h2> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../indexa.html">Conferences</a> | 
+  <a href="../../journals/index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 02:40:48 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

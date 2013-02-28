@@ -1,0 +1,172 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)</h1> 
+ <a href="http://www.spaa-conference.org/">SPAA Home Page</a> 
+ <h2>24. SPAA 2012: Pittsburgh, PA, USA</h2> 
+ <a name="2012" href="../../indices/a-tree/b/Blelloch:Guy_E=.html">Guy E. Blelloch</a>, 
+ <a href="../../indices/a-tree/h/Herlihy:Maurice.html">Maurice Herlihy</a> (Eds.): 24th ACM Symposium on Parallelism in Algorithms and Architectures, SPAA '12, Pittsburgh, PA, USA, June 25-27, 2012. ACM 2012, ISBN 978-1-4503-1213-4
+ <br /> 
+ <a href="spaa2012.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%2224th+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+SPAA+%2712%2C+Pittsburgh%2C+PA%2C+USA%2C+June+25%2D27%2C+2012%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%2224th+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+SPAA+%2712%2C+Pittsburgh%2C+PA%2C+USA%2C+June+25%2D27%2C+2012%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2012"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2012"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2012.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>23. SPAA 2011: San Jose, CA, USA</h2> 
+ <a name="2011" href="../../indices/a-tree/r/Rajaraman:Rajmohan.html">Rajmohan Rajaraman</a>, 
+ <a href="../../indices/a-tree/h/Heide:Friedhelm_Meyer_auf_der.html">Friedhelm Meyer auf der Heide</a> (Eds.): SPAA 2011: Proceedings of the 23rd Annual ACM Symposium on Parallelism in Algorithms and Architectures, San Jose, CA, USA, June 4-6, 2011 (Co-located with FCRC 2011). ACM 2011, ISBN 978-1-4503-0743-7
+ <br /> 
+ <a href="spaa2011.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2011+Proceedings+of+the+23rd+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+San+Jose%2C+CA%2C+USA%2C+June+4%2D6%2C+2011+%28Co%2Dlocated+with+FCRC+2011%29%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2011+Proceedings+of+the+23rd+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+San+Jose%2C+CA%2C+USA%2C+June+4%2D6%2C+2011+%28Co%2Dlocated+with+FCRC+2011%29%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2011"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2011"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2011.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>22. SPAA 2010: Thira, Santorini, Greece</h2> 
+ <a name="2010" href="../../indices/a-tree/h/Heide:Friedhelm_Meyer_auf_der.html">Friedhelm Meyer auf der Heide</a>, 
+ <a href="../../indices/a-tree/p/Phillips:Cynthia_A=.html">Cynthia A. Phillips</a> (Eds.): SPAA 2010: Proceedings of the 22nd Annual ACM Symposium on Parallelism in Algorithms and Architectures, Thira, Santorini, Greece, June 13-15, 2010. ACM 2010, ISBN 978-1-4503-0079-7
+ <br /> 
+ <a href="spaa2010.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2010+Proceedings+of+the+22nd+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Thira%2C+Santorini%2C+Greece%2C+June+13%2D15%2C+2010%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2010+Proceedings+of+the+22nd+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Thira%2C+Santorini%2C+Greece%2C+June+13%2D15%2C+2010%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2010"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2010"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2010.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>21. SPAA 2009: Calgary, Alberta, Canada</h2> 
+ <a name="2009" href="../../indices/a-tree/h/Heide:Friedhelm_Meyer_auf_der.html">Friedhelm Meyer auf der Heide</a>, 
+ <a href="../../indices/a-tree/b/Bender:Michael_A=.html">Michael A. Bender</a> (Eds.): SPAA 2009: Proceedings of the 21st Annual ACM Symposium on Parallelism in Algorithms and Architectures, Calgary, Alberta, Canada, August 11-13, 2009. ACM 2009, ISBN 978-1-60558-606-9
+ <br /> 
+ <a href="spaa2009.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2009+Proceedings+of+the+21st+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Calgary%2C+Alberta%2C+Canada%2C+August+11%2D13%2C+2009%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2009+Proceedings+of+the+21st+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Calgary%2C+Alberta%2C+Canada%2C+August+11%2D13%2C+2009%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2009"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2009"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2009.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>20. SPAA 2008: Munich, Germany</h2> 
+ <a name="2008" href="../../indices/a-tree/h/Heide:Friedhelm_Meyer_auf_der.html">Friedhelm Meyer auf der Heide</a>, 
+ <a href="../../indices/a-tree/s/Shavit:Nir.html">Nir Shavit</a> (Eds.): SPAA 2008: Proceedings of the 20th Annual ACM Symposium on Parallelism in Algorithms and Architectures, Munich, Germany, June 14-16, 2008. ACM 2008, ISBN 978-1-59593-973-9
+ <br /> 
+ <a href="spaa2008.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2008+Proceedings+of+the+20th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Munich%2C+Germany%2C+June+14%2D16%2C+2008%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2008+Proceedings+of+the+20th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Munich%2C+Germany%2C+June+14%2D16%2C+2008%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2008"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2008"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2008.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cs.jhu.edu/~spaa/2008/">SPAA 2008 Home Page</a> 
+ <h2>19. SPAA 2007: San Diego, CA, USA</h2> 
+ <a name="2007" href="../../indices/a-tree/g/Gibbons:Phillip_B=.html">Phillip B. Gibbons</a>, 
+ <a href="../../indices/a-tree/s/Scheideler:Christian.html">Christian Scheideler</a> (Eds.): SPAA 2007: Proceedings of the 19th Annual ACM Symposium on Parallelism in Algorithms and Architectures, San Diego, California, USA, June 9-11, 2007. ACM 2007, ISBN 978-1-59593-667-7
+ <br /> 
+ <a href="spaa2007.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2007+Proceedings+of+the+19th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+San+Diego%2C+California%2C+USA%2C++June+9%2D11%2C+2007%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2007+Proceedings+of+the+19th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+San+Diego%2C+California%2C+USA%2C++June+9%2D11%2C+2007%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2007"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2007"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2007.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cs.jhu.edu/~spaa/2007/">SPAA 2007 Home Page</a> 
+ <h2>18. SPAA 2006: Cambridge, Massachusetts, USA</h2> 
+ <a name="2006" href="../../indices/a-tree/g/Gibbons:Phillip_B=.html">Phillip B. Gibbons</a>, 
+ <a href="../../indices/a-tree/v/Vishkin:Uzi.html">Uzi Vishkin</a> (Eds.): SPAA 2006: Proceedings of the 18th Annual ACM Symposium on Parallelism in Algorithms and Architectures, Cambridge, Massachusetts, USA, July 30 - August 2, 2006. ACM 2006, ISBN 1-59593-452-9
+ <br /> 
+ <a href="spaa2006.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2006+Proceedings+of+the+18th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Cambridge%2C+Massachusetts%2C+USA%2C+July+30+%2D+August+2%2C+2006%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2006+Proceedings+of+the+18th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+Cambridge%2C+Massachusetts%2C+USA%2C+July+30+%2D+August+2%2C+2006%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2006"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2006"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2006.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>17. SPAA 2005: Las Vegas, Nevada, USA</h2> 
+ <a name="2005" href="../../indices/a-tree/g/Gibbons:Phillip_B=.html">Phillip B. Gibbons</a>, 
+ <a href="../../indices/a-tree/s/Spirakis:Paul_G=.html">Paul G. Spirakis</a> (Eds.): SPAA 2005: Proceedings of the 17th Annual ACM Symposium on Parallelism in Algorithms and Architectures, July 18-20, 2005, Las Vegas, Nevada, USA. ACM 2005, ISBN 1-58113-986-1
+ <br /> 
+ <a href="spaa2005.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2005+Proceedings+of+the+17th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+July+18%2D20%2C+2005%2C+Las+Vegas%2C+Nevada%2C+USA%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2005+Proceedings+of+the+17th+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+July+18%2D20%2C+2005%2C+Las+Vegas%2C+Nevada%2C+USA%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2005"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2005"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2005.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>16. SPAA 2004: Barcelona, Catalonia, Spain</h2> 
+ <a name="2004" href="../../indices/a-tree/g/Gibbons:Phillip_B=.html">Phillip B. Gibbons</a>, 
+ <a href="../../indices/a-tree/a/Adler:Micah.html">Micah Adler</a> (Eds.): SPAA 2004: Proceedings of the Sixteenth Annual ACM Symposium on Parallelism in Algorithms and Architectures, June 27-30, 2004, Barcelona, Spain. ACM 2004, ISBN 1-58113-840-7
+ <br /> 
+ <a href="spaa2004.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2004+Proceedings+of+the+Sixteenth+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+June+27%2D30%2C+2004%2C+Barcelona%2C+Spain%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2004+Proceedings+of+the+Sixteenth+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+June+27%2D30%2C+2004%2C+Barcelona%2C+Spain%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2004"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2004"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2004.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.cs.dartmouth.edu/SPAA/">SPAA 2004 Home Page</a> 
+ <h2>15. SPAA 2003: San Diego, California, USA</h2> SPAA 2003: Proceedings of the Fifteenth Annual ACM Symposium on Parallelism in Algorithms and Architectures, June 7-9, 2003, San Diego, California, USA (part of FCRC 2003). ACM 2003, ISBN 1-58113-661-7
+ <br /> 
+ <a href="spaa2003.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22SPAA+2003+Proceedings+of+the+Fifteenth+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+June+7%2D9%2C+2003%2C+San+Diego%2C+California%2C+USA+%28part+of+FCRC+2003%29%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22SPAA+2003+Proceedings+of+the+Fifteenth+Annual+ACM+Symposium+on+Parallelism+in+Algorithms+and+Architectures%2C+June+7%2D9%2C+2003%2C+San+Diego%2C+California%2C+USA+%28part+of+FCRC+2003%29%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/spaa/2003"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2003"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/spaa/2003.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - SPPA 2003 was part of 
+ <a href="http://www.acm.org/fcrc/">FCRC 2003</a> 
+ <h1>ACM Symposium on Parallel Algorithms and Architectures (SPAA)</h1> 
+ <h2>14. SPAA 2002: Winnipeg, Manitoba, Canada</h2> SPAA 2002: Proceedings of the Fourteenth Annual ACM Symposium on Parallel Algorithms and Architectures, August 11-13, 2002, Winnipeg, Manitoba, Canada. ACM, 2002
+ <br /> 
+ <a href="spaa2002.html">Contents</a> 
+ <h2>13. SPAA 2001: Heraklion, Crete, Greece</h2> SPAA 2001: Proceedings of the Thirteenth Annual ACM Symposium on Parallel Algorithms and Architectures, July 4-6, 2001, Heraklion, Crete Island, Greece. ACM, 2001
+ <br /> 
+ <a href="spaa2001.html">Contents</a> 
+ <h2>12. SPAA 2000: Bar Harbor, Maine, USA</h2> SPAA 2000: Proceedings of the Twelfth annual ACM Symposium on Parallel Algorithms and Architectures, July 9-13, 2000, Bar Harbor, Maine, USA. ACM, 2000
+ <br /> 
+ <a href="spaa2000.html">Contents</a> 
+ <h2>11. SPAA 1999: Saint Malo, France</h2> SPAA '99: Proceedings of the Eleventh Annual ACM Symposium on Parallel Algorithms and Architectures, June 27-30, 1999, Saint-Malo, France. ACM Press, 1999
+ <br /> 
+ <a href="spaa99.html">Contents</a> 
+ <h2>10. SPAA 1998: Puerto Vallarta, Mexico</h2> SPAA '98: Proceedings of the Tenth Annual ACM Symposium on Parallel Algorithms and Architectures, June 28-July 2, 1998, Puerto Vallarta, Mexico. ACM Press, 1998
+ <br /> 
+ <a href="spaa98.html">Contents</a> 
+ <h2>9. SPAA 1997: Newport, RI, USA</h2> SPAA '97: Proceedings of the 9th Annual ACM Symposium on Parallel Algorithms and Architectures, June 23-25, 1997, Newport, RI, USA. ACM Press, 1997, ISBN 0-89791-890-8
+ <br /> 
+ <a href="spaa97.html">Contents</a> 
+ <h2>8. SPAA 1996: Padua, Italy</h2> SPAA '96: Proceedings of the 8th Annual ACM Symposium on Parallel Algorithms and Architectures, June 24-26, 1996, Padua, Italy. ACM Press, 1996, ISBN 0-89791-809-6
+ <br /> 
+ <a href="spaa96.html">Contents</a> 
+ <h2>7. SPAA 1995: Santa Barbara, California, USA</h2> SPAA '95: 7th Annual ACM Symposium on Parallel Algorithms and Architectures, July 17-19, 1995, Santa Barbara, California, USA. ACM Press, 1995, ISBN 0-89791-717-0
+ <br /> 
+ <a href="spaa95.html">Contents</a> 
+ <h2>6. SPAA 1994: Cape May, New Jersey, USA</h2> SPAA '94: Proceedings of the 6th Annual ACM Symposium on Parallel Algorithms and Architectures, June 27-29, 1994, Cape May, New Jersey, USA. ACM Press, 1994
+ <br /> 
+ <a href="spaa94.html">Contents</a> 
+ <h2>5. SPAA 1993: Velen, Germany</h2> SPAA '93: Proceedings of the 5th Annual ACM Symposium on Parallel Algorithms and Architectures, June 30 - July 2, 1993, Velen, Germany. ACM Press, 1993
+ <br /> 
+ <a href="spaa93.html">Contents</a> 
+ <h2>4. SPAA 1992: San Diego, California, USA</h2> SPAA '92: Proceedings of the 4th Annual ACM Symposium on Parallel Algorithms and Architectures, June 29 - July 1, 1992, San Diego, CA, USA. ACM Press, 1992
+ <br /> 
+ <a href="spaa92.html">Contents</a> 
+ <h2>3. SPAA 1991: Hilton Head, South Carolina, USA</h2> SPAA '91: Proceedings of the 3rd Annual ACM Symposium on Parallel Algorithms and Architectures, July 21-24, 1991, Hilton Head, South Carolina, USA. ACM Press, 1991, ISBN 0-89791-438-4
+ <br /> 
+ <a href="spaa91.html">Contents</a> 
+ <h2>2. SPAA 1990: Island of Crete, Greece</h2> SPAA '90: Proceedings of the 2nd Annual ACM Symposium on Parallel Algorithms and Architectures, July 2-6, 1990, Island of Crete, Greece. ACM Press, 1990
+ <br /> 
+ <a href="spaa90.html">Contents</a> 
+ <h2>1. SPAA 1989: Santa Fe, New Mexico, USA</h2> SPAA '89: Proceedings of the ACM Symposium on Parallel Algorithms and Architectures, June 18-21, 1989, Santa Fe, New Mexico, USA. ACM Press, 1989
+ <br /> 
+ <a href="spaa89.html">Contents</a> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../indexa.html">Conferences</a> | 
+  <a href="../../journals/index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 02:45:09 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

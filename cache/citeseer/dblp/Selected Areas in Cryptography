@@ -1,0 +1,190 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>Selected Areas in Cryptography (SAC)</h1> 
+ <a href="http://www.cacr.math.uwaterloo.ca/~dstinson/SACworkshops.html">SAC Home Page</a>
+ <br /> 
+ <a href="../../cr.html">More Cryptography ...</a> 
+ <h2>SAC 2011: Toronto, Ontario, Canada</h2> 
+ <a name="2011" href="../../indices/a-tree/m/Miri:Ali.html">Ali Miri</a>, 
+ <a href="../../indices/a-tree/v/Vaudenay:Serge.html">Serge Vaudenay</a> (Eds.): Selected Areas in Cryptography - 18th International Workshop, SAC 2011, Toronto, ON, Canada, August 11-12, 2011, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 7118 Springer 2012, ISBN 978-3-642-28495-3
+ <br /> 
+ <a href="sacrypt2011.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography+%2D+18th+International+Workshop%2C+SAC+2011%2C+Toronto%2C+ON%2C+Canada%2C+August+11%2D12%2C+2011%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography+%2D+18th+International+Workshop%2C+SAC+2011%2C+Toronto%2C+ON%2C+Canada%2C+August+11%2D12%2C+2011%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2011"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2011"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2011.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2010: Waterloo, Ontario, Canada</h2> 
+ <a name="2010" href="../../indices/a-tree/b/Biryukov:Alex.html">Alex Biryukov</a>, 
+ <a href="../../indices/a-tree/g/Gong:Guang.html">Guang Gong</a>, 
+ <a href="../../indices/a-tree/s/Stinson:Douglas_R=.html">Douglas R. Stinson</a> (Eds.): Selected Areas in Cryptography - 17th International Workshop, SAC 2010, Waterloo, Ontario, Canada, August 12-13, 2010, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 6544 Springer 2011, ISBN 978-3-642-19573-0
+ <br /> 
+ <a href="sacrypt2010.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography+%2D+17th+International+Workshop%2C+SAC+2010%2C+Waterloo%2C+Ontario%2C+Canada%2C+August+12%2D13%2C+2010%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography+%2D+17th+International+Workshop%2C+SAC+2010%2C+Waterloo%2C+Ontario%2C+Canada%2C+August+12%2D13%2C+2010%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2010"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2010"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2010.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2009: Calgary, Alberta, Canada</h2> 
+ <a name="2009" href="../../indices/a-tree/j/Jacobson_Jr=:Michael_J=.html">Michael J. Jacobson Jr.</a>, 
+ <a href="../../indices/a-tree/r/Rijmen:Vincent.html">Vincent Rijmen</a>, 
+ <a href="../../indices/a-tree/s/Safavi=Naini:Reihaneh.html">Reihaneh Safavi-Naini</a> (Eds.): Selected Areas in Cryptography, 16th Annual International Workshop, SAC 2009, Calgary, Alberta, Canada, August 13-14, 2009, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 5867 Springer 2009, ISBN 978-3-642-05443-3
+ <br /> 
+ <a href="sacrypt2009.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+16th+Annual+International+Workshop%2C+SAC+2009%2C+Calgary%2C+Alberta%2C+Canada%2C+August+13%2D14%2C+2009%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+16th+Annual+International+Workshop%2C+SAC+2009%2C+Calgary%2C+Alberta%2C+Canada%2C+August+13%2D14%2C+2009%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2009"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2009"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2009.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2008: Sackville, New Brunswick, Canada</h2> 
+ <a name="2008" href="../../indices/a-tree/a/Avanzi:Roberto_Maria.html">Roberto Maria Avanzi</a>, 
+ <a href="../../indices/a-tree/k/Keliher:Liam.html">Liam Keliher</a>, 
+ <a href="../../indices/a-tree/s/Sica:Francesco.html">Francesco Sica</a> (Eds.): Selected Areas in Cryptography, 15th International Workshop, SAC 2008, Sackville, New Brunswick, Canada, August 14-15, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 5381 Springer 2009, ISBN 978-3-642-04158-7
+ <br /> 
+ <a href="sacrypt2008.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+15th+International+Workshop%2C+SAC+2008%2C+Sackville%2C+New+Brunswick%2C+Canada%2C+August+14%2D15%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+15th+International+Workshop%2C+SAC+2008%2C+Sackville%2C+New+Brunswick%2C+Canada%2C+August+14%2D15%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2008"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2008"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2008.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2007: Ottawa, Canada</h2> 
+ <a name="2007" href="../../indices/a-tree/a/Adams:Carlisle_M=.html">Carlisle M. Adams</a>, 
+ <a href="../../indices/a-tree/m/Miri:Ali.html">Ali Miri</a>, 
+ <a href="../../indices/a-tree/w/Wiener:Michael_J=.html">Michael J. Wiener</a> (Eds.): Selected Areas in Cryptography, 14th International Workshop, SAC 2007, Ottawa, Canada, August 16-17, 2007, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 4876 Springer 2007, ISBN 978-3-540-77359-7
+ <br /> 
+ <a href="sacrypt2007.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+14th+International+Workshop%2C+SAC+2007%2C+Ottawa%2C+Canada%2C+August+16%2D17%2C+2007%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+14th+International+Workshop%2C+SAC+2007%2C+Ottawa%2C+Canada%2C+August+16%2D17%2C+2007%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2007"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2007"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2007.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2006: Montreal, Canada</h2> 
+ <a name="2006" href="../../indices/a-tree/b/Biham:Eli.html">Eli Biham</a>, 
+ <a href="../../indices/a-tree/y/Youssef:Amr_M=.html">Amr M. Youssef</a> (Eds.): Selected Areas in Cryptography, 13th International Workshop, SAC 2006, Montreal, Canada, August 17-18, 2006 Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 4356 Springer 2007, ISBN 978-3-540-74461-0
+ <br /> 
+ <a href="sacrypt2006.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+13th+International+Workshop%2C+SAC+2006%2C+Montreal%2C+Canada%2C+August+17%2D18%2C+2006+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+13th+International+Workshop%2C+SAC+2006%2C+Montreal%2C+Canada%2C+August+17%2D18%2C+2006+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2006"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2006"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2006.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2005: Kingston, Ontario, Canada</h2> 
+ <a name="2005" href="../../indices/a-tree/p/Preneel:Bart.html">Bart Preneel</a>, 
+ <a href="../../indices/a-tree/t/Tavares:Stafford_E=.html">Stafford E. Tavares</a> (Eds.): Selected Areas in Cryptography, 12th International Workshop, SAC 2005, Kingston, ON, Canada, August 11-12, 2005, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3897 Springer 2006, ISBN 3-540-33108-5
+ <br /> 
+ <a href="sacrypt2005.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+12th+International+Workshop%2C+SAC+2005%2C+Kingston%2C+ON%2C+Canada%2C+August+11%2D12%2C+2005%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+12th+International+Workshop%2C+SAC+2005%2C+Kingston%2C+ON%2C+Canada%2C+August+11%2D12%2C+2005%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2005"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2005"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2005.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2004: Waterloo, Ontario, Canada</h2> 
+ <a name="2004" href="../../indices/a-tree/h/Handschuh:Helena.html">Helena Handschuh</a>, 
+ <a href="../../indices/a-tree/h/Hasan:M=_Anwar.html">M. Anwar Hasan</a> (Eds.): Selected Areas in Cryptography, 11th International Workshop, SAC 2004, Waterloo, Canada, August 9-10, 2004, Revised Selected Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3357 Springer 2004, ISBN 3-540-24327-5
+ <br /> 
+ <a href="sacrypt2004.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+11th+International+Workshop%2C+SAC+2004%2C+Waterloo%2C+Canada%2C+August+9%2D10%2C+2004%2C+Revised+Selected+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+11th+International+Workshop%2C+SAC+2004%2C+Waterloo%2C+Canada%2C+August+9%2D10%2C+2004%2C+Revised+Selected+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2004"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2004"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2004.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2003: Ottawa, Canada</h2> 
+ <a name="2003" href="../../indices/a-tree/m/Matsui:Mitsuru.html">Mitsuru Matsui</a>, 
+ <a href="../../indices/a-tree/z/Zuccherato:Robert_J=.html">Robert J. Zuccherato</a> (Eds.): Selected Areas in Cryptography, 10th Annual International Workshop, SAC 2003, Ottawa, Canada, August 14-15, 2003, Revised Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 3006 Springer 2004, ISBN 3-540-21370-8
+ <br /> 
+ <a href="sacrypt2003.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+10th+Annual+International+Workshop%2C+SAC+2003%2C+Ottawa%2C+Canada%2C+August+14%2D15%2C+2003%2C+Revised+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+10th+Annual+International+Workshop%2C+SAC+2003%2C+Ottawa%2C+Canada%2C+August+14%2D15%2C+2003%2C+Revised+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2003"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2003"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2003.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2002: St. John's, Newfoundland, Canada</h2> 
+ <a name="2002" href="../../indices/a-tree/n/Nyberg:Kaisa.html">Kaisa Nyberg</a>, 
+ <a href="../../indices/a-tree/h/Heys:Howard_M=.html">Howard M. Heys</a> (Eds.): Selected Areas in Cryptography, 9th Annual International Workshop, SAC 2002, St. John's, Newfoundland, Canada, August 15-16, 2002. Revised Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2595 Springer 2003, ISBN 3-540-00622-2
+ <br /> 
+ <a href="sacrypt2002.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+9th+Annual+International+Workshop%2C+SAC+2002%2C+St.+John%27s%2C+Newfoundland%2C+Canada%2C+August+15%2D16%2C+2002.+Revised+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+9th+Annual+International+Workshop%2C+SAC+2002%2C+St.+John%27s%2C+Newfoundland%2C+Canada%2C+August+15%2D16%2C+2002.+Revised+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2002"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2002"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2002.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2001: Toronto, Ontario, Canada</h2> 
+ <a name="2001" href="../../indices/a-tree/v/Vaudenay:Serge.html">Serge Vaudenay</a>, 
+ <a href="../../indices/a-tree/y/Youssef:Amr_M=.html">Amr M. Youssef</a> (Eds.): Selected Areas in Cryptography, 8th Annual International Workshop, SAC 2001 Toronto, Ontario, Canada, August 16-17, 2001, Revised Papers. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2259 Springer 2001, ISBN 3-540-43066-0
+ <br /> 
+ <a href="sacrypt2001.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+8th+Annual+International+Workshop%2C+SAC+2001+Toronto%2C+Ontario%2C+Canada%2C+August+16%2D17%2C+2001%2C+Revised+Papers%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+8th+Annual+International+Workshop%2C+SAC+2001+Toronto%2C+Ontario%2C+Canada%2C+August+16%2D17%2C+2001%2C+Revised+Papers%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2001"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2001"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2001.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 2000: Waterloo, Ontario, Canada</h2> 
+ <a name="2000" href="../../indices/a-tree/s/Stinson:Douglas_R=.html">Douglas R. Stinson</a>, 
+ <a href="../../indices/a-tree/t/Tavares:Stafford_E=.html">Stafford E. Tavares</a> (Eds.): Selected Areas in Cryptography, 7th Annual International Workshop, SAC 2000, Waterloo, Ontario, Canada, August 14-15, 2000, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 2012 Springer 2001, ISBN 3-540-42069-X
+ <br /> 
+ <a href="sacrypt2000.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+7th+Annual+International+Workshop%2C+SAC+2000%2C+Waterloo%2C+Ontario%2C+Canada%2C+August+14%2D15%2C+2000%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+7th+Annual+International+Workshop%2C+SAC+2000%2C+Waterloo%2C+Ontario%2C+Canada%2C+August+14%2D15%2C+2000%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/2000"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2000"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/2000.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 1999: Kingston, Ontario, Canada</h2> 
+ <a name="1999" href="../../indices/a-tree/h/Heys:Howard_M=.html">Howard M. Heys</a>, 
+ <a href="../../indices/a-tree/a/Adams:Carlisle_M=.html">Carlisle M. Adams</a> (Eds.): Selected Areas in Cryptography, 6th Annual International Workshop, SAC'99, Kingston, Ontario, Canada, August 9-10, 1999, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1758 Springer 2000, ISBN 3-540-67185-4
+ <br /> 
+ <a href="sacrypt1999.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography%2C+6th+Annual+International+Workshop%2C+SAC%2799%2C+Kingston%2C+Ontario%2C+Canada%2C+August+9%2D10%2C+1999%2C++Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography%2C+6th+Annual+International+Workshop%2C+SAC%2799%2C+Kingston%2C+Ontario%2C+Canada%2C+August+9%2D10%2C+1999%2C++Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/1999"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/1999"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/1999.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> - 
+ <a href="http://www.engr.mun.ca/~sac99/">SAC 1999 Home Page</a> 
+ <h2>SAC 1998: Kingston, Ontario, Canada</h2> 
+ <a name="1998" href="../../indices/a-tree/t/Tavares:Stafford_E=.html">Stafford E. Tavares</a>, 
+ <a href="../../indices/a-tree/m/Meijer:Henk.html">Henk Meijer</a> (Eds.): Selected Areas in Cryptography '98, SAC'98, Kingston, Ontario, Canada, August 17-18, 1998, Proceedings. 
+ <a href="../../journals/lncs.html">Lecture Notes in Computer Science</a> 1556 Springer 1999, ISBN 3-540-65894-7
+ <br /> 
+ <a href="sacrypt1998.html">Contents</a> 
+ <a href="http://citeseerx.ist.psu.edu/search?q=%22Selected+Areas+in+Cryptography+%2798%2C+SAC%2798%2C+Kingston%2C+Ontario%2C+Canada%2C+August+17%2D18%2C+1998%2C+Proceedings%22"><img alt="CiteSeerX" src="../../csx.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://scholar.google.com/scholar?q=%22Selected+Areas+in+Cryptography+%2798%2C+SAC%2798%2C+Kingston%2C+Ontario%2C+Canada%2C+August+17%2D18%2C+1998%2C+Proceedings%22"><img alt="Google scholar" src="../../gs.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://www.pubzone.org/dblp/conf/sacrypt/1998"><img alt="pubzone.org" src="../../pubzone.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/1998"><img alt="BibTeX" src="../../bibtex.gif" border="0" height="16" width="16" /></a> 
+ <a href="http://dblp.uni-trier.de/rec/bibtex/conf/sacrypt/1998.xml"><img alt="bibliographical record in XML" src="../../xml.gif" border="0" height="16" width="16" /></a> 
+ <h2>SAC 1997: Ottawa, Ontario, Canada</h2> 
+ <a href="http://www.scs.carleton.ca/~sac97/">SAC 1997 Home Page</a> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../indexa.html">Conferences</a> | 
+  <a href="../../journals/index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 02:41:56 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>

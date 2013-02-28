@@ -1,0 +1,45 @@
+<body> 
+ <table width="100%">
+  <tbody>
+   <tr>
+    <td align="left"><a href="../../index.html"><img alt="dblp.uni-trier.de" src="../../Logo.gif" border="0" height="60" width="170" /></a></td> 
+    <td align="center"><a href="http://www.dagstuhl.de/"><img alt="www.dagstuhl.de" src="../../lzi_logo.gif" border="0" height="56" width="251" /></a></td> 
+    <td align="right"><a href="http://www.uni-trier.de"><img alt="www.uni-trier.de" src="../../logo_universitaet-trier.gif" border="0" height="48" width="215" /></a></td>
+   </tr>
+  </tbody>
+ </table> 
+ <h1>ACM Transactions on Information and System Security (TISSEC)</h1> 
+ <p>Editor-in-Chief: <a href="../../indices/a-tree/t/Tsudik:Gene.html">Gene Tsudik</a></p> 
+ <p><a href="http://tissec.acm.org">TISSEC Home Page</a><br /> <a href="http://dl.acm.org/citation.cfm?id=J789">TISSCE @ ACM DL</a></p> 
+ <ul> 
+  <li><a href="tissec15.html">Volume 15, 2012</a></li> 
+  <li><a href="tissec14.html">Volume 14, 2011</a></li> 
+  <li><a href="tissec13.html">Volume 13, 2009/2010</a></li> 
+  <li><a href="tissec12.html">Volume 12, 2008/2009</a></li> 
+  <li><a href="tissec11.html">Volume 11, 2008</a></li> 
+  <li><a href="tissec10.html">Volume 10, 2007</a></li> 
+  <li><a href="tissec9.html">Volume 9, 2006</a></li> 
+  <li><a href="tissec8.html">Volume 8, 2005</a></li> 
+  <li><a href="tissec7.html">Volume 7, 2004</a></li> 
+  <li><a href="tissec6.html">Volume 6, 2003</a></li> 
+  <li><a href="tissec5.html">Volume 5, 2002</a></li> 
+  <li><a href="tissec4.html">Volume 4, 2001</a></li> 
+  <li><a href="tissec3.html">Volume 3, 2000</a></li> 
+  <li><a href="tissec2.html">Volume 2, 1999</a></li> 
+  <li><a href="tissec1.html">Volume 1, 1998</a></li> 
+ </ul> 
+ <p></p>
+ <div class="footer"> 
+  <a href="../../index.html">Home</a> | 
+  <a href="../../conf/indexa.html">Conferences</a> | 
+  <a href="../index.html">Journals</a> | 
+  <a href="../../series/index.html">Series</a> | 
+  <a href="../../about/faq.html">FAQ</a>  Search: 
+  <a href="http://dblp.l3s.de">Faceted</a> | 
+  <a href="http://dblp.isearch-it-solutions.net/">Free</a> | 
+  <a href="http://www.dblp.org/search/">Complete</a> | 
+  <a href="../../indices/a-tree/index.html">Author</a>
+ </div> 
+ <small>Last update Sun Dec 2 03:47:47 2012 CET by the <a href="../../about/team.html">DBLP Team</a> — <a href="http://opendefinition.org/"><img alt="This material is Open Data" border="0" src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" style="position:relative; top:3px" /></a> Data released under the <a href="http://opendatacommons.org/licenses/by/summary/">ODC-BY&nbsp;1.0 license</a> — See also our <a href="../../copyright.html">legal information page</a></small>
+ <p></p> 
+</body>
