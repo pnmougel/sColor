@@ -1,0 +1,18 @@
+.helpMenu li {
+    padding: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-left: 3px solid white; 
+}
+
+.helpMenu li.selected {
+    border-left: 3px solid #0088CC; 
+}
+
+.helpMenu li:hover {
+    background-color: #eee;
+}
+
+.helpMenu ul > li {
+	padding-left: 25px;
+}

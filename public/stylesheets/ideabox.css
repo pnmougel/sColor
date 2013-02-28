@@ -1,0 +1,16 @@
+.firstIdea div div:last-child {
+	border-left: 2px solid #009900;
+}
+
+
+.secondIdea div div:last-child {
+	border-left: 2px solid #FFCC00;
+}
+
+.thirdIdea div div:last-child {
+	border-left: 2px solid #0169C9;
+}
+
+.defaultIdea div div:last-child {
+	border-left: 2px solid #333;
+}

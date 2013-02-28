@@ -1,0 +1,16 @@
+
+
+#widget li div.section {
+    text-align:right;
+    font-size: 12pt; 
+    line-height:150%
+}
+
+#widget li div.content {
+    border-left: 3px solid #0088CC;
+    padding-left:25px; 
+}
+
+#widget li div {
+	margin-bottom: 15px;
+}
