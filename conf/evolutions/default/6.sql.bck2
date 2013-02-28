@@ -1,0 +1,84 @@
+# --- !Ups
+
+CREATE TABLE IF NOT EXISTS Update (
+    id BIGSERIAL NOT NULL,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES IUser(id) ON DELETE CASCADE,
+    date TIMESTAMP WITH TIME ZONE NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Subfield_Added (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    subfield_id BIGINT NOT NULL REFERENCES Subfield(id) ON DELETE CASCADE,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Subfield_Removed (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    subfield_id BIGINT NOT NULL REFERENCES Subfield(id) ON DELETE CASCADE,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Creation_Date (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    before BIGINT NOT NULL,
+    after BIGINT NOT NULL,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Name (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    before VARCHAR(255) NOT NULL,
+    after VARCHAR(255) NOT NULL,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_ShortName (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    before VARCHAR(255) NOT NULL,
+    after VARCHAR(255) NOT NULL,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_CType (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    ctype_id_before BIGINT NOT NULL REFERENCES CType(id) ON DELETE CASCADE,
+    ctype_id_after BIGINT NOT NULL REFERENCES CType(id) ON DELETE CASCADE,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Region (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    region_id_before BIGINT NOT NULL REFERENCES Region(id) ON DELETE CASCADE,
+    region_id_after BIGINT NOT NULL REFERENCES Region(id) ON DELETE CASCADE,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Publisher (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    publisher_id_before BIGINT NOT NULL REFERENCES Publisher(id) ON DELETE CASCADE,
+    publisher_id_after BIGINT NOT NULL REFERENCES Publisher(id) ON DELETE CASCADE,
+    PRIMARY KEY (update_id)
+);
+
+CREATE TABLE IF NOT EXISTS Update_Description (
+    update_id BIGINT NOT NULL REFERENCES Update(id) ON DELETE CASCADE,
+    before VARCHAR(255) NOT NULL,
+    after VARCHAR(255) NOT NULL,
+    PRIMARY KEY (update_id)
+);
+
+# --- !Downs
+
+DROP TABLE IF EXISTS Update CASCADE;
+DROP TABLE IF EXISTS Update_Subfield_Added CASCADE;
+DROP TABLE IF EXISTS Update_Subfield_Removed CASCADE;
+DROP TABLE IF EXISTS Update_Creation_Date CASCADE;
+DROP TABLE IF EXISTS Update_Name CASCADE;
+DROP TABLE IF EXISTS Update_ShortName CASCADE;
+DROP TABLE IF EXISTS Update_CType CASCADE;
+DROP TABLE IF EXISTS Update_Region CASCADE;
+DROP TABLE IF EXISTS Update_Publisher CASCADE;
+DROP TABLE IF EXISTS Update_Description CASCADE;
+

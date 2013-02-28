@@ -1,0 +1,22 @@
+
+# --- !Ups
+
+CREATE TABLE IF NOT EXISTS Stem (
+    id BIGSERIAL NOT NULL,
+    stem VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE INDEX stem_stem_idx ON Stem USING hash (stem);
+
+CREATE TABLE IF NOT EXISTS Stem_Conference (
+    stem_id BIGINT NOT NULL REFERENCES Stem(id) ON DELETE CASCADE,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    PRIMARY KEY (stem_id, conference_id)
+);
+
+# --- !Downs
+
+DROP INDEX stem_stem_idx;
+
+DROP TABLE IF EXISTS Stems CASCADE;

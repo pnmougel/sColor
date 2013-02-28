@@ -1,0 +1,85 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+GET     /index                      controllers.Application.index
+GET     /home                       controllers.Application.index
+
+GET     /test                       controllers.Application.test
+
+
+# Rankings
+GET     /ranking/field/:id          controllers.Ranking.byField(id : Long)
+GET     /ranking/page               controllers.Ranking.page
+
+# Static pages
+GET     /page/widget                controllers.StaticPage.widget
+GET     /help/:name                 controllers.Help.section(name : String)
+
+# Conference
+GET     /conference/$id<[0-9]+>     controllers.Publication.publication(id: Long)
+GET     /conference/:name           controllers.Publication.publicationByName(name: String)
+GET     /conference/name/:name      controllers.Publication.publicationByName(name: String)
+GET     /conference/edit/:id        controllers.Publication.editPublication(id: Long)
+POST    /conference/update          controllers.Publication.updatePublication
+GET     /journal/$id<[0-9]+>        controllers.Publication.publication(id: Long)
+GET     /journal/:name              controllers.Publication.publicationByName(name: String)
+GET     /journal/edit/:id           controllers.Publication.editPublication(id: Long)
+POST    /journal/update             controllers.Publication.updatePublication
+GET     /history/:action/:id        controllers.Publication.getHistory(action : String, id : Long)
+
+GET     /search/json                controllers.Search.json
+
+POST    /addConf                    controllers.Publication.addPublication()
+GET     /search                     controllers.Search.search()
+
+# Links
+POST    /link                       controllers.conference.Links.addLink()
+DELETE  /link/:id                   controllers.conference.Links.deleteLink(id: Long)
+
+# Users
+POST    /user/login                 controllers.User.login
+POST    /user/add                   controllers.User.add
+GET     /user/logout                controllers.User.logout
+GET     /user/profile               controllers.User.profile
+POST    /user/update/pseudo         controllers.User.updatePseudo
+POST    /user/update/privacy        controllers.User.updatePrivacy
+POST    /user/update/password       controllers.User.updatePassword
+
+# Idea Box
+GET     /ideabox                    controllers.IdeaBox.index
+POST    /ideabox/add                controllers.IdeaBox.addIdea
+POST    /ideabox/vote/$id<[0-9]+>   controllers.IdeaBox.vote(id : Long)
+
+# Widget
+GET     /wid/$id<[0-9]+>            controllers.Widget.getBadge(id : Int)
+GET     /wid/$id<[0-9]+>/hindex     controllers.Widget.getHindex(id : Int)
+
+
+# Comments
+POST    /comment                    controllers.conference.Comments.addComment()
+DELETE  /comment/:id                controllers.conference.Comments.deleteComment(id: Long)
+
+# Publisher
+POST    /publisher                  controllers.conference.Publishers.add()
+DELETE  /publisher/:id              controllers.conference.Publishers.delete(id: Long)
+
+# Votes
+POST    /vote                       controllers.conference.Scores.addVote()
+DELETE  /vote                       controllers.conference.Scores.deleteVote()
+
+# Administration
+GET     /admin                          controllers.admin.Admin.index
+GET     /admin/init                     controllers.admin.Init.index()
+GET     /admin/action/:name             controllers.admin.Admin.selectAction(name : String)
+GET		/admin/action/percentage/:name 	controllers.admin.ClientCommunication.getPercentage(name : String)
+GET		/admin/action/message/:name 	controllers.admin.ClientCommunication.getMessage(name : String)
+GET		/admin/action/run/:actionName 	controllers.admin.Admin.run(actionName : String)
+POST    /admin/sameAsPublication        controllers.admin.scores.PublicationMatching.sameAsPublication
+POST    /admin/createPublication        controllers.admin.scores.PublicationMatching.createPublication
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+

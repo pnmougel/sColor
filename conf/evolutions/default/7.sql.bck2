@@ -1,0 +1,12 @@
+# --- !Ups
+
+ALTER TABLE external_ranking_conference ADD rank INT;
+ALTER TABLE external_ranking_conference ADD score_text VARCHAR(255);
+
+ALTER TABLE external_ranking_conference RENAME COLUMN score TO score_value;
+
+# --- !Downs
+
+ALTER TABLE external_ranking_conference DROP COLUMN rank;
+ALTER TABLE external_ranking_conference DROP COLUMN score_text;
+ALTER TABLE external_ranking_conference RENAME COLUMN score_value TO score;

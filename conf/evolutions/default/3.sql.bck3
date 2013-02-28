@@ -1,0 +1,10 @@
+
+# --- !Ups
+
+ALTER TABLE Conference ADD nameLower VARCHAR(255) NOT NULL default '';
+ALTER TABLE Conference ADD shortNameLower VARCHAR(255) NOT NULL default '';
+
+# --- !Downs
+
+ALTER TABLE Conference DROP COLUMN nameLower;
+ALTER TABLE Conference DROP COLUMN shortNameLower;

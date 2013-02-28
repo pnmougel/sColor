@@ -1,0 +1,12 @@
+
+# --- !Ups
+
+ALTER TABLE Region ADD COLUMN adjective VARCHAR(255);
+ALTER TABLE Region ADD COLUMN is_international BOOLEAN DEFAULT FALSE;
+
+# --- !Downs
+
+ALTER TABLE Region DROP COLUMN is_international;
+ALTER TABLE Region DROP COLUMN adjective;
+
+

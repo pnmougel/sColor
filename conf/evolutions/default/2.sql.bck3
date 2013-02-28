@@ -1,0 +1,8 @@
+
+# --- !Ups
+
+ALTER TABLE Conference ADD nameMatching VARCHAR(255) NOT NULL default '';
+
+# --- !Downs
+
+ALTER TABLE Conference DROP COLUMN nameMatching;

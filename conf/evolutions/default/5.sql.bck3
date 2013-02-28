@@ -1,0 +1,19 @@
+
+# --- !Ups
+
+ALTER TABLE comment RENAME COLUMN createdBy TO user_id;
+ALTER TABLE comment RENAME COLUMN createdat TO created_at;
+
+ALTER TABLE region RENAME COLUMN isinternational TO is_international;
+ALTER TABLE conference RENAME COLUMN nbarticles TO nb_articles;
+ALTER TABLE conference RENAME COLUMN yearsince TO year_since;
+ALTER TABLE conference RENAME COLUMN createdby TO user_id;
+ALTER TABLE conference RENAME COLUMN createdat TO create_at;
+ALTER TABLE conference RENAME COLUMN namematching TO name_matching;
+ALTER TABLE conference RENAME COLUMN namelower TO name_lower;
+ALTER TABLE conference RENAME COLUMN shortnamelower TO short_name_lower;
+
+ALTER TABLE iuser RENAME COLUMN isadmin TO is_admin;
+
+# --- !Downs
+

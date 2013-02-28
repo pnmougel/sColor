@@ -1,0 +1,17 @@
+
+# --- !Ups
+
+ALTER TABLE update_region RENAME COLUMN region_id_before TO before;
+ALTER TABLE update_region RENAME COLUMN region_id_after TO after;
+
+ALTER TABLE update_publisher RENAME COLUMN publisher_id_before TO before;
+ALTER TABLE update_publisher RENAME COLUMN publisher_id_after TO after;
+
+ALTER TABLE update_ctype RENAME COLUMN ctype_id_before TO before;
+ALTER TABLE update_ctype RENAME COLUMN ctype_id_after TO after;
+
+# --- !Downs
+
+
+
+

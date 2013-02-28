@@ -1,0 +1,32 @@
+# --- !Ups
+
+ALTER TABLE Conference ADD external_score DOUBLE PRECISION;
+ALTER TABLE Conference ADD user_score DOUBLE PRECISION;
+ALTER TABLE Conference ADD avg_score DOUBLE PRECISION;
+
+ALTER TABLE ScoreUser RENAME TO ScoreIUser;
+ALTER TABLE ScoreIUser RENAME COLUMN user_id TO iuser_id;
+ALTER TABLE Comment RENAME COLUMN user_id TO iuser_id;
+
+CREATE TABLE IF NOT EXISTS External_Ranking_Conference (
+    ranking_id BIGSERIAL NOT NULL REFERENCES Ranking(id) ON DELETE CASCADE,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    score INT NOT NULL,
+    PRIMARY KEY (ranking_id,conference_id)
+);
+
+
+# --- !Downs
+
+ALTER TABLE Conference DROP COLUMN external_score;
+ALTER TABLE Conference DROP COLUMN user_score;
+ALTER TABLE Conference DROP COLUMN avg_score;
+
+ALTER TABLE ScoreIUser RENAME TO ScoreUser;
+ALTER TABLE ScoreIUser RENAME COLUMN iuser_id TO user_id;
+
+ALTER TABLE Comment RENAME COLUMN iuser_id TO user_id;
+
+
+DROP TABLE IF EXISTS External_Ranking_Conference;
+

@@ -1,0 +1,66 @@
+# Tasks schema
+ 
+# --- !Ups
+
+CREATE TABLE IF NOT EXISTS BibliometricSource (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    url VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Bibliometric (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    value DOUBLE PRECISION NOT NULL,
+    source_id BIGINT NOT NULL REFERENCES BibliometricSource(id),
+    conference_id BIGINT NOT NULL REFERENCES Conference(id),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Idea (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    done  BOOLEAN NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL,
+    user_id BIGINT NOT NULL REFERENCES IUser(id),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS IdeaVote (
+    idea_id BIGINT NOT NULL REFERENCES Idea(id),
+    user_id BIGINT NOT NULL REFERENCES IUser(id),
+    PRIMARY KEY (idea_id, user_id)
+);
+
+CREATE TABLE IF NOT EXISTS IdeaComment (
+    id BIGSERIAL NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL,
+    idea_id BIGINT NOT NULL REFERENCES Idea(id),
+    user_id BIGINT NOT NULL REFERENCES IUser(id),
+    PRIMARY KEY (id)
+);
+
+
+ALTER TABLE IUSer ADD key VARCHAR(255) NOT NULL DEFAULT '';
+ALTER TABLE IUSer ADD is_public BOOLEAN NOT NULL DEFAULT false;
+
+CREATE INDEX iuser_key_idx ON IUser USING hash (key);
+ALTER TABLE IUSer DROP COLUMN password;
+
+ALTER TABLE Link ADD user_id BIGINT NOT NULL REFERENCES IUser(id);
+
+# TODO : CHANGER CLE PRIMAIRE POUR update_subfield_added et update_subfield_removed sur les deux champs (sinon doublon)
+
+# --- !Downs
+ 
+DROP TABLE IF EXISTS BibliometricSource CASCADE;
+DROP TABLE IF EXISTS Bibliometric CASCADE;
+DROP TABLE IF EXISTS Idea CASCADE;
+DROP TABLE IF EXISTS IdeaVote CASCADE;
+DROP TABLE IF EXISTS IdeaComment CASCADE;
+
+ALTER TABLE IUSer DROP COLUMN key;
+ALTER TABLE IUSer ADD password VARCHAR(255);

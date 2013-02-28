@@ -1,0 +1,17 @@
+
+# --- !Ups
+
+CREATE TABLE IF NOT EXISTS Region (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE Conference ADD COLUMN region_id BIGINT NOT NULL REFERENCES Region(id) ON DELETE CASCADE;
+
+# --- !Downs
+
+ALTER TABLE Conference DROP COLUMN region_id BIGINT;
+
+DROP TABLE IF EXISTS Region CASCADE;
+

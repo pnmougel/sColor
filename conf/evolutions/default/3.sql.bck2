@@ -1,0 +1,10 @@
+# --- !Ups
+
+
+ALTER TABLE Ranking RENAME TO External_Ranking;
+
+
+# --- !Downs
+
+ALTER TABLE External_Ranking RENAME TO Ranking;
+
