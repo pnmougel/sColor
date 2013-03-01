@@ -14,7 +14,8 @@ object ApplicationBuild extends Build {
         // "org.squeryl" %% "squeryl" % "0.9.5-2",
         "postgresql" % "postgresql" % "9.1-901-1.jdbc4",
         "mysql" % "mysql-connector-java" % "5.1.18",
-        "com.jquery" % "jquery" % "1.7.1"
+        "com.jquery" % "jquery" % "1.7.1",
+        "com.typesafe.slick" %% "slick" % "1.0.0"
         // "com.typesafe" % "slick_2.10.0-M4" % "0.10.0-M2"
     )
 

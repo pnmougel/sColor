@@ -1,7 +1,12 @@
+import play.api.Play.current
 import play.api.Application
 import play.api.GlobalSettings
 import play.api.mvc.Handler
 import play.api.mvc.RequestHeader
+import play.api.db.DB
+
+import scala.slick.driver.PostgresDriver.simple._
+import Database.threadLocalSession
 
 object Global extends GlobalSettings {
     override def onStart(app: Application) {
@@ -34,6 +39,7 @@ object Global extends GlobalSettings {
         })
         SessionFactory.concreteFactory = Some(() => getSession(new PostgreSqlAdapter, app))
         */
+        lazy val database = Database.forDataSource(DB.getDataSource())
     }
 
     override def onRouteRequest(request: RequestHeader): Option[Handler] = {

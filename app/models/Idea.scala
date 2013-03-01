@@ -14,7 +14,7 @@ case class Idea(var name: String, description: String, done: Boolean, createdAt:
 
     lazy val user = User.byId(userId)
 
-    val dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss")
+    val dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
 
     def isoDate = dateFormat.format(createdAt)
 

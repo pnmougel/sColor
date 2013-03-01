@@ -18,15 +18,8 @@
                 @snippets.search()
 
                 @java.text.NumberFormat.getIntegerInstance(java.util.Locale.US).format(nbConference)
-                    conference
-                    @if(nbConference > 1) {
-                        s
-                    }
-                    and journal
-                    @if(nbConference > 1) {
-                        s
-                    }
-                    referenced
+                    conference@if(nbConference > 1) {s}
+                    and journal@if(nbConference > 1) {s} referenced
             </div>
         </div>
     </div>
