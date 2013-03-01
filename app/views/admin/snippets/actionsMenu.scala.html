@@ -3,9 +3,9 @@
 
 <ul class="nav nav-list">
     @actionsByCategory.map { case (category, actions) =>
-        <li class="nav-header">@category /li>
+        <li class="nav-header">@category</li>
             @actions.map { action =>
-                <li> <a href="/admin/action/ @action.name"> <i class="icon- @action.icon"></i> @action.label </a> </li>
+                <li><a href="/admin/action/@action.name"> <i class="icon-@action.icon"></i>@action.label</a></li>
             }
     }
     </ul>

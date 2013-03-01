@@ -1,6 +1,4 @@
 
-// alert($("div.confRank").length);
-
 $("#selectAll").click( function() {
 	$("#subFields button.radio").addClass("active");
 	getPage(1);
@@ -82,7 +80,7 @@ function getPage(pageNum) {
 		data: { "pageNum": pageNum, "field": field, 
 			"nat": national, "intl": international, 
 			"conference": conference, "journal": journal, "workshop": workshop,
-			"subfields": subfields,
+			"subFields": subfields,
 			"orderBy": orderBy, 
 			"sort": sort,
 			"nameFilter": nameFilter},

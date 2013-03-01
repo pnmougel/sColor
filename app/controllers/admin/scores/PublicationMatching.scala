@@ -27,6 +27,10 @@ object PublicationMatching extends Controller {
     val createForm = Form("mergeId" -> number)
 
     def addPublication(conferenceInformation: ConferenceInformation, publicationCreator: PublicationCreator) = {
+
+        // Sur le matching, si c'est la même source, alors on peut considérer qu'il n'y a pas de doublon :)
+
+
         val ctypeId = if (conferenceInformation.ctype.isDefined) Option(conferenceInformation.ctype.get.id) else None
         val fieldId = if (conferenceInformation.field.isDefined) Option(conferenceInformation.field.get.id) else None
 
@@ -46,8 +50,7 @@ object PublicationMatching extends Controller {
             val publicationId = Conference.create(conferenceInformation.name, conferenceInformation.shortName.get, ctypeId.get, fieldId.get)
             publicationCreator.conferenceCreated(publicationId, conferenceInformation)
         } else {
-            val matchingPublications = Conference.findPublications(conferenceInformation.name,
-                conferenceInformation.shortName, ctypeId, fieldId)
+            val matchingPublications = Conference.findPublications(conferenceInformation.name, conferenceInformation.shortName, ctypeId, fieldId)
             if (matchingPublications.size == 0) {
                 // Create a new entry if field and type are defined
                 if (ctypeId.isDefined && fieldId.isDefined) {

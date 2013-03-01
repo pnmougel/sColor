@@ -1,10 +1,9 @@
 @(comments: List[Comment], user: Option[User])
 
-@@
 <!-- Comments -->
 <div class="vertical-spacing-20"></div>
 <div class="row">
-    <div class="span8"> <h3> Comments ( <span id="nb_comments"> @comments.size </span> ) </h3> </div>
+    <div class="span8"> <h3> Comments (<span id="nb_comments">@comments.size</span>) </h3> </div>
     <div>
         @if(user.isDefined) {
             <div class="vertical-spacing-30"></div>

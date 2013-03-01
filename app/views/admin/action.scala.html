@@ -1,7 +1,5 @@
 @(action: controllers.admin.action.AdminAction)(implicit request: RequestHeader)
 
-@@@@
-
 @mainAdmin(action.label, request) {
     <div style="background-color:#9BA5AD;border-bottom:1px solid #556B7B;padding:4px;padding-left:20px;padding-right:20px;">
         <a href="#" class="btn" id="run" action="@action.name"> <i class="icon-play"></i> Run </a>
@@ -10,11 +8,11 @@
         </div>
     </div>
 
-    <div style="margin:20px;margin-right:20px;margin-top:0px;" id="mainContent">
+    <div style="margin: 20px;" id="mainContent">
         @snippets.frame("Description", "icon-leaf")(Html(action.description))
         @snippets.options(action.form)
         @snippets.frame("Messages", "icon-comment")(Html( """<div id="message_area"></div>"""))
-                </ div >
+    </div>
 
-        <script src="@routes.Assets.at(" javascripts /clientServer.min.js")" type = "text/javascript" ></ script >
+        <script src="@routes.Assets.at("javascripts/clientServer.min.js")" type="text/javascript"></script>
 }

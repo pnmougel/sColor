@@ -40,7 +40,7 @@
                 data-toggle="dropdown"> Rankings by Field <b class="caret"></b> </a>
                     <ul class="dropdown-menu">
                         @models.Field.all().map { field =>
-                            <li> <a href="/ranking/field/ @field.id"> @field.name </a> </li>
+                            <li> <a href="/ranking/field/@field.id">@field.name</a> </li>
                         }
                     </ul>
                 </li>

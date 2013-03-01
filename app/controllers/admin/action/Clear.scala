@@ -11,6 +11,9 @@ object Clear extends AdminAction {
     val label = """Clear the database"""
 
     override def run(request: Request[AnyContent]) {
+        Bibliometric.deleteAll()
+        IdeaVote.deleteAll()
+        Idea.deleteAll()
         Conference.deleteAll()
         User.deleteAll()
         CType.deleteAll()

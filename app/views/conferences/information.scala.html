@@ -26,7 +26,7 @@
         @if(!conference.subfields.isEmpty) {
             <ul class="unstyled">
                 @conference.subfields.map { subField =>
-                    <li> <i class="icon-play"></i> @subField.name </li>
+                    <li> <i class="icon-play"></i>@subField.name</li>
                 }
             </ul>
         }
@@ -35,13 +35,13 @@
             <h5> Related to: <h5>
                 <ul>
                     @conference.relatedConferences.map { relatedConference =>
-                        <li> <a href="/conference/ @relatedConference.id"> @relatedConference.name </a> </li>
+                        <li><a href="/conference/@relatedConference.id">@relatedConference.name</a></li>
                     }
                 </ul>
                 }
 
         @if(conference.yearSince.isDefined && conference.yearSince.get != 0) {
-            <h5> First edition in @conference.yearSince </h5>
+            <h5>First edition in @conference.yearSince</h5>
         }
         @if(conference.publisher.isDefined && conference.publisher.get.name != "") {
             <h5> Published by @conference.publisher.get.name </h5>

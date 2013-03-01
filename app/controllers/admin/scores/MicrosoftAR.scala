@@ -46,7 +46,7 @@ object MicrosoftAR extends AdminAction with PublicationCreator {
             if (pInfoOpt.isDefined) {
                 val pInfo = pInfoOpt.get
                 MicrosoftConferenceInformation(pInfo.name,
-                    pInfo.shortName, pInfo.ctype, pInfo.field,
+                    pInfo.shortName, CType.byId(CType.conferenceType), pInfo.field,
                     publicationInformation.subFields ::: pInfo.subFields,
                     math.max(publicationInformation.nbPublications, pInfo.nbPublications),
                     math.max(publicationInformation.hIndex, pInfo.hIndex),
@@ -111,7 +111,7 @@ object MicrosoftAR extends AdminAction with PublicationCreator {
     def getTopDomains(entityTypeId: Int): HashMap[Int, String] = {
         val doc = getDocument(entityTypeId, Option(2))
         val topDomains = doc.select("div.option")
-        var map = new HashMap[Int, String]()
+        val map = new HashMap[Int, String]()
         topDomains.foreach {
             topDomain =>
                 map(topDomain.select("input").first().attr("value").toInt) = topDomain.select("span").first().text()
@@ -138,7 +138,7 @@ object MicrosoftAR extends AdminAction with PublicationCreator {
     def getSubDomains(entityTypeId: Int, topDomain: Int): HashMap[Int, String] = {
         val doc = getDocument(entityTypeId, Option(topDomain), Option(0))
         var found = false
-        var map = new HashMap[Int, String]()
+        val map = new HashMap[Int, String]()
         doc.toString().split("\n").foreach {
             line =>
                 if (line.contains("options[") && line.contains("] = {")) {
@@ -227,9 +227,8 @@ object MicrosoftAR extends AdminAction with PublicationCreator {
                 val (nbPublications, hIndex) = if (data.size == 2) (data(0), data(1)) else ("-1", "-1")
                 if (data.size == 2) {
                     val ctype = if (entityTypeId == MicrosoftARConferenceId) CType.conferenceType else CType.journalType
-
                     val conferenceInformation = MicrosoftConferenceInformation(fullName, Option(shortName),
-                        CType.byId(ctype), Field.byId(curFieldId), List(subDomainName), nbPublications.toInt, hIndex.toInt, url)
+                        CType.byId(CType.conferenceType), Field.byId(curFieldId), List(subDomainName), nbPublications.toInt, hIndex.toInt, url)
                     updatePublicationInformation(conferenceInformation)
                     nbPublicationsInPage += 1
                 }

@@ -129,7 +129,7 @@ object Conference extends Table[Conference] {
             SQL("SELECT COUNT(*) FROM conference " + buildWhereQuery("LIKE", shortName, ctypeId, fieldId)).on(
                 'query -> ("%" + queryLower + "%"),
                 'fieldId -> fieldId.getOrElse(0),
-                'ctypeId -> ctypeId.getOrElse(0),
+                'cTypeId -> ctypeId.getOrElse(0),
                 'shortName -> shortName.getOrElse("")
             ).as(scalar[Long].single)
     }
@@ -158,14 +158,14 @@ object Conference extends Table[Conference] {
             var publications = SQL("SELECT * FROM conference " + buildWhereQuery("=", shortName, ctypeId, fieldId)).on(
                 'query -> queryLower,
                 'fieldId -> fieldId.getOrElse(0),
-                'ctypeId -> ctypeId.getOrElse(0),
+                'cTypeId -> ctypeId.getOrElse(0),
                 'shortName -> shortName.getOrElse("")
             ).as(single *).zip(Stream.continually(1D))
             if (publications.isEmpty || allResults) {
                 publications = publications ::: SQL("SELECT * FROM conference " + buildWhereQuery("LIKE", shortName, ctypeId, fieldId) + " LIMIT 200").on(
                     'query -> ("%" + queryLower + "%"),
                     'fieldId -> fieldId.getOrElse(0),
-                    'ctypeId -> ctypeId.getOrElse(0),
+                    'cTypeId -> ctypeId.getOrElse(0),
                     'shortName -> shortName.getOrElse("")
                 ).as(single *).zip(Stream.continually(1D))
             }
@@ -175,6 +175,7 @@ object Conference extends Table[Conference] {
                 Utils.cleanName(query + " " + shortName).split(" ").foreach {
                     stems.add(_)
                 }
+
                 publications = publications ::: Stem.getMatchingConferences(stems).map {
                     case (conferenceId, matchingScore) =>
                         (Conference.byId(conferenceId).get, matchingScore)
@@ -189,7 +190,7 @@ object Conference extends Table[Conference] {
             SQL("SELECT * FROM conference " + buildWhereQuery("=", None, ctypeId, fieldId)).on(
                 'query -> query.toLowerCase,
                 'fieldId -> fieldId.getOrElse(0),
-                'ctypeId -> ctypeId.getOrElse(0),
+                'cTypeId -> ctypeId.getOrElse(0),
                 'shortName -> ""
             ).as(single.singleOpt)
     }
