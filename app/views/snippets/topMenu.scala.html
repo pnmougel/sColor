@@ -1,4 +1,4 @@
-@(request: RequestHeader)
+@(request: RequestHeader, showSearchBar: Boolean)
 <div class="navbar navbar-fixed-top">
 <div class="navbar-inner">
     <div class="container">
@@ -49,15 +49,18 @@
                 <li> <a href="/help/about"> Help </a> </li>
             </ul>
             <ul class="nav pull-right">
-                @helper.form(routes.Search.search, 'class -> "navbar-form pull-left") {
-                    <input type="hidden" name="shortName" id="shortName" value="" />
-                    <input type="hidden" name="type" id="type" value="-1" />
-                    <input type="hidden" name="field" id="field" value="-1" />
-                    <input type="text" id="query" name="query" value="" class="span2 typeAhead" placeholder="Search">
-                }
-                <li class="divider-vertical"></li>
+	            @if(showSearchBar == true) {
+	                @helper.form(routes.Search.search, 'class -> "navbar-form pull-left") {
+	                    <input type="hidden" name="shortName" id="shortName" value="" />
+	                    <input type="hidden" name="type" id="type" value="-1" />
+	                    <input type="hidden" name="field" id="field" value="-1" />
+	                    <input type="text" id="query" name="query" value="" class="span2 typeAhead" placeholder="Search">
+	                }
+	                <li class="divider-vertical"></li>
+	            }
                 <li style="padding: 5px;"> <img src="@routes.Assets.at("images/icon3.svg")" /> </li>
             </ul>
+            
         </div>
     </div>
 </div>

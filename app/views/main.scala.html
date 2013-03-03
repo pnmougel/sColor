@@ -1,4 +1,4 @@
-@(request: RequestHeader)(content: Html)
+@(request: RequestHeader, showSearchBar : Boolean = true)(content: Html)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +36,7 @@
     </head>
     <body>
             <!-- Comments -->
-            @snippets.topMenu(request)
+            @snippets.topMenu(request,showSearchBar)
 
             <!-- Message Area and Login Form -->
         <div id="messageAreaTop">
