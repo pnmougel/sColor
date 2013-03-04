@@ -9,6 +9,11 @@ object Application extends Controller {
     val name = "ColouR"
 
 
+    def indexDefault(any : String) = Action {
+        implicit request =>
+            Ok(views.html.index(Conference.count()))
+    }
+
     def index() = Action {
         implicit request =>
             Ok(views.html.index(Conference.count()))

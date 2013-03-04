@@ -1,10 +1,9 @@
-import play.api.Play.current
+import models.Conference
 import play.api.Application
 import play.api.GlobalSettings
-import play.api.mvc.Handler
-import play.api.mvc.RequestHeader
-import play.api.db.DB
-
+import play.api._
+import play.api.mvc._
+import play.api.mvc.Results._
 
 object Global extends GlobalSettings {
     override def onStart(app: Application) {
@@ -37,6 +36,16 @@ object Global extends GlobalSettings {
         })
         SessionFactory.concreteFactory = Some(() => getSession(new PostgreSqlAdapter, app))
         */
+    }
+
+
+    /**
+     * Redirect to main page
+     * @param r
+     * @return
+     */
+    override def onHandlerNotFound(r : RequestHeader) = {
+        Ok(views.html.index(Conference.count())(r))
     }
 
     override def onRouteRequest(request: RequestHeader): Option[Handler] = {

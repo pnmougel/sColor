@@ -1,6 +1,5 @@
 @(conference: Conference)(implicit request: RequestHeader)
 
-@@
 @main(request) {
     <div class="container">
         <div class="row">
@@ -12,7 +11,7 @@
 
                                 <!-- Short name Edition-->
                             <div>
-                                <input type="text" id="shortName" name="shortName" placeholder="Short name" class="span2" value="@conference.shortName" prev="@conference.shortName" style="font-size: 24px;line-height: 36px;height:28px;font-weight:bold;margin-bottom:7px;"></input>
+                                <input type="text" id="shortName" name="shortName" placeholder="Short name" class="span2" value="@conference.shortName" prev="@conference.shortName" style="font-size: 24px;line-height: 36px;height:28px;font-weight:bold;margin-bottom:7px;" />
                                 <span id="label_name_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
                             </div>
 
@@ -22,7 +21,7 @@
                                     " rows="2" prev="
                                     @conference.name
                                     " style="font-size: 14px;font-weight:bold;" placeholder="Full name"> @conference.name </textarea> -->
-                                <input type="text" id="name" name="name" placeholder="Full name" class="span5" value="@conference.name" prev="@conference.name" style="font-size: 14px;height:20px;font-weight:bold;"></input>
+                                <input type="text" id="name" name="name" placeholder="Full name" class="span5" value="@conference.name" prev="@conference.name" style="font-size: 14px;height:20px;font-weight:bold;" />
                             </div>
 
                                 <!-- General information -->
@@ -40,11 +39,11 @@
                                             <label class="control-label" for="type" style="text-align:left;"> <h5> Type </h5> </label>
                                             <div class="controls">
                                                 <select id="type" name="type" prev="@conference.ctypeId">
-                                                    @models.CType.all().map { ctype =>
-                                                        <option value="@ctype.id" @if(ctype.id == conference.ctypeId) {
+                                                    @models.CType.all().map { cType =>
+                                                        <option value="@cType.id" @if(cType.id == conference.ctypeId) {
                                                                 selected="selected" }
                                                     >
-                                                        @ctype.name </option>
+                                                        @cType.name </option>
                                                     }
                                                 </select>
                                                 <span id="type_label_updated" style="display:none;" class="label label-info pull-right"> Updated </span>
@@ -115,8 +114,7 @@
                                                     @Range(java.util.Calendar.getInstance().get(java.util.Calendar.YEAR), 1800, -1).map { year =>
                                                     <option value="@year" @if(conference.yearSince.isDefined && conference.yearSince.get == year) {
                                                             selected="selected" }
-                                                >
-                                                    @year </option>
+                                                        >@year</option>
                                                         }
                                                 </select>
                                                     <!--
