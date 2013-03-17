@@ -2,7 +2,7 @@
 
 @main(request) {
 <style>
-        .buttontext {
+        .buttonText {
         width: 110px;
         overflow: hidden;
         white-space: nowrap;
@@ -16,76 +16,41 @@
         <!-- Filter buttons -->
     <div class="row">
         <div class="span9 offset2">
-            <div class="btn-group" style="display:inline;">
-                <button class="btn" id="showSelectFields" style="margin-bottom:5px;display:inline;">
-                    <i class="icon-chevron-down">
-                    </i> Select fields
-                </button>
-                <button class="btn" id="selectAll" style="margin-bottom:5px;"> All </button>
-                <button class="btn" id="selectNone" style="margin-bottom:5px;margin-right:10px;"> None </button>
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <button class="btn" id="showSelectFields" style="margin-bottom:5px;display:inline;">
+                        <i class="icon-chevron-down">
+                        </i> Select fields
+                    </button>
+                    <button class="btn" id="selectAll" style="margin-bottom:5px;"> All </button>
+                    <button class="btn" id="selectNone" style="margin-bottom:5px;margin-right:10px;"> None </button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn radio active" id="national" data-toggle="buttons-checkbox" style="margin-bottom:5px;"> National </button>
+                    <button class="btn radio active" id="international" data-toggle="buttons-checkbox" style="margin-bottom:5px;margin-right:10px;"> International </button>
+                </div>
+                <div class="btn-group" data-toggle="buttons-checkbox">
+                    <button class="btn radio active" id="conference" style="margin-bottom:5px;">Conferences </button>
+                    <button class="btn radio active" id="journal" style="margin-bottom:5px;">Journals</button>
+                    <button class="btn radio active" id="workshop" style="margin-bottom:5px;">Workshops</button>
+                </div>
             </div>
-
-            <div class="btn-group" style="display:inline;">
-                <button class="btn radio active" id="national" data-toggle="buttons-checkbox" style="margin-bottom:5px;"> National </button>
-                <button class="btn radio active" id="international" data-toggle="buttons-checkbox" style="margin-bottom:5px;margin-right:10px;"> International </button>
-            </div>
-
-            <div class="btn-group" data-toggle="buttons-checkbox" style="display:inline;">
-                <button class="btn radio active" id="conference" style="margin-bottom:5px;"> Conferences </button>
-                <button class="btn radio active" id="journal" style="margin-bottom:5px;"> Journals </button>
-                <button class="btn radio active" id="workshop" style="margin-bottom:5px;"> Workshops </button>
-            </div>
-
-            <br/>
-            <br/>
 
             <div id="subFields" style="display:none;">
-                @subFields.zipWithIndex.map { case (subField, idx) =>
-                            @if(idx % 6 == 0) {
-                                <span class="btn-group" data-toggle="buttons-checkbox">
-                                    }
-                        <button class="btn btn-inverse radio active" id="sf_ @subField.id" style="width:130px;margin-bottom:5px;">
-                        <span class="buttontext"> @subField.name </span>
-                        </button>
-                            @if((idx + 1) % 6 == 0) {
-                            </span>
-                            }
+            @subFields.sliding(6, 6).map { groupedSubFields =>
+                <div class="btn-group" data-toggle="buttons-checkbox" style="margin:0px;">
+                @groupedSubFields.map { subField =>
+                     <button class="btn btn-inverse radio active" id="sf_@subField.id" style="width:130px;margin-bottom: 5px;">
+                        <span class="buttonText"> @subField.name </span>
+                     </button>
                 }
+                </div>
+            }
             </div>
         </div>
     </div>
 
-        <!-- List headers -->
-    <div class="vertical-spacing-20">
-    </div>
-    <div class="row">
-        <div class="span5 offset2" style="text-align:left;">
-            <h6 style="font-size:9pt;"> Name </h6>
-        </div>
-        <div id="userSort" class="span1" style="text-align:right;">
-            <h6 style="font-size:9pt;">
-                <i class="icon-circle-arrow-down">
-                </i>
-                <a href="#" style="color:#9B9B9B"> User </a>
-            </h6>
-        </div>
-        <div id="extSort" class="span1" style="text-align:right;">
-            <h6 style="font-size:9pt;">
-                <i class="">
-                </i>
-                <a href="#" style="color:#9B9B9B"> Ext.</a>
-            </h6>
-        </div>
-        <div id="avgSort" class="span1" style="text-align:right;">
-            <h6 style="font-size:9pt;">
-                <i class="">
-                </i>
-                <a href="#" style="color:#9B9B9B"> Avg.</a>
-            </h6>
-        </div>
-    </div>
-    <div class="vertical-spacing-10">
-    </div>
+
 
         <!-- List of conferences and pagination -->
     <input type="hidden" id="orderBy" value="user" />

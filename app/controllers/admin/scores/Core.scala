@@ -129,6 +129,7 @@ object Core extends AdminAction with PublicationCreator {
         }
 
         // Journals
+        /*
         infoMessage("Adding journals...")
 
         val journalType = CType.getOrCreate("Journal")
@@ -161,6 +162,7 @@ object Core extends AdminAction with PublicationCreator {
                     addConference(name, shortName, journalType, fieldId, scoreText, subFields)
                 }
         }
+        */
         infoMessage("Done")
     }
 

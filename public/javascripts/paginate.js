@@ -1,7 +1,8 @@
 
+
 $("#selectAll").click( function() {
 	$("#subFields button.radio").addClass("active");
-	getPage(1);
+    getPage(1);
 });
 
 $("#selectNone").click( function() {
@@ -69,11 +70,16 @@ function getPage(pageNum) {
 	var orderBy = $("#orderBy").attr("value");
 	var sort = $("#sort").attr("value");
 	var nameFilter = $("#nameFilter").attr("value");
-	
-	// var subFields = $("#subFields button.active").map(function() {
+
+
+    // var subFields = $("#subFields button.active").map(function() {
 	var subfields = $("#subFields button.active").map(function() {
 		return $(this).attr("id");
 	}).get().join(',');
+
+    console.log(subfields);
+
+
 	$.ajax({
 		url: '/ranking/page',
 		type: 'GET',
@@ -87,6 +93,7 @@ function getPage(pageNum) {
 	    success: function(data) {
 	    	$("#conferenceList").html(data);
 	    	$("#nameFilter").focus();
+
 	    	afterDelayedKeyup('input#nameFilter','getPage($("#pageNum").attr("value"));',500);
 	    },
 	    error: function(data) {

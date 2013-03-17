@@ -1,15 +1,54 @@
 @(conferences: List[(Conference, Int)], startIdx: Int, pageNum: Int, pageMax: Double, nameFilter: String)(implicit request: RequestHeader)
 <input type="hidden" id="pageNum" value="@pageNum">
 
+@if(conferences.isEmpty) {
+<div class="row">
+    <div class="span5 offset2">
+    <p>No results found</p>
+</div>
+</div>
+} else {
+<!-- List headers -->
+<div class="vertical-spacing-20">
+</div>
+<div class="row">
+<div class="span5 offset2" style="text-align:left;">
+    <h6 style="font-size:9pt;"> Name </h6>
+</div>
+<div id="userSort" class="span1" style="text-align:right;">
+    <h6 style="font-size:9pt;">
+        <i class="icon-circle-arrow-down">
+        </i>
+        <a href="#" style="color:#9B9B9B"> User </a>
+    </h6>
+</div>
+<div id="extSort" class="span1" style="text-align:right;">
+    <h6 style="font-size:9pt;">
+        <i class="">
+        </i>
+        <a href="#" style="color:#9B9B9B"> Ext.</a>
+    </h6>
+</div>
+<div id="avgSort" class="span1" style="text-align:right;">
+    <h6 style="font-size:9pt;">
+        <i class="">
+        </i>
+        <a href="#" style="color:#9B9B9B"> Avg.</a>
+    </h6>
+</div>
+</div>
+}
+<div class="vertical-spacing-10">
+</div>
+
 <div style="height:540px;">
 @conferences.map { case (conference: Conference, idx: Int) =>
     <div class="row confRank" style="margin-bottom:10px;">
     <div class="span1 offset1 rankOrder" style="font-size:12pt;font-weight:bold;text-align:right;"> <span style="font-size:12pt;">
             @{if(nameFilter.trim().isEmpty) idx + startIdx else idx + 1} </span> </div>
-        <!-- <div class="span5" style="border-left:4px solid #088BCD;margin-left: 21px;padding-left: 5px;"> -->
     <div class="span5" style="margin-left: 0px;margin-left: 26px;padding-left: 5px;height:45px;">
     <h4 style="font-size:10pt;">
-    <a href="/conference/ @conference.id">
+    <a href="/conference/@conference.id">
         @conference.name @if(conference.shortName != "") {(@conference.shortName)}
     </a>
     </h4>
@@ -22,7 +61,7 @@
         } else {
             -&nbsp;
         }
-    <h5>
+    </h5>
     </div>
     <div class="span1" style="text-align:right;">
     <h5 style="font-size:12pt;">
@@ -31,7 +70,7 @@
         } else {
             -&nbsp;
         }
-        <h5>
+        </h5>
     </div>
         <div class="span1" style="text-align:right;">
             <h5 style="font-size:12pt;">
@@ -40,7 +79,7 @@
         } else {
             -&nbsp;
         }
-    <h5>
+    </h5>
 </div>
 </div>
 }
@@ -49,7 +88,7 @@
 <ul id="pagination">
     <li class="@if(pageNum == 1) {
         disabled
-    }"> <a href="#" onclick="getPage(1);"> &laquo </a> </li>
+    }"> <a href="#" onclick="getPage(1);"> &laquo; </a> </li>
     <li class="@if(pageNum == 1) {
         disabled
     }"> <a href="#" onclick="getPage( @{scala.math.max(1, pageNum - 1)} );"> Prev </a> </li>
@@ -71,5 +110,4 @@
     <button class="btn" type="button" onclick="getPage(@pageNum);"> <i class="icon-refresh"></i> </button>
 </div>
 </div>
-
 

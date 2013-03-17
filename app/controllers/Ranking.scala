@@ -26,8 +26,11 @@ object Ranking extends Controller {
 
     def byField(fieldId: Long) = Action {
         implicit request =>
+
             val conferences = Conference.findByField(fieldId)
             val subFields = models.SubField.getByField(fieldId)
+            println(fieldId)
+            println(subFields)
             val cTypes = getCTypes(isConference = true, isJournal = true, isWorkshop = true)
 
             val nbResults = Conference.countPages(fieldId, cTypes, subFields.map(_.id))
