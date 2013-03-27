@@ -1,6 +1,15 @@
 $("#run").click(->
   actionName = $("#run").attr("action")
 
+  # Remove previous intervals
+  lastIntervalId = 9999
+  for id in [1..lastIntervalId]
+    window.clearInterval(id)
+
+  # Clear previous messages
+  updateProgressBar(actionName)
+  updateMessage(actionName)
+
   $.ajax(
     url: "/admin/action/run/" + actionName
     type: 'GET'
@@ -9,12 +18,10 @@ $("#run").click(->
     complete: () ->
   )
 
-  setInterval(->
-    updateProgressBar(actionName)
-    1000)
-  setInterval(->
-    updateMessage(actionName)
-    1000)
+  newInterval = setInterval((->
+    updateProgressBar(actionName)), 1000)
+  newInterval = setInterval((->
+    updateMessage(actionName)), 1000)
 )
 
 updateProgressBar = (actionName) ->
@@ -52,7 +59,6 @@ initBindings = () ->
   $("button.sameAsPublication").click(->
     publicationId = $(this).attr("for")
     mergeId = $(this).attr("mergeId")
-    console.log("Clicked !!")
 
     $.ajax(
       url: "/admin/sameAsPublication"
