@@ -5,27 +5,23 @@ import models._
 
 
 object FindCountry extends AdminAction {
-    val description = "Try to guess the conference / journal region from the language used."
+    val description = "Try to guess the conference / journal region from its name. It could be possible to detect it using a language detection library."
 
     val label = "Find Region"
 
     val name = "region"
 
     override def run(request: Request[AnyContent]) = {
-        val publishers = Publisher.all()
-        val increment = (100 / publishers.size)
+        val regionsWithAdjectives = Region.regionsWithAdjectives()
+        val increment = (100 / regionsWithAdjectives.size)
 
         setPercentage(0)
-
-        publishers.foreach {
-            publisher =>
-                if (publisher.name != "") {
-                    Conference.updatePublisher("%" + publisher.name + "%", publisher.id)
-                    increasePercentage(increment)
-                    infoMessage("Done updating publisher " + publisher.name)
-                }
+        regionsWithAdjectives.foreach { region =>
+            Conference.updateRegion("%" + region.adjectiveT + "%", region.id)
+            Conference.updateRegion("%" + region.name + "%", region.id)
+            increasePercentage(increment)
         }
-        successMessage("Finished :)")
+        successMessage("Done updating the regions")
         setPercentage(100)
     }
 }
