@@ -13,18 +13,16 @@
         <li>
             <div class="row" style="padding-bottom:18px;">
                 <div class="span2">
-                    <a href="@externalScore.externalRanking.url" style="font-weight:bold;color:black;"> @externalScore.externalRanking.name (
-                        @externalScore.externalRanking.scoreType.name
-                        ) </a>
-                    <i class="icon-info-sign" onclick="$('#scoreInfo_ @externalScore.externalRanking.id ').toggle();"></i>
+                    <a href="@externalScore.externalRanking.url" style="font-weight:bold;color:black;"> @externalScore.externalRanking.name (@externalScore.externalRanking.scoreType.name) </a>
+                    <i class="icon-info-sign" onclick="$('#scoreInfo_@externalScore.externalRanking.id').toggle();"></i>
                 </div>
-                <div class="span1"> @externalScore.scoreText </div>
-                <div class="span1"> @snippets.badge(Option[Double](externalScore.score)) </div>
+                <div class="span1">@externalScore.scoreText </div>
+                <div class="span1">@snippets.badge(Option[Double](externalScore.score))</div>
             </div>
-            <div class="row" style="display:none;" id="scoreInfo_ @externalScore.externalRanking.id">
-                <span class="span4"> @externalScore.externalRanking.description </span>
-                <span class="span4"> Source: <a href="@externalScore.externalRanking.url"> @externalScore.externalRanking.url </a> </span>
-                <span class="span4"> <a href="/help/ @externalScore.externalRanking.name"> More information </a> </span>
+            <div class="row" style="display:none;" id="scoreInfo_@externalScore.externalRanking.id">
+                <span class="span4">@externalScore.externalRanking.description</span>
+                <span class="span4">Source: <a href="@externalScore.externalRanking.url">@externalScore.externalRanking.url</a></span>
+                <span class="span4"><a href="/help/ @externalScore.externalRanking.name">More information</a></span>
             </div>
         </li>
     }
