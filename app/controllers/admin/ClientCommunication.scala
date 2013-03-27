@@ -19,6 +19,7 @@ object ClientCommunication extends Controller {
     }
 
     def getMessage(name: String) = Action {
+
         implicit request =>
             if (clearContent.getOrElse(name, false)) {
                 clearContent(name) = false
@@ -47,7 +48,6 @@ object ClientCommunication extends Controller {
     }
 
     def addHtml(name: String, html: Html) = {
-        val result = new StringBuilder("")
-        messages(name) = html + messages.getOrElseUpdate(name, new Html(result))
+        messages(name) = html + messages.getOrElseUpdate(name, Html(""))
     }
 } 
